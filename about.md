@@ -1,15 +1,11 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I'm a first year MPhil student @ CUHK MMLAB, advised by Prof. Dahua Lin. Before joining MMLAB, I received my B.S. degree in data science at Peking University. My research interests include video recognition and representation learning. I also worked on human body representation previously.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[dhd.efz@gmail.com](mailto:dhd.efz@gmail.com)
