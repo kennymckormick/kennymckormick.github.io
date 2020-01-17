@@ -10,11 +10,11 @@ This post gives a brief introduction to the paper: [TRB: A Novel Triplet Represe
 
 
 
-A comprehensive 2D human body representation should capture both human pose and shape information. Such representation is promising for applications beyond plain keypoint localization, such as media generation and editing. Before the booming of deep learning, people establish a model and fit it to images for applications like pose estimation. In those models, pictorial structure use articulated rigid rectangles to represent human, while deformable structure and contour people add more parameters to describe human shape. In deep learning era, skeleton-keypoint is the mostly used representation for 2D human. However, it focuses on human pose and ignores human shape.
+A comprehensive 2D human body representation should capture both human pose and shape information. Such representation is promising for applications beyond plain keypoint localization, such as media generation and editing. Before the booming of deep learning, people establish a model and fit it to images for applications like pose estimation. In those models, pictorial structure[1] use articulated rigid rectangles to represent human, while deformable structure[2] and contour people[3] add more parameters to describe human shape. In deep learning era, skeleton-keypoint is the mostly used representation for 2D human. However, it focuses on human pose and ignores human shape.
 
 ![](/assets/img/triplet-representation/traditional.png)
 
-Due to the incompleteness of skeleton-keypoint. We proposed the Triplet Representation of human Body (**TRB**), which incorporates both 2D pose and shape, while as simple as skeleton keypoints. TRB is extended from skeleton keypoints, by adding two contour points for each skeleton point. Those contour points locate on both sides of human contour. Based on this definition, we annotate contour points on three popular pose estimation dataset: MPII, LSP and COCO, extending them into TRB dataset. Some samples are displayed in the image below (Blue points denote medial contour points, green points denote lateral ones). Currently, annotations in [MPII-trb](https://github.com/kennymckormick/Triplet-Representation-of-human-Body) is released. 
+Due to the incompleteness of skeleton-keypoint. We proposed the Triplet Representation of human Body (**TRB**), which incorporates both 2D pose and shape, while as simple as skeleton keypoints. TRB is extended from skeleton keypoints, by adding two contour points for each skeleton point. Those contour points locate on both sides of human contour. Based on this definition, we annotate contour points on three popular pose estimation dataset: MPII[4], LSP[5] and COCO[6], extending them into TRB dataset. Some samples are displayed in the image below (Blue points denote medial contour points, green points denote lateral ones). Currently, annotations in [MPII-trb](https://github.com/kennymckormick/Triplet-Representation-of-human-Body) is released. 
 
 ![](/assets/img/triplet-representation/trb-sample.png)
 
@@ -30,7 +30,7 @@ For TRB estimation, TRB-Net improves accuracy by nearly 2% comparing to the base
 
 ![](/assets/img/triplet-representation/results.png)
 
-TRB has rich potential in applications. In below example, we use a vunet for TRB conditioned human image generation, which can disentangle human appearance and shape and then combine them again arbitarily. We manipulate contour points to change human shape of shoulder, torso and legs in these three demos respectively. This approach can be potentially used in human shape editing.
+TRB has rich potential in applications. In below example, we use a vunet[7] for TRB conditioned human image generation, which can disentangle human appearance and shape and then combine them again arbitarily. We manipulate contour points to change human shape of shoulder, torso and legs in these three demos respectively. This approach can be potentially used in human shape editing.
 
 
 <style>
@@ -70,10 +70,12 @@ TRB has rich potential in applications. In below example, we use a vunet for TRB
 
 [2] Silvia Zuffi, Oren Freifeld, and Michael J Black. From pictorial structures to deformable structures. In 2012 IEEE Conference on Computer Vision and Pattern Recognition, pages 3546–3553. IEEE, 2012
 
-[3] Mykhaylo Andriluka, Leonid Pishchulin, Peter Gehler, and Bernt Schiele. 2d human pose estimation: New benchmark and state of the art analysis. In Proceedings of the IEEE Conference on computer Vision and Pattern Recognition, pages 3686–3693, 2014.
+[3] Freifeld, O., Weiss, A., Zuffi, S., & Black, M. J. (2010, June). Contour people: A parameterized model of 2D articulated human shape. In *2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition* (pp. 639-646). IEEE.
 
-[4] Sam Johnson and Mark Everingham. Clustered pose and nonlinear appearance models for human pose estimation. 2010.
+[4] Mykhaylo Andriluka, Leonid Pishchulin, Peter Gehler, and Bernt Schiele. 2d human pose estimation: New benchmark and state of the art analysis. In Proceedings of the IEEE Conference on computer Vision and Pattern Recognition, pages 3686–3693, 2014.
 
-[5] Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar, and C Lawrence ´ Zitnick. Microsoft coco: Common objects in context. In European conference on computer vision, pages 740–755. Springer, 2014. 
+[5] Sam Johnson and Mark Everingham. Clustered pose and nonlinear appearance models for human pose estimation. 2010.
 
-[6] Patrick Esser, Ekaterina Sutter, and Bjorn Ommer. A variational u-net for conditional appearance and shape generation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 8857–8866, 2018.
+[6] Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar, and C Lawrence ´ Zitnick. Microsoft coco: Common objects in context. In European conference on computer vision, pages 740–755. Springer, 2014. 
+
+[7] Patrick Esser, Ekaterina Sutter, and Bjorn Ommer. A variational u-net for conditional appearance and shape generation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 8857–8866, 2018.
