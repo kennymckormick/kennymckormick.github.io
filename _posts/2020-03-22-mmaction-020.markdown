@@ -1,0 +1,86 @@
+---
+layout: post
+title: "[News] MMAction v0.2.0 Released"
+date: 2020-03-22 10:00:00 +0800
+description: We release MMAction v0.2.0, in which we implement most SOTA action recognition algorithms and validate them on Kinetics-400.
+img: mmaction_v020/tether.png 
+tags: [ComputerVision, VideoRecogntion, CodeBase]
+---
+Recently we release MMAction v0.2.0, in which we implement most famous video recognition algorithms and evaluate them on the Kinetics-400 dataset. Those algorithms include TSN[1], I3D[2], SlowOnly[3], SlowFast[3], R(2+1)D[4] and CSN[5]. In this post, we give a brief introduction to the algorithms we implemented and some interesting findings. 
+
+The version of Kinetics-400 we used contains 240436 training videos and 19796 testing videos.  If you can not reproduce our testing results due to dataset unalignment, please submit a request at [get validation data](https://forms.gle/jmBiCDJButrLwpgc9).
+
+### TSN[1]
+
+For Temporal Segments Network, we release a 3seg-TSN with ResNet50 Backbone. During TSN Training, ImageNet pretraining is important, which leads to around 2% gain in Top-1 Accuracy. The number of segments is also an important factor. We also trained a 8seg-TSN with ResNet50 Backbone, the Top-1 Accuracy is around 71.6%.
+
+| Modality | Pretrained | Backbone | Input | Top-1 | Top-5 |                           Download                           |
+| :------: | :--------: | :------: | :---: | :---: | :---: | :----------------------------------------------------------: |
+|   RGB    |  ImageNet  | ResNet50 | 3seg  | 70.6  | 89.4  | [model](https://open-mmlab.s3.ap-northeast-2.amazonaws.com/mmaction/models/kinetics400/tsn2d_kinetics400_rgb_r50_seg3_f1s1-b702e12f.pth) |
+
+### I3D[2]
+
+We release I3D models with two backbones. Models with the Inception-V1 backbone are converted from the repo [kinetics_i3d](https://github.com/deepmind/kinetics-i3d). Models with the ResNet50 backbone are trained by ourselves. We also finetune Kinetics-400 trained I3D on UCF101 and HMDB51 to collect results on transfer learning.
+
+#### Kinetics 
+
+|  Modality  | Pretrained |   Backbone   | Input | Top-1 | Top-5 |                           Download                           |
+| :--------: | :--------: | :----------: | :---: | :---: | :---: | :----------------------------------------------------------: |
+|    RGB     |  ImageNet  | Inception-V1 | 64x1  | 71.1  | 89.3  | [model](https://open-mmlab.s3.ap-northeast-2.amazonaws.com/mmaction/models/kinetics400/i3d_kinetics400_se_rgb_inception_v1_seg1_f64s1_imagenet_deepmind-9b8e02b3.pth)* |
+|    RGB     |  ImageNet  |   ResNet50   | 32x2  | 72.9  | 90.8  | [model](https://open-mmlab.s3.ap-northeast-2.amazonaws.com/mmaction/models/kinetics400/i3d_kinetics_rgb_r50_c3d_inflated3x1x1_seg1_f32s2_f32s2-b93cc877.pth) |
+|    Flow    |  ImageNet  | Inception-V1 | 64x1  | 63.4  | 84.9  | [model](https://open-mmlab.s3.ap-northeast-2.amazonaws.com/mmaction/models/kinetics400/i3d_kinetics_flow_inception_v1_seg1_f64s1_imagenet_deepmind-92059771.pth)* |
+| Two-Stream |  ImageNet  | Inception-V1 | 64x1  | 74.2  | 91.3  |                              /                               |
+
+#### Transfer Learning
+
+
+| Modality  | Pretrained | Backbone | Input | UCF101 | HMDB51 |                      Download (split1)                       |
+| :-------: | :--------: | :------: | :---: | :----: | :----: | :----------------------------------------------------------: |
+|    RGB    |  Kinetics  |   I3D    | 64x1  |  94.8  |  72.6  | [UCF101](https://open-mmlab.s3.ap-northeast-2.amazonaws.com/mmaction/models/ucf101/i3d_ucf101_split1_rgb_f64s1_kinetics400ft-36201298.pth) / [HMDB51](https://open-mmlab.s3.ap-northeast-2.amazonaws.com/mmaction/models/ucf101/i3d_hmdb51_split1_rgb_f64s1_kinetics400ft-1ffcf11f.pth) |
+|   Flow    |  Kinetics  |   I3D    | 64x1  |  96.6  |  79.2  | [UCF101](https://open-mmlab.s3.ap-northeast-2.amazonaws.com/mmaction/models/ucf101/i3d_ucf101_split1_flow_f64s1_kinetics400ft-93ed9ecd.pth) / [HMDB51](https://open-mmlab.s3.ap-northeast-2.amazonaws.com/mmaction/models/ucf101/i3d_hmdb51_split1_flow_f64s1_kinetics400ft-2981c797.pth) |
+| TwoStream |  Kinetics  |   I3D    | 64x1  |  97.8  |  80.8  |                              /                               |
+
+### SlowOnly & SlowFast[3]
+
+We reimplement SlowOnly and SlowFast algorithms from [3]. The models we released have better performance compared with [the original repo](https://github.com/facebookresearch/SlowFast), about 1% higher in Top-1 accuracy. During training, we found that ImageNet pretraining is also important for 3D ConvNet (both SlowOnly & SlowFast), which is different from the conclusion in [3]. 
+
+| Model | Modality | Pretrained | Backbone  | Input | Top-1 | Top-5 |                           Download                           |
+| :------: | :--------: | :-------: | :---: | :---: | :---: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|   SlowOnly   |   RGB    |    None    | ResNet50  | 4x16  | 72.9  | 90.9  | [model](https://open-mmlab.s3.ap-northeast-2.amazonaws.com/mmaction/models/kinetics400/slowonly_kinetics400_se_rgb_r50_seg1_4x16_scratch_epoch256-594abd88.pth) |
+| SlowOnly |   RGB    |  ImageNet  | ResNet50  | 4x16  | 73.8  | 90.9  | [model](https://open-mmlab.s3.ap-northeast-2.amazonaws.com/mmaction/models/kinetics400/slowonly_kinetics400_se_rgb_r50_seg1_4x16_finetune_epoch150-46c79312.pth) |
+| SlowOnly |   RGB    |    None    | ResNet50  |  8x8  | 74.8  | 91.9  | [model](https://open-mmlab.s3.ap-northeast-2.amazonaws.com/mmaction/models/kinetics400/slowonly_kinetics400_se_rgb_r50_seg1_8x8_scratch_epoch196-4aae9339.pth) |
+| SlowOnly |   RGB    |  ImageNet  | ResNet50  |  8x8  | 75.7  | 92.2  | [model](https://open-mmlab.s3.ap-northeast-2.amazonaws.com/mmaction/models/kinetics400/slowonly_kinetics400_se_rgb_r50_seg1_8x8_finetune_epoch150-519c2101.pth) |
+| SlowOnly |   RGB    |    None    | ResNet101 |  8x8  | 76.5  | 92.7  | [model](https://open-mmlab.s3.ap-northeast-2.amazonaws.com/mmaction/models/kinetics400/slowonly_kinetics400_se_rgb_r101_8x8_scratch-8de47237.pth) |
+| SlowOnly |   RGB    |  ImageNet  | ResNet101 |  8x8  | 76.8  | 92.8  | [model](https://open-mmlab.s3.ap-northeast-2.amazonaws.com/mmaction/models/kinetics400/slowonly_kinetics400_se_rgb_r101_8x8_finetune-b8455f97.pth) |
+| SlowFast |   RGB    |    None    | ResNet50 | 4x16  | 75.4  | 92.1  | [model](https://open-mmlab.s3.ap-northeast-2.amazonaws.com/mmaction/models/kinetics400/slowfast_kinetics400_se_rgb_r50_4x16_scratch-2448c56c.pth) |
+| SlowFast |   RGB    |  ImageNet  | ResNet50 | 4x16  | 75.9  | 92.3  | [model](https://open-mmlab.s3.ap-northeast-2.amazonaws.com/mmaction/models/kinetics400/slowfast_kinetics400_se_rgb_r50_4x16_finetune-4623cf03.pth) |
+
+### R(2+1)D & CSN[4,5]
+
+For R(2+1)D, we release models with ResNet-34 backbone with various input and pretraining. Our performance is slightly better than [VMZ](https://github.com/facebookresearch/VMZ), since we use large images as input (224x224 instead of 112x112). For CSN, we convert models from [VMZ](https://github.com/facebookresearch/VMZ), and evaluate them on our testing data.
+
+| Model | Modality | Pretrained | Backbone | Input | Top-1 | Top-5 |                           Download                           |
+| :------: | :--------: | :------: | :---: | :---: | :---: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|   R(2+1)D   |   RGB    |    None    | ResNet34 |  8x8  | 63.7  | 85.9  | [model](https://open-mmlab.s3.ap-northeast-2.amazonaws.com/mmaction/models/kinetics400/r2plus1d_kinetics400_se_rgb_r34_f8s8_scratch-1f576444.pth) |
+| R(2+1)D |   RGB    |   IG-65M   | ResNet34 |  8x8  | 74.4  | 91.7  | [model](https://open-mmlab.s3.ap-northeast-2.amazonaws.com/mmaction/models/kinetics400/r2plus1d_kinetics400_se_rgb_r34_f8s8_finetune-c3abbbfc.pth) |
+| R(2+1)D |   RGB    |    None    | ResNet34 | 32x2  | 71.8  | 90.4  | [model](https://open-mmlab.s3.ap-northeast-2.amazonaws.com/mmaction/models/kinetics400/r2plus1d_kinetics400_se_rgb_r34_f32s2_scratch-97f56158.pth) |
+| R(2+1)D |   RGB    |   IG-65M   | ResNet34 | 32x2  | 80.3  | 94.7  | [model](https://open-mmlab.s3.ap-northeast-2.amazonaws.com/mmaction/models/kinetics400/r2plus1d_kinetics400_se_rgb_r34_f32s2_finetune-9baa39ea.pth) |
+|   irCSN   |   RGB    |   IG-65M   | irCSN-152 | 32x2  | 82.6  | 95.7  | [model](https://open-mmlab.s3.ap-northeast-2.amazonaws.com/mmaction/models/kinetics400/ircsn_kinetics400_se_rgb_r152_f32s2_ig65m_fbai-9d6ed879.pth)* |
+|   ipCSN   |   RGB    |   IG-65M   | ipCSN-152 | 32x2  | 82.7  | 95.6  | [model](https://open-mmlab.s3.ap-northeast-2.amazonaws.com/mmaction/models/kinetics400/ipcsn_kinetics400_se_rgb_r152_f32s2_ig65m_fbai-ef39b9e3.pth)* |
+
+#### References
+
+[1] Wang, L., Xiong, Y., Wang, Z., Qiao, Y., Lin, D., Tang, X., & Van Gool, L. (2016, October). Temporal segment networks: Towards good practices for deep action recognition. In *European conference on computer vision* (pp. 20-36). Springer, Cham.
+
+[2] Carreira, J., & Zisserman, A. (2017). Quo vadis, action recognition? a new model and the kinetics dataset. In *proceedings of the IEEE Conference on Computer Vision and Pattern Recognition* (pp. 6299-6308).
+
+[3] Feichtenhofer, C., Fan, H., Malik, J., & He, K. (2019). Slowfast networks for video recognition. In *Proceedings of the IEEE International Conference on Computer Vision* (pp. 6202-6211).
+
+[4] Tran, D., Wang, H., Torresani, L., Ray, J., LeCun, Y., & Paluri, M. (2018). A closer look at spatiotemporal convolutions for action recognition. In *Proceedings of the IEEE conference on Computer Vision and Pattern Recognition* (pp. 6450-6459).
+
+[5] Tran, D., Wang, H., Torresani, L., & Feiszli, M. (2019). Video classification with channel-separated convolutional networks. In *Proceedings of the IEEE International Conference on Computer Vision* (pp. 5552-5561).
+
+[6] Ghadiyaram, D., Tran, D., & Mahajan, D. (2019). Large-scale weakly-supervised pre-training for video action recognition. In *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition* (pp. 12046-12055).
+
+
+
