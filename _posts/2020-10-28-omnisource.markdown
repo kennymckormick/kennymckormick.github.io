@@ -10,6 +10,8 @@ code: https://github.com/open-mmlab/mmaction2
 dataset: https://github.com/open-mmlab/mmaction2/tree/master/tools/data/omnisource
 ---
 
+This post gives a brief introduction to the paper: [Omni-sourced Webly-supervised Learning for Video Recognition](https://arxiv.org/abs/2003.13042), which achieves state-of-the-art recognition performance on Kinetics-400, UCF101 and HMDB51. The [codes](https://github.com/open-mmlab/mmaction2) and collected [web datasets](https://github.com/open-mmlab/mmaction2/tree/master/tools/data/omnisource) are available.
+
 # Abstract
 
 We introduce OmniSource, a novel framework for leveraging web data to train video recognition models. OmniSource overcomes the barriers between data formats, such as images, short videos, and long untrimmed videos for webly-supervised learning. First, data samples with multiple formats, curated by task-specific data collection and automatically filtered by a teacher model, are transformed into a unified form. Then a joint-training strategy is proposed to deal with the domain gaps between multiple data sources and formats in webly-supervised learning. Several good practices, including data balancing, resampling, and cross-dataset mixup are adopted in joint training. Experiments show that by utilizing data from multiple sources and formats, OmniSource is more data-efficient in training. With only 3.5M images and 800K minutes videos crawled from the internet without human labeling (less than 2% of prior works), our models learned with OmniSource improve Top-1 accuracy of 2D- and 3D-ConvNet baseline models by 3.0% and 3.9%, respectively, on the Kinetics-400 benchmark. With OmniSource, we establish new records with different pretraining strategies for video recognition. Our best models achieve 80.4%, 80.5%, and 83.6 Top-1 accuracies on the Kinetics-400 benchmark respectively for training-from-scratch, ImageNet pre-training and IG-65M pre-training.
@@ -43,7 +45,7 @@ Figure 1: **OmniSource Framework.**  We first use the teacher network trained on
 
 Table 2: **Dataset Statistics.** The web datasets we crawled for the target dataset Kinetics-400. The datasets are available at [MMAction2]([mmaction2/tools/data/omnisource at master · open-mmlab/mmaction2 (github.com)](https://github.com/open-mmlab/mmaction2/tree/master/tools/data/omnisource)). You can fill in a [request form](https://docs.google.com/forms/d/e/1FAIpQLSd8_GlmHzG8FcDbW-OEu__G7qLgOSYZpH-i5vYVJcu7wcb_TQ/viewform?usp=sf_link) to obtain them.
 
-<img src="/assets/img/omnisource/data_collection.png" width="750px" class="center"> 
+<img src="/assets/img/omnisource/data_collection.png" width="750px" class="center">
 
 Figure 2: **Task-Specific Data Collection.**  We simply use class names as keywords for data crawling, optionally with automatic permutation and stemming, free from additional human labor.
 
@@ -51,19 +53,19 @@ Figure 2: **Task-Specific Data Collection.**  We simply use class names as keywo
 
 Data crawled from the web are inevitably noisy. Directly using collected web data for joint training leads to a significant accuracy drop (over 3%). To prevent irrelevant data from polluting the training set, we first train a teacher network $$\mathcal{M}$$ on the target dataset and discard web data with low confidence scores. In experiments, we use 2D teachers for web images, 3D teachers for web videos. We also find that better teacher always lead to better students.
 
-<img src="/assets/img/omnisource/teacher_filtering.png" width="750px" class="center"> 
+<img src="/assets/img/omnisource/teacher_filtering.png" width="750px" class="center">
 
-Figure 3: **Web Data Distribution.** The inter-class distribution of three web datasets is visualized in (a), both before and after filtering. (b) gives out samples of filtered out images and remain ones for GoogleImage. 
+Figure 3: **Web Data Distribution.** The inter-class distribution of three web datasets is visualized in (a), both before and after filtering. (b) gives out samples of filtered out images and remain ones for GoogleImage.
 
 ## Transforming to the target domain
 
-<img src="/assets/img/omnisource/transformation.png" width="750px" class="center"> 
+<img src="/assets/img/omnisource/transformation.png" width="750px" class="center">
 
 Figure 4: **Transformations.** We use different transformations to convert heterogeneous web data (images, untrimmed videos) to the target domain (trimmed videos). Left: Inflating images to clips, by replicating or inflating with perspective warping. Right: Extracting segments or clips from untrimmed videos, guided by confidence scores.
 
 ## Joint Training
 
-Since the auxiliary dataset may be much larger and the domain gap may occur, the size ratio between target and auxiliary mini-batches is crucial for final performance. Besides, both intra- and cross-dataset mixup contributes to performance when models are trained from scratch. We try several resampling strategies to tailor the class distribution into a more balanced one, which also yield nontrivial improvements. 
+Since the auxiliary dataset may be much larger and the domain gap may occur, the size ratio between target and auxiliary mini-batches is crucial for final performance. Besides, both intra- and cross-dataset mixup contributes to performance when models are trained from scratch. We try several resampling strategies to tailor the class distribution into a more balanced one, which also yield nontrivial improvements.
 
 # Experiments
 
@@ -140,21 +142,21 @@ Table 7:  **Comparison with UCF-101 & HMDB-51 state-of-the-art.** (mean accuraci
 | SlowOnly-8x8-R101 |       Kinetics-400        |        24.6         |
 | SlowOnly-8x8-R101 | Kinetics-400 + OmniSource |        25.9         |
 
-Table 8: The learned representation also transfer well to spatio-temporal action detection, leads to significant improvement on AVA validation. 
+Table 8: The learned representation also transfer well to spatio-temporal action detection, leads to significant improvement on AVA validation.
 
 ## Interpretation of OmniSource Gain
 
-To find out why web data help, we mainly focus on the confusion pairs that web images can improve. We define the confusion score of a class pair as  $$s_{ij} = (n_{ij} + n_{ji}) / (n_{ij} + n_{ji} + n_{ii} + n_{jj})$$, $$n_{ij}$$ denotes the number of images with ground-truth label $$i$$ but being recognized as class $$j$$. Lower confusion score denotes better discriminating power between the two classes. We visualize some confusing pairs in Fig 5. The improvement can be mainly attributed to two reasons: 
+To find out why web data help, we mainly focus on the confusion pairs that web images can improve. We define the confusion score of a class pair as  $$s_{ij} = (n_{ij} + n_{ji}) / (n_{ij} + n_{ji} + n_{ii} + n_{jj})$$, $$n_{ij}$$ denotes the number of images with ground-truth label $$i$$ but being recognized as class $$j$$. Lower confusion score denotes better discriminating power between the two classes. We visualize some confusing pairs in Fig 5. The improvement can be mainly attributed to two reasons:
 
-(1) Web data usually focus on key objects of action. For example, we find that in those pairs with the largest confusion score reduction, there exist pairs like "drinking beer"  vs. "drinking shots", and "eating hotdog" vs. "eating chips". Training with web data leads to better object recognition ability. 
+(1) Web data usually focus on key objects of action. For example, we find that in those pairs with the largest confusion score reduction, there exist pairs like "drinking beer"  vs. "drinking shots", and "eating hotdog" vs. "eating chips". Training with web data leads to better object recognition ability.
 
 (2) Web data usually include discriminative poses, especially for those actions which last for a short time. For example, "rock scissors paper" vs. "shaking hands" has the second-largest confusion score reduction. Other examples include "sniffing" - "headbutting", "break dancing" - "robot dancing".
 
-<img src="/assets/img/omnisource/interpretation.png" width="750px" class="center"> 
+<img src="/assets/img/omnisource/interpretation.png" width="750px" class="center">
 
-Figure 5: **Confusing pairs improved by OmniSource.** The original accuracy and change are denoted in black and in color. 
+Figure 5: **Confusing pairs improved by OmniSource.** The original accuracy and change are denoted in black and in color.
 
-<img src="/assets/img/omnisource/eating.png" width="750px" class="center"> 
+<img src="/assets/img/omnisource/eating.png" width="750px" class="center">
 
 Figure 6: **Improvement on eating something.** Rows denote groundtruth and columns denote predictions. Block$$_{ij}$$ represents the difference in numbers of samples which belongs to class $$i$$ but recognized as class $$j$$ between the baseline and our model.
 
