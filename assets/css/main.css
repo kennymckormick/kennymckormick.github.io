@@ -773,7 +773,7 @@ html {
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #515151;
   background-color: #fbfbfb;
   margin: 0;
@@ -798,6 +798,12 @@ img + em {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 blockquote {
@@ -828,7 +834,7 @@ pre code {
 
 table {
   border: 1px solid #aaa;
-  background-color: #eee;
+  /* background-color: #eee; */
   width: 100%;
   text-align: left;
   border-collapse: collapse;
@@ -844,23 +850,24 @@ table tbody td {
 }
 
 table tr:nth-child(even) {
-  background: #adbecc;
+  /* background: #adbecc; */
 }
 
 table thead {
-  background: #a9c4d1;
+  /* background: #a9c4d1;
   background: -webkit-gradient(linear, left top, left bottom, from(#bed3dc), color-stop(66%, #b1cad5), to(#A9C4D1));
   background: -webkit-linear-gradient(top, #bed3dc 0%, #b1cad5 66%, #A9C4D1 100%);
   background: -o-linear-gradient(top, #bed3dc 0%, #b1cad5 66%, #A9C4D1 100%);
-  background: linear-gradient(to bottom, #bed3dc 0%, #b1cad5 66%, #A9C4D1 100%);
-  border-bottom: 1px solid #8c8c8c;
+  background: linear-gradient(to bottom, #bed3dc 0%, #b1cad5 66%, #A9C4D1 100%); */
+  border-bottom: 1px solid #aaa;
 }
 
 table thead th {
   font-size: 14px;
   font-weight: bold;
-  color: #fff;
-  border-left: 1px solid #d0e4f5;
+  color: #000;
+  text-align: center;
+  border-left: 1px solid #aaa;
 }
 
 table thead th:first-child {
@@ -871,12 +878,12 @@ table tfoot {
   font-size: 14px;
   font-weight: bold;
   color: #fff;
-  background: #d0e4f5;
+  /* background: #d0e4f5;
   background: -webkit-gradient(linear, left top, left bottom, from(#dcebf7), color-stop(66%, #d4e6f6), to(#D0E4F5));
   background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
   background: -o-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
-  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
-  border-top: 2px solid #444;
+  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%); */
+  border-top: 2px solid #aaa;
 }
 
 table tfoot td {
@@ -1165,7 +1172,7 @@ footer .copyright {
 }
 
 .post .post-content .post-title a {
-  font-family: 'PT Serif', serif;
+  font-family: 'Roboto', sans-serif;
   text-decoration: none;
   color: #263959;
 }
