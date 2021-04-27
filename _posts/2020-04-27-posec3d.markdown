@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Revisiting skeleton-based action recognition"
-date: 2020-04-30 22:00:00 +0800
+date: 2020-04-27 22:00:00 +0800
 description: A new 3D-CNN based approach for skeleton-based action recognition. Achieve state-of-the-art performance on FineGYM, NTURGB-D and Kinetics-Skeleton.
-img: logo/posec3d.jpg # Add image post (optional)
+img: logo/posec3d.png # Add image post (optional)
 tags: [Skeleton, VideoRecognition]
 ---
 
