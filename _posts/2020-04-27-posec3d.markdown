@@ -7,4 +7,4 @@ img: logo/posec3d.png # Add image post (optional)
 tags: [Skeleton, VideoRecognition]
 ---
 
-Coming soon.
+Coming soon. Please refer to [PoseC3D paper](https://arxiv.org/abs/2104.13586) for details.
