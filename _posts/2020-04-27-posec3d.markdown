@@ -18,12 +18,12 @@ Human skeleton, as a compact representation of human action, has received increa
 
 # The Drawback of GCN-based Approaches
 
-<img src="/assets/img/posec3d/gcn.png" width="750px" class="center">
+<img src="/assets/img/posec3d/GCN.png" width="750px" class="center">
 
-GCN-based methods are limited in the following aspects: 
+GCN-based methods are limited in the following aspects:
 
-1. Robustness: GCN directly handles coordinates of human joints, its recognition ability is significantly affected by the distribution shift of coordinates, which can often occur when applying a different pose estimator to acquire the coordinates. A small perturbation in coordinates often leads to completely different predictions. 
-2. Interoperability: The graphical form of the skeleton representation makes it difficult to be fused with other modalities, especially in early or low-level stages, thus limiting the effectiveness of the combination. 
+1. Robustness: GCN directly handles coordinates of human joints, its recognition ability is significantly affected by the distribution shift of coordinates, which can often occur when applying a different pose estimator to acquire the coordinates. A small perturbation in coordinates often leads to completely different predictions.
+2. Interoperability: The graphical form of the skeleton representation makes it difficult to be fused with other modalities, especially in early or low-level stages, thus limiting the effectiveness of the combination.
 3. Scalability: GCN regards every human joint as a node, the complexity of GCN scales linearly with the number of persons, limiting its applicability to tasks that involve multiple persons, such as group activity recognition.
 
 # PoseC3D: A 3D-CNN based approach
@@ -38,7 +38,7 @@ GCN-based methods are limited in the following aspects:
 
 ### Pose Extraction
 
-Pose extraction is a critical pre-processing step for skeleton-based action recognition. However, the importance of pose extraction is often overlooked in previous literature. We first conduct a thorough review on key aspects of pose extraction. We mainly focus on 2D poses instead of 3D poses due to the superior quality of 2D skeletons. In preliminary study, we compare the recognition performance of using 2D and 3D skeletons for action recognition, both using an advanced GCN architecture with the same configuration and training schedule. We find that even estimated 2D keypoints of low quality (the MobileNet backbone) consistently outperform 3D keypoints in action recognition. 
+Pose extraction is a critical pre-processing step for skeleton-based action recognition. However, the importance of pose extraction is often overlooked in previous literature. We first conduct a thorough review on key aspects of pose extraction. We mainly focus on 2D poses instead of 3D poses due to the superior quality of 2D skeletons. In preliminary study, we compare the recognition performance of using 2D and 3D skeletons for action recognition, both using an advanced GCN architecture with the same configuration and training schedule. We find that even estimated 2D keypoints of low quality (the MobileNet backbone) consistently outperform 3D keypoints in action recognition.
 
 <img src="/assets/img/posec3d/2Dvs3D.png" width="500px" class="center">
 
@@ -48,11 +48,11 @@ In experiments, we use a Top-Down pose estimator instantiated with the HRNet bac
 
 ### Generating Compact Heatmap Volumes
 
-Once the 2D poses are extracted, we reformulate them into 3D heatmap volumes of shape $K\times T\times H\times W$ by stacking $T$ 2D heatmaps of shape $K\times H\times W$ along the temporal dimension. If 2D skeletons are stored as coordinates, we first restore them to heatmaps by generating gaussian maps centered at $(x_i, y_i)$ with maximum value the score $c_i$.The process can be applied to both single-person and multi-person scenarios. 
+Once the 2D poses are extracted, we reformulate them into 3D heatmap volumes of shape $K\times T\times H\times W$ by stacking $T$ 2D heatmaps of shape $K\times H\times W$ along the temporal dimension. If 2D skeletons are stored as coordinates, we first restore them to heatmaps by generating gaussian maps centered at $(x_i, y_i)$ with maximum value the score $c_i$.The process can be applied to both single-person and multi-person scenarios.
 
-In practice, we further apply two techniques to reduce the redundancy of 3D heatmap volumes.  First, **Subject Centered Cropping**.  It is inefficient to make the heatmap as large as the frame, especially when all persons only occur in a small region. Therefore, in such cases we first find the smallest bounding box that encloses all the 2D poses across frames. Then we crop all frames according to the found box and resize them to a target size, so that the size of the 3D heatmap volume is reduced along the spatial dimensions. By doing so, more information can be reserved with a relatively small $H \times W$ budget. 
+In practice, we further apply two techniques to reduce the redundancy of 3D heatmap volumes.  First, **Subject Centered Cropping**.  It is inefficient to make the heatmap as large as the frame, especially when all persons only occur in a small region. Therefore, in such cases we first find the smallest bounding box that encloses all the 2D poses across frames. Then we crop all frames according to the found box and resize them to a target size, so that the size of the 3D heatmap volume is reduced along the spatial dimensions. By doing so, more information can be reserved with a relatively small $H \times W$ budget.
 
-We also propose **Uniform Sampling** to reduce the redundancy of 3D heatmap volumes in temporal. The 3D heatmap volume can be reduced along the temporal dimension by sampling a subset of frames.  However, researchers tend to sample frames in a short temporal window for 3D-CNNs,  such as sampling frames in a 64-frame temporal window as in SlowFast.  While this sampling strategy may miss some global dynamics of the video, we use a uniform sampling strategy for 3D-CNNs instead. In particular, we sample $N$ frames from the video by dividing the video into $N$ segments of equal length and randomly selecting one frame from each segment.  We find such a sampling strategy is especially beneficial for skeleton-based action recognition. With uniform sampling, 1-clip testing can even achieve better results than fixed stride sampling with 10-clip testing on NTU-60 and FineGYM. 
+We also propose **Uniform Sampling** to reduce the redundancy of 3D heatmap volumes in temporal. The 3D heatmap volume can be reduced along the temporal dimension by sampling a subset of frames.  However, researchers tend to sample frames in a short temporal window for 3D-CNNs,  such as sampling frames in a 64-frame temporal window as in SlowFast.  While this sampling strategy may miss some global dynamics of the video, we use a uniform sampling strategy for 3D-CNNs instead. In particular, we sample $N$ frames from the video by dividing the video into $N$ segments of equal length and randomly selecting one frame from each segment.  We find such a sampling strategy is especially beneficial for skeleton-based action recognition. With uniform sampling, 1-clip testing can even achieve better results than fixed stride sampling with 10-clip testing on NTU-60 and FineGYM.
 
 <img src="/assets/img/posec3d/uniform.png" width="700px" class="center">
 
@@ -70,7 +70,7 @@ We propose RGBPose-SlowFast for the early fusion of human skeletons and RGB fram
 
 ## Performance & Efficiency
 
-In performance comparison between 3D-CNN and GCN, we adopt the input shape 48 × 56 × 56 for 3D-CNN, which makes PoseC3D is even lighter than the GCN counterpart, both in the number of parameters and FLOPs. Being light-weighted, PoseC3D still achieves competitive performance across different datasets.  The 1-clip testing result is better than or comparable with a state-of-the-art GCN while requiring much less computation. When applying 10-clip testing, PoseC3D consistently outperforms the state-of-the-art GCN.  Note that only PoseC3D can take advantage of multi-view testing, since it subsamples from the entire heatmap volumes to form each input. Besides, PoseC3D uses the same architecture and hyperparameters for different datasets and achieves competitive performance,  while GCN tunes architectures and hyperparameters for different datasets. 
+In performance comparison between 3D-CNN and GCN, we adopt the input shape 48 × 56 × 56 for 3D-CNN, which makes PoseC3D is even lighter than the GCN counterpart, both in the number of parameters and FLOPs. Being light-weighted, PoseC3D still achieves competitive performance across different datasets.  The 1-clip testing result is better than or comparable with a state-of-the-art GCN while requiring much less computation. When applying 10-clip testing, PoseC3D consistently outperforms the state-of-the-art GCN.  Note that only PoseC3D can take advantage of multi-view testing, since it subsamples from the entire heatmap volumes to form each input. Besides, PoseC3D uses the same architecture and hyperparameters for different datasets and achieves competitive performance,  while GCN tunes architectures and hyperparameters for different datasets.
 
 <img src="/assets/img/posec3d/performance.png" width="700px" class="center">
 
