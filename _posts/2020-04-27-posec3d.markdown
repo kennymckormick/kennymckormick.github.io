@@ -5,6 +5,33 @@ date: 2020-04-27 22:00:00 +0800
 description: A new 3D-CNN based approach for skeleton-based action recognition. Achieve state-of-the-art performance on FineGYM, NTURGB-D and Kinetics-Skeleton.
 img: logo/posec3d.png # Add image post (optional)
 tags: [Skeleton, VideoRecognition]
+paper: https://arxiv.org/abs/2104.13586
+code: https://github.com/open-mmlab/mmaction2
+dataset: https://github.com/open-mmlab/mmaction2/tree/master/tools/data/skeleton
 ---
 
-Coming soon. Please refer to [PoseC3D paper](https://arxiv.org/abs/2104.13586) for details.
+This post gives a brief introduction to the paper: [Revisiting Skeleton-based Action Recognition](https://arxiv.org/abs/2104.13586), which provides a competitive alternative named **PoseC3D** to the popular GCN-based approaches. PoseC3D takes stacked 2D heatmaps as input and apply a 3D-CNN on top of them to recognize the action. The [codes](https://github.com/open-mmlab/mmaction2) and [predicted 2D skeleton annotations](https://github.com/open-mmlab/mmaction2/tree/master/tools/data/skeleton) we used are available.
+
+# Abstract
+
+Human skeleton, as a compact representation of human action, has received increasing attention in recent years. Many skeleton-based action recognition methods adopt graph convolutional networks (GCN) to extract features on top of human skeletons. Despite the positive results shown in previous works, GCN-based methods are subject to limitations in robustness, interoperability, and scalability. In this work, we propose PoseC3D, a new approach to skeleton-based action recognition, which relies on a 3D heatmap stack instead of a graph sequence as the base representation of human skeletons. Compared to GCN-based methods, PoseC3D is more effective in learning spatiotemporal features, more robust against pose estimation noises, and generalizes better in cross-dataset settings. Also, PoseC3D can handle multiple-person scenarios without additional computation cost, and its features can be easily integrated with other modalities at early fusion stages, which provides a great design space to further boost the performance. On four challenging datasets, PoseC3D consistently obtains superior performance, when used alone on skeletons and in combination with the RGB modality.
+
+# The Drawback of GCN-based Approaches
+
+<img src="/assets/img/posec3d/gcn.png" width="750px" class="center">
+
+GCN-based methods are limited in the following aspects: 
+
+1. Robustness: GCN directly handles coordinates of human joints, its recognition ability is significantly affected by the distribution shift of coordinates, which can often occur when applying a different pose estimator to acquire the coordinates. A small perturbation in coordinates often leads to completely different predictions. 
+2. Interoperability: The graphical form of the skeleton representation makes it difficult to be fused with other modalities, especially in early or low-level stages, thus limiting the effectiveness of the combination. 
+3. Scalability: GCN regards every human joint as a node, the complexity of GCN scales linearly with the number of persons, limiting its applicability to tasks that involve multiple persons, such as group activity recognition.
+
+# PoseC3D: A 3D-CNN based approach
+
+## The Pipeline
+
+|           The pipeline            |                            Input                             |             Output              |
+| :-------------------------------: | :----------------------------------------------------------: | :-----------------------------: |
+|        1. Pose Extraction         | <figure class="video_container">   <video controls="true" allowfullscreen="true">     <source src="/assets/img/posec3d/input.avi" type="video/avi">  </video> </figure> |                                 |
+|   2. Heatmap Volumes Generation   |                   Heatmaps or Coordinates                    |     Compact Heatmap Volumes     |
+| 3. Action Recognition with 3D-CNN |                   Compact Heatmap Volumes                    | Action Category:    handshaking |
