@@ -30,8 +30,70 @@ GCN-based methods are limited in the following aspects:
 
 ## The Pipeline
 
-|           The pipeline            |                            Input                             |             Output              |
-| :-------------------------------: | :----------------------------------------------------------: | :-----------------------------: |
-|        1. Pose Extraction         | <figure class="video_container">   <video controls="true" allowfullscreen="true">     <source src="/assets/img/posec3d/input.avi" type="video/avi">  </video> </figure> |                                 |
-|   2. Heatmap Volumes Generation   |                   Heatmaps or Coordinates                    |     Compact Heatmap Volumes     |
-| 3. Action Recognition with 3D-CNN |                   Compact Heatmap Volumes                    | Action Category:    handshaking |
+|           The pipeline            |                            Input                             |                            Output                            |
+| :-------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|        1. Pose Extraction         | <img src="/assets/img/posec3d/rgb.gif" width="320px" class="center"> | <img src="/assets/img/posec3d/pose_prediction.gif" width="320px" class="center"> |
+|   2. Heatmap Volumes Generation   |       <font size = "3">Heatmaps or Coordinates</font>        | <font size = "3"> Compact Heatmap Volumes </font><br><img src="/assets/img/posec3d/volume.gif" width="400px" class="center"> |
+| 3. Action Recognition with 3D-CNN | <font size = "3"> Compact Heatmap Volumes </font><br><img src="/assets/img/posec3d/volume.gif" width="400px" class="center"> | <font size = "3">Action Category <br><br></font><font size = "5" color="red">Handshaking</font> |
+
+### Pose Extraction
+
+Pose extraction is a critical pre-processing step for skeleton-based action recognition. However, the importance of pose extraction is often overlooked in previous literature. We first conduct a thorough review on key aspects of pose extraction. We mainly focus on 2D poses instead of 3D poses due to the superior quality of 2D skeletons. In preliminary study, we compare the recognition performance of using 2D and 3D skeletons for action recognition, both using an advanced GCN architecture with the same configuration and training schedule. We find that even estimated 2D keypoints of low quality (the MobileNet backbone) consistently outperform 3D keypoints in action recognition. 
+
+<img src="/assets/img/posec3d/2Dvs3D.png" width="500px" class="center">
+
+In experiments, we use a Top-Down pose estimator instantiated with the HRNet backbone for pose extraction, considering its superior pose estimation performance on COCO-keypoints. The output of the Top-Down pose estimators are heatmaps. Storing heatmaps directly may take extraordinarily large amounts of disk space. To be more efficient, we can store the 2D pose as coordinates (x, y, score), and restore them to 3D heatmap volumes by generating gaussian maps. We conduct experiments on FineGYM to explore how much information is lost during the heatmap → coordinate compression. For low quality pose estimators with the backbone MobileNet, it leads to a 2% drop in Top-1 accuracy. For high quality pose estimators with the backbone HRNet, the drop is only 0.4%, which is much more moderate. Thus we store the extracted 2D skeletons as coordinated considering the accuracy-efficiency trade off.
+
+<img src="/assets/img/posec3d/CoordvsHeatmap.png" width="350px" class="center">
+
+### Generating Compact Heatmap Volumes
+
+Once the 2D poses are extracted, we reformulate them into 3D heatmap volumes of shape $K\times T\times H\times W$ by stacking $T$ 2D heatmaps of shape $K\times H\times W$ along the temporal dimension. If 2D skeletons are stored as coordinates, we first restore them to heatmaps by generating gaussian maps centered at $(x_i, y_i)$ with maximum value the score $c_i$.The process can be applied to both single-person and multi-person scenarios. 
+
+In practice, we further apply two techniques to reduce the redundancy of 3D heatmap volumes.  First, **Subject Centered Cropping**.  It is inefficient to make the heatmap as large as the frame, especially when all persons only occur in a small region. Therefore, in such cases we first find the smallest bounding box that encloses all the 2D poses across frames. Then we crop all frames according to the found box and resize them to a target size, so that the size of the 3D heatmap volume is reduced along the spatial dimensions. By doing so, more information can be reserved with a relatively small $H \times W$ budget. 
+
+We also propose **Uniform Sampling** to reduce the redundancy of 3D heatmap volumes in temporal. The 3D heatmap volume can be reduced along the temporal dimension by sampling a subset of frames.  However, researchers tend to sample frames in a short temporal window for 3D-CNNs,  such as sampling frames in a 64-frame temporal window as in SlowFast.  While this sampling strategy may miss some global dynamics of the video, we use a uniform sampling strategy for 3D-CNNs instead. In particular, we sample $N$ frames from the video by dividing the video into $N$ segments of equal length and randomly selecting one frame from each segment.  We find such a sampling strategy is especially beneficial for skeleton-based action recognition. With uniform sampling, 1-clip testing can even achieve better results than fixed stride sampling with 10-clip testing on NTU-60 and FineGYM. 
+
+<img src="/assets/img/posec3d/uniform.png" width="700px" class="center">
+
+### 3D-CNN for Skeleton-based Action Recognition
+
+To demonstrate the power of 3D-CNN in capturing spatiotemporal dynamics of skeleton sequences, we design two networks based on 3D-CNNs, namely Pose-SlowOnly and RGBPose-SlowFast.
+
+The Pose-SlowOnly focuses on the modality of human skeletons, whose architecture is inspired by the slow pathway of SlowFast, given its promising performance in RGB-based action recognition. The detailed architecture of Pose-SlowOnly is included in the table below (Pose Pathway), which takes 3D heatmap volumes as input. In experiments, Pose-SlowOnly outperforms the representative GCN counterpart across several benchmarks. More importantly, the interoperability between Pose-SlowOnly and popular networks for RGB-based action recognition makes it easy to involve human skeletons in multi-modality fusion.
+
+We propose RGBPose-SlowFast for the early fusion of human skeletons and RGB frames, which is achieved due to the use of 3D-CNNs in skeleton-based action recognition. It contains two pathways respectively for processing two modalities,  where the RGB pathway is instantiated with a small frame rate and a large channel width since RGB frames are low-level features. On the contrary, the Pose pathway is instantiated with a large frame rate and a small channel width. Time-strided convolutions are used as the lateral connections between two pathways, so that semantics of different modalities can sufficiently interact. Besides lateral connections, the predictions of two pathways are also combined in a late fusion manner. We train RGBPose-SlowFast with two individual losses respectively for each pathway, as a single loss that jointly learns from two modalities leads to severe overfitting.
+
+<img src="/assets/img/posec3d/RGBPose.png" width="600px" class="center">
+
+# Experiment Results
+
+## Performance & Efficiency
+
+In performance comparison between 3D-CNN and GCN, we adopt the input shape 48 × 56 × 56 for 3D-CNN, which makes PoseC3D is even lighter than the GCN counterpart, both in the number of parameters and FLOPs. Being light-weighted, PoseC3D still achieves competitive performance across different datasets.  The 1-clip testing result is better than or comparable with a state-of-the-art GCN while requiring much less computation. When applying 10-clip testing, PoseC3D consistently outperforms the state-of-the-art GCN.  Note that only PoseC3D can take advantage of multi-view testing, since it subsamples from the entire heatmap volumes to form each input. Besides, PoseC3D uses the same architecture and hyperparameters for different datasets and achieves competitive performance,  while GCN tunes architectures and hyperparameters for different datasets. 
+
+<img src="/assets/img/posec3d/performance.png" width="700px" class="center">
+
+## Generalization
+
+To study the generalization of 3D-CNN and GCN, we design a cross-annotation setting for training & testing on FineGYM. Specifically, we use pose extracted by HRNet for training, and pose extracted by MobileNet for testing.  For 3D-CNN, the performance drop when using the pose of low quality for training and testing is more moderate than GCN.  Besides, when using poses extracted by different approaches (GT, Tracking) for training and testing respectively,  the performance drop of 3D-CNN is much smaller than GCN.  The experiment results show that 3D-CNN can generalize better than GCN.
+
+<img src="/assets/img/posec3d/generalization.png" width="850px" class="center">
+
+## Scalability
+
+The computation of GCN scales linearly with the increasing number of persons in the video,  which makes it less efficient for group activity recognition.  An experiment on the Volleyball dataset is used to prove that.  The dataset contains at most 13 persons in a frame, while the temporal length is 20. Under such configuration, the number of parameters and FLOPs for GCN is 2.8M and 7.2G respectively.  3D-CNN, however, only takes 0.52M parameters and 1.6 GFLOPs.  Despite the much smaller amounts of parameters and FLOPs,  3D-CNN achieves 91.3% Top-1 on Volleyball-validation,  2.1% higher than the GCN-based approach.
+
+<img src="/assets/img/posec3d/scalability.png" width="850px" class="center">
+
+## Interoperabilty
+
+RGBPose-SlowFast can outperform late-fusion only by a noticeable margin. Besides, it also works in situations when the importance of two modalities are different.  In FineGYM, Pose modality is more important than RGB,  while in NTU-60, RGB modality is more important than Pose. We observe performance improvement by early+late fusion on both of them.
+
+<img src="/assets/img/posec3d/interoperability.png" width="850px" class="center">
+
+## Comparison with state-of-the-arts
+
+With keypoint stream and limb stream combined, PoseC3D achieves state-of-the-art performance on three datasets: FineGYM, NTU and Kinetics. When further combined with RGB stream with RGBPose-SlowFast,  Our approach also achieves state-of-the-art results on RGB & Pose based action recognition.
+
+<img src="/assets/img/posec3d/SOTA.png" width="500px" class="center">
