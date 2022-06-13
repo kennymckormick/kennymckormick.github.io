@@ -17,3 +17,9 @@ News
 - (2020.08) Join [OpenMMLab](https://openmmlab.com/) and serve as a maintainer of [MMAction2](https://github.com/open-mmlab/mmaction2) ![star](https://badgen.net/github/stars/open-mmlab/mmaction2) ![fork](https://badgen.net/github/forks/open-mmlab/mmaction2)
 - (2020.07) [OmniSource](https://arxiv.org/abs/2003.13042) is accepted by ECCV 2020 
 - (2019.07) [TRB](https://openaccess.thecvf.com/content_ICCV_2019/papers/Duan_TRB_A_Novel_Triplet_Representation_for_Understanding_2D_Human_Body_ICCV_2019_paper.pdf) is accepted by ICCV 2019
+
+
+Professional Activities
+----------------
+- Conference Reviewer: ICCV2021, AAAI2022, CVPR2022, ECCV2022, NeurIPS2022
+- Journal Reviewer: SPL, TCSVT
