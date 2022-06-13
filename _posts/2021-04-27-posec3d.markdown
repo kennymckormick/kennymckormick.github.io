@@ -28,7 +28,7 @@ GCN-based methods are limited in the following aspects:
 
 # PoseC3D: A 3D-CNN based approach
 
-## The Pipeline
+## The Whole Pipeline
 
 |           The pipeline            |                            Input                             |                            Output                            |
 | :-------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -36,7 +36,7 @@ GCN-based methods are limited in the following aspects:
 |   2. Heatmap Volumes Generation   |       <font size = "3">Heatmaps or Coordinates</font>        | <font size = "3"> Compact Heatmap Volumes </font><br><img src="/assets/img/posec3d/volume.gif" width="400px" class="center"> |
 | 3. Action Recognition with 3D-CNN | <font size = "3"> Compact Heatmap Volumes </font><br><img src="/assets/img/posec3d/volume.gif" width="400px" class="center"> | <font size = "3">Action Category <br><br></font><font size = "5" color="red">Handshaking</font> |
 
-### Pose Extraction
+## Pose Extraction
 
 Pose extraction is a critical pre-processing step for skeleton-based action recognition. However, the importance of pose extraction is often overlooked in previous literature. We first conduct a thorough review on key aspects of pose extraction. We mainly focus on 2D poses instead of 3D poses due to the superior quality of 2D skeletons. In preliminary study, we compare the recognition performance of using 2D and 3D skeletons for action recognition, both using an advanced GCN architecture with the same configuration and training schedule. We find that even estimated 2D keypoints of low quality (the MobileNet backbone) consistently outperform 3D keypoints in action recognition.
 
@@ -46,7 +46,7 @@ In experiments, we use a Top-Down pose estimator instantiated with the HRNet bac
 
 <img src="/assets/img/posec3d/CoordvsHeatmap.png" width="350px" class="center">
 
-### Generating Compact Heatmap Volumes
+## Generating Compact Heatmap Volumes
 
 Once the 2D poses are extracted, we reformulate them into 3D heatmap volumes of shape $K\times T\times H\times W$ by stacking $T$ 2D heatmaps of shape $K\times H\times W$ along the temporal dimension. If 2D skeletons are stored as coordinates, we first restore them to heatmaps by generating gaussian maps centered at $(x_i, y_i)$ with maximum value the score $c_i$.The process can be applied to both single-person and multi-person scenarios.
 
@@ -56,11 +56,11 @@ We also propose **Uniform Sampling** to reduce the redundancy of 3D heatmap volu
 
 <img src="/assets/img/posec3d/uniform.png" width="700px" class="center">
 
-### 3D-CNN for Skeleton-based Action Recognition
+## 3D-CNN for Skeleton-based Action Recognition
 
-To demonstrate the power of 3D-CNN in capturing spatiotemporal dynamics of skeleton sequences, we design two networks based on 3D-CNNs, namely Pose-SlowOnly and RGBPose-SlowFast.
+To demonstrate the power of 3D-CNN in capturing spatiotemporal dynamics of skeleton sequences, we design two networks based on 3D-CNNs, namely Pose-SlowOnly and RGBPose-SlowFast.
 
-The Pose-SlowOnly focuses on the modality of human skeletons, whose architecture is inspired by the slow pathway of SlowFast, given its promising performance in RGB-based action recognition. The detailed architecture of Pose-SlowOnly is included in the table below (Pose Pathway), which takes 3D heatmap volumes as input. In experiments, Pose-SlowOnly outperforms the representative GCN counterpart across several benchmarks. More importantly, the interoperability between Pose-SlowOnly and popular networks for RGB-based action recognition makes it easy to involve human skeletons in multi-modality fusion.
+The Pose-SlowOnly focuses on the modality of human skeletons, whose architecture is inspired by the slow pathway of SlowFast, given its promising performance in RGB-based action recognition. The detailed architecture of Pose-SlowOnly is included in the table below (Pose Pathway), which takes 3D heatmap volumes as input. In experiments, Pose-SlowOnly outperforms the representative GCN counterpart across several benchmarks. More importantly, the interoperability between Pose-SlowOnly and popular networks for RGB-based action recognition makes it easy to involve human skeletons in multi-modality fusion.
 
 We propose RGBPose-SlowFast for the early fusion of human skeletons and RGB frames, which is achieved due to the use of 3D-CNNs in skeleton-based action recognition. It contains two pathways respectively for processing two modalities,  where the RGB pathway is instantiated with a small frame rate and a large channel width since RGB frames are low-level features. On the contrary, the Pose pathway is instantiated with a large frame rate and a small channel width. Time-strided convolutions are used as the lateral connections between two pathways, so that semantics of different modalities can sufficiently interact. Besides lateral connections, the predictions of two pathways are also combined in a late fusion manner. We train RGBPose-SlowFast with two individual losses respectively for each pathway, as a single loss that jointly learns from two modalities leads to severe overfitting.
 
