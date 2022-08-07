@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Haodong Duan is a 3rd year Ph.D. student at the CUHK [Multimedia Lab](https://mmlab.ie.cuhk.edu.hk/), supervised by Professor [Dahua Lin](http://dahua.site/). Before joining MMLAB, he received his B.S. degree in data science at Peking University. His research interests include video recognition and human-centric action understanding. You can find his [CV](/files/resume_0508.pdf) here.
+Haodong Duan is a 4th year Ph.D. student at the CUHK [Multimedia Lab](https://mmlab.ie.cuhk.edu.hk/), supervised by Professor [Dahua Lin](http://dahua.site/). Before joining MMLAB, he received his B.S. degree in data science at Peking University. His research interests include video recognition and human-centric action understanding. You can find his [CV](/files/resume_latest.pdf) here.
 
 News
 -----------------
