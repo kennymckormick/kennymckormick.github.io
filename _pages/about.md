@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Haodong Duan (段浩东)"
+title: "Haodong Duan 段浩东"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -12,7 +12,7 @@ Haodong Duan is a 4th year Ph.D. student at the CUHK [Multimedia Lab](https://mm
 
 News
 -----------------
-- (2022.07) I will start an internship at AWS AI, advised by [Dr. Mingze Xu](https://xumingze0308.github.io/)
+- (2022.07) I started my internship at AWS AI, advised by [Dr. Mingze Xu](https://xumingze0308.github.io/)
 - (2022.06) Give a talk at CVPR 2022 [OpenMMLab Tutorial](https://openmmlab.com/community/cvpr2022-tutorial) on human-centric action understanding [[Slides](/files/cvpr22_tutorial.pdf)]
 - (2022.05) Release [PYSKL](https://github.com/kennymckormick/pyskl), a codebase for skeleton action recognition ![star](https://badgen.net/github/stars/kennymckormick/pyskl) ![fork](https://badgen.net/github/forks/kennymckormick/pyskl) [[Report](https://arxiv.org/abs/2205.09443)] accepted by MM 2022
 - (2022.03) 3 papers (**[PoseC3D](https://arxiv.org/abs/2104.13586)**, **[TransRank](https://arxiv.org/abs/2205.02028)**, [OCSampler](https://arxiv.org/abs/2201.04388)) are accepted by CVPR 2022
@@ -24,7 +24,7 @@ News
 
 Professional Activities
 ----------------
-- Conference Reviewer: ICCV21, AAAI[22-23], CVPR22, ECCV22, NeurIPS22, WACV23
+- Conference Reviewer: ICCV21, AAAI[22-23], CVPR[22-23], ECCV22, NeurIPS22, WACV23
 - Journal Reviewer: SPL, TCSVT, JVCIR
 
 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5wygxlue8gu&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
