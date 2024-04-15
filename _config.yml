@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Kenny's HomePage"
 title_separator          : "-"
 name                     : &name "Haodong Duan"
-description              : &description "4th year PhD student @ CUHK MMLAB"
+description              : &description "PostDoctoral Researcher @ Shanghai AI Laboratory"
 url                      : https://kennymckormick.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "kennymckormick/kennymckormick.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Haodong Duan"
   avatar           : "kenny.png"
-  bio              : "4th year PhD student @ CUHK MMLAB"
-  location         : "Hong Kong"
+  bio              : "PostDoctoral Researcher @ Shanghai AI Laboratory"
+  location         : "Shanghai, China"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=vi3W-m8AAAAJ&hl=en&oi=ao"
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : # "replacethistwitterhandle"
+  twitter          : "KennyUTC"
   vine             :
   weibo            :
   xing             :
