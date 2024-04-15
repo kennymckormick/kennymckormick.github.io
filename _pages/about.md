@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 Haodong Duan is currently a postdoctoral researcher at the [Shanghai AI Lab](https://www.shlab.org.cn), working on the evaluation of large language models and multi-modality models.
-He received his Ph.D. degree from the [Multimedia Laboratory @ CUHK](https://mmlab.ie.cuhk.edu.hk), supervised by Professor [Dahua Lin](http://dahua.site/).
+In 2023, he received his Ph.D. degree from the [Multimedia Laboratory @ CUHK](https://mmlab.ie.cuhk.edu.hk), supervised by Professor [Dahua Lin](http://dahua.site/).
 During his PhD, he works on human-centric action understanding, including skeleton-based action recognition, pose estimation, and temporal action localization.
 Before joining MMLAB, he received his B.S. degree in data science at Peking University. 
 His research interests include video recognition, human-centric action understanding, and multi-modality learning. 
@@ -17,13 +17,13 @@ You can find his [CV](/files/resume_latest.pdf) here.
 
 News
 -----------------
-- (2024.04) We released [MMStar](https://arxiv.org/abs/2403.20330). In this work, we studied the vision-dispensable and data leakage problems in multi-modal evaluation. 
-- (2024.03) Two papers ([BotChat](https://arxiv.org/abs/2310.13650), [Ada-LEval](https://arxiv.org/abs/2404.06480)) are accepted by NAACL 2024. 
-- (2023.12) We released [VLMEvalKit](https://github.com/open-compass/VLMEvalKit), an all-in-one toolkit for evaluating LVLMs.
-- (2023.10) [SkeleTR](https://arxiv.org/pdf/2309.11445.pdf) is accepted by ICCV 2023.
-- (2023.07) We released [MMBench](https://arxiv.org/abs/2307.06281), a pioneering benchmark for evaluating large vision-language models (LVLMs).
-- (2023.06) I obtained my Ph.D. degree from the [Multimedia Laboratory @ CUHK](https://mmlab.ie.cuhk.edu.hk). 
-- (2023.04) I will join the [Shanghai AI Lab](https://www.shlab.org.cn) as a postdoctoral researcher.
+- (2024.04) We released [MMStar](https://arxiv.org/abs/2403.20330) ![star](https://badgen.net/github/stars/MMStar-Benchmark/MMStar). In this work, we studied the vision-dispensable and data leakage problems in multi-modal evaluation
+- (2024.03) Two papers ([BotChat](https://arxiv.org/abs/2310.13650) ![star](https://badgen.net/github/stars/open-compass/BotChat), [Ada-LEval](https://arxiv.org/abs/2404.06480) ![star](https://badgen.net/github/stars/open-compass/Ada-LEval)) are accepted by NAACL 2024
+- (2023.12) We released [VLMEvalKit](https://github.com/open-compass/VLMEvalKit), an all-in-one toolkit for evaluating LVLMs ![star](https://badgen.net/github/stars/open-compass/VLMEvalKit) ![fork](https://badgen.net/github/forks/open-compass/VLMEvalKit)
+- (2023.10) [SkeleTR](https://arxiv.org/pdf/2309.11445.pdf) is accepted by ICCV 2023
+- (2023.07) We released [MMBench](https://mmbench.opencompass.org.cn/home), a pioneering benchmark for evaluating large vision-language models (LVLMs)
+- (2023.06) I received my Ph.D. degree from the [Multimedia Laboratory @ CUHK](https://mmlab.ie.cuhk.edu.hk)
+- (2023.04) I will join the [Shanghai AI Lab](https://www.shlab.org.cn) as a postdoctoral researcher
 - (2022.07) I started my internship at AWS AI, advised by [Dr. Mingze Xu](https://xumingze0308.github.io/)
 - (2022.06) Give a talk at CVPR 2022 [OpenMMLab Tutorial](https://openmmlab.com/community/cvpr2022-tutorial) on human-centric action understanding [[Slides](/files/cvpr22_tutorial.pdf)]
 - (2022.05) Release [PYSKL](https://github.com/kennymckormick/pyskl), a codebase for skeleton action recognition ![star](https://badgen.net/github/stars/kennymckormick/pyskl) ![fork](https://badgen.net/github/forks/kennymckormick/pyskl) [[Report](https://arxiv.org/abs/2205.09443)] accepted by MM 2022
