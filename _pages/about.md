@@ -8,10 +8,22 @@ redirect_from:
   - /about.html
 ---
 
-Haodong Duan is a 4th year Ph.D. student at the CUHK [Multimedia Lab](https://mmlab.ie.cuhk.edu.hk/), supervised by Professor [Dahua Lin](http://dahua.site/). Before joining MMLAB, he received his B.S. degree in data science at Peking University. His research interests include video recognition and human-centric action understanding. You can find his [CV](/files/resume_latest.pdf) here.
+Haodong Duan is currently a postdoctoral researcher at the [Shanghai AI Lab](https://www.shlab.org.cn), working on the evaluation of large language models and multi-modality models.
+He received his Ph.D. degree from the [Multimedia Laboratory @ CUHK](https://mmlab.ie.cuhk.edu.hk), supervised by Professor [Dahua Lin](http://dahua.site/).
+During his PhD, he works on human-centric action understanding, including skeleton-based action recognition, pose estimation, and temporal action localization.
+Before joining MMLAB, he received his B.S. degree in data science at Peking University. 
+His research interests include video recognition, human-centric action understanding, and multi-modality learning. 
+You can find his [CV](/files/resume_latest.pdf) here.
 
 News
 -----------------
+- (2024.04) We released [MMStar](https://arxiv.org/abs/2403.20330). In this work, we studied the vision-dispensable and data leakage problems in multi-modal evaluation. 
+- (2024.03) Two papers ([BotChat](https://arxiv.org/abs/2310.13650), [Ada-LEval](https://arxiv.org/abs/2404.06480)) are accepted by NAACL 2024. 
+- (2023.12) We released [VLMEvalKit](https://github.com/open-compass/VLMEvalKit), an all-in-one toolkit for evaluating LVLMs.
+- (2023.10) [SkeleTR](https://arxiv.org/pdf/2309.11445.pdf) is accepted by ICCV 2023.
+- (2023.07) We released [MMBench](https://arxiv.org/abs/2307.06281), a pioneering benchmark for evaluating large vision-language models (LVLMs).
+- (2023.06) I obtained my Ph.D. degree from the [Multimedia Laboratory @ CUHK](https://mmlab.ie.cuhk.edu.hk). 
+- (2023.04) I will join the [Shanghai AI Lab](https://www.shlab.org.cn) as a postdoctoral researcher.
 - (2022.07) I started my internship at AWS AI, advised by [Dr. Mingze Xu](https://xumingze0308.github.io/)
 - (2022.06) Give a talk at CVPR 2022 [OpenMMLab Tutorial](https://openmmlab.com/community/cvpr2022-tutorial) on human-centric action understanding [[Slides](/files/cvpr22_tutorial.pdf)]
 - (2022.05) Release [PYSKL](https://github.com/kennymckormick/pyskl), a codebase for skeleton action recognition ![star](https://badgen.net/github/stars/kennymckormick/pyskl) ![fork](https://badgen.net/github/forks/kennymckormick/pyskl) [[Report](https://arxiv.org/abs/2205.09443)] accepted by MM 2022
@@ -24,7 +36,7 @@ News
 
 Professional Activities
 ----------------
-- Conference Reviewer: ICCV[21-23], AAAI[22-23], CVPR[22-23], ECCV22, NeurIPS[22-23], WACV23
-- Journal Reviewer: IJCV, TIP, SPL, TCSVT, JVCIR 
+- Conference Reviewer: ICCV[21-23], AAAI[22-24], CVPR[22-24], ECCV[22-24], NeurIPS[22-23], WACV23, ICLR23, EuroGraphics, etc.
+- Journal Reviewer: TPAMI, IJCV, TIP, PR, TMM, etc.
 
 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5wygxlue8gu&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
