@@ -8,10 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-Haodong Duan is currently a postdoctoral researcher at the [Shanghai AI Lab](https://www.shlab.org.cn), working on the evaluation of large language models and multi-modality models.
-In 2023, he received his Ph.D. degree from the [Multimedia Laboratory @ CUHK](https://mmlab.ie.cuhk.edu.hk), supervised by Professor [Dahua Lin](http://dahua.site/).
-During his PhD, he works on human-centric action understanding, including skeleton-based action recognition, pose estimation, and temporal action localization.
-Before joining MMLAB, he received his B.S. degree in data science at Peking University. 
+Haodong Duan is a postdoctoral researcher at [Shanghai AI Lab](https://www.shlab.org.cn), working on the evaluation of large language models and multi-modality models.
+He received his Ph.D. degree from the [Multimedia Laboratory @ CUHK](https://mmlab.ie.cuhk.edu.hk) in 2023, supervised by Professor [Dahua Lin](http://dahua.site/).
+During his Ph.D., he works on human-centric action understanding, including video classification, skeleton-based action recognition, pose estimation.
+Before joining MMLAB, he received his B.S. degree in data science at Peking University in 2019. 
 His research interests include video recognition, human-centric action understanding, and multi-modality learning. 
 You can find his [CV](/files/resume_latest.pdf) here.
 
