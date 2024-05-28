@@ -17,6 +17,7 @@ You can find his [CV](/files/resume_latest.pdf) here.
 
 News
 -----------------
+- (2024.05) One paper ([MathBench](https://arxiv.org/abs/2405.12209) ![star](https://github.com/open-compass/MathBench)) is accepted by ACL 2024
 - (2024.04) We released [MMStar](https://arxiv.org/abs/2403.20330) ![star](https://badgen.net/github/stars/MMStar-Benchmark/MMStar). In this work, we studied the vision-dispensable and data leakage problems in multi-modal evaluation
 - (2024.03) Two papers ([BotChat](https://arxiv.org/abs/2310.13650) ![star](https://badgen.net/github/stars/open-compass/BotChat), [Ada-LEval](https://arxiv.org/abs/2404.06480) ![star](https://badgen.net/github/stars/open-compass/Ada-LEval)) are accepted by NAACL 2024
 - (2023.12) We released [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) ![star](https://badgen.net/github/stars/open-compass/VLMEvalKit) ![fork](https://badgen.net/github/forks/open-compass/VLMEvalKit), an all-in-one toolkit for evaluating LVLMs 
