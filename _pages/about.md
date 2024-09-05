@@ -17,12 +17,12 @@ You can find his [CV](/files/resume_latest.pdf) here.
 
 News
 -----------------
-- (2024.08) [MMBench](https://mmbench.opencompass.org.cn/home) is accepted by ECCV 2024 as oral presentation
+- (2024.08) **[MMBench](https://mmbench.opencompass.org.cn/home)** is accepted by ECCV 2024 as oral presentation
 - (2024.07) The [technical report](https://www.arxiv.org/abs/2407.11691) of [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) is accepted by MM OpenSource 2024
 - (2024.05) [MathBench](https://arxiv.org/abs/2405.12209) ![star](https://badgen.net/github/stars/open-compass/MathBench) is accepted by ACL 2024
 - (2024.04) We released [MMStar](https://arxiv.org/abs/2403.20330) ![star](https://badgen.net/github/stars/MMStar-Benchmark/MMStar). In this work, we studied the vision-dispensable and data leakage problems in multi-modal evaluation
 - (2024.03) Two papers ([BotChat](https://arxiv.org/abs/2310.13650) ![star](https://badgen.net/github/stars/open-compass/BotChat), [Ada-LEval](https://arxiv.org/abs/2404.06480) ![star](https://badgen.net/github/stars/open-compass/Ada-LEval)) are accepted by NAACL 2024
-- (2023.12) We released [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) ![star](https://badgen.net/github/stars/open-compass/VLMEvalKit) ![fork](https://badgen.net/github/forks/open-compass/VLMEvalKit), an all-in-one toolkit for evaluating LVLMs 
+- (2023.12) We released **[VLMEvalKit](https://github.com/open-compass/VLMEvalKit)** ![star](https://badgen.net/github/stars/open-compass/VLMEvalKit) ![fork](https://badgen.net/github/forks/open-compass/VLMEvalKit), an all-in-one toolkit for evaluating LVLMs 
 - (2023.10) [SkeleTR](https://arxiv.org/pdf/2309.11445.pdf) is accepted by ICCV 2023
 - (2023.06) I received my Ph.D. degree from the [Multimedia Laboratory @ CUHK](https://mmlab.ie.cuhk.edu.hk)
 - (2023.04) I will join the [Shanghai AI Lab](https://www.shlab.org.cn) as a postdoctoral researcher
