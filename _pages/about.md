@@ -17,7 +17,7 @@ You can find his [CV](/files/resume_latest.pdf) here.
 
 News
 -----------------
-- (2024.08) **[MMBench](https://mmbench.opencompass.org.cn/home)** is accepted by ECCV 2024 as oral presentation
+- (2024.08) **[MMBench](https://mmbench.opencompass.org.cn/home)** ![star](https://badgen.net/github/stars/open-compass/MMBench) is accepted by ECCV 2024 as oral presentation
 - (2024.05) [MathBench](https://arxiv.org/abs/2405.12209) ![star](https://badgen.net/github/stars/open-compass/MathBench) is accepted by ACL 2024
 - (2024.04) We released [MMStar](https://arxiv.org/abs/2403.20330) ![star](https://badgen.net/github/stars/MMStar-Benchmark/MMStar). In this work, we studied the vision-dispensable and data leakage problems in multi-modal evaluation
 - (2024.03) Two papers ([BotChat](https://arxiv.org/abs/2310.13650) ![star](https://badgen.net/github/stars/open-compass/BotChat), [Ada-LEval](https://arxiv.org/abs/2404.06480) ![star](https://badgen.net/github/stars/open-compass/Ada-LEval)) are accepted by NAACL 2024
@@ -27,7 +27,7 @@ News
 - (2022.07) I started my internship at AWS AI, advised by [Dr. Mingze Xu](https://xumingze0308.github.io/)
 - (2022.06) Give a talk at CVPR 2022 [OpenMMLab Tutorial](https://openmmlab.com/community/cvpr2022-tutorial) on human-centric action understanding [[Slides](/files/cvpr22_tutorial.pdf)]
 - (2022.05) Release **[PYSKL](https://github.com/kennymckormick/pyskl)** ![star](https://badgen.net/github/stars/kennymckormick/pyskl) ![fork](https://badgen.net/github/forks/kennymckormick/pyskl), a codebase for skeleton action recognition [[Report](https://arxiv.org/abs/2205.09443)] accepted by MM 2022
-- (2022.03) 3 papers are accepted by CVPR 2022 as Oral (**[PoseC3D](https://arxiv.org/abs/2104.13586)**, **[TransRank](https://arxiv.org/abs/2205.02028)**) or Poster ([OCSampler](https://arxiv.org/abs/2201.04388)) Presentation
+- (2022.03) Three papers are accepted by CVPR 2022 as Oral (**[PoseC3D](https://arxiv.org/abs/2104.13586)**, **[TransRank](https://arxiv.org/abs/2205.02028)**) or Poster ([OCSampler](https://arxiv.org/abs/2201.04388)) Presentation
 - (2020.08) Join [OpenMMLab](https://openmmlab.com/) and serve as a maintainer of [**MMAction2**](https://github.com/open-mmlab/mmaction2) ![star](https://badgen.net/github/stars/open-mmlab/mmaction2) ![fork](https://badgen.net/github/forks/open-mmlab/mmaction2)
 - (2020.07) [OmniSource](https://arxiv.org/abs/2003.13042) is accepted by ECCV 2020
 - (2019.07) **[TRB](https://openaccess.thecvf.com/content_ICCV_2019/papers/Duan_TRB_A_Novel_Triplet_Representation_for_Understanding_2D_Human_Body_ICCV_2019_paper.pdf)** is accepted by ICCV 2019 as Oral Presentation
