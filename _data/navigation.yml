@@ -1,7 +1,10 @@
-# main links links
+# main links
 main:
   - title: "Publications"
     url: /publications/
-    
+
   - title: "CV"
     url: /files/resume_latest.pdf
+
+  - title: "Google Scholar"
+    url: https://scholar.google.com/citations?user=vi3W-m8AAAAJ

@@ -7,12 +7,12 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Kenny's HomePage"
+title                    : "Haodong Duan"
 title_separator          : "-"
 name                     : &name "Haodong Duan"
-description              : &description "PostDoctoral Researcher @ Shanghai AI Laboratory"
-url                      : https://kennymckormick.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+description              : &description "Researcher @ ByteDance Seed"
+url                      : https://kennymckormick.github.io
+baseurl                  : ""
 repository               : "kennymckormick/kennymckormick.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Haodong Duan"
+  name             : "Haodong Duan (段浩东)"
   avatar           : "kenny.png"
-  bio              : "PostDoctoral Researcher @ Shanghai AI Laboratory"
-  location         : "Shanghai, China"
+  bio              : "Researcher @ ByteDance Seed"
+  location         : "Singapore"
   employer         :
-  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=vi3W-m8AAAAJ&hl=en&oi=ao"
+  pubmed           :
+  googlescholar    : "https://scholar.google.com/citations?user=vi3W-m8AAAAJ"
   email            : "dhd.efz@gmail.com"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -100,13 +100,13 @@ author:
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : # "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
-  linkedin         : "%E6%B5%A9%E4%B8%9C-%E6%AE%B5-bb9349166"
-  orcid            : # "http://orcid.org/yourorcidurl"
+  linkedin         : "haodong-duan-bb9349166"
+  orcid            :
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
   twitter          : "KennyUTC"

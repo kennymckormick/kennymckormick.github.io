@@ -1,38 +1,434 @@
 {% include base_path %}
 
-<!-- start custom head snippets -->
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<link rel="apple-touch-icon" sizes="57x57" href="{{ base_path }}/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="60x60" href="{{ base_path }}/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="72x72" href="{{ base_path }}/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="76x76" href="{{ base_path }}/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="114x114" href="{{ base_path }}/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="120x120" href="{{ base_path }}/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="144x144" href="{{ base_path }}/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="152x152" href="{{ base_path }}/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
+<!-- Favicons -->
 <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
-<link rel="icon" type="image/png" href="{{ base_path }}/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
-<link rel="manifest" href="{{ base_path }}/images/manifest.json?v=M44lzPylqQ">
-<link rel="mask-icon" href="{{ base_path }}/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
 <link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
-<meta name="msapplication-TileColor" content="#000000">
-<meta name="msapplication-TileImage" content="{{ base_path }}/images/mstile-144x144.png?v=M44lzPylqQ">
-<meta name="msapplication-config" content="{{ base_path }}/images/browserconfig.xml?v=M44lzPylqQ">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#1e40af">
+
+<!-- Academicons -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
-<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+<style>
+/* ========== Global Enhancements ========== */
+html {
+  scroll-behavior: smooth;
+}
 
-<!-- end custom head snippets -->
+body {
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #1e293b;
+  line-height: 1.7;
+}
+
+/* ========== Masthead / Navigation ========== */
+.masthead {
+  background: #ffffff;
+  border-bottom: 2px solid #e2e8f0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+.masthead__menu-item a {
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+  transition: color 0.2s ease;
+}
+
+.masthead__menu-item--lg a {
+  font-weight: 700 !important;
+  font-size: 1.1rem !important;
+  color: #1e40af !important;
+}
+
+.greedy-nav .visible-links a:hover {
+  color: #2563eb !important;
+}
+
+/* ========== Author Profile Sidebar ========== */
+.sidebar {
+  opacity: 1 !important;
+}
+
+.author__avatar img {
+  border-radius: 50%;
+  border: 3px solid #dbeafe;
+  box-shadow: 0 4px 12px rgba(30, 64, 175, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.author__avatar img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 20px rgba(30, 64, 175, 0.18);
+}
+
+.author__name {
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: #0f172a;
+  margin-top: 0.5rem;
+}
+
+.author__bio {
+  font-size: 0.88rem;
+  color: #475569;
+  line-height: 1.5;
+}
+
+.author__urls-wrapper {
+  margin-top: 0.5rem;
+}
+
+.author__urls-wrapper button {
+  display: none !important;
+}
+
+.author__urls.social-icons {
+  display: block !important;
+}
+
+.author__urls li {
+  margin-bottom: 0.25rem;
+}
+
+.author__urls li a {
+  color: #475569;
+  font-size: 0.85rem;
+  transition: color 0.2s ease;
+  text-decoration: none;
+}
+
+.author__urls li a:hover {
+  color: #2563eb;
+}
+
+.author__urls li i {
+  color: #64748b;
+  width: 1.3em;
+  text-align: center;
+}
+
+.author__urls li a:hover i {
+  color: #2563eb;
+}
+
+/* ========== Page Content ========== */
+.page__content {
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+.page__content h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #0f172a;
+  border-bottom: 2px solid #dbeafe;
+  padding-bottom: 0.4rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.page__content h2 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #1e40af;
+  border-bottom: 2px solid #dbeafe;
+  padding-bottom: 0.35rem;
+  margin-top: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.page__content h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1e3a5f;
+  margin-top: 1.5rem;
+}
+
+.page__content a {
+  color: #2563eb;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.page__content a:hover {
+  color: #1d4ed8;
+  border-bottom-color: #93c5fd;
+}
+
+/* ========== News Section ========== */
+.news-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.news-list li {
+  position: relative;
+  padding: 0.6rem 0 0.6rem 1.2rem;
+  border-left: 2px solid #dbeafe;
+  margin-bottom: 0.1rem;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  transition: border-color 0.2s ease;
+}
+
+.news-list li:hover {
+  border-left-color: #2563eb;
+}
+
+.news-date {
+  display: inline-block;
+  font-weight: 600;
+  color: #1e40af;
+  min-width: 5.5em;
+  font-size: 0.85rem;
+}
+
+.news-badge {
+  display: inline-block;
+  padding: 0.1rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  vertical-align: middle;
+  margin-left: 0.3rem;
+}
+
+.badge-oral {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.badge-spotlight {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.badge-best {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+/* ========== Publication Cards ========== */
+.pub-entry {
+  padding: 1rem 0;
+  border-bottom: 1px solid #f1f5f9;
+  transition: background-color 0.2s ease;
+}
+
+.pub-entry:last-child {
+  border-bottom: none;
+}
+
+.pub-entry:hover {
+  background-color: #f8fafc;
+}
+
+.pub-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0f172a;
+  line-height: 1.5;
+  margin-bottom: 0.3rem;
+}
+
+.pub-authors {
+  font-size: 0.85rem;
+  color: #475569;
+  line-height: 1.5;
+  margin-bottom: 0.25rem;
+}
+
+.pub-venue {
+  font-size: 0.85rem;
+  color: #64748b;
+  font-style: italic;
+  margin-bottom: 0.3rem;
+}
+
+.pub-links a {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  margin-right: 0.3rem;
+  margin-top: 0.2rem;
+  border-radius: 4px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border: 1px solid #dbeafe;
+  color: #2563eb;
+  background: #eff6ff;
+}
+
+.pub-links a:hover {
+  background: #2563eb;
+  color: #ffffff;
+  border-color: #2563eb;
+}
+
+.pub-highlight {
+  font-size: 0.82rem;
+  color: #dc2626;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+
+/* ========== Section Styling ========== */
+.section-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #1e40af;
+  border-bottom: 2px solid #dbeafe;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.about-intro {
+  font-size: 1rem;
+  line-height: 1.9;
+  color: #334155;
+  margin-bottom: 1.5rem;
+}
+
+/* ========== Highlight Box ========== */
+.highlight-box {
+  background: linear-gradient(135deg, #eff6ff 0%, #f0f9ff 100%);
+  border-left: 3px solid #2563eb;
+  border-radius: 0 6px 6px 0;
+  padding: 1rem 1.2rem;
+  margin: 1.2rem 0;
+  font-size: 0.9rem;
+  color: #1e3a5f;
+}
+
+/* ========== Stats Row ========== */
+.stats-row {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin: 1.2rem 0;
+}
+
+.stat-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.8rem;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  color: #475569;
+}
+
+.stat-item i {
+  color: #2563eb;
+}
+
+/* ========== Footer ========== */
+.page__footer {
+  background: #f8fafc !important;
+  border-top: 1px solid #e2e8f0;
+  color: #64748b;
+}
+
+.page__footer-follow .social-icons li a {
+  color: #64748b;
+  transition: color 0.2s ease;
+}
+
+.page__footer-follow .social-icons li a:hover {
+  color: #2563eb;
+}
+
+.page__footer-copyright {
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+
+/* ========== Selected Pubs on Homepage ========== */
+.selected-pub {
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  transition: all 0.2s ease;
+}
+
+.selected-pub:hover {
+  border-color: #93c5fd;
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+}
+
+/* ========== Professional Activities ========== */
+.activity-list {
+  list-style: none;
+  padding: 0;
+}
+
+.activity-list li {
+  padding: 0.3rem 0;
+  font-size: 0.9rem;
+  color: #475569;
+}
+
+.activity-list li::before {
+  content: "•";
+  color: #2563eb;
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+/* ========== Archive Pub Page ========== */
+.archive__item {
+  margin-bottom: 0;
+  padding: 1rem 0;
+}
+
+.archive .pub-entry a,
+.archive .pub-links a {
+  text-decoration: none;
+}
+
+.archive .pub-entry a:hover {
+  text-decoration: none;
+}
+
+/* ========== Responsive ========== */
+@media (max-width: 768px) {
+  .stats-row {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .news-list li {
+    font-size: 0.85rem;
+  }
+}
+
+/* ========== Page Title ========== */
+.page__title {
+  font-weight: 700;
+  color: #0f172a;
+}
+
+/* ========== Scroll to Top Smooth ========== */
+:target {
+  scroll-margin-top: 80px;
+}
+</style>
