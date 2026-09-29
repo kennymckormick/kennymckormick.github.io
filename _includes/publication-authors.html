@@ -1,0 +1,16 @@
+{% for author in include.authors %}
+  <span class="publication-author{% if author.is_self %} is-self{% endif %}">
+    {{ author.name }}
+    {%- if author.roles contains "equal" -%}
+      <i class="annotation-dot dot-contribution" title="First / Co-First Author" aria-label="First / Co-First Author"></i>
+    {%- elsif author.roles contains "first" -%}
+      <i class="annotation-dot dot-contribution" title="First / Co-First Author" aria-label="First / Co-First Author"></i>
+    {%- endif -%}
+    {%- if author.roles contains "corresponding" -%}
+      <i class="annotation-dot dot-corresponding" title="Corresponding Author" aria-label="Corresponding Author"></i>
+    {%- endif -%}
+    {%- if author.roles contains "project_lead" -%}
+      <i class="annotation-dot dot-lead" title="Project Lead" aria-label="Project Lead"></i>
+    {%- endif -%}
+  </span>{% unless forloop.last %}, {% endunless %}
+{% endfor %}

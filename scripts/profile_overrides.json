@@ -1,0 +1,367 @@
+{
+  "scholar_id": "vi3W-m8AAAAJ",
+  "self_names": ["Haodong Duan", "H Duan"],
+  "research_topics": ["Video Understanding", "LLMs", "MLLMs", "LM Evaluation"],
+  "institutions": ["PKU", "CUHK", "Shanghai AI Lab", "ByteDance SEED"],
+  "selection": {
+    "lead_min_citations": 20,
+    "top_citation_rank": 20,
+    "top_cited_max_authors": 15
+  },
+  "projects": [
+    {
+      "repo": "open-compass/VLMEvalKit",
+      "name": "VLMEvalKit",
+      "description": "An all-in-one evaluation toolkit for large vision-language and multimodal models. It connects model inference, benchmark execution, scoring, and result comparison in one reproducible workflow used by both researchers and practitioners.",
+      "topics": ["Multimodal Evaluation", "Evaluation Infrastructure"]
+    },
+    {
+      "repo": "open-compass/opencompass",
+      "name": "OpenCompass",
+      "description": "A comprehensive platform for evaluating large language and multimodal models. Its modular configs, task scheduling, evaluators, and reporting tools make broad and reproducible model comparisons easier to run and extend.",
+      "topics": ["LLM Evaluation", "Benchmarking Platform"]
+    },
+    {
+      "repo": "kennymckormick/pyskl",
+      "name": "PYSKL",
+      "description": "A unified toolbox for skeleton-based action recognition, with strong baselines spanning GCN- and CNN-based methods. It packages training recipes, pretrained models, and benchmark results so new methods can be compared on consistent footing.",
+      "topics": ["Skeleton Action", "Video Recognition"]
+    },
+    {
+      "repo": "open-mmlab/mmaction2",
+      "name": "MMAction2",
+      "description": "OpenMMLab's modular video-understanding toolbox for action recognition, localization, skeleton-based recognition, and related tasks. It offers reusable components, extensive model coverage, and standardized training and inference pipelines.",
+      "topics": ["Video Understanding", "OpenMMLab"]
+    }
+  ],
+  "publications": {
+    "OpenCompass: A Universal Evaluation Platform for Large Language Models": {
+      "author_order": "alphabetical"
+    },
+    "Internlm2 technical report": {
+      "author_order": "alphabetical"
+    },
+    "Intern-s1: A scientific multimodal foundation model": {
+      "author_order": "alphabetical"
+    },
+    "MMSI-Bench: A Benchmark for Multi-Image Spatial Intelligence": {
+      "short_title": "MMSI-Bench",
+      "summary": "MMSI-Bench evaluates whether MLLMs can integrate evidence across multiple images to solve grounded, real-world spatial reasoning problems.",
+      "topics": ["Spatial Reasoning", "Multi-Image Reasoning", "Multimodal Evaluation"],
+      "repo": "OpenRobotLab/MMSI-Bench",
+      "thumbnail": "/images/publications/mmsi-bench.webp",
+      "links": {"paper": "https://arxiv.org/abs/2505.23764"},
+      "author_roles": {
+        "Sihan Yang": ["equal"],
+        "Runsen Xu": ["equal", "project_lead"],
+        "Tai Wang": ["corresponding"],
+        "Jiangmiao Pang": ["corresponding"]
+      }
+    },
+    "Visual-RFT: Visual Reinforcement Fine-Tuning": {
+      "short_title": "Visual-RFT",
+      "summary": "Visual-RFT brings reinforcement fine-tuning with verifiable rewards to visual perception tasks, improving data-efficient adaptation with limited examples.",
+      "topics": ["Reinforcement Learning", "Reward Modeling", "Model Adaptation"],
+      "repo": "Liuziyu77/Visual-RFT",
+      "thumbnail": "/images/publications/visual-rft.webp",
+      "links": {"paper": "https://arxiv.org/abs/2503.01785"},
+      "author_roles": {
+        "Ziyu Liu": ["equal"],
+        "Zeyi Sun": ["equal"],
+        "Yuhang Zang": ["corresponding"],
+        "Jiaqi Wang": ["corresponding"]
+      }
+    },
+    "Envisioning beyond the pixels: Benchmarking reasoning-informed visual editing": {
+      "short_title": "RISEBench",
+      "summary": "RISEBench measures whether image editors can follow reasoning-heavy temporal, causal, spatial, and logical instructions while preserving visual quality.",
+      "topics": ["Multimodal Generation", "Visual Reasoning", "Multimodal Evaluation"],
+      "repo": "PhoenixZ810/RISEBench",
+      "thumbnail": "/images/publications/risebench.webp",
+      "links": {"paper": "https://arxiv.org/abs/2504.02826"},
+      "authors": [
+        "Xiangyu Zhao", "Peiyuan Zhang", "Kexian Tang", "Xiaorong Zhu", "Hao Li",
+        "Wenhao Chai", "Zicheng Zhang", "Renqiu Xia", "Guangtao Zhai", "Junchi Yan",
+        "Hua Yang", "Xue Yang", "Haodong Duan"
+      ],
+      "author_roles": {
+        "Xiangyu Zhao": ["equal", "corresponding"],
+        "Peiyuan Zhang": ["equal"],
+        "Kexian Tang": ["equal"],
+        "Xiaorong Zhu": ["equal"],
+        "Haodong Duan": ["corresponding"]
+      }
+    },
+    "LEGO-Puzzles: How Good Are MLLMs at Multi-Step Spatial Reasoning?": {
+      "short_title": "LEGO-Puzzles",
+      "summary": "LEGO-Puzzles probes spatial understanding and multi-step planning through interpretable LEGO assembly tasks that remain difficult for frontier MLLMs.",
+      "topics": ["Spatial Reasoning", "Visual Reasoning", "Multimodal Evaluation"],
+      "venue": "ECCV",
+      "year": 2026,
+      "repo": "Tangkexian/LEGO-Puzzles",
+      "thumbnail": "/images/publications/lego-puzzles.webp",
+      "links": {"paper": "https://arxiv.org/abs/2503.19990"},
+      "authors": [
+        "Kexian Tang", "Junyao Gao", "Yanhong Zeng", "Haodong Duan", "Yanan Sun",
+        "Zhening Xing", "Wenran Liu", "Kai Chen", "Kaifeng Lyu"
+      ],
+      "author_roles": {
+        "Kexian Tang": ["equal"],
+        "Junyao Gao": ["equal"],
+        "Yanhong Zeng": ["project_lead"],
+        "Haodong Duan": ["project_lead"],
+        "Kaifeng Lyu": ["corresponding"]
+      }
+    },
+    "Omnialign-v: Towards enhanced alignment of mllms with human preference": {
+      "short_title": "OmniAlign-V",
+      "summary": "OmniAlign-V improves multimodal assistants with diverse preference-alignment data and introduces MM-AlignBench for open-ended alignment evaluation.",
+      "topics": ["Model Alignment", "Reward Modeling", "Data-Centric Learning"],
+      "repo": "PhoenixZ810/OmniAlign-V",
+      "thumbnail": "/images/publications/omnialign-v.webp",
+      "links": {"paper": "https://aclanthology.org/2025.acl-long.906/"},
+      "author_roles": {
+        "Xiangyu Zhao": ["equal"],
+        "Shengyuan Ding": ["equal"],
+        "Haodong Duan": ["corresponding"],
+        "Hua Yang": ["corresponding"],
+        "Kai Chen": ["corresponding"]
+      }
+    },
+    "Redundancy Principles for MLLMs Benchmarks": {
+      "short_title": "Redundancy Principle",
+      "summary": "This work quantifies dimension, instance, and cross-benchmark redundancy and turns the findings into practical principles for efficient MLLM evaluation.",
+      "topics": ["Benchmark Design", "Model Efficiency", "Multimodal Evaluation"],
+      "repo": "zzc-1998/Benchmark-Redundancy",
+      "thumbnail": "/images/publications/redundancy-principle.webp",
+      "links": {"paper": "https://arxiv.org/abs/2501.13953"},
+      "author_roles": {
+        "Zicheng Zhang": ["equal"],
+        "Xiangyu Zhao": ["equal"],
+        "Haodong Duan": ["corresponding"],
+        "Kai Chen": ["corresponding"],
+        "Guangtao Zhai": ["corresponding"]
+      }
+    },
+    "Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement": {
+      "short_title": "Condor",
+      "summary": "Condor synthesizes and refines knowledge-intensive instruction data to strengthen language-model alignment without relying on a fixed seed dataset.",
+      "topics": ["Data-Centric Learning", "Model Adaptation", "Model Alignment"],
+      "repo": "InternLM/Condor",
+      "thumbnail": "/images/publications/condor.webp",
+      "links": {"paper": "https://aclanthology.org/2025.acl-long.1091/"},
+      "author_roles": {
+        "Maosong Cao": ["equal"],
+        "Taolin Zhang": ["equal"],
+        "Haodong Duan": ["corresponding"],
+        "Songyang Zhang": ["corresponding", "project_lead"],
+        "Kai Chen": ["corresponding"]
+      }
+    },
+    "MMBench: Is Your Multi-modal Model an All-around Player?": {
+      "short_title": "MMBench",
+      "summary": "MMBench provides a bilingual, ability-structured benchmark and CircularEval protocol for robustly diagnosing the capabilities of multimodal models.",
+      "topics": ["Multimodal Evaluation", "Benchmark Design", "Visual Reasoning"],
+      "repo": "open-compass/MMBench",
+      "thumbnail": "/images/publications/mmbench.webp",
+      "links": {
+        "paper": "https://arxiv.org/abs/2307.06281",
+        "project": "https://mmbench.opencompass.org.cn"
+      },
+      "author_roles": {
+        "Yuan Liu": ["equal"],
+        "Haodong Duan": ["equal", "project_lead"],
+        "Yuanhan Zhang": ["equal"],
+        "Bo Li": ["equal"],
+        "Songyang Zhang": ["equal"],
+        "Ziwei Liu": ["corresponding"],
+        "Kai Chen": ["corresponding"],
+        "Dahua Lin": ["corresponding"]
+      }
+    },
+    "Are We on the Right Way for Evaluating Large Vision-Language Models?": {
+      "short_title": "MMStar",
+      "summary": "MMStar curates genuinely vision-dependent questions to expose data leakage and inflated gains in large vision-language model evaluation.",
+      "topics": ["Benchmark Design", "Multimodal Evaluation", "Visual Reasoning"],
+      "repo": "MMStar-Benchmark/MMStar",
+      "thumbnail": "/images/publications/mmstar.webp",
+      "links": {"paper": "https://arxiv.org/abs/2403.20330"},
+      "author_roles": {
+        "Lin Chen": ["equal"],
+        "Jinsong Li": ["equal"],
+        "Jiaqi Wang": ["corresponding"],
+        "Feng Zhao": ["corresponding"]
+      }
+    },
+    "VLMEvalKit: An Open-Source Toolkit for Evaluating Large Multi-Modality Models": {
+      "short_title": "VLMEvalKit",
+      "summary": "VLMEvalKit unifies model inference, benchmark access, and standardized scoring into a widely adopted toolkit for reproducible multimodal evaluation.",
+      "topics": ["Evaluation Infrastructure", "Multimodal Evaluation"],
+      "repo": "open-compass/VLMEvalKit",
+      "thumbnail": "/images/publications/vlmevalkit.webp",
+      "links": {"paper": "https://arxiv.org/abs/2407.11691"},
+      "author_roles": {}
+    },
+    "ShareGPT4Video: Improving Video Understanding and Generation with Better Captions": {
+      "short_title": "ShareGPT4Video",
+      "summary": "ShareGPT4Video scales detailed video captioning to improve both video-language understanding and text-to-video generation.",
+      "topics": ["Video Understanding", "Data-Centric Learning", "Multimodal Generation"],
+      "repo": "ShareGPT4Omni/ShareGPT4Video",
+      "thumbnail": "/images/publications/sharegpt4video.webp",
+      "links": {"paper": "https://arxiv.org/abs/2406.04325"},
+      "author_roles": {
+        "Lin Chen": ["equal"],
+        "Xilin Wei": ["equal"],
+        "Jinsong Li": ["equal"],
+        "Feng Zhao": ["corresponding"],
+        "Jiaqi Wang": ["corresponding"]
+      }
+    },
+    "ProSA: Assessing and Understanding the Prompt Sensitivity of LLMs": {
+      "short_title": "ProSA",
+      "summary": "ProSA measures prompt sensitivity at the instance level and analyzes why semantically equivalent instructions can produce unstable LLM performance.",
+      "topics": ["LLM Evaluation", "Benchmark Design", "Model Alignment"],
+      "repo": "open-compass/ProSA",
+      "thumbnail": "/images/publications/prosa.webp",
+      "links": {"paper": "https://arxiv.org/abs/2410.12405"},
+      "author_roles": {
+        "Jingming Zhuo": ["equal"],
+        "Songyang Zhang": ["equal"],
+        "Kai Chen": ["corresponding"]
+      }
+    },
+    "MMBench-Video: A Long-Form Multi-Shot Benchmark for Holistic Video Understanding": {
+      "short_title": "MMBench-Video",
+      "summary": "MMBench-Video evaluates long-form, multi-shot video understanding with free-form questions and a fine-grained taxonomy of temporal capabilities.",
+      "topics": ["Video Understanding", "Long-Context Modeling", "Multimodal Evaluation"],
+      "repo": "open-compass/VLMEvalKit",
+      "repo_label": "VLMEvalKit",
+      "thumbnail": "/images/publications/mmbench-video.webp",
+      "links": {"paper": "https://arxiv.org/abs/2406.14515"},
+      "author_roles": {
+        "Xinyu Fang": ["equal"],
+        "Kangrui Mao": ["equal"],
+        "Haodong Duan": ["equal", "corresponding"],
+        "Kai Chen": ["corresponding"]
+      }
+    },
+    "BotChat: Evaluating LLMs' Capabilities of Having Multi-Turn Dialogues": {
+      "short_title": "BotChat",
+      "summary": "BotChat evaluates multi-turn conversational ability through scalable bot-to-bot interaction and fine-grained dialogue-quality assessment.",
+      "topics": ["LLM Evaluation", "Agentic Systems", "Model Alignment"],
+      "repo": "open-compass/BotChat",
+      "thumbnail": "/images/publications/botchat.webp",
+      "links": {"paper": "https://arxiv.org/abs/2310.13650"},
+      "author_roles": {
+        "Haodong Duan": ["equal", "project_lead"],
+        "Jueqi Wei": ["equal"],
+        "Kai Chen": ["corresponding"]
+      }
+    },
+    "Prism: A Framework for Decoupling and Assessing the Capabilities of VLMs": {
+      "short_title": "Prism",
+      "summary": "Prism decouples perception and reasoning to diagnose VLM capability bottlenecks and combine compact specialist components more effectively.",
+      "topics": ["Visual Reasoning", "Multimodal Evaluation", "Model Efficiency"],
+      "repo": "SparksJoe/Prism",
+      "thumbnail": "/images/publications/prism.webp",
+      "links": {"paper": "https://arxiv.org/abs/2406.14544"},
+      "author_roles": {
+        "Haodong Duan": ["corresponding"],
+        "Kai Chen": ["corresponding"]
+      }
+    },
+    "Ada-LEval: Evaluating Long-Context LLMs with Length-Adaptable Benchmarks": {
+      "short_title": "Ada-LEval",
+      "summary": "Ada-LEval adapts task length to model context windows, enabling controlled evaluation of retrieval, ordering, and full-text comprehension at scale.",
+      "topics": ["Long-Context Modeling", "LLM Evaluation", "Benchmark Design"],
+      "repo": "open-compass/Ada-LEval",
+      "thumbnail": "/images/publications/ada-leval.webp",
+      "links": {"paper": "https://arxiv.org/abs/2404.06480"},
+      "author_roles": {
+        "Haodong Duan": ["project_lead"],
+        "Kai Chen": ["corresponding"]
+      }
+    },
+    "JourneyDB: A Benchmark for Generative Image Understanding": {
+      "short_title": "JourneyDB",
+      "summary": "JourneyDB pairs millions of generated images with prompts and annotations to benchmark captioning, prompt inversion, retrieval, and visual question answering.",
+      "topics": ["Image Understanding", "Multimodal Generation", "Multimodal Evaluation"],
+      "repo": "JourneyDB/JourneyDB",
+      "thumbnail": "/images/publications/journeydb.webp",
+      "links": {"paper": "https://arxiv.org/abs/2307.00716"},
+      "author_roles": {
+        "Keqiang Sun": ["equal"],
+        "Junting Pan": ["equal", "project_lead"],
+        "Limin Wang": ["corresponding"],
+        "Hongsheng Li": ["corresponding"]
+      }
+    },
+    "SkeleTR: Towards Skeleton-based Action Recognition in the Wild": {
+      "short_title": "SkeleTR",
+      "summary": "SkeleTR models both intra-person motion and inter-person relationships for skeleton action recognition in crowded, unconstrained scenes.",
+      "topics": ["Skeleton Recognition", "Action Recognition", "Human Pose"],
+      "thumbnail": "/images/publications/skeletr.webp",
+      "links": {"paper": "https://arxiv.org/abs/2309.11445"},
+      "author_roles": {}
+    },
+    "Revisiting Skeleton-based Action Recognition": {
+      "short_title": "PoseC3D",
+      "summary": "PoseC3D represents skeletons as 3D heatmap volumes, yielding a simple, robust, and scalable alternative to graph-based action recognition.",
+      "topics": ["Skeleton Recognition", "Action Recognition", "Human Pose"],
+      "repo": "kennymckormick/pyskl",
+      "repo_label": "PYSKL",
+      "thumbnail": "/images/publications/posec3d.webp",
+      "links": {"paper": "https://arxiv.org/abs/2104.13586"},
+      "author_roles": {"Bo Dai": ["corresponding"]}
+    },
+    "PYSKL: Towards Good Practices for Skeleton Action Recognition": {
+      "short_title": "PYSKL",
+      "summary": "PYSKL consolidates diverse skeleton-action algorithms, training practices, and benchmarks into one reproducible research toolbox.",
+      "topics": ["Evaluation Infrastructure", "Skeleton Recognition", "Action Recognition"],
+      "repo": "kennymckormick/pyskl",
+      "thumbnail": "/images/publications/pyskl.webp",
+      "links": {"paper": "https://arxiv.org/abs/2205.09443"},
+      "author_roles": {}
+    },
+    "Dg-stgcn: Dynamic spatial-temporal modeling for skeleton-based action recognition": {
+      "short_title": "DG-STGCN",
+      "summary": "DG-STGCN learns dynamic spatial graphs and multi-scale temporal structure instead of relying on a fixed skeleton topology.",
+      "topics": ["Skeleton Recognition", "Action Recognition", "Human Pose"],
+      "repo": "kennymckormick/pyskl",
+      "repo_label": "PYSKL",
+      "thumbnail": "/images/publications/dg-stgcn.webp",
+      "links": {"paper": "https://arxiv.org/abs/2210.05895"},
+      "author_roles": {}
+    },
+    "TransRank: Self-supervised Video Representation Learning via Ranking-based Transformation Recognition": {
+      "short_title": "TransRank",
+      "summary": "TransRank reframes transformation recognition as relative ranking to learn stronger self-supervised video representations from temporal and spatial transformations.",
+      "topics": ["Self-Supervised Learning", "Video Understanding", "Action Recognition"],
+      "repo": "kennymckormick/TransRank",
+      "thumbnail": "/images/publications/transrank.webp",
+      "links": {"paper": "https://arxiv.org/abs/2205.02028"},
+      "author_roles": {"Nanxuan Zhao": ["corresponding"]}
+    },
+    "Omni-sourced Webly-supervised Learning for Video Recognition": {
+      "short_title": "OmniSource",
+      "summary": "OmniSource unifies images, short clips, and untrimmed web videos to make large-scale web supervision more data-efficient for video recognition.",
+      "topics": ["Data-Centric Learning", "Video Understanding", "Action Recognition"],
+      "repo": "open-mmlab/mmaction2",
+      "repo_label": "MMAction2",
+      "thumbnail": "/images/publications/omnisource.webp",
+      "links": {
+        "paper": "https://arxiv.org/abs/2003.13042",
+        "code": "https://github.com/open-mmlab/mmaction2/tree/main/configs/recognition/omnisource"
+      },
+      "author_roles": {}
+    },
+    "TRB: A Novel Triplet Representation for Understanding 2D Human Body": {
+      "short_title": "TRB",
+      "summary": "TRB combines skeleton and contour keypoints to represent human pose and shape compactly for estimation, editing, and conditional generation.",
+      "topics": ["Human Pose", "Image Understanding"],
+      "thumbnail": "/images/publications/trb.webp",
+      "links": {"paper": "https://arxiv.org/abs/1910.11535"},
+      "author_roles": {}
+    }
+  }
+}

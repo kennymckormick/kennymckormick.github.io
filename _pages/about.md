@@ -1,167 +1,133 @@
 ---
 permalink: /
 title: "Haodong Duan (段浩东)"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
+excerpt: "Researcher working on multimodal learning and LLM/LMM evaluation"
+layout: profile
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
 ---
 
-<div class="about-intro">
-I am a researcher at <a href="https://www.bytedance.com/">ByteDance Seed</a>, working on the evaluation and development of large language models and large multi-modality models (LMMs).
-I received my Ph.D. degree from the <a href="https://mmlab.ie.cuhk.edu.hk">Multimedia Laboratory (MMLab)</a> at The Chinese University of Hong Kong in 2023, supervised by Professor <a href="http://dahua.site/">Dahua Lin</a>.
-Before that, I received my B.S. degree in Data Science from <a href="https://www.pku.edu.cn/">Peking University</a> in 2019.
-</div>
+<section class="profile-intro" aria-labelledby="profile-name">
+  <h1 id="profile-name">Haodong Duan</h1>
+  <p class="profile-role">Researcher · Multimodal Learning &amp; Evaluation</p>
+  <p class="profile-affiliation"><strong>ByteDance Seed</strong><span aria-hidden="true">·</span> Singapore</p>
+  <p class="profile-email"><i class="fas fa-envelope" aria-hidden="true"></i><a href="mailto:dhd.efz@gmail.com">dhd.efz@gmail.com</a></p>
 
-<div class="about-intro">
-My research interests span <strong>multi-modal learning</strong>, <strong>LLM/LMM evaluation</strong>, and <strong>video understanding</strong>.
-I have led the development of several widely-used evaluation toolkits and benchmarks, including
-<a href="https://github.com/open-compass/VLMEvalKit">VLMEvalKit</a> (4k+ stars),
-<a href="https://mmbench.opencompass.org.cn">MMBench</a>,
-and <a href="https://github.com/open-compass/opencompass">OpenCompass</a> (6.8k+ stars).
-</div>
-
-<div class="highlight-box">
-  <i class="fas fa-bullhorn" style="color: #2563eb;"></i>&nbsp;
-  <strong>I am open to academic collaborations. Feel free to reach out via <a href="mailto:dhd.efz@gmail.com">email</a>.</strong>
-</div>
-
-## <i class="fas fa-newspaper" style="color: #2563eb;"></i> News
-{: .section-title}
-
-<ul class="news-list">
-  <li>
-    <span class="news-date">2025.06</span>
-    <a href="https://arxiv.org/abs/2503.10061">Visual-RFT</a> is accepted by <strong>ICCV 2025</strong>.
-  </li>
-  <li>
-    <span class="news-date">2025.05</span>
-    <a href="https://arxiv.org/abs/2508.18265">InternVL3.5</a> is released, achieving state-of-the-art performance across multimodal benchmarks.
-  </li>
-  <li>
-    <span class="news-date">2024.09</span>
-    Three papers accepted by <strong>NeurIPS 2024</strong> main conference: <a href="https://arxiv.org/abs/2404.06512">InternLM-XComposer2-4KHD</a>, <a href="https://arxiv.org/abs/2403.20330">MMStar</a>, <a href="https://arxiv.org/abs/2406.14544">Prism</a>.
-  </li>
-  <li>
-    <span class="news-date">2024.09</span>
-    Three papers accepted by <strong>NeurIPS 2024</strong> Datasets &amp; Benchmarks: <a href="https://arxiv.org/abs/2406.04325v1">ShareGPT4Video</a>, <a href="https://arxiv.org/abs/2408.03361">GMAI-MMBench</a>, <a href="https://arxiv.org/abs/2406.14515">MMBench-Video</a>.
-  </li>
-  <li>
-    <span class="news-date">2024.08</span>
-    <a href="https://mmbench.opencompass.org.cn/home">MMBench</a> is accepted by <strong>ECCV 2024</strong> as <strong>Oral</strong> presentation.
-    <span class="news-badge badge-oral">Oral</span>
-  </li>
-  <li>
-    <span class="news-date">2024.05</span>
-    <a href="https://arxiv.org/abs/2405.12209">MathBench</a> is accepted by <strong>ACL 2024</strong> Findings.
-  </li>
-  <li>
-    <span class="news-date">2024.03</span>
-    Two papers accepted by <strong>NAACL 2024</strong>: <a href="https://arxiv.org/abs/2310.13650">BotChat</a>, <a href="https://arxiv.org/abs/2404.06480">Ada-LEval</a>.
-  </li>
-  <li>
-    <span class="news-date">2023.12</span>
-    Released <a href="https://github.com/open-compass/VLMEvalKit"><strong>VLMEvalKit</strong></a>, an all-in-one toolkit for evaluating LMMs. Accepted by <strong>ACM MM 2024</strong>.
-  </li>
-  <li>
-    <span class="news-date">2023.08</span>
-    Received my Ph.D. degree from <a href="https://mmlab.ie.cuhk.edu.hk">MMLab @ CUHK</a>.
-  </li>
-  <li>
-    <span class="news-date">2022.05</span>
-    Released <a href="https://github.com/kennymckormick/pyskl"><strong>PYSKL</strong></a>, a codebase for skeleton action recognition. Accepted by <strong>ACM MM 2022</strong>.
-  </li>
-  <li>
-    <span class="news-date">2022.03</span>
-    Three papers accepted by <strong>CVPR 2022</strong>: <a href="https://arxiv.org/abs/2104.13586">PoseC3D</a> <span class="news-badge badge-oral">Oral</span>, <a href="https://arxiv.org/abs/2205.02028">TransRank</a> <span class="news-badge badge-oral">Oral</span>, <a href="https://arxiv.org/abs/2201.04388">OCSampler</a>.
-  </li>
-</ul>
-
-
-## <i class="fas fa-star" style="color: #2563eb;"></i> Selected Publications
-{: .section-title}
-
-<p style="font-size: 0.9rem; color: #64748b; margin-bottom: 1rem;">
-  * denotes equal contribution, † denotes corresponding author.
-  See the full list on my <a href="/publications/">Publications page</a> or <a href="https://scholar.google.com/citations?user=vi3W-m8AAAAJ">Google Scholar</a>.
-</p>
-
-<div class="selected-pub">
-  <div class="pub-title">MMBench: Is Your Multi-modal Model an All-around Player?</div>
-  <div class="pub-authors">Yuan Liu*, <strong>Haodong Duan</strong>*†, Yuanhan Zhang*, Bo Li*, et al.</div>
-  <div class="pub-venue">European Conference on Computer Vision (ECCV), 2024 — Oral Presentation</div>
-  <div class="pub-links">
-    <a href="https://arxiv.org/abs/2307.06281">Paper</a>
-    <a href="https://github.com/open-compass/MMBench">Code</a>
-    <a href="https://mmbench.opencompass.org.cn">Project</a>
+  <div class="collaboration-panel" aria-label="Collaboration interests">
+    <p class="collaboration-note">欢迎围绕多模态学习、大模型评测与视频理解开展学术合作，也欢迎对开源评测工具和基准感兴趣的研究者与工程师联系我。</p>
+    <p class="collaboration-note">I am open to academic collaborations on multimodal learning, LLM/LMM evaluation, and video understanding. Please feel free to reach out by email.</p>
   </div>
-</div>
 
-<div class="selected-pub">
-  <div class="pub-title">VLMEvalKit: An Open-Source Toolkit for Evaluating Large Multi-Modality Models</div>
-  <div class="pub-authors"><strong>Haodong Duan</strong>†, Junming Yang, Yuxuan Qiao, et al.</div>
-  <div class="pub-venue">ACM International Conference on Multimedia (MM), 2024</div>
-  <div class="pub-links">
-    <a href="https://arxiv.org/abs/2407.11691">Paper</a>
-    <a href="https://github.com/open-compass/VLMEvalKit">Code</a>
+  <h2 class="section-heading">Research Interests</h2>
+  <p class="research-copy">
+    My research focuses on <strong>multimodal learning</strong>, <strong>LLM/LMM evaluation</strong>, and <strong>video understanding</strong>.
+    I build open-source evaluation infrastructure and benchmarks that make model capabilities easier to measure, compare, and reproduce.
+  </p>
+</section>
+
+{% if site.data.blogs and site.data.blogs != empty %}
+<section class="blog-section" id="blog" aria-labelledby="blog-title">
+  <div class="section-title-row">
+    <h2 class="section-heading" id="blog-title">Latest Writing</h2>
+    <a class="section-more" href="{{ '/blog/' | relative_url }}">All Posts →</a>
   </div>
-</div>
-
-<div class="selected-pub">
-  <div class="pub-title">MMBench-Video: A Long-Form Multi-Shot Benchmark for Holistic Video Understanding</div>
-  <div class="pub-authors">Xinyu Fang*, Kangrui Mao*, <strong>Haodong Duan</strong>*†, et al.</div>
-  <div class="pub-venue">NeurIPS 2024 — Datasets & Benchmarks Track</div>
-  <div class="pub-links">
-    <a href="https://arxiv.org/abs/2406.14515">Paper</a>
-    <a href="https://github.com/open-compass/VLMEvalKit">Code</a>
+  <div class="blog-list blog-list-compact">
+    {% for post in site.data.blogs limit: 3 %}
+      <article class="blog-card">
+        <time datetime="{{ post.date }}">{{ post.date }}</time>
+        <div>
+          <h3>{% if post.url %}<a href="{{ post.url }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}</h3>
+          {% if post.summary %}<p>{{ post.summary }}</p>{% endif %}
+        </div>
+      </article>
+    {% endfor %}
   </div>
-</div>
+</section>
+{% endif %}
 
-<div class="selected-pub">
-  <div class="pub-title">Revisiting Skeleton-based Action Recognition (PoseC3D)</div>
-  <div class="pub-authors"><strong>Haodong Duan</strong>, Yue Zhao, Kai Chen, Dahua Lin, Bo Dai</div>
-  <div class="pub-venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022 — Oral</div>
-  <div class="pub-links">
-    <a href="https://arxiv.org/abs/2104.13586">Paper</a>
-    <a href="https://github.com/kennymckormick/pyskl">Code</a>
+<section class="news-section" id="news" aria-labelledby="news-title">
+  <div class="section-title-row">
+    <h2 class="section-heading" id="news-title">Latest News</h2>
+    <a class="section-more" href="{{ '/news/' | relative_url }}">All News →</a>
   </div>
-</div>
+  <ul class="news-list-v2">
+    {% assign featured_news = site.data.news | where: "featured", true %}
+    {% for item in featured_news limit: 9 %}
+      <li>
+        <time datetime="{{ item.date }}">{{ item.label }}</time>
+        <p>{{ item.content }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
 
-<div class="selected-pub">
-  <div class="pub-title">PYSKL: Towards Good Practices for Skeleton Action Recognition</div>
-  <div class="pub-authors"><strong>Haodong Duan</strong>, Jiaqi Wang, Kai Chen, Dahua Lin</div>
-  <div class="pub-venue">ACM International Conference on Multimedia (MM), 2022</div>
-  <div class="pub-links">
-    <a href="https://arxiv.org/abs/2205.09443">Paper</a>
-    <a href="https://github.com/kennymckormick/pyskl">Code</a>
+<section class="works-section" id="publications" aria-labelledby="works-title">
+  <div class="section-title-row">
+    <h2 class="section-heading" id="works-title">Selected Works</h2>
+    <a class="section-more" href="{{ '/publications/' | relative_url }}">All Publications →</a>
   </div>
-</div>
+  <div class="works-legend" aria-label="Author contribution legend">
+    <span>First / Co-First Author</span>
+    <span>Corresponding Author</span>
+    <span>Project Lead</span>
+  </div>
 
+  {% assign selected_works = site.data.profile.publications | where: "selected", true %}
+  <div class="works-list">
+    {% for paper in selected_works %}
+      {% assign primary_url = paper.links.paper | default: paper.links.scholar %}
+      <article class="work-card">
+        <a class="paper-visual visual-tone-{{ paper.visual_tone }}{% if paper.thumbnail != empty %} has-thumbnail{% endif %}" href="{{ primary_url }}" aria-label="Open {{ paper.title }}">
+          {% if paper.thumbnail != empty %}<img src="{{ paper.thumbnail | relative_url }}" alt="Figure from {{ paper.short_title }}" loading="lazy" decoding="async">{% endif %}
+          <span class="paper-venue">{{ paper.venue_short }}</span>
+          <span class="paper-visual-caption">
+            <strong>{{ paper.short_title }}</strong>
+            <small>{{ paper.topics | join: " · " }}</small>
+          </span>
+        </a>
+        <div class="work-copy">
+          <h3 class="work-title"><a href="{{ primary_url }}">{{ paper.title }}</a></h3>
+          {% if paper.summary != empty %}<p class="work-summary">{{ paper.summary }}</p>{% endif %}
+          <div class="work-tags" aria-label="Research topics">
+            {% for topic in paper.topics %}<span>{{ topic }}</span>{% endfor %}
+          </div>
+          <p class="work-authors">
+            {% include publication-authors.html authors=paper.authors %}
+          </p>
+          <p class="work-venue">{{ paper.venue_display }}</p>
+          <div class="work-metadata">
+            <a href="{{ paper.links.scholar }}" aria-label="View {{ paper.title }} on Google Scholar">Cited by {{ paper.citations }}</a>
+            {% if paper.github.url %}<a href="{{ paper.github.url }}" aria-label="View {{ paper.short_title }} on GitHub">★ {{ paper.github.stars_display }} GitHub Stars{% if paper.repo_label != empty %} · {{ paper.repo_label }}{% endif %}</a>{% endif %}
+          </div>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</section>
 
-## <i class="fas fa-users" style="color: #2563eb;"></i> Professional Activities
-{: .section-title}
-
-<ul class="activity-list">
-  <li><strong>Conference Reviewer:</strong> ICCV (2021–2025), CVPR (2022–2025), NeurIPS (2022–2024), ECCV (2022–2024), AAAI (2022–2025), ICML (2023–2024), ICLR (2023–2025), WACV 2023, EuroGraphics 2023</li>
-  <li><strong>Journal Reviewer:</strong> IEEE TPAMI, IJCV, IEEE TIP, Pattern Recognition, IEEE TMM</li>
-</ul>
-
-
-## <i class="fas fa-code-branch" style="color: #2563eb;"></i> Open-Source Contributions
-{: .section-title}
-
-<div class="stats-row">
-  <a href="https://github.com/open-compass/VLMEvalKit" class="stat-item" style="text-decoration:none;">
-    <i class="fab fa-github"></i> <strong>VLMEvalKit</strong> — 4k+ ★
-  </a>
-  <a href="https://github.com/open-compass/opencompass" class="stat-item" style="text-decoration:none;">
-    <i class="fab fa-github"></i> <strong>OpenCompass</strong> — 6.8k+ ★
-  </a>
-  <a href="https://github.com/kennymckormick/pyskl" class="stat-item" style="text-decoration:none;">
-    <i class="fab fa-github"></i> <strong>PYSKL</strong> — 1.2k+ ★
-  </a>
-  <a href="https://github.com/open-mmlab/mmaction2" class="stat-item" style="text-decoration:none;">
-    <i class="fab fa-github"></i> <strong>MMAction2</strong> — 5k+ ★
-  </a>
-</div>
+<section class="projects-section" id="projects" aria-labelledby="projects-title">
+  <h2 class="section-heading" id="projects-title">Open-Source Projects</h2>
+  <div class="project-grid">
+    {% for project in site.data.profile.projects %}
+      <article class="project-card">
+        <div class="project-card-heading">
+          <h3><a href="{{ project.url }}">{{ project.name }}</a></h3>
+          {% if project.language %}<span class="project-language">{{ project.language }}</span>{% endif %}
+        </div>
+        <p>{{ project.description }}</p>
+        <div class="project-topics" aria-label="Research topics">
+          {% for topic in project.topics %}<span>{{ topic }}</span>{% endfor %}
+        </div>
+        <div class="project-footer">
+          <div class="project-stats" aria-label="GitHub statistics">
+            <span title="GitHub Stars">★ {{ project.stars_display }}</span>
+            <span title="GitHub Forks">⑂ {{ project.forks_display }}</span>
+          </div>
+          <a href="{{ project.url }}">GitHub →</a>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</section>

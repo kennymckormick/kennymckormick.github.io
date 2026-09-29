@@ -1,0 +1,167 @@
+% xelatex
+\documentclass{resume}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{ctex}
+\usepackage{xeCJK}
+% \setCJKmainfont{Microsoft YaHei}
+
+\titleformat*{\subsection}{\normalsize\bfseries}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,
+    urlcolor=blue,
+}
+
+\begin{document}
+\linespread{1.2}
+\pagenumbering{gobble} % suppress displaying page number
+
+
+\name{段浩东}
+
+\basicInfo{
+  \email{dhd.efz@gmail.com} \textperiodcentered
+  \faHome\ \href{http://kennymckormick.github.io}{主页}
+}
+
+\vspace{-2mm}
+
+\section{教育经历}
+
+\datedsubsection{\textbf{香港中文大学}}{2019 -- 至今}
+研究视频理解相关课题，导师为\href{https://dahua.me}{林达华教授} \\
+信息工程系，博士生
+
+\datedsubsection{北京大学}{2015 -- 2019}
+GPA 3.77/4.00, rank 1st in Data Science students \\
+元培学院，数据科学方向，本科生
+
+\vspace{-2mm}
+
+\section{研究方向}
+博士期间主要研究计算机视觉中的视频理解任务，特别对基于人体骨架的高效（数据高效 \& 计算高效）视频理解感兴趣。
+
+\vspace{-2mm}
+
+\section{科研项目}
+\datedsubsection{Unified Framework for Skeleton Action Recognition in the Wild}{2022}
+Design a unified framework \textbf{SkeleTR} to handle instance-level, group-level, video-level skeleton action recognition in the wild, which outperforms the GCN SOTAs by a large margin on all benchmarked tasks.
+
+\vspace{-2mm}
+
+\datedsubsection{Skeleton Action Recognition with Dynamic Group-wise GCN, \href{https://arxiv.org/abs/2210.05895}{Paper}, \href{https://github.com/kennymckormick/pyskl/tree/master/configs/dgstgcn}{Code}}{2021 -- 2022}
+Design a dynamic GCN for skeleton action recognition,
+that requires no pre-defined skeleton topology.
+It achieves strong recognition performance, surpasses previous SOTAs on NTURGB+D and K400.
+
+\vspace{-2mm}
+
+\datedsubsection{Video Self-supervised Learning via Ranking-based Transformation Recognition, \href{https://arxiv.org/abs/2205.02028}{Paper}}{2021}
+Show the great potential of RecogTrans (recognizing transformations applied to video clips) video SSL by introducing a unified Ranking-based formulation.
+The proposed method significantly outperforms previous RecogTrans approaches on action recognition (UCF Top1 +6\%) and video retrieval (UCF R@1 +20\%).
+
+\vspace{-2mm}
+
+\datedsubsection{Efficient Video Recognition for Untrimmed Videos, \href{https://arxiv.org/abs/2201.04388}{Paper}, \href{https://github.com/MCG-NJU/OCSampler}{Code}}{2021}
+Propose OCSampler for untrimmed video recognition.
+It samples frames from candidates to form one representative clip.
+The framework (w. R50) achieves 82.2\% Top-1 with 1-clip testing (only 52 GFLOPs / video).
+
+\vspace{-2mm}
+
+\datedsubsection{Skeleton Action Recognition with 3D ConvNets, \href{https://arxiv.org/abs/2104.13586}{Paper}, \href{https://github.com/kennymckormick/pyskl/blob/main/tools/data/data_doc.md}{Dataset}, \href{https://github.com/kennymckormick/pyskl/tree/master/configs/posec3d}{Code}}{2020 -- 2021}
+Devise a novel 3D-ConvNet based paradigm (\textbf{PoseC3D}: 2D keypoint heatmaps $\rightarrow$ 3D heatmap volumes $\rightarrow$ 3D-CNN recognizer) for skeleton action recognition. PoseC3D outperforms previous skeleton action recognition approaches by a considerable margin across various benchmarks (NTURGB+D, Kinetics, \emph{etc.}).
+
+\vspace{-2mm}
+
+\datedsubsection{Mitigating Unwanted Bias in Action Recognition, \href{https://arxiv.org/pdf/2209.09393.pdf}{Paper}, \href{https://github.com/kennymckormick/ARAS-Dataset}{Dataset}}{2020}
+Demonstrate that deep learning based video recognition is biased towards factors like scene / objects.
+Create a quantitative benchmark to evaluate the bias, mitigate the bias with adversarial training and diversified web data.
+
+\vspace{-2mm}
+
+\datedsubsection{Omni-sourced Webly-supervised Video Recognition, \href{https://arxiv.org/abs/2003.13042}{Paper}, \href{https://github.com/open-mmlab/mmaction2/tree/master/tools/data/omnisource}{Dataset}, \href{https://github.com/open-mmlab/mmaction2/tree/master/configs/recognition/omnisource}{Code}}{2019 -- 2020}
+Propose \textbf{OmniSource} for webly supervised video recognition, which utilizes various kinds of web data, including images, trimmed / untrimmed videos for trimmed video recognition. Achieve 83.6\% Top-1 on Kinetics400.
+
+\vspace{-2mm}
+
+\datedsubsection{Triplet Representation for Human Body,  \href{http://openaccess.thecvf.com/content_ICCV_2019/papers/Duan_TRB_A_Novel_Triplet_Representation_for_Understanding_2D_Human_Body_ICCV_2019_paper.pdf}{Paper},  \href{https://github.com/kennymckormick/Triplet-Representation-of-human-Body}{Dataset}} {2018 -- 2019}
+Design a triplet representation named TRB (and its estimation method) to represent 2D human body, which includes both human pose and shape information. The representation can be used in human shape editing.
+
+\vspace{-2mm}
+
+\section{实习经历}
+
+\datedsubsection{实习应用科学家, AWS AI}{2022}
+研究一般场景下的骨骼动作识别, 由 \href{https://xumingze0308.github.io/}{徐铭泽} 博士和 \href{https://alessandrobergamo.com/}{Alessandro Bergamo} 博士指导。
+
+\vspace{-2mm}
+
+\datedsubsection{实习研究员, 上海人工智能实验室}{2021 -- 2022}
+开发维护开源算法库 \href{https://github.com/open-mmlab/mmaction2}{MMAction2}, 由 \href{https://chenkai.site/}{陈恺} 博士指导。
+
+\vspace{-2mm}
+
+\datedsubsection{实习研究员, 商汤科技}{2017 -- 2019}
+研究人体姿态估计 (骨骼及轮廓关键点), 由 \href{https://scholar.google.com/citations?user=KZn9NWEAAAAJ}{刘文韬} 博士指导。
+
+\vspace{-2mm}
+
+
+
+\section{预印本}
+
+\textbf{Haodong Duan}, Jiaqi Wang, Kai Chen, Dahua Lin \\
+\emph{DG-STGCN: Dynamic Spatial-Temporal Modeling for Skeleton-based Action Recognition} \\
+
+\vspace{-2mm}
+
+\section{发表论文}
+
+Yujie Zhou, \textbf{Haodong Duan}, Anyi Rao, Bing Su, Jiaqi Wang \\
+\emph{Self-supervised Action Representation Learning from Partial Spatio-Temporal Skeleton Sequences} (AAAI 2023) \\
+
+\textbf{Haodong Duan}, Yue Zhao, Kai Chen, Yuanjun Xiong, Dahua Lin\\
+\emph{Mitigating Representation Bias in Action Recognition: Algorithms and Benchmarks} (ECCVW 2022) \\
+
+\textbf{Haodong Duan}, Jiaqi Wang, Kai Chen, Dahua Lin\\
+\emph{PYSKL: Towards Good Practices for Skeleton Action Recognition} (MM 2022) \\
+
+\textbf{Haodong Duan}, Yue Zhao, Kai Chen, Dahua Lin, Bo Dai\\
+\emph{Revisiting Skeleton-based Action Recognition} (CVPR 2022 Oral) \\
+
+\textbf{Haodong Duan}, NanXuan Zhao, Kai Chen, Dahua Lin\\
+\emph{TransRank: Self-supervised Video Representation Learning via Ranking-based Transformation Recognition} (CVPR 2022 Oral) \\
+
+Jintao Lin, \textbf{Haodong Duan}, Kai Chen, Dahua Lin, Limin Wang \\
+\emph{OCSampler: Compressing Videos to One Clip with Single-step Sampling} (CVPR 2022) \\
+
+\textbf{Haodong Duan},  Yue Zhao, Yuanjun Xiong, Wentao Liu, Dahua Lin \\
+\emph{Omni-sourced Webly-supervised Learning for Video Recognition} (ECCV 2020)  \\
+
+\textbf{Haodong Duan}, Kwanyee Lin, Sheng Jin, Wentao Liu, Chen Qian,  Wanli Ouyang\\
+\emph{TRB: A Novel Triplet Representation for Understanding 2D Human Body} (ICCV 2019)  \\
+
+\vspace{-2mm}
+
+\section{开源项目}
+为开源项目 \href{https://github.com/open-mmlab/mmaction}{MMAction},  \href{https://github.com/open-mmlab/mmaction2}{MMAction2}, \href{https://github.com/kennymckormick/pyskl}{PYSKL} 的主要开发者和维护者。
+
+\vspace{-2mm}
+
+\section{研究社群服务}
+会议审稿: ICCV[21-23], AAAI[22-23], CVPR[22-23], ECCV22, NeurIPS22, WACV23, ICML23.  \\
+期刊审稿: TCSVT, SPL, JVCIR.
+
+\vspace{-2mm}
+
+\section{语言技能}
+\begin{itemize}[parsep=0.5ex]
+    \item TOEFL iBT: 104pt (Reading: 30, Listening: 28, Speaking: 20, Writing: 26)
+    \item GRE: 322pt (Verbal: 152, Quantitative: 170)
+\end{itemize}
+
+\end{document}

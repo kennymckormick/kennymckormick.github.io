@@ -1,0 +1,131 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    {% include seo.html %}
+    <link href="{{ '/feed.xml' | relative_url }}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';</script>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="icon" type="image/png" href="{{ '/images/kenny.png' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/profile.css' | relative_url }}">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body class="profile-home">
+    <div class="profile-shell">
+      <aside class="profile-rail" aria-label="Profile summary">
+        <div class="profile-card">
+          <a class="profile-avatar-link" href="{{ '/' | relative_url }}" aria-label="Haodong Duan, home">
+            <img class="profile-avatar" src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" alt="Kenny avatar">
+          </a>
+
+          <div class="profile-identity">
+            <strong>Haodong Duan (Kenny)</strong>
+            <span>MTS @ ByteDance Seed</span>
+          </div>
+
+          <div class="profile-tag-group" aria-labelledby="research-area-label">
+            <h2 id="research-area-label">Research Area</h2>
+            <div class="profile-tags">
+              {% if site.data.profile.profile.research_topics %}
+                {% for topic in site.data.profile.profile.research_topics %}<span>{{ topic }}</span>{% endfor %}
+              {% else %}
+                <span>Video Understanding</span><span>LLMs</span><span>MLLMs</span><span>LM Evaluation</span>
+              {% endif %}
+            </div>
+          </div>
+
+          <div class="profile-tag-group profile-institutions" aria-labelledby="institutions-label">
+            <h2 id="institutions-label">Current &amp; Prev. Institutions</h2>
+            <div class="profile-tags">
+              {% if site.data.profile.profile.institutions %}
+                {% for institution in site.data.profile.profile.institutions %}<span>{{ institution }}</span>{% endfor %}
+              {% else %}
+                <span>PKU</span><span>CUHK</span><span>Shanghai AI Lab</span><span>ByteDance SEED</span>
+              {% endif %}
+            </div>
+          </div>
+
+          <div class="profile-links-label"><span>Links</span></div>
+          <div class="profile-socials" aria-label="External profiles">
+            <a href="mailto:{{ site.author.email }}" aria-label="Email" title="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+            <a href="https://github.com/{{ site.author.github }}" aria-label="GitHub" title="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+            <a href="{{ site.author.googlescholar }}" aria-label="Google Scholar" title="Google Scholar"><i class="fas fa-graduation-cap" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://x.com/{{ site.author.twitter }}" aria-label="X" title="X"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.zhihu.com/people/kennymckormick" aria-label="Zhihu" title="Zhihu"><i class="fab fa-zhihu" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </aside>
+
+      <div class="profile-main">
+        <header class="profile-topbar">
+          <nav class="profile-nav" id="profile-nav" aria-label="Main navigation">
+            <a{% if page.url == '/' %} class="is-active"{% endif %} href="{{ '/' | relative_url }}">Home</a>
+            <a{% if page.url contains '/news' %} class="is-active"{% endif %} href="{{ '/news/' | relative_url }}">News</a>
+            <a{% if page.url contains '/publications' %} class="is-active"{% endif %} href="{{ '/publications/' | relative_url }}">Publications</a>
+            <a href="{{ '/#projects' | relative_url }}">Projects</a>
+            {% if site.data.blogs and site.data.blogs != empty %}<a{% if page.url contains '/blog' %} class="is-active"{% endif %} href="{{ '/blog/' | relative_url }}">Blog</a>{% endif %}
+            <a href="{{ '/files/resume_latest.pdf' | relative_url }}">CV</a>
+          </nav>
+          <a class="profile-github" href="https://github.com/{{ site.author.github }}" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+          <button class="profile-menu-button" type="button" aria-label="Open navigation" aria-controls="profile-nav" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+        </header>
+
+        <main class="profile-content">
+          {{ content }}
+        </main>
+
+        <footer class="profile-footer">
+          Copyright &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}
+          <span aria-hidden="true">|</span>
+          Powered by Jekyll &amp; GitHub Pages
+        </footer>
+      </div>
+    </div>
+
+    <script>
+      (function () {
+        var button = document.querySelector('.profile-menu-button');
+        var nav = document.querySelector('.profile-nav');
+        if (!button || !nav) return;
+
+        button.addEventListener('click', function () {
+          var open = nav.classList.toggle('is-open');
+          button.classList.toggle('is-open', open);
+          document.body.classList.toggle('menu-open', open);
+          button.setAttribute('aria-expanded', open ? 'true' : 'false');
+          button.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+        });
+
+        nav.addEventListener('click', function () {
+          nav.classList.remove('is-open');
+          button.classList.remove('is-open');
+          document.body.classList.remove('menu-open');
+          button.setAttribute('aria-expanded', 'false');
+          button.setAttribute('aria-label', 'Open navigation');
+        });
+
+        document.addEventListener('keydown', function (event) {
+          if (event.key !== 'Escape') return;
+          nav.classList.remove('is-open');
+          button.classList.remove('is-open');
+          document.body.classList.remove('menu-open');
+          button.setAttribute('aria-expanded', 'false');
+          button.setAttribute('aria-label', 'Open navigation');
+        });
+      }());
+    </script>
+  </body>
+</html>

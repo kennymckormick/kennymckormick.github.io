@@ -1,0 +1,266 @@
+[
+  {
+    "date": "2026-09",
+    "label": "2026-09",
+    "year": 2026,
+    "category": "Publication",
+    "featured": true,
+    "content": "<a href=\"https://link.springer.com/chapter/10.1007/978-3-032-37553-7_1\"><strong>LEGO-Puzzles</strong></a> is published at <strong>ECCV 2026</strong>."
+  },
+  {
+    "date": "2026-08",
+    "label": "2026-08",
+    "year": 2026,
+    "category": "Publication",
+    "featured": false,
+    "content": "Two papers are accepted by <strong>EMNLP 2026</strong>, studying multimodal retrieval heads and controllable non-Markov games."
+  },
+  {
+    "date": "2026-06-23",
+    "label": "2026-06-23",
+    "year": 2026,
+    "category": "Model Release",
+    "featured": true,
+    "content": "<a href=\"https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity\"><strong>Seed2.1</strong></a> is released, advancing multimodal reasoning and agentic productivity across the Seed model family."
+  },
+  {
+    "date": "2026-06",
+    "label": "2026-06",
+    "year": 2026,
+    "category": "Publication",
+    "featured": true,
+    "content": "Five papers are published at <strong>CVPR 2026</strong>, covering GUI-agent evaluation, spatial self-supervised RL, agentic reward modeling, visual reasoning, and poster intelligence."
+  },
+  {
+    "date": "2026-05",
+    "label": "2026-05",
+    "year": 2026,
+    "category": "Publication",
+    "featured": false,
+    "content": "Two papers are published at <strong>ACL 2026</strong>: <a href=\"https://arxiv.org/abs/2506.10764\">OPT-BENCH</a> and <a href=\"https://arxiv.org/abs/2510.16476\">NP-Engine</a>."
+  },
+  {
+    "date": "2026-02-14",
+    "label": "2026-02-14",
+    "year": 2026,
+    "category": "Model Release",
+    "featured": true,
+    "content": "<a href=\"https://seed.bytedance.com/en/blog/seed-2-0-official-launch\"><strong>Seed2.0</strong></a> is officially launched, strengthening multimodal understanding, complex instruction execution, and real-world agent capabilities."
+  },
+  {
+    "date": "2026-01",
+    "label": "2026-01",
+    "year": 2026,
+    "category": "Publication",
+    "featured": true,
+    "content": "Three papers are published at <strong>ICLR 2026</strong>: <a href=\"https://arxiv.org/abs/2505.23764\">MMSI-Bench</a>, <a href=\"https://arxiv.org/abs/2503.10291\">VisualPRM</a>, and MM-HELIX."
+  },
+  {
+    "date": "2025-12-18",
+    "label": "2025-12-18",
+    "year": 2025,
+    "category": "Model Release",
+    "featured": true,
+    "content": "<a href=\"https://seed.bytedance.com/en/blog/official-release-of-seed1-8-a-generalized-agentic-model\"><strong>Seed1.8</strong></a> is officially released as a generalized agentic model with multimodal, search, coding, and GUI capabilities."
+  },
+  {
+    "date": "2025-10",
+    "label": "2025-10",
+    "year": 2025,
+    "category": "Career",
+    "featured": true,
+    "content": "I joined <strong>ByteDance Seed</strong> in Singapore, after two years at Shanghai AI Laboratory working on OpenCompass and large-model evaluation."
+  },
+  {
+    "date": "2025-09",
+    "label": "2025-09",
+    "year": 2025,
+    "category": "Publication",
+    "featured": true,
+    "content": "<a href=\"https://arxiv.org/abs/2504.02826\"><strong>RISEBench</strong></a> is accepted by <strong>NeurIPS 2025 Datasets &amp; Benchmarks</strong> as an Oral presentation."
+  },
+  {
+    "date": "2025-08",
+    "label": "2025-08",
+    "year": 2025,
+    "category": "Model Release",
+    "featured": true,
+    "content": "<a href=\"https://arxiv.org/abs/2508.18265\"><strong>InternVL3.5</strong></a> is released with stronger reasoning, efficiency, and deployment support."
+  },
+  {
+    "date": "2025-06",
+    "label": "2025-06",
+    "year": 2025,
+    "category": "Publication",
+    "featured": false,
+    "content": "Four papers are published at <strong>ICCV 2025</strong>, spanning visual reinforcement fine-tuning, instruction following, creative intelligence, and benchmark information density."
+  },
+  {
+    "date": "2025-06",
+    "label": "2025-06",
+    "year": 2025,
+    "category": "Publication",
+    "featured": false,
+    "content": "<a href=\"https://arxiv.org/abs/2503.01785\"><strong>Visual-RFT</strong></a> is accepted by <strong>ICCV 2025</strong>."
+  },
+  {
+    "date": "2025-05",
+    "label": "2025-05",
+    "year": 2025,
+    "category": "Publication",
+    "featured": false,
+    "content": "Five papers are published at <strong>ACL 2025</strong>, including <a href=\"https://aclanthology.org/2025.acl-long.906/\">OmniAlign-V</a>, <a href=\"https://arxiv.org/abs/2501.13953\">Redundancy Principles</a>, and <a href=\"https://aclanthology.org/2025.acl-long.1091/\">Condor</a>."
+  },
+  {
+    "date": "2025-05",
+    "label": "2025-05",
+    "year": 2025,
+    "category": "Work Release",
+    "featured": true,
+    "content": "We release <a href=\"https://arxiv.org/abs/2505.23764\"><strong>MMSI-Bench</strong></a>, a benchmark for multi-image spatial intelligence."
+  },
+  {
+    "date": "2025-04",
+    "label": "2025-04",
+    "year": 2025,
+    "category": "Work Release",
+    "featured": false,
+    "content": "We release <a href=\"https://arxiv.org/abs/2504.02826\"><strong>RISEBench</strong></a> for reasoning-informed visual editing evaluation."
+  },
+  {
+    "date": "2025-03",
+    "label": "2025-03",
+    "year": 2025,
+    "category": "Work Release",
+    "featured": false,
+    "content": "We release <a href=\"https://arxiv.org/abs/2503.19990\"><strong>LEGO-Puzzles</strong></a>, a benchmark for multi-step spatial reasoning in MLLMs."
+  },
+  {
+    "date": "2024-09",
+    "label": "2024-09",
+    "year": 2024,
+    "category": "Publication",
+    "featured": false,
+    "content": "Six papers are accepted by <strong>NeurIPS 2024</strong>: three main-conference papers (InternLM-XComposer2-4KHD, MMStar, and Prism) and three Datasets &amp; Benchmarks papers (ShareGPT4Video, GMAI-MMBench, and MMBench-Video)."
+  },
+  {
+    "date": "2024-08",
+    "label": "2024-08",
+    "year": 2024,
+    "category": "Publication",
+    "featured": false,
+    "content": "<a href=\"https://mmbench.opencompass.org.cn/home\"><strong>MMBench</strong></a> is accepted by <strong>ECCV 2024</strong> as an Oral presentation."
+  },
+  {
+    "date": "2024-07",
+    "label": "2024-07",
+    "year": 2024,
+    "category": "Open Source",
+    "featured": false,
+    "content": "<a href=\"https://github.com/open-compass/VLMEvalKit\"><strong>VLMEvalKit</strong></a> is accepted by <strong>ACM MM 2024</strong>."
+  },
+  {
+    "date": "2024-05",
+    "label": "2024-05",
+    "year": 2024,
+    "category": "Publication",
+    "featured": false,
+    "content": "<a href=\"https://arxiv.org/abs/2405.12209\"><strong>MathBench</strong></a> is accepted by <strong>ACL 2024 Findings</strong>."
+  },
+  {
+    "date": "2024-03",
+    "label": "2024-03",
+    "year": 2024,
+    "category": "Publication",
+    "featured": false,
+    "content": "Two papers are accepted by <strong>NAACL 2024</strong>: <a href=\"https://arxiv.org/abs/2310.13650\">BotChat</a> and <a href=\"https://arxiv.org/abs/2404.06480\">Ada-LEval</a>."
+  },
+  {
+    "date": "2023-12",
+    "label": "2023-12",
+    "year": 2023,
+    "category": "Open Source",
+    "featured": false,
+    "content": "We release <a href=\"https://github.com/open-compass/VLMEvalKit\"><strong>VLMEvalKit</strong></a>, an all-in-one toolkit for evaluating large multimodal models."
+  },
+  {
+    "date": "2023-09",
+    "label": "2023-09",
+    "year": 2023,
+    "category": "Publication",
+    "featured": false,
+    "content": "<a href=\"https://arxiv.org/abs/2309.11445\"><strong>SkeleTR</strong></a> is published at <strong>ICCV 2023</strong>, extending skeleton-based action recognition to in-the-wild settings."
+  },
+  {
+    "date": "2023-08",
+    "label": "2023-08",
+    "year": 2023,
+    "category": "Career",
+    "featured": false,
+    "content": "I received my Ph.D. from <a href=\"https://mmlab.ie.cuhk.edu.hk\"><strong>MMLab @ CUHK</strong></a> and joined <strong>Shanghai AI Laboratory</strong> as a postdoctoral researcher."
+  },
+  {
+    "date": "2023-07",
+    "label": "2023-07",
+    "year": 2023,
+    "category": "Work Release",
+    "featured": false,
+    "content": "We release <a href=\"https://arxiv.org/abs/2307.06281\"><strong>MMBench</strong></a>, a systematic benchmark for measuring the all-around capabilities of multimodal models."
+  },
+  {
+    "date": "2023-07",
+    "label": "2023-07",
+    "year": 2023,
+    "category": "Publication",
+    "featured": false,
+    "content": "<a href=\"https://arxiv.org/abs/2307.00716\"><strong>JourneyDB</strong></a> is published at the <strong>NeurIPS 2023 Datasets &amp; Benchmarks Track</strong>."
+  },
+  {
+    "date": "2022-05",
+    "label": "2022-05",
+    "year": 2022,
+    "category": "Open Source",
+    "featured": false,
+    "content": "We release <a href=\"https://github.com/kennymckormick/pyskl\"><strong>PYSKL</strong></a>, a codebase for skeleton action recognition; the system paper is later accepted by <strong>ACM MM 2022</strong>."
+  },
+  {
+    "date": "2022-03",
+    "label": "2022-03",
+    "year": 2022,
+    "category": "Publication",
+    "featured": false,
+    "content": "Three papers are accepted by <strong>CVPR 2022</strong>: <a href=\"https://arxiv.org/abs/2104.13586\">PoseC3D</a> (Oral), <a href=\"https://arxiv.org/abs/2205.02028\">TransRank</a> (Oral), and <a href=\"https://arxiv.org/abs/2201.04388\">OCSampler</a>."
+  },
+  {
+    "date": "2020-03",
+    "label": "2020-03",
+    "year": 2020,
+    "category": "Publication",
+    "featured": false,
+    "content": "<a href=\"https://arxiv.org/abs/2003.13042\"><strong>OmniSource</strong></a> is published at <strong>ECCV 2020</strong>, studying omni-sourced webly supervised learning for video recognition."
+  },
+  {
+    "date": "2020",
+    "label": "2020",
+    "year": 2020,
+    "category": "Open Source",
+    "featured": false,
+    "content": "<a href=\"https://github.com/open-mmlab/mmaction2\"><strong>MMAction2</strong></a> becomes OpenMMLab's modular toolbox and benchmark for video understanding."
+  },
+  {
+    "date": "2019-10",
+    "label": "2019-10",
+    "year": 2019,
+    "category": "Publication",
+    "featured": false,
+    "content": "<a href=\"https://arxiv.org/abs/1910.11535\"><strong>TRB</strong></a>, a triplet representation for understanding 2D human bodies, is published at <strong>ICCV 2019</strong>."
+  },
+  {
+    "date": "2019",
+    "label": "2019",
+    "year": 2019,
+    "category": "Career",
+    "featured": false,
+    "content": "I received my B.S. in Data Science from <strong>Peking University</strong> and began my Ph.D. at <strong>The Chinese University of Hong Kong</strong>."
+  }
+]
