@@ -103,14 +103,15 @@
       "links": {"paper": "https://arxiv.org/abs/2503.19990"},
       "authors": [
         "Kexian Tang", "Junyao Gao", "Yanhong Zeng", "Haodong Duan", "Yanan Sun",
-        "Zhening Xing", "Wenran Liu", "Kai Chen", "Kaifeng Lyu"
+        "Zhening Xing", "Wenran Liu", "Kaifeng Lyu", "Kai Chen"
       ],
       "author_roles": {
         "Kexian Tang": ["equal"],
         "Junyao Gao": ["equal"],
         "Yanhong Zeng": ["project_lead"],
         "Haodong Duan": ["project_lead"],
-        "Kaifeng Lyu": ["corresponding"]
+        "Kaifeng Lyu": ["corresponding"],
+        "Kai Chen": ["corresponding"]
       }
     },
     "Omnialign-v: Towards enhanced alignment of mllms with human preference": {

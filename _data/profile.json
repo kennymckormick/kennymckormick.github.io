@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T04:43:00+00:00",
+  "generated_at": "2026-09-30T07:35:17+00:00",
   "sources": {
     "scholar": "https://scholar.google.com/citations?user=vi3W-m8AAAAJ&hl=en&pagesize=100",
     "github": "https://github.com/kennymckormick"
@@ -26,16 +26,16 @@
       "Generative AI"
     ],
     "metrics": {
-      "citations": 17018,
-      "citations_recent": 16943,
+      "citations": 17026,
+      "citations_recent": 16951,
       "h_index": 47,
       "h_index_recent": 47,
       "i10_index": 69,
       "i10_index_recent": 69
     },
     "metrics_display": {
-      "citations": "17,018",
-      "citations_recent": "16,943",
+      "citations": "17,026",
+      "citations_recent": "16,951",
       "h_index": "47",
       "h_index_recent": "47",
       "i10_index": "69",
@@ -376,17 +376,17 @@
       "github": {
         "name": "MMSI-Bench",
         "full_name": "OpenRobotLab/MMSI-Bench",
-        "url": "https://github.com/OpenRobotLab/MMSI-Bench",
-        "description": "",
+        "url": "https://github.com/InternRobotics/MMSI-Bench",
+        "description": "[ICLR 2026] MMSI-Bench: A Benchmark for Multi-Image Spatial Intelligence",
         "stars": 109,
         "stars_display": "109",
         "forks": 2,
         "forks_display": "2",
         "watchers": 2,
-        "language": null,
+        "language": "Python",
         "topics": [],
-        "updated_at": null,
-        "source": "github_html"
+        "updated_at": "2026-09-11T20:47:49Z",
+        "source": "github_api"
       },
       "thumbnail": "/images/publications/mmsi-bench.webp",
       "visual_tone": 4,
@@ -632,12 +632,14 @@
           "roles": []
         },
         {
-          "name": "Kai Chen",
+          "name": "Kaifeng Lyu",
           "is_self": false,
-          "roles": []
+          "roles": [
+            "corresponding"
+          ]
         },
         {
-          "name": "Kaifeng Lyu",
+          "name": "Kai Chen",
           "is_self": false,
           "roles": [
             "corresponding"
@@ -688,16 +690,16 @@
         "name": "LEGO-Puzzles",
         "full_name": "Tangkexian/LEGO-Puzzles",
         "url": "https://github.com/Tangkexian/LEGO-Puzzles",
-        "description": "",
+        "description": "Benchmarking Multi-Step Spatial Reasoning in MLLMs with LEGO-based VQA & generation tasks.",
         "stars": 38,
         "stars_display": "38",
         "forks": 2,
         "forks_display": "2",
         "watchers": 2,
-        "language": null,
+        "language": "Python",
         "topics": [],
-        "updated_at": null,
-        "source": "github_html"
+        "updated_at": "2026-09-04T23:00:25Z",
+        "source": "github_api"
       },
       "thumbnail": "/images/publications/lego-puzzles.webp",
       "visual_tone": 4,
@@ -1232,6 +1234,111 @@
       "thumbnail": "",
       "visual_tone": 4,
       "citation_rank": 63,
+      "selected": false,
+      "selection_reasons": []
+    },
+    {
+      "scholar_id": "vi3W-m8AAAAJ:anf4URPfarAC",
+      "title": "Visfactor: Benchmarking fundamental visual cognition in multimodal large language models",
+      "short_title": "Visfactor",
+      "authors": [
+        {
+          "name": "Jen-Tse Huang",
+          "is_self": false,
+          "roles": [
+            "first"
+          ]
+        },
+        {
+          "name": "Dasen Dai",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Jen-Yuan Huang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Youliang Yuan",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Xiaoyuan Liu",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Wenxuan Wang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Wenxiang Jiao",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Pinjia He",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Zhaopeng Tu",
+          "is_self": false,
+          "roles": [
+            "corresponding"
+          ]
+        }
+      ],
+      "author_count": 9,
+      "authors_truncated": false,
+      "group_authored": false,
+      "author_order": "contribution",
+      "author_annotations_suppressed": false,
+      "corresponding_fallback": true,
+      "corresponding_fallback_author": "Zhaopeng Tu",
+      "venue": "NeurIPS D&B, 2026, arXiv: 2502.16435",
+      "venue_display": "NeurIPS D&B, 2026, arXiv: 2502.16435",
+      "venue_short": "NeurIPS",
+      "year": 2026,
+      "citations": 15,
+      "metadata": [
+        {
+          "key": "publication_date",
+          "label": "Publication date",
+          "value": "2025/2"
+        },
+        {
+          "key": "journal",
+          "label": "Journal",
+          "value": "arXiv e-prints"
+        },
+        {
+          "key": "pages",
+          "label": "Pages",
+          "value": "arXiv: 2502.16435"
+        }
+      ],
+      "description": "",
+      "summary": "",
+      "detail_metadata_available": true,
+      "topics": [
+        "Image Understanding",
+        "Visual Reasoning",
+        "Multimodal Evaluation"
+      ],
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:anf4URPfarAC",
+        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8529137492236512432,7999749026228437471,16518829331134387001"
+      },
+      "repo": "",
+      "repo_label": "",
+      "github": {},
+      "thumbnail": "",
+      "visual_tone": 2,
+      "citation_rank": 64,
       "selected": false,
       "selection_reasons": []
     },
@@ -1863,9 +1970,9 @@
       "author_annotations_suppressed": false,
       "corresponding_fallback": true,
       "corresponding_fallback_author": "Xue Yang",
-      "venue": "arXiv preprint arXiv:2602.05986",
-      "venue_display": "arXiv preprint arXiv:2602.05986, 2026",
-      "venue_short": "arXiv",
+      "venue": "NeurIPS D&B, 2026",
+      "venue_display": "NeurIPS D&B, 2026",
+      "venue_short": "NeurIPS",
       "year": 2026,
       "citations": 7,
       "metadata": [
@@ -3719,9 +3826,9 @@
       "author_annotations_suppressed": false,
       "corresponding_fallback": true,
       "corresponding_fallback_author": "Yangqiu Song",
-      "venue": "arXiv preprint arXiv:2605.13831",
-      "venue_display": "arXiv preprint arXiv:2605.13831, 2026",
-      "venue_short": "arXiv",
+      "venue": "NeurIPS, 2026",
+      "venue_display": "NeurIPS, 2026",
+      "venue_short": "NeurIPS",
       "year": 2026,
       "citations": 1,
       "metadata": [
@@ -4419,16 +4526,16 @@
         "name": "Visual-RFT",
         "full_name": "Liuziyu77/Visual-RFT",
         "url": "https://github.com/Liuziyu77/Visual-RFT",
-        "description": "",
-        "stars": 2275,
-        "stars_display": "2,275",
+        "description": "Official repository of 'Visual-RFT: Visual Reinforcement Fine-Tuning' & 'Visual-ARFT: Visual Agentic Reinforcement Fine-Tuning'’",
+        "stars": 2276,
+        "stars_display": "2,276",
         "forks": 110,
         "forks_display": "110",
         "watchers": 13,
-        "language": null,
+        "language": "Jupyter Notebook",
         "topics": [],
-        "updated_at": null,
-        "source": "github_html"
+        "updated_at": "2026-09-29T06:12:26Z",
+        "source": "github_api"
       },
       "thumbnail": "/images/publications/visual-rft.webp",
       "visual_tone": 3,
@@ -5122,7 +5229,7 @@
       "venue_display": "TMLR, 2025",
       "venue_short": "TMLR",
       "year": 2025,
-      "citations": 97,
+      "citations": 99,
       "metadata": [
         {
           "key": "publication_date",
@@ -5284,16 +5391,16 @@
         "name": "RISEBench",
         "full_name": "PhoenixZ810/RISEBench",
         "url": "https://github.com/PhoenixZ810/RISEBench",
-        "description": "",
+        "description": "[NIPS 2025 DB Oral] Official Repository of paper: Envisioning Beyond the Pixels: Benchmarking Reasoning-Informed Visual Editing",
         "stars": 154,
         "stars_display": "154",
         "forks": 7,
         "forks_display": "7",
         "watchers": 3,
-        "language": null,
+        "language": "Python",
         "topics": [],
-        "updated_at": null,
-        "source": "github_html"
+        "updated_at": "2026-08-13T11:52:50Z",
+        "source": "github_api"
       },
       "thumbnail": "/images/publications/risebench.webp",
       "visual_tone": 5,
@@ -6941,16 +7048,16 @@
         "name": "OmniAlign-V",
         "full_name": "PhoenixZ810/OmniAlign-V",
         "url": "https://github.com/PhoenixZ810/OmniAlign-V",
-        "description": "",
+        "description": "Official Repository of ACL 2025 paper OmniAlign-V: Towards Enhanced Alignment of MLLMs with Human Preference",
         "stars": 144,
         "stars_display": "144",
         "forks": 2,
         "forks_display": "2",
         "watchers": 2,
-        "language": null,
+        "language": "Python",
         "topics": [],
-        "updated_at": null,
-        "source": "github_html"
+        "updated_at": "2026-06-11T11:52:34Z",
+        "source": "github_api"
       },
       "thumbnail": "/images/publications/omnialign-v.webp",
       "visual_tone": 3,
@@ -7175,17 +7282,17 @@
       "github": {
         "name": "Benchmark-Redundancy",
         "full_name": "zzc-1998/Benchmark-Redundancy",
-        "url": "https://github.com/zzc-1998/Benchmark-Redundancy",
-        "description": "",
+        "url": "https://github.com/aiben-ch/Benchmark-Redundancy",
+        "description": "[ACL 2025] Redundancy Principles for MLLMs Benchmarks",
         "stars": 10,
         "stars_display": "10",
         "forks": 0,
         "forks_display": "0",
         "watchers": 1,
-        "language": null,
+        "language": "Python",
         "topics": [],
-        "updated_at": null,
-        "source": "github_html"
+        "updated_at": "2026-04-14T16:24:47Z",
+        "source": "github_api"
       },
       "thumbnail": "/images/publications/redundancy-principle.webp",
       "visual_tone": 5,
@@ -7539,111 +7646,6 @@
       "thumbnail": "",
       "visual_tone": 5,
       "citation_rank": 61,
-      "selected": false,
-      "selection_reasons": []
-    },
-    {
-      "scholar_id": "vi3W-m8AAAAJ:anf4URPfarAC",
-      "title": "Visfactor: Benchmarking fundamental visual cognition in multimodal large language models",
-      "short_title": "Visfactor",
-      "authors": [
-        {
-          "name": "Jen-Tse Huang",
-          "is_self": false,
-          "roles": [
-            "first"
-          ]
-        },
-        {
-          "name": "Dasen Dai",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Jen-Yuan Huang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Youliang Yuan",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Xiaoyuan Liu",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Wenxuan Wang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Wenxiang Jiao",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Pinjia He",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Zhaopeng Tu",
-          "is_self": false,
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
-      "author_count": 9,
-      "authors_truncated": false,
-      "group_authored": false,
-      "author_order": "contribution",
-      "author_annotations_suppressed": false,
-      "corresponding_fallback": true,
-      "corresponding_fallback_author": "Zhaopeng Tu",
-      "venue": "arXiv e-prints, arXiv: 2502.16435",
-      "venue_display": "arXiv e-prints, arXiv: 2502.16435, 2025",
-      "venue_short": "arXiv",
-      "year": 2025,
-      "citations": 15,
-      "metadata": [
-        {
-          "key": "publication_date",
-          "label": "Publication date",
-          "value": "2025/2"
-        },
-        {
-          "key": "journal",
-          "label": "Journal",
-          "value": "arXiv e-prints"
-        },
-        {
-          "key": "pages",
-          "label": "Pages",
-          "value": "arXiv: 2502.16435"
-        }
-      ],
-      "description": "",
-      "summary": "",
-      "detail_metadata_available": true,
-      "topics": [
-        "Image Understanding",
-        "Visual Reasoning",
-        "Multimodal Evaluation"
-      ],
-      "links": {
-        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:anf4URPfarAC",
-        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8529137492236512432,7999749026228437471,16518829331134387001"
-      },
-      "repo": "",
-      "repo_label": "",
-      "github": {},
-      "thumbnail": "",
-      "visual_tone": 2,
-      "citation_rank": 64,
       "selected": false,
       "selection_reasons": []
     },
@@ -8758,7 +8760,7 @@
       "venue_display": "European Conference on Computer Vision (ECCV), 2024",
       "venue_short": "ECCV",
       "year": 2024,
-      "citations": 2972,
+      "citations": 2978,
       "metadata": [
         {
           "key": "publication_date",
@@ -8792,7 +8794,7 @@
         "name": "MMBench",
         "full_name": "open-compass/MMBench",
         "url": "https://github.com/open-compass/MMBench",
-        "description": "",
+        "description": "Official Repo of \"MMBench: Is Your Multi-modal Model an All-around Player?\"",
         "stars": 312,
         "stars_display": "312",
         "forks": 19,
@@ -8800,8 +8802,8 @@
         "watchers": 2,
         "language": null,
         "topics": [],
-        "updated_at": null,
-        "source": "github_html"
+        "updated_at": "2026-09-24T02:51:59Z",
+        "source": "github_api"
       },
       "thumbnail": "/images/publications/mmbench.webp",
       "visual_tone": 2,
@@ -8926,16 +8928,16 @@
         "name": "MMStar",
         "full_name": "MMStar-Benchmark/MMStar",
         "url": "https://github.com/MMStar-Benchmark/MMStar",
-        "description": "",
+        "description": "[NeurIPS 2024] This repo contains evaluation code for the paper \"Are We on the Right Way for Evaluating Large Vision-Language Models\"",
         "stars": 217,
         "stars_display": "217",
         "forks": 5,
         "forks_display": "5",
         "watchers": 1,
-        "language": null,
+        "language": "Python",
         "topics": [],
-        "updated_at": null,
-        "source": "github_html"
+        "updated_at": "2026-09-06T17:44:31Z",
+        "source": "github_api"
       },
       "thumbnail": "/images/publications/mmstar.webp",
       "visual_tone": 5,
@@ -9504,16 +9506,16 @@
         "name": "VLMEvalKit",
         "full_name": "open-compass/VLMEvalKit",
         "url": "https://github.com/open-compass/VLMEvalKit",
-        "description": "",
-        "stars": 4417,
-        "stars_display": "4,417",
+        "description": "Open-source evaluation toolkit of large multi-modality models (LMMs), support 220+ LMMs, 80+ benchmarks",
+        "stars": 4419,
+        "stars_display": "4,419",
         "forks": 771,
         "forks_display": "771",
         "watchers": 14,
-        "language": null,
+        "language": "Python",
         "topics": [],
-        "updated_at": null,
-        "source": "github_html"
+        "updated_at": "2026-09-30T04:05:40Z",
+        "source": "github_api"
       },
       "thumbnail": "/images/publications/vlmevalkit.webp",
       "visual_tone": 4,
@@ -9660,16 +9662,16 @@
         "name": "ShareGPT4Video",
         "full_name": "ShareGPT4Omni/ShareGPT4Video",
         "url": "https://github.com/ShareGPT4Omni/ShareGPT4Video",
-        "description": "",
+        "description": "[NeurIPS 2024] An official implementation of \"ShareGPT4Video: Improving Video Understanding and Generation with Better Captions\"",
         "stars": 1096,
         "stars_display": "1,096",
         "forks": 46,
         "forks_display": "46",
         "watchers": 22,
-        "language": null,
+        "language": "Python",
         "topics": [],
-        "updated_at": null,
-        "source": "github_html"
+        "updated_at": "2026-09-26T02:09:09Z",
+        "source": "github_api"
       },
       "thumbnail": "/images/publications/sharegpt4video.webp",
       "visual_tone": 2,
@@ -10240,16 +10242,16 @@
         "name": "VLMEvalKit",
         "full_name": "open-compass/VLMEvalKit",
         "url": "https://github.com/open-compass/VLMEvalKit",
-        "description": "",
-        "stars": 4417,
-        "stars_display": "4,417",
+        "description": "Open-source evaluation toolkit of large multi-modality models (LMMs), support 220+ LMMs, 80+ benchmarks",
+        "stars": 4419,
+        "stars_display": "4,419",
         "forks": 771,
         "forks_display": "771",
         "watchers": 14,
-        "language": null,
+        "language": "Python",
         "topics": [],
-        "updated_at": null,
-        "source": "github_html"
+        "updated_at": "2026-09-30T04:05:40Z",
+        "source": "github_api"
       },
       "thumbnail": "/images/publications/mmbench-video.webp",
       "visual_tone": 2,
@@ -10918,16 +10920,16 @@
         "name": "BotChat",
         "full_name": "open-compass/BotChat",
         "url": "https://github.com/open-compass/BotChat",
-        "description": "",
+        "description": "Evaluating LLMs' multi-round chatting capability via assessing conversations generated by two LLM instances.",
         "stars": 163,
         "stars_display": "163",
         "forks": 6,
         "forks_display": "6",
         "watchers": 1,
-        "language": null,
+        "language": "Jupyter Notebook",
         "topics": [],
-        "updated_at": null,
-        "source": "github_html"
+        "updated_at": "2026-08-24T13:53:51Z",
+        "source": "github_api"
       },
       "thumbnail": "/images/publications/botchat.webp",
       "visual_tone": 5,
@@ -11325,16 +11327,16 @@
         "name": "Prism",
         "full_name": "SparksJoe/Prism",
         "url": "https://github.com/SparksJoe/Prism",
-        "description": "",
+        "description": "A Framework for Decoupling and Assessing the Capabilities of VLMs",
         "stars": 44,
         "stars_display": "44",
         "forks": 1,
         "forks_display": "1",
         "watchers": 1,
-        "language": null,
+        "language": "Python",
         "topics": [],
-        "updated_at": null,
-        "source": "github_html"
+        "updated_at": "2026-06-09T15:30:33Z",
+        "source": "github_api"
       },
       "thumbnail": "/images/publications/prism.webp",
       "visual_tone": 5,
@@ -11425,16 +11427,16 @@
         "name": "Ada-LEval",
         "full_name": "open-compass/Ada-LEval",
         "url": "https://github.com/open-compass/Ada-LEval",
-        "description": "",
+        "description": "The official implementation of \"Ada-LEval: Evaluating long-context LLMs with length-adaptable benchmarks\"",
         "stars": 56,
         "stars_display": "56",
         "forks": 3,
         "forks_display": "3",
         "watchers": 2,
-        "language": null,
+        "language": "Python",
         "topics": [],
-        "updated_at": null,
-        "source": "github_html"
+        "updated_at": "2025-12-23T04:16:45Z",
+        "source": "github_api"
       },
       "thumbnail": "/images/publications/ada-leval.webp",
       "visual_tone": 1,
@@ -11798,8 +11800,8 @@
         "watchers": 5,
         "language": null,
         "topics": [],
-        "updated_at": null,
-        "source": "github_html"
+        "updated_at": "2026-09-22T14:57:55Z",
+        "source": "github_api"
       },
       "thumbnail": "/images/publications/journeydb.webp",
       "visual_tone": 5,
@@ -12063,16 +12065,16 @@
         "name": "pyskl",
         "full_name": "kennymckormick/pyskl",
         "url": "https://github.com/kennymckormick/pyskl",
-        "description": "",
+        "description": "A toolbox for skeleton-based action recognition.",
         "stars": 1268,
         "stars_display": "1,268",
         "forks": 232,
         "forks_display": "232",
         "watchers": 13,
-        "language": null,
+        "language": "Python",
         "topics": [],
-        "updated_at": null,
-        "source": "github_html"
+        "updated_at": "2026-09-17T04:18:58Z",
+        "source": "github_api"
       },
       "thumbnail": "/images/publications/posec3d.webp",
       "visual_tone": 4,
@@ -12157,16 +12159,16 @@
         "name": "pyskl",
         "full_name": "kennymckormick/pyskl",
         "url": "https://github.com/kennymckormick/pyskl",
-        "description": "",
+        "description": "A toolbox for skeleton-based action recognition.",
         "stars": 1268,
         "stars_display": "1,268",
         "forks": 232,
         "forks_display": "232",
         "watchers": 13,
-        "language": null,
+        "language": "Python",
         "topics": [],
-        "updated_at": null,
-        "source": "github_html"
+        "updated_at": "2026-09-17T04:18:58Z",
+        "source": "github_api"
       },
       "thumbnail": "/images/publications/pyskl.webp",
       "visual_tone": 3,
@@ -12251,16 +12253,16 @@
         "name": "pyskl",
         "full_name": "kennymckormick/pyskl",
         "url": "https://github.com/kennymckormick/pyskl",
-        "description": "",
+        "description": "A toolbox for skeleton-based action recognition.",
         "stars": 1268,
         "stars_display": "1,268",
         "forks": 232,
         "forks_display": "232",
         "watchers": 13,
-        "language": null,
+        "language": "Python",
         "topics": [],
-        "updated_at": null,
-        "source": "github_html"
+        "updated_at": "2026-09-17T04:18:58Z",
+        "source": "github_api"
       },
       "thumbnail": "/images/publications/dg-stgcn.webp",
       "visual_tone": 1,
@@ -12424,7 +12426,7 @@
         "name": "TransRank",
         "full_name": "kennymckormick/TransRank",
         "url": "https://github.com/kennymckormick/TransRank",
-        "description": "",
+        "description": "[CVPR2022 Oral] The official code for \"TransRank: Self-supervised Video Representation Learning via Ranking-based Transformation Recognition\"",
         "stars": 18,
         "stars_display": "18",
         "forks": 0,
@@ -12432,8 +12434,8 @@
         "watchers": 5,
         "language": null,
         "topics": [],
-        "updated_at": null,
-        "source": "github_html"
+        "updated_at": "2024-01-21T11:48:40Z",
+        "source": "github_api"
       },
       "thumbnail": "/images/publications/transrank.webp",
       "visual_tone": 1,
@@ -12664,16 +12666,16 @@
         "name": "mmaction2",
         "full_name": "open-mmlab/mmaction2",
         "url": "https://github.com/open-mmlab/mmaction2",
-        "description": "",
-        "stars": 5166,
-        "stars_display": "5,166",
+        "description": "OpenMMLab's Next Generation Video Understanding Toolbox and Benchmark",
+        "stars": 5165,
+        "stars_display": "5,165",
         "forks": 1360,
         "forks_display": "1,360",
         "watchers": 42,
-        "language": null,
+        "language": "Python",
         "topics": [],
-        "updated_at": null,
-        "source": "github_html"
+        "updated_at": "2026-09-29T06:50:16Z",
+        "source": "github_api"
       },
       "thumbnail": "/images/publications/omnisource.webp",
       "visual_tone": 3,
@@ -12852,36 +12854,36 @@
       "full_name": "open-compass/VLMEvalKit",
       "url": "https://github.com/open-compass/VLMEvalKit",
       "description": "An all-in-one evaluation toolkit for large vision-language and multimodal models. It connects model inference, benchmark execution, scoring, and result comparison in one reproducible workflow used by both researchers and practitioners.",
-      "stars": 4417,
-      "stars_display": "4,417",
+      "stars": 4419,
+      "stars_display": "4,419",
       "forks": 771,
       "forks_display": "771",
       "watchers": 14,
-      "language": null,
+      "language": "Python",
       "topics": [
         "Multimodal Evaluation",
         "Evaluation Infrastructure"
       ],
-      "updated_at": null,
-      "source": "github_html"
+      "updated_at": "2026-09-30T04:05:40Z",
+      "source": "github_api"
     },
     {
       "name": "OpenCompass",
       "full_name": "open-compass/opencompass",
       "url": "https://github.com/open-compass/opencompass",
       "description": "A comprehensive platform for evaluating large language and multimodal models. Its modular configs, task scheduling, evaluators, and reporting tools make broad and reproducible model comparisons easier to run and extend.",
-      "stars": 7481,
-      "stars_display": "7,481",
+      "stars": 7486,
+      "stars_display": "7,486",
       "forks": 871,
       "forks_display": "871",
       "watchers": 30,
-      "language": null,
+      "language": "Python",
       "topics": [
         "LLM Evaluation",
         "Benchmarking Platform"
       ],
-      "updated_at": null,
-      "source": "github_html"
+      "updated_at": "2026-09-30T03:40:04Z",
+      "source": "github_api"
     },
     {
       "name": "PYSKL",
@@ -12893,31 +12895,31 @@
       "forks": 232,
       "forks_display": "232",
       "watchers": 13,
-      "language": null,
+      "language": "Python",
       "topics": [
         "Skeleton Action",
         "Video Recognition"
       ],
-      "updated_at": null,
-      "source": "github_html"
+      "updated_at": "2026-09-17T04:18:58Z",
+      "source": "github_api"
     },
     {
       "name": "MMAction2",
       "full_name": "open-mmlab/mmaction2",
       "url": "https://github.com/open-mmlab/mmaction2",
       "description": "OpenMMLab's modular video-understanding toolbox for action recognition, localization, skeleton-based recognition, and related tasks. It offers reusable components, extensive model coverage, and standardized training and inference pipelines.",
-      "stars": 5166,
-      "stars_display": "5,166",
+      "stars": 5165,
+      "stars_display": "5,165",
       "forks": 1360,
       "forks_display": "1,360",
       "watchers": 42,
-      "language": null,
+      "language": "Python",
       "topics": [
         "Video Understanding",
         "OpenMMLab"
       ],
-      "updated_at": null,
-      "source": "github_html"
+      "updated_at": "2026-09-29T06:50:16Z",
+      "source": "github_api"
     }
   ]
 }
