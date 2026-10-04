@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-09-24",
+    "label": "2026-09-24",
+    "year": 2026,
+    "category": "Publication",
+    "featured": true,
+    "content": "Three papers are listed in the <a href=\"https://neurips.cc/Downloads/2026\">NeurIPS 2026 program</a>: <a href=\"https://arxiv.org/abs/2502.16435\">Castle-in-the-Air</a>, <a href=\"https://arxiv.org/abs/2602.05986\">RISE-Video</a>, and <a href=\"https://arxiv.org/abs/2605.13831\">Training Long-Context Vision-Language Models Effectively</a>."
+  },
+  {
     "date": "2026-09",
     "label": "2026-09",
     "year": 2026,

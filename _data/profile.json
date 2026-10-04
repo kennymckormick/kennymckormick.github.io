@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T07:35:17+00:00",
+  "generated_at": "2026-10-04T13:09:42+00:00",
   "sources": {
     "scholar": "https://scholar.google.com/citations?user=vi3W-m8AAAAJ&hl=en&pagesize=100",
     "github": "https://github.com/kennymckormick"
@@ -26,20 +26,20 @@
       "Generative AI"
     ],
     "metrics": {
-      "citations": 17026,
-      "citations_recent": 16951,
-      "h_index": 47,
-      "h_index_recent": 47,
-      "i10_index": 69,
-      "i10_index_recent": 69
+      "citations": 17299,
+      "citations_recent": 17224,
+      "h_index": 48,
+      "h_index_recent": 48,
+      "i10_index": 70,
+      "i10_index_recent": 70
     },
     "metrics_display": {
-      "citations": "17,026",
-      "citations_recent": "16,951",
-      "h_index": "47",
-      "h_index_recent": "47",
-      "i10_index": "69",
-      "i10_index_recent": "69"
+      "citations": "17,299",
+      "citations_recent": "17,224",
+      "h_index": "48",
+      "h_index_recent": "48",
+      "i10_index": "70",
+      "i10_index_recent": "70"
     },
     "publication_count": 88,
     "selected_count": 24,
@@ -217,7 +217,7 @@
       "venue_display": "Technical Report, 2026",
       "venue_short": "Technical Report",
       "year": 2026,
-      "citations": 570,
+      "citations": 572,
       "metadata": [
         {
           "key": "publication_date",
@@ -344,7 +344,7 @@
       "venue_display": "ICLR, 2026",
       "venue_short": "ICLR",
       "year": 2026,
-      "citations": 180,
+      "citations": 190,
       "metadata": [
         {
           "key": "publication_date",
@@ -492,7 +492,7 @@
       "venue_display": "ICLR, 2026",
       "venue_short": "ICLR",
       "year": 2026,
-      "citations": 162,
+      "citations": 166,
       "metadata": [
         {
           "key": "publication_date",
@@ -548,7 +548,7 @@
       "venue_display": "Seed Technical Reports, 2026",
       "venue_short": "Seed Technical Rep",
       "year": 2026,
-      "citations": 76,
+      "citations": 79,
       "metadata": [
         {
           "key": "publication_date",
@@ -870,7 +870,7 @@
       "venue_display": "CVPR, 2026",
       "venue_short": "CVPR",
       "year": 2026,
-      "citations": 52,
+      "citations": 53,
       "metadata": [
         {
           "key": "publication_date",
@@ -1011,7 +1011,7 @@
       "venue_display": "arXiv preprint arXiv:2605.10912, 2026",
       "venue_short": "arXiv",
       "year": 2026,
-      "citations": 44,
+      "citations": 50,
       "metadata": [
         {
           "key": "publication_date",
@@ -1041,7 +1041,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 1,
-      "citation_rank": 49,
+      "citation_rank": 47,
       "selected": false,
       "selection_reasons": []
     },
@@ -1111,7 +1111,7 @@
       "venue_display": "CVPR, 2026",
       "venue_short": "CVPR",
       "year": 2026,
-      "citations": 34,
+      "citations": 35,
       "metadata": [
         {
           "key": "publication_date",
@@ -1143,6 +1143,131 @@
       "thumbnail": "",
       "visual_tone": 3,
       "citation_rank": 54,
+      "selected": false,
+      "selection_reasons": []
+    },
+    {
+      "scholar_id": "vi3W-m8AAAAJ:anf4URPfarAC",
+      "title": "Castle-in-the-Air: Probing the Foundational Visual Deficits of MLLMs via Bottom-Up Cognitive Factors",
+      "short_title": "VisFactor",
+      "authors": [
+        {
+          "name": "Jen-Tse Huang",
+          "is_self": false,
+          "roles": [
+            "first"
+          ]
+        },
+        {
+          "name": "Dasen Dai",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Jen-Yuan Huang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Youliang Yuan",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Xiaoyuan Liu",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Wenxuan Wang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Wenxiang Jiao",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Pinjia He",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Zhaopeng Tu",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Haodong Duan",
+          "is_self": true,
+          "roles": [
+            "corresponding"
+          ]
+        }
+      ],
+      "author_count": 10,
+      "authors_truncated": false,
+      "group_authored": false,
+      "author_order": "contribution",
+      "author_annotations_suppressed": false,
+      "corresponding_fallback": false,
+      "corresponding_fallback_author": "",
+      "venue": "NeurIPS",
+      "venue_display": "NeurIPS, 2026",
+      "venue_short": "NeurIPS",
+      "year": 2026,
+      "citations": 17,
+      "metadata": [
+        {
+          "key": "publication_date",
+          "label": "Publication date",
+          "value": "2025/2"
+        },
+        {
+          "key": "journal",
+          "label": "Journal",
+          "value": "arXiv e-prints"
+        },
+        {
+          "key": "pages",
+          "label": "Pages",
+          "value": "arXiv: 2502.16435"
+        }
+      ],
+      "description": "",
+      "summary": "",
+      "detail_metadata_available": true,
+      "topics": [
+        "Foundation Models",
+        "Model Adaptation"
+      ],
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:anf4URPfarAC",
+        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8529137492236512432,7999749026228437471,16518829331134387001",
+        "paper": "https://arxiv.org/abs/2502.16435",
+        "code": "https://github.com/CUHK-ARISE/VisFactor"
+      },
+      "repo": "CUHK-ARISE/VisFactor",
+      "repo_label": "",
+      "github": {
+        "name": "VisFactor",
+        "full_name": "CUHK-ARISE/VisFactor",
+        "url": "https://github.com/CUHK-ARISE/VisFactor",
+        "description": "VisFactor implemented with VLMEvalKit",
+        "stars": 4,
+        "stars_display": "4",
+        "forks": 1,
+        "forks_display": "1",
+        "watchers": 0,
+        "language": "Python",
+        "topics": [],
+        "updated_at": "2026-07-25T15:37:26Z",
+        "source": "github_api"
+      },
+      "thumbnail": "",
+      "visual_tone": 1,
+      "citation_rank": 63,
       "selected": false,
       "selection_reasons": []
     },
@@ -1233,111 +1358,6 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 4,
-      "citation_rank": 63,
-      "selected": false,
-      "selection_reasons": []
-    },
-    {
-      "scholar_id": "vi3W-m8AAAAJ:anf4URPfarAC",
-      "title": "Visfactor: Benchmarking fundamental visual cognition in multimodal large language models",
-      "short_title": "Visfactor",
-      "authors": [
-        {
-          "name": "Jen-Tse Huang",
-          "is_self": false,
-          "roles": [
-            "first"
-          ]
-        },
-        {
-          "name": "Dasen Dai",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Jen-Yuan Huang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Youliang Yuan",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Xiaoyuan Liu",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Wenxuan Wang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Wenxiang Jiao",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Pinjia He",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Zhaopeng Tu",
-          "is_self": false,
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
-      "author_count": 9,
-      "authors_truncated": false,
-      "group_authored": false,
-      "author_order": "contribution",
-      "author_annotations_suppressed": false,
-      "corresponding_fallback": true,
-      "corresponding_fallback_author": "Zhaopeng Tu",
-      "venue": "NeurIPS D&B, 2026, arXiv: 2502.16435",
-      "venue_display": "NeurIPS D&B, 2026, arXiv: 2502.16435",
-      "venue_short": "NeurIPS",
-      "year": 2026,
-      "citations": 15,
-      "metadata": [
-        {
-          "key": "publication_date",
-          "label": "Publication date",
-          "value": "2025/2"
-        },
-        {
-          "key": "journal",
-          "label": "Journal",
-          "value": "arXiv e-prints"
-        },
-        {
-          "key": "pages",
-          "label": "Pages",
-          "value": "arXiv: 2502.16435"
-        }
-      ],
-      "description": "",
-      "summary": "",
-      "detail_metadata_available": true,
-      "topics": [
-        "Image Understanding",
-        "Visual Reasoning",
-        "Multimodal Evaluation"
-      ],
-      "links": {
-        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:anf4URPfarAC",
-        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8529137492236512432,7999749026228437471,16518829331134387001"
-      },
-      "repo": "",
-      "repo_label": "",
-      "github": {},
-      "thumbnail": "",
-      "visual_tone": 2,
       "citation_rank": 64,
       "selected": false,
       "selection_reasons": []
@@ -1518,7 +1538,7 @@
       "venue_display": "CVPR, 2026",
       "venue_short": "CVPR",
       "year": 2026,
-      "citations": 11,
+      "citations": 12,
       "metadata": [
         {
           "key": "publication_date",
@@ -1550,6 +1570,67 @@
       "thumbnail": "",
       "visual_tone": 3,
       "citation_rank": 67,
+      "selected": false,
+      "selection_reasons": []
+    },
+    {
+      "scholar_id": "vi3W-m8AAAAJ:LgRImbQfgY4C",
+      "title": "Seed2.1 Model Card: Agentic Intelligence for Productivity",
+      "short_title": "Seed2.1 Model Card",
+      "authors": [
+        {
+          "name": "ByteDance Seed",
+          "is_self": false,
+          "roles": []
+        }
+      ],
+      "author_count": 1,
+      "authors_truncated": false,
+      "group_authored": true,
+      "author_order": "group",
+      "author_annotations_suppressed": true,
+      "corresponding_fallback": false,
+      "corresponding_fallback_author": "",
+      "venue": "Technical Report",
+      "venue_display": "ByteDance Seed Technical Report, 2026",
+      "venue_short": "Technical Report",
+      "year": 2026,
+      "citations": 10,
+      "metadata": [
+        {
+          "key": "publication_date",
+          "label": "Publication date",
+          "value": "2026/6/30"
+        },
+        {
+          "key": "source",
+          "label": "Source",
+          "value": "Seed Technical Reports, 2026"
+        },
+        {
+          "key": "publisher",
+          "label": "Publisher",
+          "value": "Technical report, ByteDance, 2026. URL https://lf3-static. bytednsdoc. com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/seed2. 1/Seed2_1_Model_Card. pdf"
+        }
+      ],
+      "description": "",
+      "summary": "",
+      "detail_metadata_available": true,
+      "topics": [
+        "Agentic Systems",
+        "Foundation Models"
+      ],
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:LgRImbQfgY4C",
+        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7993142557887822987,17976894061810765919",
+        "paper": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/seed2.1/Seed2_1_Model_Card.pdf"
+      },
+      "repo": "",
+      "repo_label": "",
+      "github": {},
+      "thumbnail": "",
+      "visual_tone": 4,
+      "citation_rank": 69,
       "selected": false,
       "selection_reasons": []
     },
@@ -1889,7 +1970,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 4,
-      "citation_rank": 72,
+      "citation_rank": 73,
       "selected": false,
       "selection_reasons": []
     },
@@ -2005,7 +2086,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 3,
-      "citation_rank": 73,
+      "citation_rank": 74,
       "selected": false,
       "selection_reasons": []
     },
@@ -2095,7 +2176,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 5,
-      "citation_rank": 74,
+      "citation_rank": 75,
       "selected": false,
       "selection_reasons": []
     },
@@ -2201,7 +2282,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 5,
-      "citation_rank": 75,
+      "citation_rank": 76,
       "selected": false,
       "selection_reasons": []
     },
@@ -2326,61 +2407,6 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 1,
-      "citation_rank": 76,
-      "selected": false,
-      "selection_reasons": []
-    },
-    {
-      "scholar_id": "vi3W-m8AAAAJ:a3BOlSfXSfwC",
-      "title": "Seed2.1 officially released: Advancing ai productivity",
-      "short_title": "Seed2.1 officially released",
-      "authors": [
-        {
-          "name": "Bytedance Seed",
-          "is_self": false,
-          "roles": []
-        }
-      ],
-      "author_count": 1,
-      "authors_truncated": false,
-      "group_authored": true,
-      "author_order": "group",
-      "author_annotations_suppressed": true,
-      "corresponding_fallback": false,
-      "corresponding_fallback_author": "",
-      "venue": "Seed Technical Report",
-      "venue_display": "Seed Technical Report, 2026",
-      "venue_short": "Seed Technical Rep",
-      "year": 2026,
-      "citations": 4,
-      "metadata": [
-        {
-          "key": "publication_date",
-          "label": "Publication date",
-          "value": "2026/6"
-        },
-        {
-          "key": "source",
-          "label": "Source",
-          "value": "Seed Technical Report"
-        }
-      ],
-      "description": "",
-      "summary": "",
-      "detail_metadata_available": true,
-      "topics": [
-        "Agentic Systems",
-        "Foundation Models"
-      ],
-      "links": {
-        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:a3BOlSfXSfwC",
-        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7993142557887822987"
-      },
-      "repo": "",
-      "repo_label": "",
-      "github": {},
-      "thumbnail": "",
-      "visual_tone": 2,
       "citation_rank": 77,
       "selected": false,
       "selection_reasons": []
@@ -3874,23 +3900,30 @@
           "name": "Shengyuan Ding",
           "is_self": false,
           "roles": [
-            "first"
+            "first",
+            "equal"
           ]
         },
         {
           "name": "Xilin Wei",
           "is_self": false,
-          "roles": []
+          "roles": [
+            "equal"
+          ]
         },
         {
           "name": "Xinyu Fang",
           "is_self": false,
-          "roles": []
+          "roles": [
+            "equal"
+          ]
         },
         {
           "name": "Haodong Duan",
           "is_self": true,
-          "roles": []
+          "roles": [
+            "corresponding"
+          ]
         },
         {
           "name": "Dahua Lin",
@@ -3900,7 +3933,9 @@
         {
           "name": "Jiaqi Wang",
           "is_self": false,
-          "roles": []
+          "roles": [
+            "corresponding"
+          ]
         },
         {
           "name": "Yuhang Zang",
@@ -3915,8 +3950,8 @@
       "group_authored": false,
       "author_order": "contribution",
       "author_annotations_suppressed": false,
-      "corresponding_fallback": true,
-      "corresponding_fallback_author": "Yuhang Zang",
+      "corresponding_fallback": false,
+      "corresponding_fallback_author": "",
       "venue": "EMNLP, 2026",
       "venue_display": "EMNLP, 2026",
       "venue_short": "EMNLP",
@@ -4393,7 +4428,7 @@
       "venue_display": "arXiv preprint arXiv:2508.18265, 2025",
       "venue_short": "arXiv",
       "year": 2025,
-      "citations": 1578,
+      "citations": 1647,
       "metadata": [
         {
           "key": "publication_date",
@@ -4493,7 +4528,7 @@
       "venue_display": "IEEE/CVF International Conference on Computer Vision (ICCV), 2025",
       "venue_short": "ICCV",
       "year": 2025,
-      "citations": 619,
+      "citations": 623,
       "metadata": [
         {
           "key": "publication_date",
@@ -4527,14 +4562,14 @@
         "full_name": "Liuziyu77/Visual-RFT",
         "url": "https://github.com/Liuziyu77/Visual-RFT",
         "description": "Official repository of 'Visual-RFT: Visual Reinforcement Fine-Tuning' & 'Visual-ARFT: Visual Agentic Reinforcement Fine-Tuning'’",
-        "stars": 2276,
-        "stars_display": "2,276",
+        "stars": 2277,
+        "stars_display": "2,277",
         "forks": 110,
         "forks_display": "110",
         "watchers": 13,
         "language": "Jupyter Notebook",
         "topics": [],
-        "updated_at": "2026-09-29T06:12:26Z",
+        "updated_at": "2026-10-03T14:42:58Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/visual-rft.webp",
@@ -4641,7 +4676,7 @@
       "venue_display": "CVPR, 2025",
       "venue_short": "CVPR",
       "year": 2025,
-      "citations": 155,
+      "citations": 164,
       "metadata": [
         {
           "key": "publication_date",
@@ -4664,7 +4699,7 @@
       ],
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:HoB7MX3m0LUC",
-        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17565849529930702040,17129374698112244985,17720338208376244195",
+        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17565849529930702040,17720338208376244195,17129374698112244985",
         "paper": "https://ieeexplore.ieee.org/abstract/document/11094230/"
       },
       "repo": "",
@@ -4698,7 +4733,7 @@
       "venue_display": "Technical report, Technical report, Bytedance, 2025. URL https://lf3-static …",
       "venue_short": "Technical report",
       "year": 2025,
-      "citations": 129,
+      "citations": 138,
       "metadata": [
         {
           "key": "publication_date",
@@ -4728,7 +4763,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 4,
-      "citation_rank": 27,
+      "citation_rank": 26,
       "selected": false,
       "selection_reasons": []
     },
@@ -5144,7 +5179,7 @@
       "venue_display": "arXiv preprint arXiv:2508.15763, 2025",
       "venue_short": "arXiv",
       "year": 2025,
-      "citations": 115,
+      "citations": 117,
       "metadata": [
         {
           "key": "publication_date",
@@ -5229,7 +5264,7 @@
       "venue_display": "TMLR, 2025",
       "venue_short": "TMLR",
       "year": 2025,
-      "citations": 99,
+      "citations": 101,
       "metadata": [
         {
           "key": "publication_date",
@@ -5358,7 +5393,7 @@
       "venue_display": "NeurIPS D&B Oral, 2025",
       "venue_short": "NeurIPS",
       "year": 2025,
-      "citations": 92,
+      "citations": 94,
       "metadata": [
         {
           "key": "publication_date",
@@ -5404,7 +5439,7 @@
       },
       "thumbnail": "/images/publications/risebench.webp",
       "visual_tone": 5,
-      "citation_rank": 33,
+      "citation_rank": 32,
       "selected": true,
       "selection_reasons": [
         "lead_author_and_influential"
@@ -5496,7 +5531,7 @@
       "venue_display": "ACL Findings, 2025",
       "venue_short": "ACL",
       "year": 2025,
-      "citations": 81,
+      "citations": 82,
       "metadata": [
         {
           "key": "publication_date",
@@ -5612,7 +5647,7 @@
       "venue_display": "ICML Oral, 2025",
       "venue_short": "ICML Oral",
       "year": 2025,
-      "citations": 73,
+      "citations": 75,
       "metadata": [
         {
           "key": "publication_date",
@@ -5912,7 +5947,7 @@
       "venue_display": "Science China Information Sciences, 2025 68 (12), 221301",
       "venue_short": "Science China Info",
       "year": 2025,
-      "citations": 68,
+      "citations": 69,
       "metadata": [
         {
           "key": "publication_date",
@@ -6033,7 +6068,7 @@
       "venue_display": "arXiv preprint arXiv:2505.14246, 2025",
       "venue_short": "arXiv",
       "year": 2025,
-      "citations": 56,
+      "citations": 58,
       "metadata": [
         {
           "key": "publication_date",
@@ -6139,7 +6174,7 @@
       "venue_display": "ICCV, 2025",
       "venue_short": "ICCV",
       "year": 2025,
-      "citations": 54,
+      "citations": 55,
       "metadata": [
         {
           "key": "publication_date",
@@ -6275,7 +6310,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 4,
-      "citation_rank": 47,
+      "citation_rank": 48,
       "selected": false,
       "selection_reasons": []
     },
@@ -6791,7 +6826,7 @@
       "venue_display": "CVPR Spotlight, 2025",
       "venue_short": "CVPR",
       "year": 2025,
-      "citations": 36,
+      "citations": 37,
       "metadata": [
         {
           "key": "publication_date",
@@ -7143,7 +7178,7 @@
       "venue_display": "ACL Findings, 2025",
       "venue_short": "ACL",
       "year": 2025,
-      "citations": 29,
+      "citations": 31,
       "metadata": [
         {
           "key": "publication_date",
@@ -7404,7 +7439,7 @@
         "name": "Condor",
         "full_name": "InternLM/Condor",
         "url": "https://github.com/InternLM/Condor",
-        "description": "",
+        "description": " [ACL 2025] An official pytorch implement of the paper: Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement",
         "stars": 40,
         "stars_display": "40",
         "forks": 5,
@@ -7412,8 +7447,8 @@
         "watchers": 2,
         "language": null,
         "topics": [],
-        "updated_at": null,
-        "source": "github_html"
+        "updated_at": "2026-06-30T16:48:31Z",
+        "source": "github_api"
       },
       "thumbnail": "/images/publications/condor.webp",
       "visual_tone": 1,
@@ -7857,7 +7892,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 4,
-      "citation_rank": 69,
+      "citation_rank": 70,
       "selected": false,
       "selection_reasons": []
     },
@@ -8093,7 +8128,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 2,
-      "citation_rank": 70,
+      "citation_rank": 71,
       "selected": false,
       "selection_reasons": []
     },
@@ -8188,7 +8223,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 2,
-      "citation_rank": 71,
+      "citation_rank": 72,
       "selected": false,
       "selection_reasons": []
     },
@@ -8760,7 +8795,7 @@
       "venue_display": "European Conference on Computer Vision (ECCV), 2024",
       "venue_short": "ECCV",
       "year": 2024,
-      "citations": 2978,
+      "citations": 3015,
       "metadata": [
         {
           "key": "publication_date",
@@ -8895,7 +8930,7 @@
       "venue_display": "Conference on Neural Information Processing Systems (NeurIPS), 2024",
       "venue_short": "NeurIPS",
       "year": 2024,
-      "citations": 1258,
+      "citations": 1294,
       "metadata": [
         {
           "key": "publication_date",
@@ -9359,7 +9394,7 @@
       "venue_display": "arXiv preprint arXiv:2403.17297, 2024",
       "venue_short": "arXiv",
       "year": 2024,
-      "citations": 796,
+      "citations": 801,
       "metadata": [
         {
           "key": "publication_date",
@@ -9474,7 +9509,7 @@
       "venue_display": "ACM International Conference on Multimedia (MM), 2024",
       "venue_short": "ACM MM",
       "year": 2024,
-      "citations": 649,
+      "citations": 660,
       "metadata": [
         {
           "key": "publication_date",
@@ -9507,14 +9542,14 @@
         "full_name": "open-compass/VLMEvalKit",
         "url": "https://github.com/open-compass/VLMEvalKit",
         "description": "Open-source evaluation toolkit of large multi-modality models (LMMs), support 220+ LMMs, 80+ benchmarks",
-        "stars": 4419,
-        "stars_display": "4,419",
-        "forks": 771,
-        "forks_display": "771",
+        "stars": 4428,
+        "stars_display": "4,428",
+        "forks": 773,
+        "forks_display": "773",
         "watchers": 14,
         "language": "Python",
         "topics": [],
-        "updated_at": "2026-09-30T04:05:40Z",
+        "updated_at": "2026-10-04T11:56:48Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/vlmevalkit.webp",
@@ -9629,7 +9664,7 @@
       "venue_display": "Conference on Neural Information Processing Systems (NeurIPS), Datasets & Benchmarks Track, 2024",
       "venue_short": "NeurIPS",
       "year": 2024,
-      "citations": 532,
+      "citations": 540,
       "metadata": [
         {
           "key": "publication_date",
@@ -9817,7 +9852,7 @@
       "venue_display": "arXiv preprint arXiv:2401.16420, 2024",
       "venue_short": "arXiv",
       "year": 2024,
-      "citations": 467,
+      "citations": 471,
       "metadata": [
         {
           "key": "publication_date",
@@ -10007,7 +10042,7 @@
       "venue_display": "arXiv preprint arXiv:2407.03320, 2024",
       "venue_short": "arXiv",
       "year": 2024,
-      "citations": 330,
+      "citations": 331,
       "metadata": [
         {
           "key": "publication_date",
@@ -10095,7 +10130,7 @@
       "venue_display": "Empirical Methods in Natural Language Processing (EMNLP), Findings, 2024",
       "venue_short": "EMNLP",
       "year": 2024,
-      "citations": 307,
+      "citations": 313,
       "metadata": [
         {
           "key": "publication_date",
@@ -10128,16 +10163,16 @@
         "name": "ProSA",
         "full_name": "open-compass/ProSA",
         "url": "https://github.com/open-compass/ProSA",
-        "description": "",
+        "description": "[EMNLP 2024 Findings] ProSA: Assessing and Understanding the Prompt Sensitivity of LLMs",
         "stars": 30,
         "stars_display": "30",
         "forks": 2,
         "forks_display": "2",
         "watchers": 3,
-        "language": null,
+        "language": "Python",
         "topics": [],
-        "updated_at": null,
-        "source": "github_html"
+        "updated_at": "2026-08-14T21:09:57Z",
+        "source": "github_api"
       },
       "thumbnail": "/images/publications/prosa.webp",
       "visual_tone": 5,
@@ -10209,7 +10244,7 @@
       "venue_display": "Conference on Neural Information Processing Systems (NeurIPS), Datasets & Benchmarks Track, 2024",
       "venue_short": "NeurIPS",
       "year": 2024,
-      "citations": 239,
+      "citations": 242,
       "metadata": [
         {
           "key": "publication_date",
@@ -10243,14 +10278,14 @@
         "full_name": "open-compass/VLMEvalKit",
         "url": "https://github.com/open-compass/VLMEvalKit",
         "description": "Open-source evaluation toolkit of large multi-modality models (LMMs), support 220+ LMMs, 80+ benchmarks",
-        "stars": 4419,
-        "stars_display": "4,419",
-        "forks": 771,
-        "forks_display": "771",
+        "stars": 4428,
+        "stars_display": "4,428",
+        "forks": 773,
+        "forks_display": "773",
         "watchers": 14,
         "language": "Python",
         "topics": [],
-        "updated_at": "2026-09-30T04:05:40Z",
+        "updated_at": "2026-10-04T11:56:48Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/mmbench-video.webp",
@@ -10403,7 +10438,7 @@
       "venue_display": "Conference on Neural Information Processing Systems (NeurIPS), 2024",
       "venue_short": "NeurIPS",
       "year": 2024,
-      "citations": 238,
+      "citations": 239,
       "metadata": [
         {
           "key": "publication_date",
@@ -10563,7 +10598,7 @@
       "venue_display": "Conference on Neural Information Processing Systems (NeurIPS), Datasets & Benchmarks Track, 2024",
       "venue_short": "NeurIPS",
       "year": 2024,
-      "citations": 171,
+      "citations": 175,
       "metadata": [
         {
           "key": "publication_date",
@@ -10670,7 +10705,7 @@
       "venue_display": "Annual Meeting of the Association for Computational Linguistics (ACL), Findings, 2024",
       "venue_short": "ACL",
       "year": 2024,
-      "citations": 166,
+      "citations": 167,
       "metadata": [
         {
           "key": "publication_date",
@@ -10787,7 +10822,7 @@
       "venue_display": "arXiv preprint arXiv:2411.15296, 2024",
       "venue_short": "arXiv",
       "year": 2024,
-      "citations": 120,
+      "citations": 121,
       "metadata": [
         {
           "key": "publication_date",
@@ -11105,7 +11140,7 @@
       "venue_display": "arXiv preprint arXiv:2412.09596, 2024",
       "venue_short": "arXiv",
       "year": 2024,
-      "citations": 60,
+      "citations": 62,
       "metadata": [
         {
           "key": "publication_date",
@@ -11139,6 +11174,126 @@
       "citation_rank": 40,
       "selected": false,
       "selection_reasons": []
+    },
+    {
+      "scholar_id": "vi3W-m8AAAAJ:qUcmZB5y_30C",
+      "title": "Prism: A Framework for Decoupling and Assessing the Capabilities of VLMs",
+      "short_title": "Prism",
+      "authors": [
+        {
+          "name": "Yuxuan Qiao",
+          "is_self": false,
+          "roles": [
+            "first"
+          ]
+        },
+        {
+          "name": "Haodong Duan",
+          "is_self": true,
+          "roles": [
+            "corresponding"
+          ]
+        },
+        {
+          "name": "Xinyu Fang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Junming Yang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Lin Chen",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Songyang Zhang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Jiaqi Wang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Dahua Lin",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Kai Chen",
+          "is_self": false,
+          "roles": [
+            "corresponding"
+          ]
+        }
+      ],
+      "author_count": 9,
+      "authors_truncated": false,
+      "group_authored": false,
+      "author_order": "contribution",
+      "author_annotations_suppressed": false,
+      "corresponding_fallback": false,
+      "corresponding_fallback_author": "",
+      "venue": "Conference on Neural Information Processing Systems (NeurIPS)",
+      "venue_display": "Conference on Neural Information Processing Systems (NeurIPS), 2024",
+      "venue_short": "NeurIPS",
+      "year": 2024,
+      "citations": 53,
+      "metadata": [
+        {
+          "key": "publication_date",
+          "label": "Publication date",
+          "value": "2024/6/20"
+        },
+        {
+          "key": "journal",
+          "label": "Journal",
+          "value": "NeurIPS, 2024"
+        }
+      ],
+      "description": "Vision Language Models (VLMs) demonstrate remarkable proficiency in addressing a wide array of visual questions, which requires strong perception and reasoning faculties. Assessing these two competencies independently is crucial for model refinement, despite the inherent difficulty due to the intertwined nature of seeing and reasoning in existing VLMs. To tackle this issue, we present Prism, an innovative framework designed to disentangle the perception and reasoning processes involved in visual question solving. Prism comprises two distinct stages: a perception stage that utilizes a VLM to extract and articulate visual information in textual form, and a reasoning stage that formulates responses based on the extracted visual information using a Large Language Model (LLM). This modular design enables the systematic comparison and assessment of both proprietary and open-source VLM for their perception and reasoning strengths. Our analytical framework provides several valuable insights, underscoring Prism's potential as a cost-effective solution for vision-language tasks. By combining a streamlined VLM focused on perception with a powerful LLM tailored for reasoning, Prism achieves superior results in general vision-language tasks while substantially cutting down on training and operational expenses. Quantitative evaluations show that Prism, when configured with a vanilla 2B LLaVA and freely accessible GPT-3.5, delivers performance on par with VLMs larger on the rigorous multimodal benchmark MMStar.",
+      "summary": "Prism decouples perception and reasoning to diagnose VLM capability bottlenecks and combine compact specialist components more effectively.",
+      "detail_metadata_available": true,
+      "topics": [
+        "Visual Reasoning",
+        "Multimodal Evaluation",
+        "Model Efficiency"
+      ],
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:qUcmZB5y_30C",
+        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1199928128065989330",
+        "paper": "https://arxiv.org/abs/2406.14544",
+        "code": "https://github.com/SparksJoe/Prism"
+      },
+      "repo": "SparksJoe/Prism",
+      "repo_label": "",
+      "github": {
+        "name": "Prism",
+        "full_name": "SparksJoe/Prism",
+        "url": "https://github.com/SparksJoe/Prism",
+        "description": "A Framework for Decoupling and Assessing the Capabilities of VLMs",
+        "stars": 44,
+        "stars_display": "44",
+        "forks": 1,
+        "forks_display": "1",
+        "watchers": 1,
+        "language": "Python",
+        "topics": [],
+        "updated_at": "2026-06-09T15:30:33Z",
+        "source": "github_api"
+      },
+      "thumbnail": "/images/publications/prism.webp",
+      "visual_tone": 5,
+      "citation_rank": 45,
+      "selected": true,
+      "selection_reasons": [
+        "lead_author_and_influential"
+      ]
     },
     {
       "scholar_id": "vi3W-m8AAAAJ:blknAaTinKkC",
@@ -11222,129 +11377,9 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 3,
-      "citation_rank": 45,
+      "citation_rank": 46,
       "selected": false,
       "selection_reasons": []
-    },
-    {
-      "scholar_id": "vi3W-m8AAAAJ:qUcmZB5y_30C",
-      "title": "Prism: A Framework for Decoupling and Assessing the Capabilities of VLMs",
-      "short_title": "Prism",
-      "authors": [
-        {
-          "name": "Yuxuan Qiao",
-          "is_self": false,
-          "roles": [
-            "first"
-          ]
-        },
-        {
-          "name": "Haodong Duan",
-          "is_self": true,
-          "roles": [
-            "corresponding"
-          ]
-        },
-        {
-          "name": "Xinyu Fang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Junming Yang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Lin Chen",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Songyang Zhang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Jiaqi Wang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Dahua Lin",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Kai Chen",
-          "is_self": false,
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
-      "author_count": 9,
-      "authors_truncated": false,
-      "group_authored": false,
-      "author_order": "contribution",
-      "author_annotations_suppressed": false,
-      "corresponding_fallback": false,
-      "corresponding_fallback_author": "",
-      "venue": "Conference on Neural Information Processing Systems (NeurIPS)",
-      "venue_display": "Conference on Neural Information Processing Systems (NeurIPS), 2024",
-      "venue_short": "NeurIPS",
-      "year": 2024,
-      "citations": 51,
-      "metadata": [
-        {
-          "key": "publication_date",
-          "label": "Publication date",
-          "value": "2024/6/20"
-        },
-        {
-          "key": "journal",
-          "label": "Journal",
-          "value": "NeurIPS, 2024"
-        }
-      ],
-      "description": "Vision Language Models (VLMs) demonstrate remarkable proficiency in addressing a wide array of visual questions, which requires strong perception and reasoning faculties. Assessing these two competencies independently is crucial for model refinement, despite the inherent difficulty due to the intertwined nature of seeing and reasoning in existing VLMs. To tackle this issue, we present Prism, an innovative framework designed to disentangle the perception and reasoning processes involved in visual question solving. Prism comprises two distinct stages: a perception stage that utilizes a VLM to extract and articulate visual information in textual form, and a reasoning stage that formulates responses based on the extracted visual information using a Large Language Model (LLM). This modular design enables the systematic comparison and assessment of both proprietary and open-source VLM for their perception and reasoning strengths. Our analytical framework provides several valuable insights, underscoring Prism's potential as a cost-effective solution for vision-language tasks. By combining a streamlined VLM focused on perception with a powerful LLM tailored for reasoning, Prism achieves superior results in general vision-language tasks while substantially cutting down on training and operational expenses. Quantitative evaluations show that Prism, when configured with a vanilla 2B LLaVA and freely accessible GPT-3.5, delivers performance on par with VLMs larger on the rigorous multimodal benchmark MMStar.",
-      "summary": "Prism decouples perception and reasoning to diagnose VLM capability bottlenecks and combine compact specialist components more effectively.",
-      "detail_metadata_available": true,
-      "topics": [
-        "Visual Reasoning",
-        "Multimodal Evaluation",
-        "Model Efficiency"
-      ],
-      "links": {
-        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:qUcmZB5y_30C",
-        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1199928128065989330",
-        "paper": "https://arxiv.org/abs/2406.14544",
-        "code": "https://github.com/SparksJoe/Prism"
-      },
-      "repo": "SparksJoe/Prism",
-      "repo_label": "",
-      "github": {
-        "name": "Prism",
-        "full_name": "SparksJoe/Prism",
-        "url": "https://github.com/SparksJoe/Prism",
-        "description": "A Framework for Decoupling and Assessing the Capabilities of VLMs",
-        "stars": 44,
-        "stars_display": "44",
-        "forks": 1,
-        "forks_display": "1",
-        "watchers": 1,
-        "language": "Python",
-        "topics": [],
-        "updated_at": "2026-06-09T15:30:33Z",
-        "source": "github_api"
-      },
-      "thumbnail": "/images/publications/prism.webp",
-      "visual_tone": 5,
-      "citation_rank": 46,
-      "selected": true,
-      "selection_reasons": [
-        "lead_author_and_influential"
-      ]
     },
     {
       "scholar_id": "vi3W-m8AAAAJ:7PzlFSSx8tAC",
@@ -11440,7 +11475,7 @@
       },
       "thumbnail": "/images/publications/ada-leval.webp",
       "visual_tone": 1,
-      "citation_rank": 48,
+      "citation_rank": 49,
       "selected": true,
       "selection_reasons": [
         "lead_author_and_influential"
@@ -11628,7 +11663,7 @@
       "venue_display": "InternLM Project, https://github.com/InternLM/InternLM, 2023",
       "venue_short": "InternLM Project",
       "year": 2023,
-      "citations": 327,
+      "citations": 328,
       "metadata": [
         {
           "key": "publication_date",
@@ -11759,7 +11794,7 @@
       "venue_display": "Conference on Neural Information Processing Systems (NeurIPS), Datasets & Benchmarks Track, 2023",
       "venue_short": "NeurIPS",
       "year": 2023,
-      "citations": 255,
+      "citations": 257,
       "metadata": [
         {
           "key": "publication_date",
@@ -11889,7 +11924,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 2,
-      "citation_rank": 32,
+      "citation_rank": 33,
       "selected": false,
       "selection_reasons": []
     },
@@ -12032,7 +12067,7 @@
       "venue_display": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022",
       "venue_short": "CVPR",
       "year": 2022,
-      "citations": 1346,
+      "citations": 1349,
       "metadata": [
         {
           "key": "publication_date",
@@ -12068,8 +12103,8 @@
         "description": "A toolbox for skeleton-based action recognition.",
         "stars": 1268,
         "stars_display": "1,268",
-        "forks": 232,
-        "forks_display": "232",
+        "forks": 233,
+        "forks_display": "233",
         "watchers": 13,
         "language": "Python",
         "topics": [],
@@ -12126,7 +12161,7 @@
       "venue_display": "ACM International Conference on Multimedia (MM), 2022",
       "venue_short": "ACM MM",
       "year": 2022,
-      "citations": 323,
+      "citations": 325,
       "metadata": [
         {
           "key": "publication_date",
@@ -12162,8 +12197,8 @@
         "description": "A toolbox for skeleton-based action recognition.",
         "stars": 1268,
         "stars_display": "1,268",
-        "forks": 232,
-        "forks_display": "232",
+        "forks": 233,
+        "forks_display": "233",
         "watchers": 13,
         "language": "Python",
         "topics": [],
@@ -12256,8 +12291,8 @@
         "description": "A toolbox for skeleton-based action recognition.",
         "stars": 1268,
         "stars_display": "1,268",
-        "forks": 232,
-        "forks_display": "232",
+        "forks": 233,
+        "forks_display": "233",
         "watchers": 13,
         "language": "Python",
         "topics": [],
@@ -12266,7 +12301,7 @@
       },
       "thumbnail": "/images/publications/dg-stgcn.webp",
       "visual_tone": 1,
-      "citation_rank": 26,
+      "citation_rank": 27,
       "selected": true,
       "selection_reasons": [
         "lead_author_and_influential"
@@ -12667,14 +12702,14 @@
         "full_name": "open-mmlab/mmaction2",
         "url": "https://github.com/open-mmlab/mmaction2",
         "description": "OpenMMLab's Next Generation Video Understanding Toolbox and Benchmark",
-        "stars": 5165,
-        "stars_display": "5,165",
+        "stars": 5169,
+        "stars_display": "5,169",
         "forks": 1360,
         "forks_display": "1,360",
-        "watchers": 42,
+        "watchers": 43,
         "language": "Python",
         "topics": [],
-        "updated_at": "2026-09-29T06:50:16Z",
+        "updated_at": "2026-10-03T18:08:46Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/omnisource.webp",
@@ -12854,17 +12889,17 @@
       "full_name": "open-compass/VLMEvalKit",
       "url": "https://github.com/open-compass/VLMEvalKit",
       "description": "An all-in-one evaluation toolkit for large vision-language and multimodal models. It connects model inference, benchmark execution, scoring, and result comparison in one reproducible workflow used by both researchers and practitioners.",
-      "stars": 4419,
-      "stars_display": "4,419",
-      "forks": 771,
-      "forks_display": "771",
+      "stars": 4428,
+      "stars_display": "4,428",
+      "forks": 773,
+      "forks_display": "773",
       "watchers": 14,
       "language": "Python",
       "topics": [
         "Multimodal Evaluation",
         "Evaluation Infrastructure"
       ],
-      "updated_at": "2026-09-30T04:05:40Z",
+      "updated_at": "2026-10-04T11:56:48Z",
       "source": "github_api"
     },
     {
@@ -12872,17 +12907,17 @@
       "full_name": "open-compass/opencompass",
       "url": "https://github.com/open-compass/opencompass",
       "description": "A comprehensive platform for evaluating large language and multimodal models. Its modular configs, task scheduling, evaluators, and reporting tools make broad and reproducible model comparisons easier to run and extend.",
-      "stars": 7486,
-      "stars_display": "7,486",
-      "forks": 871,
-      "forks_display": "871",
+      "stars": 7491,
+      "stars_display": "7,491",
+      "forks": 876,
+      "forks_display": "876",
       "watchers": 30,
       "language": "Python",
       "topics": [
         "LLM Evaluation",
         "Benchmarking Platform"
       ],
-      "updated_at": "2026-09-30T03:40:04Z",
+      "updated_at": "2026-10-04T05:33:18Z",
       "source": "github_api"
     },
     {
@@ -12892,8 +12927,8 @@
       "description": "A unified toolbox for skeleton-based action recognition, with strong baselines spanning GCN- and CNN-based methods. It packages training recipes, pretrained models, and benchmark results so new methods can be compared on consistent footing.",
       "stars": 1268,
       "stars_display": "1,268",
-      "forks": 232,
-      "forks_display": "232",
+      "forks": 233,
+      "forks_display": "233",
       "watchers": 13,
       "language": "Python",
       "topics": [
@@ -12908,17 +12943,17 @@
       "full_name": "open-mmlab/mmaction2",
       "url": "https://github.com/open-mmlab/mmaction2",
       "description": "OpenMMLab's modular video-understanding toolbox for action recognition, localization, skeleton-based recognition, and related tasks. It offers reusable components, extensive model coverage, and standardized training and inference pipelines.",
-      "stars": 5165,
-      "stars_display": "5,165",
+      "stars": 5169,
+      "stars_display": "5,169",
       "forks": 1360,
       "forks_display": "1,360",
-      "watchers": 42,
+      "watchers": 43,
       "language": "Python",
       "topics": [
         "Video Understanding",
         "OpenMMLab"
       ],
-      "updated_at": "2026-09-29T06:50:16Z",
+      "updated_at": "2026-10-03T18:08:46Z",
       "source": "github_api"
     }
   ]

@@ -35,6 +35,39 @@
     }
   ],
   "publications": {
+    "Castle-in-the-Air: Evaluating MLLM Visual Abilities on Human Cognitive Benchmarks": {
+      "title": "Castle-in-the-Air: Probing the Foundational Visual Deficits of MLLMs via Bottom-Up Cognitive Factors",
+      "short_title": "VisFactor",
+      "authors": [
+        "Jen-Tse Huang", "Dasen Dai", "Jen-Yuan Huang", "Youliang Yuan", "Xiaoyuan Liu",
+        "Wenxuan Wang", "Wenxiang Jiao", "Pinjia He", "Zhaopeng Tu", "Haodong Duan"
+      ],
+      "author_roles": {
+        "Jen-Tse Huang": ["first"],
+        "Haodong Duan": ["corresponding"]
+      },
+      "venue": "NeurIPS",
+      "year": 2026,
+      "repo": "CUHK-ARISE/VisFactor",
+      "links": {"paper": "https://arxiv.org/abs/2502.16435"}
+    },
+    "Beyond the Current Observation: Evaluating Multimodal Large Language Models in Controllable Non-Markov Games": {
+      "author_roles": {
+        "Shengyuan Ding": ["equal"],
+        "Xilin Wei": ["equal"],
+        "Xinyu Fang": ["equal"],
+        "Haodong Duan": ["corresponding"],
+        "Jiaqi Wang": ["corresponding"],
+        "Yuhang Zang": ["corresponding"]
+      }
+    },
+    "Seed2.1 model card: Agentic intelligence for productivity": {
+      "title": "Seed2.1 Model Card: Agentic Intelligence for Productivity",
+      "venue": "Technical Report",
+      "venue_display": "ByteDance Seed Technical Report, 2026",
+      "year": 2026,
+      "links": {"paper": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/seed2.1/Seed2_1_Model_Card.pdf"}
+    },
     "OpenCompass: A Universal Evaluation Platform for Large Language Models": {
       "author_order": "alphabetical"
     },
