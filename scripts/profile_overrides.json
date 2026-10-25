@@ -35,6 +35,11 @@
     }
   ],
   "publications": {
+    "Affordance Benchmark for MLLMs": {
+      "venue": "ICASSP",
+      "year": 2026,
+      "links": {"paper": "https://ieeexplore.ieee.org/document/11464994"}
+    },
     "Castle-in-the-Air: Evaluating MLLM Visual Abilities on Human Cognitive Benchmarks": {
       "title": "Castle-in-the-Air: Probing the Foundational Visual Deficits of MLLMs via Bottom-Up Cognitive Factors",
       "short_title": "VisFactor",
@@ -81,7 +86,7 @@
       "short_title": "MMSI-Bench",
       "summary": "MMSI-Bench evaluates whether MLLMs can integrate evidence across multiple images to solve grounded, real-world spatial reasoning problems.",
       "topics": ["Spatial Reasoning", "Multi-Image Reasoning", "Multimodal Evaluation"],
-      "repo": "OpenRobotLab/MMSI-Bench",
+      "repo": "InternRobotics/MMSI-Bench",
       "thumbnail": "/images/publications/mmsi-bench.webp",
       "links": {"paper": "https://arxiv.org/abs/2505.23764"},
       "author_roles": {
@@ -109,7 +114,7 @@
       "short_title": "RISEBench",
       "summary": "RISEBench measures whether image editors can follow reasoning-heavy temporal, causal, spatial, and logical instructions while preserving visual quality.",
       "topics": ["Multimodal Generation", "Visual Reasoning", "Multimodal Evaluation"],
-      "repo": "PhoenixZ810/RISEBench",
+      "repo": "VisionXLab/RISEBench",
       "thumbnail": "/images/publications/risebench.webp",
       "links": {"paper": "https://arxiv.org/abs/2504.02826"},
       "authors": [
@@ -166,7 +171,7 @@
       "short_title": "Redundancy Principle",
       "summary": "This work quantifies dimension, instance, and cross-benchmark redundancy and turns the findings into practical principles for efficient MLLM evaluation.",
       "topics": ["Benchmark Design", "Model Efficiency", "Multimodal Evaluation"],
-      "repo": "zzc-1998/Benchmark-Redundancy",
+      "repo": "aiben-ch/Benchmark-Redundancy",
       "thumbnail": "/images/publications/redundancy-principle.webp",
       "links": {"paper": "https://arxiv.org/abs/2501.13953"},
       "author_roles": {

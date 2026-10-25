@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T13:09:42+00:00",
+  "generated_at": "2026-10-25T12:58:39+00:00",
   "sources": {
     "scholar": "https://scholar.google.com/citations?user=vi3W-m8AAAAJ&hl=en&pagesize=100",
     "github": "https://github.com/kennymckormick"
@@ -26,20 +26,20 @@
       "Generative AI"
     ],
     "metrics": {
-      "citations": 17299,
-      "citations_recent": 17224,
+      "citations": 18030,
+      "citations_recent": 17949,
       "h_index": 48,
       "h_index_recent": 48,
-      "i10_index": 70,
-      "i10_index_recent": 70
+      "i10_index": 73,
+      "i10_index_recent": 73
     },
     "metrics_display": {
-      "citations": "17,299",
-      "citations_recent": "17,224",
+      "citations": "18,030",
+      "citations_recent": "17,949",
       "h_index": "48",
       "h_index_recent": "48",
-      "i10_index": "70",
-      "i10_index_recent": "70"
+      "i10_index": "73",
+      "i10_index_recent": "73"
     },
     "publication_count": 88,
     "selected_count": 24,
@@ -217,7 +217,7 @@
       "venue_display": "Technical Report, 2026",
       "venue_short": "Technical Report",
       "year": 2026,
-      "citations": 572,
+      "citations": 582,
       "metadata": [
         {
           "key": "publication_date",
@@ -344,7 +344,7 @@
       "venue_display": "ICLR, 2026",
       "venue_short": "ICLR",
       "year": 2026,
-      "citations": 190,
+      "citations": 220,
       "metadata": [
         {
           "key": "publication_date",
@@ -369,23 +369,23 @@
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:J-pR_7NvFogC",
         "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14844691474289602509,10102208911214702504,12760481050225949714",
         "paper": "https://arxiv.org/abs/2505.23764",
-        "code": "https://github.com/OpenRobotLab/MMSI-Bench"
+        "code": "https://github.com/InternRobotics/MMSI-Bench"
       },
-      "repo": "OpenRobotLab/MMSI-Bench",
+      "repo": "InternRobotics/MMSI-Bench",
       "repo_label": "",
       "github": {
         "name": "MMSI-Bench",
-        "full_name": "OpenRobotLab/MMSI-Bench",
+        "full_name": "InternRobotics/MMSI-Bench",
         "url": "https://github.com/InternRobotics/MMSI-Bench",
         "description": "[ICLR 2026] MMSI-Bench: A Benchmark for Multi-Image Spatial Intelligence",
-        "stars": 109,
-        "stars_display": "109",
+        "stars": 110,
+        "stars_display": "110",
         "forks": 2,
         "forks_display": "2",
         "watchers": 2,
         "language": "Python",
         "topics": [],
-        "updated_at": "2026-09-11T20:47:49Z",
+        "updated_at": "2026-10-24T07:53:19Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/mmsi-bench.webp",
@@ -492,7 +492,7 @@
       "venue_display": "ICLR, 2026",
       "venue_short": "ICLR",
       "year": 2026,
-      "citations": 166,
+      "citations": 174,
       "metadata": [
         {
           "key": "publication_date",
@@ -548,7 +548,7 @@
       "venue_display": "Seed Technical Reports, 2026",
       "venue_short": "Seed Technical Rep",
       "year": 2026,
-      "citations": 79,
+      "citations": 82,
       "metadata": [
         {
           "key": "publication_date",
@@ -657,7 +657,7 @@
       "venue_display": "ECCV, 2026",
       "venue_short": "ECCV",
       "year": 2026,
-      "citations": 58,
+      "citations": 62,
       "metadata": [
         {
           "key": "publication_date",
@@ -703,11 +703,151 @@
       },
       "thumbnail": "/images/publications/lego-puzzles.webp",
       "visual_tone": 4,
-      "citation_rank": 41,
+      "citation_rank": 42,
       "selected": true,
       "selection_reasons": [
         "lead_author_and_influential"
       ]
+    },
+    {
+      "scholar_id": "vi3W-m8AAAAJ:mlAyqtXpCwEC",
+      "title": "Wildclawbench: A benchmark for real-world, long-horizon agent evaluation",
+      "short_title": "Wildclawbench",
+      "authors": [
+        {
+          "name": "Shuangrui Ding",
+          "is_self": false,
+          "roles": [
+            "first"
+          ]
+        },
+        {
+          "name": "Xuanlang Dai",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Long Xing",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Shengyuan Ding",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Ziyu Liu",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Yang JingYi",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Penghui Yang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Zhixiong Zhang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Xilin Wei",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Xinyu Fang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Yubo Ma",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Haodong Duan",
+          "is_self": true,
+          "roles": []
+        },
+        {
+          "name": "Jing Shao",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Jiaqi Wang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Dahua Lin",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Kai Chen",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Yuhang Zang",
+          "is_self": false,
+          "roles": [
+            "corresponding"
+          ]
+        }
+      ],
+      "author_count": 17,
+      "authors_truncated": false,
+      "group_authored": false,
+      "author_order": "contribution",
+      "author_annotations_suppressed": false,
+      "corresponding_fallback": true,
+      "corresponding_fallback_author": "Yuhang Zang",
+      "venue": "arXiv preprint arXiv:2605.10912",
+      "venue_display": "arXiv preprint arXiv:2605.10912, 2026",
+      "venue_short": "arXiv",
+      "year": 2026,
+      "citations": 60,
+      "metadata": [
+        {
+          "key": "publication_date",
+          "label": "Publication date",
+          "value": "2026/5/11"
+        },
+        {
+          "key": "journal",
+          "label": "Journal",
+          "value": "arXiv preprint arXiv:2605.10912"
+        }
+      ],
+      "description": "Large language and vision-language models increasingly power agents that act on a user's behalf through command-line interface (CLI) harnesses. However, most agent benchmarks still rely on synthetic sandboxes, short-horizon tasks, mock-service APIs, and final-answer checks, leaving open whether agents can complete realistic long-horizon work in the runtimes where they are deployed. This work presents WildClawBench, a native-runtime benchmark of 60 human-authored, bilingual, multimodal tasks spanning six thematic categories. Each task averages roughly 8 minutes of wall-clock time and over 20 tool calls, and runs inside a reproducible Docker container hosting an actual CLI agent harness (OpenClaw, Claude Code, Codex, or Hermes Agent) with access to real tools rather than mock services. Grading is hybrid, combining deterministic rule-based checks, environment-state auditing of side effects, and an LLM/VLM judge for semantic verification. Across 19 frontier models, the best, Claude Opus 4.7, reaches only 62.2% overall under OpenClaw, while every other model stays below 60%, and switching harness alone shifts a single model by up to 18 points. These results show that long-horizon, native-runtime agent evaluation remains a far-from-resolved task for current frontier models. We release the tasks, code, and containerized tooling to support reproducible evaluation.",
+      "summary": "Large language and vision-language models increasingly power agents that act on a user's behalf through command-line interface (CLI) harnesses.",
+      "detail_metadata_available": true,
+      "topics": [
+        "Agentic Systems",
+        "Benchmark Design"
+      ],
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:mlAyqtXpCwEC",
+        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18340473101711454154,16191880409048519592,5701559679980772221,17920634377215582542,14992377223056240635",
+        "paper": "https://arxiv.org/abs/2605.10912"
+      },
+      "repo": "",
+      "repo_label": "",
+      "github": {},
+      "thumbnail": "",
+      "visual_tone": 1,
+      "citation_rank": 43,
+      "selected": false,
+      "selection_reasons": []
     },
     {
       "scholar_id": "vi3W-m8AAAAJ:2KloaMYe4IUC",
@@ -870,7 +1010,7 @@
       "venue_display": "CVPR, 2026",
       "venue_short": "CVPR",
       "year": 2026,
-      "citations": 53,
+      "citations": 56,
       "metadata": [
         {
           "key": "publication_date",
@@ -901,147 +1041,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 3,
-      "citation_rank": 44,
-      "selected": false,
-      "selection_reasons": []
-    },
-    {
-      "scholar_id": "vi3W-m8AAAAJ:mlAyqtXpCwEC",
-      "title": "Wildclawbench: A benchmark for real-world, long-horizon agent evaluation",
-      "short_title": "Wildclawbench",
-      "authors": [
-        {
-          "name": "Shuangrui Ding",
-          "is_self": false,
-          "roles": [
-            "first"
-          ]
-        },
-        {
-          "name": "Xuanlang Dai",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Long Xing",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Shengyuan Ding",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Ziyu Liu",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Yang JingYi",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Penghui Yang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Zhixiong Zhang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Xilin Wei",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Xinyu Fang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Yubo Ma",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Haodong Duan",
-          "is_self": true,
-          "roles": []
-        },
-        {
-          "name": "Jing Shao",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Jiaqi Wang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Dahua Lin",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Kai Chen",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Yuhang Zang",
-          "is_self": false,
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
-      "author_count": 17,
-      "authors_truncated": false,
-      "group_authored": false,
-      "author_order": "contribution",
-      "author_annotations_suppressed": false,
-      "corresponding_fallback": true,
-      "corresponding_fallback_author": "Yuhang Zang",
-      "venue": "arXiv preprint arXiv:2605.10912",
-      "venue_display": "arXiv preprint arXiv:2605.10912, 2026",
-      "venue_short": "arXiv",
-      "year": 2026,
-      "citations": 50,
-      "metadata": [
-        {
-          "key": "publication_date",
-          "label": "Publication date",
-          "value": "2026/5/11"
-        },
-        {
-          "key": "journal",
-          "label": "Journal",
-          "value": "arXiv preprint arXiv:2605.10912"
-        }
-      ],
-      "description": "Large language and vision-language models increasingly power agents that act on a user's behalf through command-line interface (CLI) harnesses. However, most agent benchmarks still rely on synthetic sandboxes, short-horizon tasks, mock-service APIs, and final-answer checks, leaving open whether agents can complete realistic long-horizon work in the runtimes where they are deployed. This work presents WildClawBench, a native-runtime benchmark of 60 human-authored, bilingual, multimodal tasks spanning six thematic categories. Each task averages roughly 8 minutes of wall-clock time and over 20 tool calls, and runs inside a reproducible Docker container hosting an actual CLI agent harness (OpenClaw, Claude Code, Codex, or Hermes Agent) with access to real tools rather than mock services. Grading is hybrid, combining deterministic rule-based checks, environment-state auditing of side effects, and an LLM/VLM judge for semantic verification. Across 19 frontier models, the best, Claude Opus 4.7, reaches only 62.2% overall under OpenClaw, while every other model stays below 60%, and switching harness alone shifts a single model by up to 18 points. These results show that long-horizon, native-runtime agent evaluation remains a far-from-resolved task for current frontier models. We release the tasks, code, and containerized tooling to support reproducible evaluation.",
-      "summary": "Large language and vision-language models increasingly power agents that act on a user's behalf through command-line interface (CLI) harnesses.",
-      "detail_metadata_available": true,
-      "topics": [
-        "Agentic Systems",
-        "Benchmark Design"
-      ],
-      "links": {
-        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:mlAyqtXpCwEC",
-        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18340473101711454154,5701559679980772221,17920634377215582542,16191880409048519592,14992377223056240635",
-        "paper": "https://arxiv.org/abs/2605.10912"
-      },
-      "repo": "",
-      "repo_label": "",
-      "github": {},
-      "thumbnail": "",
-      "visual_tone": 1,
-      "citation_rank": 47,
+      "citation_rank": 45,
       "selected": false,
       "selection_reasons": []
     },
@@ -1111,7 +1111,7 @@
       "venue_display": "CVPR, 2026",
       "venue_short": "CVPR",
       "year": 2026,
-      "citations": 35,
+      "citations": 38,
       "metadata": [
         {
           "key": "publication_date",
@@ -1142,7 +1142,98 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 3,
-      "citation_rank": 54,
+      "citation_rank": 53,
+      "selected": false,
+      "selection_reasons": []
+    },
+    {
+      "scholar_id": "vi3W-m8AAAAJ:ZuybSZzF8UAC",
+      "title": "OPT-BENCH: Evaluating LLM Agent on Large-Scale Search Spaces Optimization Problems",
+      "short_title": "OPT-BENCH",
+      "authors": [
+        {
+          "name": "Xiaozhe Li",
+          "is_self": false,
+          "roles": [
+            "first"
+          ]
+        },
+        {
+          "name": "Jixuan Chen",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Xinyu Fang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Shengyuan Ding",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Haodong Duan",
+          "is_self": true,
+          "roles": [
+            "corresponding"
+          ]
+        },
+        {
+          "name": "Qingwen Liu",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Kai Chen",
+          "is_self": false,
+          "roles": []
+        }
+      ],
+      "author_count": 7,
+      "authors_truncated": false,
+      "group_authored": false,
+      "author_order": "contribution",
+      "author_annotations_suppressed": false,
+      "corresponding_fallback": false,
+      "corresponding_fallback_author": "",
+      "venue": "ACL Findings, 2026",
+      "venue_display": "ACL Findings, 2026",
+      "venue_short": "ACL",
+      "year": 2026,
+      "citations": 18,
+      "metadata": [
+        {
+          "key": "publication_date",
+          "label": "Publication date",
+          "value": "2025/6/12"
+        },
+        {
+          "key": "journal",
+          "label": "Journal",
+          "value": "ACL Findings, 2026"
+        }
+      ],
+      "description": "Large Language Models (LLMs) have shown remarkable capabilities in solving diverse tasks. However, their proficiency in iteratively optimizing complex solutions through learning from previous feedback remains insufficiently explored. To bridge this gap, we present OPT-BENCH, a comprehensive benchmark designed to evaluate LLM agents on large-scale search space optimization problems. OPT-BENCH includes 20 real-world machine learning tasks sourced from Kaggle and 10 classical NP problems, offering a diverse and challenging environment for assessing LLM agents on iterative reasoning and solution refinement. To enable rigorous evaluation, we introduce OPT-Agent, an end-to-end optimization framework that emulates human reasoning when tackling complex problems by generating, validating, and iteratively improving solutions through leveraging historical feedback. Through extensive experiments on 9 state-of-the-art LLMs from 6 model families, we analyze the effects of optimization iterations, temperature settings, and model architectures on solution quality and convergence. Our results demonstrate that incorporating historical context significantly enhances optimization performance across both ML and NP tasks. All datasets, code, and evaluation tools are open-sourced to promote further research in advancing LLM-driven optimization and iterative reasoning. Project page: \\href{https://github.com/OliverLeeXZ/OPT-BENCH}{https://github.com/OliverLeeXZ/OPT-BENCH}.",
+      "summary": "Large Language Models (LLMs) have shown remarkable capabilities in solving diverse tasks.",
+      "detail_metadata_available": true,
+      "topics": [
+        "Agentic Systems",
+        "Scientific Reasoning",
+        "LLM Evaluation"
+      ],
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:ZuybSZzF8UAC",
+        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1134890120116902745,9347039678117168154",
+        "paper": "https://arxiv.org/abs/2506.10764"
+      },
+      "repo": "",
+      "repo_label": "",
+      "github": {},
+      "thumbnail": "",
+      "visual_tone": 4,
+      "citation_rank": 63,
       "selected": false,
       "selection_reasons": []
     },
@@ -1267,97 +1358,6 @@
       },
       "thumbnail": "",
       "visual_tone": 1,
-      "citation_rank": 63,
-      "selected": false,
-      "selection_reasons": []
-    },
-    {
-      "scholar_id": "vi3W-m8AAAAJ:ZuybSZzF8UAC",
-      "title": "OPT-BENCH: Evaluating LLM Agent on Large-Scale Search Spaces Optimization Problems",
-      "short_title": "OPT-BENCH",
-      "authors": [
-        {
-          "name": "Xiaozhe Li",
-          "is_self": false,
-          "roles": [
-            "first"
-          ]
-        },
-        {
-          "name": "Jixuan Chen",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Xinyu Fang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Shengyuan Ding",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Haodong Duan",
-          "is_self": true,
-          "roles": [
-            "corresponding"
-          ]
-        },
-        {
-          "name": "Qingwen Liu",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Kai Chen",
-          "is_self": false,
-          "roles": []
-        }
-      ],
-      "author_count": 7,
-      "authors_truncated": false,
-      "group_authored": false,
-      "author_order": "contribution",
-      "author_annotations_suppressed": false,
-      "corresponding_fallback": false,
-      "corresponding_fallback_author": "",
-      "venue": "ACL Findings, 2026",
-      "venue_display": "ACL Findings, 2026",
-      "venue_short": "ACL",
-      "year": 2026,
-      "citations": 15,
-      "metadata": [
-        {
-          "key": "publication_date",
-          "label": "Publication date",
-          "value": "2025/6/12"
-        },
-        {
-          "key": "journal",
-          "label": "Journal",
-          "value": "ACL Findings, 2026"
-        }
-      ],
-      "description": "Large Language Models (LLMs) have shown remarkable capabilities in solving diverse tasks. However, their proficiency in iteratively optimizing complex solutions through learning from previous feedback remains insufficiently explored. To bridge this gap, we present OPT-BENCH, a comprehensive benchmark designed to evaluate LLM agents on large-scale search space optimization problems. OPT-BENCH includes 20 real-world machine learning tasks sourced from Kaggle and 10 classical NP problems, offering a diverse and challenging environment for assessing LLM agents on iterative reasoning and solution refinement. To enable rigorous evaluation, we introduce OPT-Agent, an end-to-end optimization framework that emulates human reasoning when tackling complex problems by generating, validating, and iteratively improving solutions through leveraging historical feedback. Through extensive experiments on 9 state-of-the-art LLMs from 6 model families, we analyze the effects of optimization iterations, temperature settings, and model architectures on solution quality and convergence. Our results demonstrate that incorporating historical context significantly enhances optimization performance across both ML and NP tasks. All datasets, code, and evaluation tools are open-sourced to promote further research in advancing LLM-driven optimization and iterative reasoning. Project page: \\href{https://github.com/OliverLeeXZ/OPT-BENCH}{https://github.com/OliverLeeXZ/OPT-BENCH}.",
-      "summary": "Large Language Models (LLMs) have shown remarkable capabilities in solving diverse tasks.",
-      "detail_metadata_available": true,
-      "topics": [
-        "Agentic Systems",
-        "Scientific Reasoning",
-        "LLM Evaluation"
-      ],
-      "links": {
-        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:ZuybSZzF8UAC",
-        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1134890120116902745,9347039678117168154",
-        "paper": "https://arxiv.org/abs/2506.10764"
-      },
-      "repo": "",
-      "repo_label": "",
-      "github": {},
-      "thumbnail": "",
-      "visual_tone": 4,
       "citation_rank": 64,
       "selected": false,
       "selection_reasons": []
@@ -1418,7 +1418,7 @@
       "venue_display": "ACL Findings, 2026",
       "venue_short": "ACL",
       "year": 2026,
-      "citations": 14,
+      "citations": 16,
       "metadata": [
         {
           "key": "publication_date",
@@ -1449,6 +1449,67 @@
       "thumbnail": "",
       "visual_tone": 4,
       "citation_rank": 65,
+      "selected": false,
+      "selection_reasons": []
+    },
+    {
+      "scholar_id": "vi3W-m8AAAAJ:LgRImbQfgY4C",
+      "title": "Seed2.1 Model Card: Agentic Intelligence for Productivity",
+      "short_title": "Seed2.1 Model Card",
+      "authors": [
+        {
+          "name": "ByteDance Seed",
+          "is_self": false,
+          "roles": []
+        }
+      ],
+      "author_count": 1,
+      "authors_truncated": false,
+      "group_authored": true,
+      "author_order": "group",
+      "author_annotations_suppressed": true,
+      "corresponding_fallback": false,
+      "corresponding_fallback_author": "",
+      "venue": "Technical Report",
+      "venue_display": "ByteDance Seed Technical Report, 2026",
+      "venue_short": "Technical Report",
+      "year": 2026,
+      "citations": 14,
+      "metadata": [
+        {
+          "key": "publication_date",
+          "label": "Publication date",
+          "value": "2026/6/30"
+        },
+        {
+          "key": "source",
+          "label": "Source",
+          "value": "Seed Technical Reports, 2026"
+        },
+        {
+          "key": "publisher",
+          "label": "Publisher",
+          "value": "Technical report, ByteDance, 2026. URL https://lf3-static. bytednsdoc. com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/seed2. 1/Seed2_1_Model_Card. pdf"
+        }
+      ],
+      "description": "",
+      "summary": "",
+      "detail_metadata_available": true,
+      "topics": [
+        "Agentic Systems",
+        "Foundation Models"
+      ],
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:LgRImbQfgY4C",
+        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7993142557887822987,17976894061810765919,7497059010497089600",
+        "paper": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/seed2.1/Seed2_1_Model_Card.pdf"
+      },
+      "repo": "",
+      "repo_label": "",
+      "github": {},
+      "thumbnail": "",
+      "visual_tone": 4,
+      "citation_rank": 66,
       "selected": false,
       "selection_reasons": []
     },
@@ -1538,7 +1599,7 @@
       "venue_display": "CVPR, 2026",
       "venue_short": "CVPR",
       "year": 2026,
-      "citations": 12,
+      "citations": 13,
       "metadata": [
         {
           "key": "publication_date",
@@ -1569,67 +1630,107 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 3,
-      "citation_rank": 67,
+      "citation_rank": 68,
       "selected": false,
       "selection_reasons": []
     },
     {
-      "scholar_id": "vi3W-m8AAAAJ:LgRImbQfgY4C",
-      "title": "Seed2.1 Model Card: Agentic Intelligence for Productivity",
-      "short_title": "Seed2.1 Model Card",
+      "scholar_id": "vi3W-m8AAAAJ:olpn-zPbct0C",
+      "title": "Affordance Benchmark for MLLMs",
+      "short_title": "ABFM",
       "authors": [
         {
-          "name": "ByteDance Seed",
+          "name": "Junying Wang",
+          "is_self": false,
+          "roles": [
+            "first"
+          ]
+        },
+        {
+          "name": "Wenzhe Li",
           "is_self": false,
           "roles": []
+        },
+        {
+          "name": "Yalun Wu",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Yingji Liang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Yijin Guo",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Chunyi Li",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Haodong Duan",
+          "is_self": true,
+          "roles": []
+        },
+        {
+          "name": "Zicheng Zhang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Guangtao Zhai",
+          "is_self": false,
+          "roles": [
+            "corresponding"
+          ]
         }
       ],
-      "author_count": 1,
+      "author_count": 9,
       "authors_truncated": false,
-      "group_authored": true,
-      "author_order": "group",
-      "author_annotations_suppressed": true,
-      "corresponding_fallback": false,
-      "corresponding_fallback_author": "",
-      "venue": "Technical Report",
-      "venue_display": "ByteDance Seed Technical Report, 2026",
-      "venue_short": "Technical Report",
+      "group_authored": false,
+      "author_order": "contribution",
+      "author_annotations_suppressed": false,
+      "corresponding_fallback": true,
+      "corresponding_fallback_author": "Guangtao Zhai",
+      "venue": "ICASSP",
+      "venue_display": "ICASSP, 2026",
+      "venue_short": "ICASSP",
       "year": 2026,
-      "citations": 10,
+      "citations": 12,
       "metadata": [
         {
           "key": "publication_date",
           "label": "Publication date",
-          "value": "2026/6/30"
+          "value": "2025/6/1"
         },
         {
-          "key": "source",
-          "label": "Source",
-          "value": "Seed Technical Reports, 2026"
-        },
-        {
-          "key": "publisher",
-          "label": "Publisher",
-          "value": "Technical report, ByteDance, 2026. URL https://lf3-static. bytednsdoc. com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/seed2. 1/Seed2_1_Model_Card. pdf"
+          "key": "journal",
+          "label": "Journal",
+          "value": "arXiv preprint arXiv:2506.00893"
         }
       ],
-      "description": "",
-      "summary": "",
+      "description": "Affordance theory suggests that environments inherently provide action possibilities shaping perception and behavior. While Multimodal Large Language Models (MLLMs) achieve strong performance in vision-language tasks, their ability to perceive affordance, which is crucial for intuitive and safe interactions, remains underexplored. To address this, we introduce A4Bench, a novel benchmark designed to evaluate the affordance perception abilities of MLLMs across two dimensions: 1) Constitutive Affordance, assessing understanding of inherent object properties through 1,282 question-answer pairs spanning nine sub-disciplines, and 2) Transformative Affordance, probing dynamic and contextual nuances (e.g., misleading, time-dependent, cultural, or individual-specific affordance) with 718 challenging question-answer pairs. We evaluate 17 MLLMs (nine proprietary and eight open-source) and compare them to …",
+      "summary": "Affordance theory suggests that environments inherently provide action possibilities shaping perception and behavior.",
       "detail_metadata_available": true,
       "topics": [
-        "Agentic Systems",
-        "Foundation Models"
+        "Spatial Reasoning",
+        "Multimodal Evaluation",
+        "Benchmark Design"
       ],
       "links": {
-        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:LgRImbQfgY4C",
-        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7993142557887822987,17976894061810765919",
-        "paper": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/seed2.1/Seed2_1_Model_Card.pdf"
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:olpn-zPbct0C",
+        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13458102313669511242",
+        "paper": "https://ieeexplore.ieee.org/document/11464994"
       },
       "repo": "",
       "repo_label": "",
       "github": {},
       "thumbnail": "",
-      "visual_tone": 4,
+      "visual_tone": 3,
       "citation_rank": 69,
       "selected": false,
       "selection_reasons": []
@@ -1940,7 +2041,7 @@
       "venue_display": "Technical Report, arXiv preprint arXiv:2606.31651, 2026",
       "venue_short": "arXiv",
       "year": 2026,
-      "citations": 7,
+      "citations": 10,
       "metadata": [
         {
           "key": "publication_date",
@@ -1970,7 +2071,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 4,
-      "citation_rank": 73,
+      "citation_rank": 72,
       "selected": false,
       "selection_reasons": []
     },
@@ -2055,7 +2156,7 @@
       "venue_display": "NeurIPS D&B, 2026",
       "venue_short": "NeurIPS",
       "year": 2026,
-      "citations": 7,
+      "citations": 9,
       "metadata": [
         {
           "key": "publication_date",
@@ -2287,6 +2388,391 @@
       "selection_reasons": []
     },
     {
+      "scholar_id": "vi3W-m8AAAAJ:HeT0ZceujKMC",
+      "title": "Workflow-gym: Towards long-horizon evaluation of computer-use agentic tasks in real-world professional fields",
+      "short_title": "Workflow-gym",
+      "authors": [
+        {
+          "name": "Liya Zhu",
+          "is_self": false,
+          "roles": [
+            "first"
+          ]
+        },
+        {
+          "name": "Jingzhe Ding",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Jian Zhang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Jianbo Xue",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Shihao Liang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Ge Zhang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Yi Zhu",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Duju Zeng",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Xiang Gao",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Qingshui Gu",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Mailun Gao",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Huimin Che",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Yan Zhao",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Peiheng Zhou",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Haojun Wang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Chaobo Xian",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Lili Le",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Chi Wu",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Yiwei Liu",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Shengda Long",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Jiale Yang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Fangzhi Xu",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Sijin Wu",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Haodong Duan",
+          "is_self": true,
+          "roles": []
+        },
+        {
+          "name": "Chao He",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Zhaojian Li",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Minchao Wang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Huan Zhou",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Jiani Hou",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Chuqian Yu",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Weiran Shi",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Hongwan Gao",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Jiamin Chen",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Guanhong Chen",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Tingqin Luo",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Kaiyuan Zhang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Zhixin Yao",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Qing Hua",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Yuhao Jiang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Jin Chen",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Pu Chen",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Zhenyu Hu",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Xingyu Li",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Zhengxuan Jiang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Meng Cao",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Tianfeng Long",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Haozhe Wang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Mingzhang Wang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Yichen Zhang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Yiming Dai",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Chenchen Zhang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Jiaying Wang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Xinying Liu",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Xingzu Liu",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Lingling Zhang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Xinjie Chen",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Yujia Qin",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Wangchunshu Zhou",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Zhiyong Wu",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Yang Liu",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Jiaheng Liu",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Lei Zhang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Shen Yan",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Wenhao Huang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Zaiyuan Wang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Xiaolong Chang",
+          "is_self": false,
+          "roles": [
+            "corresponding"
+          ]
+        }
+      ],
+      "author_count": 66,
+      "authors_truncated": false,
+      "group_authored": false,
+      "author_order": "contribution",
+      "author_annotations_suppressed": false,
+      "corresponding_fallback": true,
+      "corresponding_fallback_author": "Xiaolong Chang",
+      "venue": "arXiv preprint arXiv:2606.11042",
+      "venue_display": "arXiv preprint arXiv:2606.11042, 2026",
+      "venue_short": "arXiv",
+      "year": 2026,
+      "citations": 5,
+      "metadata": [
+        {
+          "key": "publication_date",
+          "label": "Publication date",
+          "value": "2026/6/9"
+        },
+        {
+          "key": "journal",
+          "label": "Journal",
+          "value": "arXiv preprint arXiv:2606.11042"
+        }
+      ],
+      "description": "Recent years have witnessed the rapid evolution of AI agents toward handling increasingly complex, real-world tasks. However, existing benchmarks rarely evaluate whether agents can operate graphical user interfaces to complete long-horizon, high-value professional workflows across diverse domains. Current GUI benchmarks still predominantly focus on general-purpose software, relatively simple applications, and short-horizon tasks, leaving it largely unknown whether modern agents can follow user instructions to autonomously operate domain-specific professional software and accomplish economically valuable work in an end-to-end manner. To bridge this gap, we introduce Workflow-GYM, a benchmark for long-horizon GUI tasks centered on professional domains and specialized software environments. Through extensive experiments on state-of-the-art models, we find that even the strongest models achieve only slightly above 30% success rates, highlighting that professional long-horizon GUI workflows remain highly challenging for current GUI agents. Further analysis reveals that current agents struggle to maintain long-horizon workflow consistency, frequently exhibiting workflow stage omission, error propagation, objective drift, and insufficient understanding of professional software environments. Our findings provide important insights into the limitations of current agent systems and suggest key directions for the next generation of GUI-agent research.",
+      "summary": "Recent years have witnessed the rapid evolution of AI agents toward handling increasingly complex, real-world tasks.",
+      "detail_metadata_available": true,
+      "topics": [
+        "Agentic Systems",
+        "Benchmark Design"
+      ],
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:HeT0ZceujKMC",
+        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2386783604177366834",
+        "paper": "https://arxiv.org/abs/2606.11042"
+      },
+      "repo": "",
+      "repo_label": "",
+      "github": {},
+      "thumbnail": "",
+      "visual_tone": 2,
+      "citation_rank": 77,
+      "selected": false,
+      "selection_reasons": []
+    },
+    {
       "scholar_id": "vi3W-m8AAAAJ:URolC5Kub84C",
       "title": "MM-HELIX: Boosting Multimodal Long-Chain Reflective Reasoning with Holistic Platform and Adaptive Hybrid Policy Optimization",
       "short_title": "MM-HELIX",
@@ -2407,7 +2893,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 1,
-      "citation_rank": 77,
+      "citation_rank": 78,
       "selected": false,
       "selection_reasons": []
     },
@@ -3067,7 +3553,7 @@
       "venue_display": "arXiv preprint arXiv:2603.27460, 2026",
       "venue_short": "arXiv",
       "year": 2026,
-      "citations": 3,
+      "citations": 4,
       "metadata": [
         {
           "key": "publication_date",
@@ -3098,392 +3584,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 4,
-      "citation_rank": 80,
-      "selected": false,
-      "selection_reasons": []
-    },
-    {
-      "scholar_id": "vi3W-m8AAAAJ:HeT0ZceujKMC",
-      "title": "Workflow-gym: Towards long-horizon evaluation of computer-use agentic tasks in real-world professional fields",
-      "short_title": "Workflow-gym",
-      "authors": [
-        {
-          "name": "Liya Zhu",
-          "is_self": false,
-          "roles": [
-            "first"
-          ]
-        },
-        {
-          "name": "Jingzhe Ding",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Jian Zhang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Jianbo Xue",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Shihao Liang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Ge Zhang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Yi Zhu",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Duju Zeng",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Xiang Gao",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Qingshui Gu",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Mailun Gao",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Huimin Che",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Yan Zhao",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Peiheng Zhou",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Haojun Wang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Chaobo Xian",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Lili Le",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Chi Wu",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Yiwei Liu",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Shengda Long",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Jiale Yang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Fangzhi Xu",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Sijin Wu",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Haodong Duan",
-          "is_self": true,
-          "roles": []
-        },
-        {
-          "name": "Chao He",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Zhaojian Li",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Minchao Wang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Huan Zhou",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Jiani Hou",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Chuqian Yu",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Weiran Shi",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Hongwan Gao",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Jiamin Chen",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Guanhong Chen",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Tingqin Luo",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Kaiyuan Zhang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Zhixin Yao",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Qing Hua",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Yuhao Jiang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Jin Chen",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Pu Chen",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Zhenyu Hu",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Xingyu Li",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Zhengxuan Jiang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Meng Cao",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Tianfeng Long",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Haozhe Wang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Mingzhang Wang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Yichen Zhang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Yiming Dai",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Chenchen Zhang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Jiaying Wang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Xinying Liu",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Xingzu Liu",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Lingling Zhang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Xinjie Chen",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Yujia Qin",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Wangchunshu Zhou",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Zhiyong Wu",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Yang Liu",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Jiaheng Liu",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Lei Zhang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Shen Yan",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Wenhao Huang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Zaiyuan Wang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Xiaolong Chang",
-          "is_self": false,
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
-      "author_count": 66,
-      "authors_truncated": false,
-      "group_authored": false,
-      "author_order": "contribution",
-      "author_annotations_suppressed": false,
-      "corresponding_fallback": true,
-      "corresponding_fallback_author": "Xiaolong Chang",
-      "venue": "arXiv preprint arXiv:2606.11042",
-      "venue_display": "arXiv preprint arXiv:2606.11042, 2026",
-      "venue_short": "arXiv",
-      "year": 2026,
-      "citations": 3,
-      "metadata": [
-        {
-          "key": "publication_date",
-          "label": "Publication date",
-          "value": "2026/6/9"
-        },
-        {
-          "key": "journal",
-          "label": "Journal",
-          "value": "arXiv preprint arXiv:2606.11042"
-        }
-      ],
-      "description": "Recent years have witnessed the rapid evolution of AI agents toward handling increasingly complex, real-world tasks. However, existing benchmarks rarely evaluate whether agents can operate graphical user interfaces to complete long-horizon, high-value professional workflows across diverse domains. Current GUI benchmarks still predominantly focus on general-purpose software, relatively simple applications, and short-horizon tasks, leaving it largely unknown whether modern agents can follow user instructions to autonomously operate domain-specific professional software and accomplish economically valuable work in an end-to-end manner. To bridge this gap, we introduce Workflow-GYM, a benchmark for long-horizon GUI tasks centered on professional domains and specialized software environments. Through extensive experiments on state-of-the-art models, we find that even the strongest models achieve only slightly above 30% success rates, highlighting that professional long-horizon GUI workflows remain highly challenging for current GUI agents. Further analysis reveals that current agents struggle to maintain long-horizon workflow consistency, frequently exhibiting workflow stage omission, error propagation, objective drift, and insufficient understanding of professional software environments. Our findings provide important insights into the limitations of current agent systems and suggest key directions for the next generation of GUI-agent research.",
-      "summary": "Recent years have witnessed the rapid evolution of AI agents toward handling increasingly complex, real-world tasks.",
-      "detail_metadata_available": true,
-      "topics": [
-        "Agentic Systems",
-        "Benchmark Design"
-      ],
-      "links": {
-        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:HeT0ZceujKMC",
-        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2386783604177366834",
-        "paper": "https://arxiv.org/abs/2606.11042"
-      },
-      "repo": "",
-      "repo_label": "",
-      "github": {},
-      "thumbnail": "",
-      "visual_tone": 2,
-      "citation_rank": 81,
+      "citation_rank": 79,
       "selected": false,
       "selection_reasons": []
     },
@@ -3568,7 +3669,7 @@
       "venue_display": "EMNLP, 2026",
       "venue_short": "EMNLP",
       "year": 2026,
-      "citations": 2,
+      "citations": 3,
       "metadata": [
         {
           "key": "publication_date",
@@ -3600,6 +3701,102 @@
       "thumbnail": "",
       "visual_tone": 4,
       "citation_rank": 82,
+      "selected": false,
+      "selection_reasons": []
+    },
+    {
+      "scholar_id": "vi3W-m8AAAAJ:a9-T7VOCCH8C",
+      "title": "Mibench: Evaluating lmms on multimodal interaction",
+      "short_title": "Mibench",
+      "authors": [
+        {
+          "name": "Yu Miao",
+          "is_self": false,
+          "roles": [
+            "first"
+          ]
+        },
+        {
+          "name": "Zequn Yang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Yake Wei",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Ziheng Chen",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Haotian Ni",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Haodong Duan",
+          "is_self": true,
+          "roles": []
+        },
+        {
+          "name": "Kai Chen",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Di Hu",
+          "is_self": false,
+          "roles": [
+            "corresponding"
+          ]
+        }
+      ],
+      "author_count": 8,
+      "authors_truncated": false,
+      "group_authored": false,
+      "author_order": "contribution",
+      "author_annotations_suppressed": false,
+      "corresponding_fallback": true,
+      "corresponding_fallback_author": "Di Hu",
+      "venue": "arXiv preprint arXiv:2603.13427",
+      "venue_display": "arXiv preprint arXiv:2603.13427, 2026",
+      "venue_short": "arXiv",
+      "year": 2026,
+      "citations": 2,
+      "metadata": [
+        {
+          "key": "publication_date",
+          "label": "Publication date",
+          "value": "2026/3/13"
+        },
+        {
+          "key": "journal",
+          "label": "Journal",
+          "value": "arXiv preprint arXiv:2603.13427"
+        }
+      ],
+      "description": "In different multimodal scenarios, it needs to integrate and utilize information across modalities in a specific way based on the demands of the task. Different integration ways between modalities are referred to as \"multimodal interaction\". How well a model handles various multimodal interactions largely characterizes its multimodal ability. In this paper, we introduce MIBench, a comprehensive benchmark designed to evaluate the multimodal interaction capabilities of Large Multimodal Models (LMMs), which formulates each instance as a (con_v , con_t, task) triplet with contexts from vision and text, necessitating that LMMs employ correct forms of multimodal interaction to effectively complete the task. MIBench assesses models from three key aspects: the ability to source information from vision-centric or text-centric cues, and the ability to generate new information from their joint synergy. Each interaction capability is evaluated hierarchically across three cognitive levels: Recognition, Understanding, and Reasoning. MIBench comprises over 10,000 vision-text context pairs spanning 32 distinct tasks. Evaluation of state-of-the-art LMMs show that: (1) LMMs' ability on multimodal interaction remains constrained, despite the scaling of model parameters and training data; (2) they are easily distracted by textual modalities when processing vision information; (3) they mostly possess a basic capacity for multimodal synergy; and (4) natively trained multimodal models show noticeable deficits in fundamental interaction ability. We expect that these observations can serve as a reference for developing LMMs with more enhanced multimodal ability in the future.",
+      "summary": "In different multimodal scenarios, it needs to integrate and utilize information across modalities in a specific way based on the demands of the task.",
+      "detail_metadata_available": true,
+      "topics": [
+        "Multimodal Evaluation",
+        "Benchmark Design",
+        "Foundation Models"
+      ],
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:a9-T7VOCCH8C",
+        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17817381987512099757",
+        "paper": "https://arxiv.org/abs/2603.13427"
+      },
+      "repo": "",
+      "repo_label": "",
+      "github": {},
+      "thumbnail": "",
+      "visual_tone": 4,
+      "citation_rank": 83,
       "selected": false,
       "selection_reasons": []
     },
@@ -3675,103 +3872,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 2,
-      "citation_rank": 83,
-      "selected": false,
-      "selection_reasons": []
-    },
-    {
-      "scholar_id": "vi3W-m8AAAAJ:a9-T7VOCCH8C",
-      "title": "Mibench: Evaluating lmms on multimodal interaction",
-      "short_title": "Mibench",
-      "authors": [
-        {
-          "name": "Yu Miao",
-          "is_self": false,
-          "roles": [
-            "first"
-          ]
-        },
-        {
-          "name": "Zequn Yang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Yake Wei",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Ziheng Chen",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Haotian Ni",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Haodong Duan",
-          "is_self": true,
-          "roles": []
-        },
-        {
-          "name": "Kai Chen",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Di Hu",
-          "is_self": false,
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
-      "author_count": 8,
-      "authors_truncated": false,
-      "group_authored": false,
-      "author_order": "contribution",
-      "author_annotations_suppressed": false,
-      "corresponding_fallback": true,
-      "corresponding_fallback_author": "Di Hu",
-      "venue": "arXiv preprint arXiv:2603.13427",
-      "venue_display": "arXiv preprint arXiv:2603.13427, 2026",
-      "venue_short": "arXiv",
-      "year": 2026,
-      "citations": 1,
-      "metadata": [
-        {
-          "key": "publication_date",
-          "label": "Publication date",
-          "value": "2026/3/13"
-        },
-        {
-          "key": "journal",
-          "label": "Journal",
-          "value": "arXiv preprint arXiv:2603.13427"
-        }
-      ],
-      "description": "In different multimodal scenarios, it needs to integrate and utilize information across modalities in a specific way based on the demands of the task. Different integration ways between modalities are referred to as \"multimodal interaction\". How well a model handles various multimodal interactions largely characterizes its multimodal ability. In this paper, we introduce MIBench, a comprehensive benchmark designed to evaluate the multimodal interaction capabilities of Large Multimodal Models (LMMs), which formulates each instance as a (con_v , con_t, task) triplet with contexts from vision and text, necessitating that LMMs employ correct forms of multimodal interaction to effectively complete the task. MIBench assesses models from three key aspects: the ability to source information from vision-centric or text-centric cues, and the ability to generate new information from their joint synergy. Each interaction capability is evaluated hierarchically across three cognitive levels: Recognition, Understanding, and Reasoning. MIBench comprises over 10,000 vision-text context pairs spanning 32 distinct tasks. Evaluation of state-of-the-art LMMs show that: (1) LMMs' ability on multimodal interaction remains constrained, despite the scaling of model parameters and training data; (2) they are easily distracted by textual modalities when processing vision information; (3) they mostly possess a basic capacity for multimodal synergy; and (4) natively trained multimodal models show noticeable deficits in fundamental interaction ability. We expect that these observations can serve as a reference for developing LMMs with more enhanced multimodal ability in the future.",
-      "summary": "In different multimodal scenarios, it needs to integrate and utilize information across modalities in a specific way based on the demands of the task.",
-      "detail_metadata_available": true,
-      "topics": [
-        "Multimodal Evaluation",
-        "Benchmark Design",
-        "Foundation Models"
-      ],
-      "links": {
-        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:a9-T7VOCCH8C",
-        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17817381987512099757",
-        "paper": "https://arxiv.org/abs/2603.13427"
-      },
-      "repo": "",
-      "repo_label": "",
-      "github": {},
-      "thumbnail": "",
-      "visual_tone": 4,
-      "citation_rank": 85,
+      "citation_rank": 84,
       "selected": false,
       "selection_reasons": []
     },
@@ -4428,7 +4529,7 @@
       "venue_display": "arXiv preprint arXiv:2508.18265, 2025",
       "venue_short": "arXiv",
       "year": 2025,
-      "citations": 1647,
+      "citations": 1798,
       "metadata": [
         {
           "key": "publication_date",
@@ -4528,7 +4629,7 @@
       "venue_display": "IEEE/CVF International Conference on Computer Vision (ICCV), 2025",
       "venue_short": "ICCV",
       "year": 2025,
-      "citations": 623,
+      "citations": 648,
       "metadata": [
         {
           "key": "publication_date",
@@ -4562,14 +4663,14 @@
         "full_name": "Liuziyu77/Visual-RFT",
         "url": "https://github.com/Liuziyu77/Visual-RFT",
         "description": "Official repository of 'Visual-RFT: Visual Reinforcement Fine-Tuning' & 'Visual-ARFT: Visual Agentic Reinforcement Fine-Tuning'’",
-        "stars": 2277,
-        "stars_display": "2,277",
-        "forks": 110,
-        "forks_display": "110",
+        "stars": 2281,
+        "stars_display": "2,281",
+        "forks": 111,
+        "forks_display": "111",
         "watchers": 13,
         "language": "Jupyter Notebook",
         "topics": [],
-        "updated_at": "2026-10-03T14:42:58Z",
+        "updated_at": "2026-10-21T08:58:49Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/visual-rft.webp",
@@ -4676,7 +4777,7 @@
       "venue_display": "CVPR, 2025",
       "venue_short": "CVPR",
       "year": 2025,
-      "citations": 164,
+      "citations": 190,
       "metadata": [
         {
           "key": "publication_date",
@@ -4707,7 +4808,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 3,
-      "citation_rank": 24,
+      "citation_rank": 21,
       "selected": false,
       "selection_reasons": []
     },
@@ -4733,7 +4834,7 @@
       "venue_display": "Technical report, Technical report, Bytedance, 2025. URL https://lf3-static …",
       "venue_short": "Technical report",
       "year": 2025,
-      "citations": 138,
+      "citations": 168,
       "metadata": [
         {
           "key": "publication_date",
@@ -4755,7 +4856,7 @@
       ],
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:QYdC8u9Cj1oC",
-        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10713680327915818238,10381874924815101269,15168876789557224202,7745584782978693861,13215974653333860462,2559641607106096553,2007438795315195458,9444549840839679022",
+        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10713680327915818238,10381874924815101269,7745584782978693861,15168876789557224202,2007438795315195458,13215974653333860462,2559641607106096553,9444549840839679022,8161253800435127162",
         "paper": "https://arxiv.org/abs/2607.00248"
       },
       "repo": "",
@@ -4763,7 +4864,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 4,
-      "citation_rank": 26,
+      "citation_rank": 25,
       "selected": false,
       "selection_reasons": []
     },
@@ -5179,7 +5280,7 @@
       "venue_display": "arXiv preprint arXiv:2508.15763, 2025",
       "venue_short": "arXiv",
       "year": 2025,
-      "citations": 117,
+      "citations": 127,
       "metadata": [
         {
           "key": "publication_date",
@@ -5209,93 +5310,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 2,
-      "citation_rank": 29,
-      "selected": false,
-      "selection_reasons": []
-    },
-    {
-      "scholar_id": "vi3W-m8AAAAJ:vDijr-p_gm4C",
-      "title": "NeedleBench: Evaluating LLM Retrieval and Reasoning Across Varying Information Densities",
-      "short_title": "NeedleBench",
-      "authors": [
-        {
-          "name": "Mo Li",
-          "is_self": false,
-          "roles": [
-            "first"
-          ]
-        },
-        {
-          "name": "Songyang Zhang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Taolin Zhang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Haodong Duan",
-          "is_self": true,
-          "roles": []
-        },
-        {
-          "name": "Yunxin Liu",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Kai Chen",
-          "is_self": false,
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
-      "author_count": 6,
-      "authors_truncated": false,
-      "group_authored": false,
-      "author_order": "contribution",
-      "author_annotations_suppressed": false,
-      "corresponding_fallback": true,
-      "corresponding_fallback_author": "Kai Chen",
-      "venue": "TMLR, 2025",
-      "venue_display": "TMLR, 2025",
-      "venue_short": "TMLR",
-      "year": 2025,
-      "citations": 101,
-      "metadata": [
-        {
-          "key": "publication_date",
-          "label": "Publication date",
-          "value": "2025"
-        },
-        {
-          "key": "journal",
-          "label": "Journal",
-          "value": "TMLR, 2025"
-        }
-      ],
-      "description": "The capability of large language models to handle long-context information is crucial across various real-world applications. Existing evaluation methods often rely either on real-world long texts, making it difficult to exclude the influence of models' inherent knowledge, or introduce irrelevant filler content to artificially achieve target lengths, reducing assessment effectiveness. To address these limitations, we introduce NeedleBench, a synthetic framework for assessing retrieval and reasoning performance in bilingual long-context tasks with adaptive context lengths. NeedleBench systematically embeds key data points at varying depths to rigorously test model capabilities. Tasks are categorized into two scenarios: information-sparse, featuring minimal relevant details within extensive irrelevant text to simulate simple retrieval tasks; and information-dense (the Ancestral Trace Challenge), where relevant information is continuously distributed throughout the context to simulate complex reasoning tasks. Our experiments reveal that although recent reasoning models like Deepseek-R1 and OpenAI's o3 excel in mathematical reasoning, they struggle with continuous retrieval and reasoning in information-dense scenarios, even at shorter context lengths. We also characterize a phenomenon termed 'under-thinking', where models prematurely conclude reasoning despite available information. NeedleBench thus provides critical insights and targeted tools essential for evaluating and improving LLMs' long-context capabilities. All resources are available at OpenCompass: https://github.com/open-compass/opencompass.",
-      "summary": "The capability of large language models to handle long-context information is crucial across various real-world applications.",
-      "detail_metadata_available": true,
-      "topics": [
-        "Long-Context Modeling",
-        "LLM Evaluation",
-        "Benchmark Design"
-      ],
-      "links": {
-        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:vDijr-p_gm4C",
-        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4786034608417604504,10597899395986341965,12631458222693562005,8802190503201998755,1515613457600846378,708612290851760848",
-        "paper": "https://arxiv.org/abs/2407.11963"
-      },
-      "repo": "",
-      "repo_label": "",
-      "github": {},
-      "thumbnail": "",
-      "visual_tone": 2,
-      "citation_rank": 31,
+      "citation_rank": 28,
       "selected": false,
       "selection_reasons": []
     },
@@ -5393,7 +5408,7 @@
       "venue_display": "NeurIPS D&B Oral, 2025",
       "venue_short": "NeurIPS",
       "year": 2025,
-      "citations": 94,
+      "citations": 102,
       "metadata": [
         {
           "key": "publication_date",
@@ -5418,32 +5433,118 @@
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:geHnlv5EZngC",
         "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3457894363601511523",
         "paper": "https://arxiv.org/abs/2504.02826",
-        "code": "https://github.com/PhoenixZ810/RISEBench"
+        "code": "https://github.com/VisionXLab/RISEBench"
       },
-      "repo": "PhoenixZ810/RISEBench",
+      "repo": "VisionXLab/RISEBench",
       "repo_label": "",
       "github": {
         "name": "RISEBench",
-        "full_name": "PhoenixZ810/RISEBench",
-        "url": "https://github.com/PhoenixZ810/RISEBench",
-        "description": "[NIPS 2025 DB Oral] Official Repository of paper: Envisioning Beyond the Pixels: Benchmarking Reasoning-Informed Visual Editing",
-        "stars": 154,
-        "stars_display": "154",
+        "full_name": "VisionXLab/RISEBench",
+        "url": "https://github.com/VisionXLab/RISEBench",
+        "description": "[NeurIPS 2025 DB Oral] Reasoning-Informed Visual Editing",
+        "stars": 164,
+        "stars_display": "164",
         "forks": 7,
         "forks_display": "7",
-        "watchers": 3,
+        "watchers": 4,
         "language": "Python",
         "topics": [],
-        "updated_at": "2026-08-13T11:52:50Z",
+        "updated_at": "2026-10-22T11:59:01Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/risebench.webp",
       "visual_tone": 5,
-      "citation_rank": 32,
+      "citation_rank": 31,
       "selected": true,
       "selection_reasons": [
         "lead_author_and_influential"
       ]
+    },
+    {
+      "scholar_id": "vi3W-m8AAAAJ:vDijr-p_gm4C",
+      "title": "NeedleBench: Evaluating LLM Retrieval and Reasoning Across Varying Information Densities",
+      "short_title": "NeedleBench",
+      "authors": [
+        {
+          "name": "Mo Li",
+          "is_self": false,
+          "roles": [
+            "first"
+          ]
+        },
+        {
+          "name": "Songyang Zhang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Taolin Zhang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Haodong Duan",
+          "is_self": true,
+          "roles": []
+        },
+        {
+          "name": "Yunxin Liu",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Kai Chen",
+          "is_self": false,
+          "roles": [
+            "corresponding"
+          ]
+        }
+      ],
+      "author_count": 6,
+      "authors_truncated": false,
+      "group_authored": false,
+      "author_order": "contribution",
+      "author_annotations_suppressed": false,
+      "corresponding_fallback": true,
+      "corresponding_fallback_author": "Kai Chen",
+      "venue": "TMLR, 2025",
+      "venue_display": "TMLR, 2025",
+      "venue_short": "TMLR",
+      "year": 2025,
+      "citations": 102,
+      "metadata": [
+        {
+          "key": "publication_date",
+          "label": "Publication date",
+          "value": "2025"
+        },
+        {
+          "key": "journal",
+          "label": "Journal",
+          "value": "TMLR, 2025"
+        }
+      ],
+      "description": "The capability of large language models to handle long-context information is crucial across various real-world applications. Existing evaluation methods often rely either on real-world long texts, making it difficult to exclude the influence of models' inherent knowledge, or introduce irrelevant filler content to artificially achieve target lengths, reducing assessment effectiveness. To address these limitations, we introduce NeedleBench, a synthetic framework for assessing retrieval and reasoning performance in bilingual long-context tasks with adaptive context lengths. NeedleBench systematically embeds key data points at varying depths to rigorously test model capabilities. Tasks are categorized into two scenarios: information-sparse, featuring minimal relevant details within extensive irrelevant text to simulate simple retrieval tasks; and information-dense (the Ancestral Trace Challenge), where relevant information is continuously distributed throughout the context to simulate complex reasoning tasks. Our experiments reveal that although recent reasoning models like Deepseek-R1 and OpenAI's o3 excel in mathematical reasoning, they struggle with continuous retrieval and reasoning in information-dense scenarios, even at shorter context lengths. We also characterize a phenomenon termed 'under-thinking', where models prematurely conclude reasoning despite available information. NeedleBench thus provides critical insights and targeted tools essential for evaluating and improving LLMs' long-context capabilities. All resources are available at OpenCompass: https://github.com/open-compass/opencompass.",
+      "summary": "The capability of large language models to handle long-context information is crucial across various real-world applications.",
+      "detail_metadata_available": true,
+      "topics": [
+        "Long-Context Modeling",
+        "LLM Evaluation",
+        "Benchmark Design"
+      ],
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:vDijr-p_gm4C",
+        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4786034608417604504,10597899395986341965,12631458222693562005,8802190503201998755,1515613457600846378,708612290851760848",
+        "paper": "https://arxiv.org/abs/2407.11963"
+      },
+      "repo": "",
+      "repo_label": "",
+      "github": {},
+      "thumbnail": "",
+      "visual_tone": 2,
+      "citation_rank": 32,
+      "selected": false,
+      "selection_reasons": []
     },
     {
       "scholar_id": "vi3W-m8AAAAJ:fPk4N6BV_jEC",
@@ -5531,7 +5632,7 @@
       "venue_display": "ACL Findings, 2025",
       "venue_short": "ACL",
       "year": 2025,
-      "citations": 82,
+      "citations": 84,
       "metadata": [
         {
           "key": "publication_date",
@@ -5647,7 +5748,7 @@
       "venue_display": "ICML Oral, 2025",
       "venue_short": "ICML Oral",
       "year": 2025,
-      "citations": 75,
+      "citations": 80,
       "metadata": [
         {
           "key": "publication_date",
@@ -5947,7 +6048,7 @@
       "venue_display": "Science China Information Sciences, 2025 68 (12), 221301",
       "venue_short": "Science China Info",
       "year": 2025,
-      "citations": 69,
+      "citations": 75,
       "metadata": [
         {
           "key": "publication_date",
@@ -6068,7 +6169,7 @@
       "venue_display": "arXiv preprint arXiv:2505.14246, 2025",
       "venue_short": "arXiv",
       "year": 2025,
-      "citations": 58,
+      "citations": 64,
       "metadata": [
         {
           "key": "publication_date",
@@ -6099,7 +6200,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 3,
-      "citation_rank": 42,
+      "citation_rank": 40,
       "selected": false,
       "selection_reasons": []
     },
@@ -6174,7 +6275,7 @@
       "venue_display": "ICCV, 2025",
       "venue_short": "ICCV",
       "year": 2025,
-      "citations": 55,
+      "citations": 57,
       "metadata": [
         {
           "key": "publication_date",
@@ -6204,7 +6305,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 5,
-      "citation_rank": 43,
+      "citation_rank": 44,
       "selected": false,
       "selection_reasons": []
     },
@@ -6279,7 +6380,7 @@
       "venue_display": "ICLR, 2025",
       "venue_short": "ICLR",
       "year": 2025,
-      "citations": 50,
+      "citations": 51,
       "metadata": [
         {
           "key": "publication_date",
@@ -6710,7 +6811,7 @@
       "venue_display": "arXiv preprint arXiv:2508.21148, 2025",
       "venue_short": "arXiv",
       "year": 2025,
-      "citations": 40,
+      "citations": 45,
       "metadata": [
         {
           "key": "publication_date",
@@ -6741,7 +6842,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 2,
-      "citation_rank": 52,
+      "citation_rank": 50,
       "selected": false,
       "selection_reasons": []
     },
@@ -6857,7 +6958,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 5,
-      "citation_rank": 53,
+      "citation_rank": 54,
       "selected": false,
       "selection_reasons": []
     },
@@ -6917,7 +7018,7 @@
       "venue_display": "IEEE Transactions on Circuits and Systems for Video Technology, 2025",
       "venue_short": "IEEE Transactions ",
       "year": 2025,
-      "citations": 34,
+      "citations": 35,
       "metadata": [
         {
           "key": "publication_date",
@@ -6954,6 +7055,116 @@
       "thumbnail": "",
       "visual_tone": 3,
       "citation_rank": 55,
+      "selected": false,
+      "selection_reasons": []
+    },
+    {
+      "scholar_id": "vi3W-m8AAAAJ:N5tVd3kTz84C",
+      "title": "Towards Storage-Efficient Visual Document Retrieval: An Empirical Study on Reducing Patch-Level Embeddings",
+      "short_title": "TSVDR",
+      "authors": [
+        {
+          "name": "Yubo Ma",
+          "is_self": false,
+          "roles": [
+            "first"
+          ]
+        },
+        {
+          "name": "Jinsong Li",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Yuhang Zang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Xiaobao Wu",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Xiaoyi Dong",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Pan Zhang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Yuhang Cao",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Haodong Duan",
+          "is_self": true,
+          "roles": []
+        },
+        {
+          "name": "Jiaqi Wang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Yixin Cao",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Aixin Sun",
+          "is_self": false,
+          "roles": [
+            "corresponding"
+          ]
+        }
+      ],
+      "author_count": 11,
+      "authors_truncated": false,
+      "group_authored": false,
+      "author_order": "contribution",
+      "author_annotations_suppressed": false,
+      "corresponding_fallback": true,
+      "corresponding_fallback_author": "Aixin Sun",
+      "venue": "ACL Findings, 2025",
+      "venue_display": "ACL Findings, 2025",
+      "venue_short": "ACL",
+      "year": 2025,
+      "citations": 35,
+      "metadata": [
+        {
+          "key": "publication_date",
+          "label": "Publication date",
+          "value": "2025/6/5"
+        },
+        {
+          "key": "journal",
+          "label": "Journal",
+          "value": "ACL Findings, 2025"
+        }
+      ],
+      "description": "Despite the strong performance of ColPali/ColQwen2 in Visualized Document Retrieval (VDR), its patch-level embedding approach leads to excessive memory usage. This empirical study investigates methods to reduce patch embeddings per page while minimizing performance degradation. We evaluate two token-reduction strategies: token pruning and token merging. Regarding token pruning, we surprisingly observe that a simple random strategy outperforms other sophisticated pruning methods, though still far from satisfactory. Further analysis reveals that pruning is inherently unsuitable for VDR as it requires removing certain page embeddings without query-specific information. Turning to token merging (more suitable for VDR), we search for the optimal combinations of merging strategy across three dimensions and develops Light-ColPali/ColQwen2. It maintains 98.2% of retrieval performance with only 11.8% of original memory usage, and preserves 94.6% effectiveness at 2% memory footprint. We expect our empirical findings and resulting Light-ColPali/ColQwen2 offer valuable insights and establish a competitive baseline for future efficient-VDR research.",
+      "summary": "Despite the strong performance of ColPali/ColQwen2 in Visualized Document Retrieval (VDR), its patch-level embedding approach leads to excessive memory usage.",
+      "detail_metadata_available": true,
+      "topics": [
+        "Document Intelligence",
+        "Model Efficiency"
+      ],
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:N5tVd3kTz84C",
+        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13478768609868730409,9775018405548660537",
+        "paper": "https://aclanthology.org/2025.findings-acl.1003/"
+      },
+      "repo": "",
+      "repo_label": "",
+      "github": {},
+      "thumbnail": "",
+      "visual_tone": 4,
+      "citation_rank": 56,
       "selected": false,
       "selection_reasons": []
     },
@@ -7050,7 +7261,7 @@
       "venue_display": "ACL, 2025",
       "venue_short": "ACL",
       "year": 2025,
-      "citations": 33,
+      "citations": 34,
       "metadata": [
         {
           "key": "publication_date",
@@ -7096,121 +7307,11 @@
       },
       "thumbnail": "/images/publications/omnialign-v.webp",
       "visual_tone": 3,
-      "citation_rank": 56,
+      "citation_rank": 57,
       "selected": true,
       "selection_reasons": [
         "lead_author_and_influential"
       ]
-    },
-    {
-      "scholar_id": "vi3W-m8AAAAJ:N5tVd3kTz84C",
-      "title": "Towards Storage-Efficient Visual Document Retrieval: An Empirical Study on Reducing Patch-Level Embeddings",
-      "short_title": "TSVDR",
-      "authors": [
-        {
-          "name": "Yubo Ma",
-          "is_self": false,
-          "roles": [
-            "first"
-          ]
-        },
-        {
-          "name": "Jinsong Li",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Yuhang Zang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Xiaobao Wu",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Xiaoyi Dong",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Pan Zhang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Yuhang Cao",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Haodong Duan",
-          "is_self": true,
-          "roles": []
-        },
-        {
-          "name": "Jiaqi Wang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Yixin Cao",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Aixin Sun",
-          "is_self": false,
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
-      "author_count": 11,
-      "authors_truncated": false,
-      "group_authored": false,
-      "author_order": "contribution",
-      "author_annotations_suppressed": false,
-      "corresponding_fallback": true,
-      "corresponding_fallback_author": "Aixin Sun",
-      "venue": "ACL Findings, 2025",
-      "venue_display": "ACL Findings, 2025",
-      "venue_short": "ACL",
-      "year": 2025,
-      "citations": 31,
-      "metadata": [
-        {
-          "key": "publication_date",
-          "label": "Publication date",
-          "value": "2025/6/5"
-        },
-        {
-          "key": "journal",
-          "label": "Journal",
-          "value": "ACL Findings, 2025"
-        }
-      ],
-      "description": "Despite the strong performance of ColPali/ColQwen2 in Visualized Document Retrieval (VDR), its patch-level embedding approach leads to excessive memory usage. This empirical study investigates methods to reduce patch embeddings per page while minimizing performance degradation. We evaluate two token-reduction strategies: token pruning and token merging. Regarding token pruning, we surprisingly observe that a simple random strategy outperforms other sophisticated pruning methods, though still far from satisfactory. Further analysis reveals that pruning is inherently unsuitable for VDR as it requires removing certain page embeddings without query-specific information. Turning to token merging (more suitable for VDR), we search for the optimal combinations of merging strategy across three dimensions and develops Light-ColPali/ColQwen2. It maintains 98.2% of retrieval performance with only 11.8% of original memory usage, and preserves 94.6% effectiveness at 2% memory footprint. We expect our empirical findings and resulting Light-ColPali/ColQwen2 offer valuable insights and establish a competitive baseline for future efficient-VDR research.",
-      "summary": "Despite the strong performance of ColPali/ColQwen2 in Visualized Document Retrieval (VDR), its patch-level embedding approach leads to excessive memory usage.",
-      "detail_metadata_available": true,
-      "topics": [
-        "Document Intelligence",
-        "Model Efficiency"
-      ],
-      "links": {
-        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:N5tVd3kTz84C",
-        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13478768609868730409,9775018405548660537",
-        "paper": "https://aclanthology.org/2025.findings-acl.1003/"
-      },
-      "repo": "",
-      "repo_label": "",
-      "github": {},
-      "thumbnail": "",
-      "visual_tone": 4,
-      "citation_rank": 57,
-      "selected": false,
-      "selection_reasons": []
     },
     {
       "scholar_id": "vi3W-m8AAAAJ:4OULZ7Gr8RgC",
@@ -7285,7 +7386,7 @@
       "venue_display": "ACL, 2025",
       "venue_short": "ACL",
       "year": 2025,
-      "citations": 28,
+      "citations": 30,
       "metadata": [
         {
           "key": "publication_date",
@@ -7310,13 +7411,13 @@
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:4OULZ7Gr8RgC",
         "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17662109533613563953,678269580137109119",
         "paper": "https://arxiv.org/abs/2501.13953",
-        "code": "https://github.com/zzc-1998/Benchmark-Redundancy"
+        "code": "https://github.com/aiben-ch/Benchmark-Redundancy"
       },
-      "repo": "zzc-1998/Benchmark-Redundancy",
+      "repo": "aiben-ch/Benchmark-Redundancy",
       "repo_label": "",
       "github": {
         "name": "Benchmark-Redundancy",
-        "full_name": "zzc-1998/Benchmark-Redundancy",
+        "full_name": "aiben-ch/Benchmark-Redundancy",
         "url": "https://github.com/aiben-ch/Benchmark-Redundancy",
         "description": "[ACL 2025] Redundancy Principles for MLLMs Benchmarks",
         "stars": 10,
@@ -7406,7 +7507,7 @@
       "venue_display": "ACL, 2025",
       "venue_short": "ACL",
       "year": 2025,
-      "citations": 27,
+      "citations": 29,
       "metadata": [
         {
           "key": "publication_date",
@@ -7440,14 +7541,14 @@
         "full_name": "InternLM/Condor",
         "url": "https://github.com/InternLM/Condor",
         "description": " [ACL 2025] An official pytorch implement of the paper: Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement",
-        "stars": 40,
-        "stars_display": "40",
+        "stars": 41,
+        "stars_display": "41",
         "forks": 5,
         "forks_display": "5",
         "watchers": 2,
         "language": null,
         "topics": [],
-        "updated_at": "2026-06-30T16:48:31Z",
+        "updated_at": "2026-10-13T09:58:44Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/condor.webp",
@@ -7457,6 +7558,106 @@
       "selection_reasons": [
         "lead_author_and_influential"
       ]
+    },
+    {
+      "scholar_id": "vi3W-m8AAAAJ:pqnbT2bcN3wC",
+      "title": "Booststep: Boosting mathematical capability of large language models via improved single-step reasoning",
+      "short_title": "Booststep",
+      "authors": [
+        {
+          "name": "Beichen Zhang",
+          "is_self": false,
+          "roles": [
+            "first"
+          ]
+        },
+        {
+          "name": "Yuhong Liu",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Xiaoyi Dong",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Yuhang Zang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Pan Zhang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Haodong Duan",
+          "is_self": true,
+          "roles": []
+        },
+        {
+          "name": "Yuhang Cao",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Dahua Lin",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Jiaqi Wang",
+          "is_self": false,
+          "roles": [
+            "corresponding"
+          ]
+        }
+      ],
+      "author_count": 9,
+      "authors_truncated": false,
+      "group_authored": false,
+      "author_order": "contribution",
+      "author_annotations_suppressed": false,
+      "corresponding_fallback": true,
+      "corresponding_fallback_author": "Jiaqi Wang",
+      "venue": "arXiv preprint arXiv:2501.03226",
+      "venue_display": "arXiv preprint arXiv:2501.03226, 2025",
+      "venue_short": "arXiv",
+      "year": 2025,
+      "citations": 23,
+      "metadata": [
+        {
+          "key": "publication_date",
+          "label": "Publication date",
+          "value": "2025/1/6"
+        },
+        {
+          "key": "journal",
+          "label": "Journal",
+          "value": "arXiv preprint arXiv:2501.03226"
+        }
+      ],
+      "description": "Large language models (LLMs) have demonstrated impressive ability in solving complex mathematical problems with multi-step reasoning and can be further enhanced with well-designed in-context learning (ICL) examples. However, this potential is often constrained by two major challenges in ICL: granularity mismatch and irrelevant information. We observe that while LLMs excel at decomposing mathematical problems, they often struggle with reasoning errors in fine-grained steps. Moreover, ICL examples retrieved at the question level may omit critical steps or even mislead the model with irrelevant details. To address this issue, we propose BoostStep, a method that enhances reasoning accuracy through step-aligned ICL, a novel mechanism that carefully aligns retrieved reference steps with the corresponding reasoning steps. Additionally, BoostStep incorporates an effective \"first-try\" strategy to deliver exemplars highly relevant to the current state of reasoning. BoostStep is a flexible and powerful method that integrates seamlessly with chain-of-thought (CoT) and tree search algorithms, refining both candidate selection and decision-making. Empirical results show that BoostStep improves GPT-4o's CoT performance by 4.6% across mathematical benchmarks, significantly surpassing traditional few-shot learning's 1.2%. Moreover, it can achieve an additional 7.5\\% gain combined with tree search. Surprisingly, it enhances state-of-the-art LLMs to solve challenging math problems using simpler examples. It improves DeepSeek-R1-671B's performance on AIME by 2.2%, leveraging simple examples only from the MATH dataset.",
+      "summary": "Large language models (LLMs) have demonstrated impressive ability in solving complex mathematical problems with multi-step reasoning and can be further enhanced with well-designed in-context learning (ICL) examples.",
+      "detail_metadata_available": true,
+      "topics": [
+        "Scientific Reasoning",
+        "Foundation Models"
+      ],
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:pqnbT2bcN3wC",
+        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11871966062572674614",
+        "paper": "https://arxiv.org/abs/2501.03226"
+      },
+      "repo": "",
+      "repo_label": "",
+      "github": {},
+      "thumbnail": "",
+      "visual_tone": 5,
+      "citation_rank": 60,
+      "selected": false,
+      "selection_reasons": []
     },
     {
       "scholar_id": "vi3W-m8AAAAJ:5qfkUJPXOUwC",
@@ -7544,7 +7745,7 @@
       "venue_display": "ICCV, 2025, 447-456",
       "venue_short": "ICCV",
       "year": 2025,
-      "citations": 22,
+      "citations": 23,
       "metadata": [
         {
           "key": "publication_date",
@@ -7580,319 +7781,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 2,
-      "citation_rank": 60,
-      "selected": false,
-      "selection_reasons": []
-    },
-    {
-      "scholar_id": "vi3W-m8AAAAJ:pqnbT2bcN3wC",
-      "title": "Booststep: Boosting mathematical capability of large language models via improved single-step reasoning",
-      "short_title": "Booststep",
-      "authors": [
-        {
-          "name": "Beichen Zhang",
-          "is_self": false,
-          "roles": [
-            "first"
-          ]
-        },
-        {
-          "name": "Yuhong Liu",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Xiaoyi Dong",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Yuhang Zang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Pan Zhang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Haodong Duan",
-          "is_self": true,
-          "roles": []
-        },
-        {
-          "name": "Yuhang Cao",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Dahua Lin",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Jiaqi Wang",
-          "is_self": false,
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
-      "author_count": 9,
-      "authors_truncated": false,
-      "group_authored": false,
-      "author_order": "contribution",
-      "author_annotations_suppressed": false,
-      "corresponding_fallback": true,
-      "corresponding_fallback_author": "Jiaqi Wang",
-      "venue": "arXiv preprint arXiv:2501.03226",
-      "venue_display": "arXiv preprint arXiv:2501.03226, 2025",
-      "venue_short": "arXiv",
-      "year": 2025,
-      "citations": 21,
-      "metadata": [
-        {
-          "key": "publication_date",
-          "label": "Publication date",
-          "value": "2025/1/6"
-        },
-        {
-          "key": "journal",
-          "label": "Journal",
-          "value": "arXiv preprint arXiv:2501.03226"
-        }
-      ],
-      "description": "Large language models (LLMs) have demonstrated impressive ability in solving complex mathematical problems with multi-step reasoning and can be further enhanced with well-designed in-context learning (ICL) examples. However, this potential is often constrained by two major challenges in ICL: granularity mismatch and irrelevant information. We observe that while LLMs excel at decomposing mathematical problems, they often struggle with reasoning errors in fine-grained steps. Moreover, ICL examples retrieved at the question level may omit critical steps or even mislead the model with irrelevant details. To address this issue, we propose BoostStep, a method that enhances reasoning accuracy through step-aligned ICL, a novel mechanism that carefully aligns retrieved reference steps with the corresponding reasoning steps. Additionally, BoostStep incorporates an effective \"first-try\" strategy to deliver exemplars highly relevant to the current state of reasoning. BoostStep is a flexible and powerful method that integrates seamlessly with chain-of-thought (CoT) and tree search algorithms, refining both candidate selection and decision-making. Empirical results show that BoostStep improves GPT-4o's CoT performance by 4.6% across mathematical benchmarks, significantly surpassing traditional few-shot learning's 1.2%. Moreover, it can achieve an additional 7.5\\% gain combined with tree search. Surprisingly, it enhances state-of-the-art LLMs to solve challenging math problems using simpler examples. It improves DeepSeek-R1-671B's performance on AIME by 2.2%, leveraging simple examples only from the MATH dataset.",
-      "summary": "Large language models (LLMs) have demonstrated impressive ability in solving complex mathematical problems with multi-step reasoning and can be further enhanced with well-designed in-context learning (ICL) examples.",
-      "detail_metadata_available": true,
-      "topics": [
-        "Scientific Reasoning",
-        "Foundation Models"
-      ],
-      "links": {
-        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:pqnbT2bcN3wC",
-        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11871966062572674614",
-        "paper": "https://arxiv.org/abs/2501.03226"
-      },
-      "repo": "",
-      "repo_label": "",
-      "github": {},
-      "thumbnail": "",
-      "visual_tone": 5,
       "citation_rank": 61,
-      "selected": false,
-      "selection_reasons": []
-    },
-    {
-      "scholar_id": "vi3W-m8AAAAJ:olpn-zPbct0C",
-      "title": "Affordance Benchmark for MLLMs",
-      "short_title": "ABFM",
-      "authors": [
-        {
-          "name": "Junying Wang",
-          "is_self": false,
-          "roles": [
-            "first"
-          ]
-        },
-        {
-          "name": "Wenzhe Li",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Yalun Wu",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Yingji Liang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Yijin Guo",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Chunyi Li",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Haodong Duan",
-          "is_self": true,
-          "roles": []
-        },
-        {
-          "name": "Zicheng Zhang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Guangtao Zhai",
-          "is_self": false,
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
-      "author_count": 9,
-      "authors_truncated": false,
-      "group_authored": false,
-      "author_order": "contribution",
-      "author_annotations_suppressed": false,
-      "corresponding_fallback": true,
-      "corresponding_fallback_author": "Guangtao Zhai",
-      "venue": "arXiv preprint arXiv:2506.00893",
-      "venue_display": "arXiv preprint arXiv:2506.00893, 2025",
-      "venue_short": "arXiv",
-      "year": 2025,
-      "citations": 11,
-      "metadata": [
-        {
-          "key": "publication_date",
-          "label": "Publication date",
-          "value": "2025/6/1"
-        },
-        {
-          "key": "journal",
-          "label": "Journal",
-          "value": "arXiv preprint arXiv:2506.00893"
-        }
-      ],
-      "description": "Affordance theory suggests that environments inherently provide action possibilities shaping perception and behavior. While Multimodal Large Language Models (MLLMs) achieve strong performance in vision-language tasks, their ability to perceive affordance, which is crucial for intuitive and safe interactions, remains underexplored. To address this, we introduce A4Bench, a novel benchmark designed to evaluate the affordance perception abilities of MLLMs across two dimensions: 1) Constitutive Affordance, assessing understanding of inherent object properties through 1,282 question-answer pairs spanning nine sub-disciplines, and 2) Transformative Affordance, probing dynamic and contextual nuances (e.g., misleading, time-dependent, cultural, or individual-specific affordance) with 718 challenging question-answer pairs. We evaluate 17 MLLMs (nine proprietary and eight open-source) and compare them to …",
-      "summary": "Affordance theory suggests that environments inherently provide action possibilities shaping perception and behavior.",
-      "detail_metadata_available": true,
-      "topics": [
-        "Spatial Reasoning",
-        "Multimodal Evaluation",
-        "Benchmark Design"
-      ],
-      "links": {
-        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:olpn-zPbct0C",
-        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13458102313669511242",
-        "paper": "https://ieeexplore.ieee.org/abstract/document/11464994/"
-      },
-      "repo": "",
-      "repo_label": "",
-      "github": {},
-      "thumbnail": "",
-      "visual_tone": 3,
-      "citation_rank": 68,
-      "selected": false,
-      "selection_reasons": []
-    },
-    {
-      "scholar_id": "vi3W-m8AAAAJ:P5F9QuxV20EC",
-      "title": "Information Density Principle for MLLM Benchmarks",
-      "short_title": "IDPFMB",
-      "authors": [
-        {
-          "name": "Chunyi Li",
-          "is_self": false,
-          "roles": [
-            "first"
-          ]
-        },
-        {
-          "name": "Xiaozhe Li",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Zicheng Zhang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Yuan Tian",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Ziheng Jia",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Xiaohong Liu",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Xiongkuo Min",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Jia Wang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Haodong Duan",
-          "is_self": true,
-          "roles": [
-            "corresponding"
-          ]
-        },
-        {
-          "name": "Kai Chen",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Guangtao Zhai",
-          "is_self": false,
-          "roles": []
-        }
-      ],
-      "author_count": 11,
-      "authors_truncated": false,
-      "group_authored": false,
-      "author_order": "contribution",
-      "author_annotations_suppressed": false,
-      "corresponding_fallback": false,
-      "corresponding_fallback_author": "",
-      "venue": "ICCV, 2025",
-      "venue_display": "ICCV, 2025",
-      "venue_short": "ICCV",
-      "year": 2025,
-      "citations": 10,
-      "metadata": [
-        {
-          "key": "publication_date",
-          "label": "Publication date",
-          "value": "2025/3/13"
-        },
-        {
-          "key": "journal",
-          "label": "Journal",
-          "value": "ICCV, 2025"
-        }
-      ],
-      "description": "With the emergence of Multimodal Large Language Models (MLLMs), hundreds of benchmarks have been developed to ensure the reliability of MLLMs in downstream tasks. However, the evaluation mechanism itself may not be reliable. For developers of MLLMs, questions remain about which benchmark to use and whether the test results meet their requirements. Therefore, we propose a critical principle of Information Density, which examines how much insight a benchmark can provide for the development of MLLMs. We characterize it from four key dimensions: (1) Fallacy, (2 Difficulty, (3) Redundancy, (4) Diversity. Through a comprehensive analysis of more than 10,000 samples, we measured the information density of 19 MLLM benchmarks. Experiments show that using the latest benchmarks in testing can provide more insight compared to previous ones, but there is still room for improvement in their …",
-      "summary": "With the emergence of Multimodal Large Language Models (MLLMs), hundreds of benchmarks have been developed to ensure the reliability of MLLMs in downstream tasks.",
-      "detail_metadata_available": true,
-      "topics": [
-        "Long-Context Modeling",
-        "Multimodal Evaluation",
-        "Benchmark Design"
-      ],
-      "links": {
-        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:P5F9QuxV20EC",
-        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12726239843436116414",
-        "paper": "https://ieeexplore.ieee.org/abstract/document/11446093/"
-      },
-      "repo": "",
-      "repo_label": "",
-      "github": {},
-      "thumbnail": "",
-      "visual_tone": 4,
-      "citation_rank": 70,
       "selected": false,
       "selection_reasons": []
     },
@@ -8097,7 +7986,7 @@
       "venue_display": "arXiv preprint arXiv:2511.14366, 2025",
       "venue_short": "arXiv",
       "year": 2025,
-      "citations": 9,
+      "citations": 11,
       "metadata": [
         {
           "key": "publication_date",
@@ -8128,7 +8017,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 2,
-      "citation_rank": 71,
+      "citation_rank": 70,
       "selected": false,
       "selection_reasons": []
     },
@@ -8193,7 +8082,7 @@
       "venue_display": "arXiv preprint arXiv:2509.22624, 2025",
       "venue_short": "arXiv",
       "year": 2025,
-      "citations": 9,
+      "citations": 11,
       "metadata": [
         {
           "key": "publication_date",
@@ -8223,7 +8112,118 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 2,
-      "citation_rank": 72,
+      "citation_rank": 71,
+      "selected": false,
+      "selection_reasons": []
+    },
+    {
+      "scholar_id": "vi3W-m8AAAAJ:P5F9QuxV20EC",
+      "title": "Information Density Principle for MLLM Benchmarks",
+      "short_title": "IDPFMB",
+      "authors": [
+        {
+          "name": "Chunyi Li",
+          "is_self": false,
+          "roles": [
+            "first"
+          ]
+        },
+        {
+          "name": "Xiaozhe Li",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Zicheng Zhang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Yuan Tian",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Ziheng Jia",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Xiaohong Liu",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Xiongkuo Min",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Jia Wang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Haodong Duan",
+          "is_self": true,
+          "roles": [
+            "corresponding"
+          ]
+        },
+        {
+          "name": "Kai Chen",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Guangtao Zhai",
+          "is_self": false,
+          "roles": []
+        }
+      ],
+      "author_count": 11,
+      "authors_truncated": false,
+      "group_authored": false,
+      "author_order": "contribution",
+      "author_annotations_suppressed": false,
+      "corresponding_fallback": false,
+      "corresponding_fallback_author": "",
+      "venue": "ICCV, 2025",
+      "venue_display": "ICCV, 2025",
+      "venue_short": "ICCV",
+      "year": 2025,
+      "citations": 10,
+      "metadata": [
+        {
+          "key": "publication_date",
+          "label": "Publication date",
+          "value": "2025/3/13"
+        },
+        {
+          "key": "journal",
+          "label": "Journal",
+          "value": "ICCV, 2025"
+        }
+      ],
+      "description": "With the emergence of Multimodal Large Language Models (MLLMs), hundreds of benchmarks have been developed to ensure the reliability of MLLMs in downstream tasks. However, the evaluation mechanism itself may not be reliable. For developers of MLLMs, questions remain about which benchmark to use and whether the test results meet their requirements. Therefore, we propose a critical principle of Information Density, which examines how much insight a benchmark can provide for the development of MLLMs. We characterize it from four key dimensions: (1) Fallacy, (2 Difficulty, (3) Redundancy, (4) Diversity. Through a comprehensive analysis of more than 10,000 samples, we measured the information density of 19 MLLM benchmarks. Experiments show that using the latest benchmarks in testing can provide more insight compared to previous ones, but there is still room for improvement in their …",
+      "summary": "With the emergence of Multimodal Large Language Models (MLLMs), hundreds of benchmarks have been developed to ensure the reliability of MLLMs in downstream tasks.",
+      "detail_metadata_available": true,
+      "topics": [
+        "Long-Context Modeling",
+        "Multimodal Evaluation",
+        "Benchmark Design"
+      ],
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:P5F9QuxV20EC",
+        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12726239843436116414",
+        "paper": "https://ieeexplore.ieee.org/abstract/document/11446093/"
+      },
+      "repo": "",
+      "repo_label": "",
+      "github": {},
+      "thumbnail": "",
+      "visual_tone": 4,
+      "citation_rank": 73,
       "selected": false,
       "selection_reasons": []
     },
@@ -8324,7 +8324,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 1,
-      "citation_rank": 78,
+      "citation_rank": 80,
       "selected": false,
       "selection_reasons": []
     },
@@ -8460,7 +8460,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 3,
-      "citation_rank": 79,
+      "citation_rank": 81,
       "selected": false,
       "selection_reasons": []
     },
@@ -8696,7 +8696,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 3,
-      "citation_rank": 84,
+      "citation_rank": 85,
       "selected": false,
       "selection_reasons": []
     },
@@ -8795,7 +8795,7 @@
       "venue_display": "European Conference on Computer Vision (ECCV), 2024",
       "venue_short": "ECCV",
       "year": 2024,
-      "citations": 3015,
+      "citations": 3118,
       "metadata": [
         {
           "key": "publication_date",
@@ -8818,7 +8818,7 @@
       ],
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:8k81kl-MbHgC",
-        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6352199574109390602,3506049764631626295,8496369579020728136,6695772562925261570,9645524785508630894,3863848820784891803,5692007375750989558",
+        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6352199574109390602,3506049764631626295,8496369579020728136,9645524785508630894,3863848820784891803,5692007375750989558",
         "paper": "https://arxiv.org/abs/2307.06281",
         "code": "https://github.com/open-compass/MMBench",
         "project": "https://mmbench.opencompass.org.cn"
@@ -8830,14 +8830,14 @@
         "full_name": "open-compass/MMBench",
         "url": "https://github.com/open-compass/MMBench",
         "description": "Official Repo of \"MMBench: Is Your Multi-modal Model an All-around Player?\"",
-        "stars": 312,
-        "stars_display": "312",
+        "stars": 313,
+        "stars_display": "313",
         "forks": 19,
         "forks_display": "19",
         "watchers": 2,
         "language": null,
         "topics": [],
-        "updated_at": "2026-09-24T02:51:59Z",
+        "updated_at": "2026-10-11T08:44:55Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/mmbench.webp",
@@ -8930,7 +8930,7 @@
       "venue_display": "Conference on Neural Information Processing Systems (NeurIPS), 2024",
       "venue_short": "NeurIPS",
       "year": 2024,
-      "citations": 1294,
+      "citations": 1358,
       "metadata": [
         {
           "key": "publication_date",
@@ -8953,7 +8953,7 @@
       ],
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:9ZlFYXVOiuMC",
-        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4459148544604166048,1153974724057401607,5688071152720834083,17797306418546562586,14885314387709613860",
+        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4459148544604166048,1153974724057401607,17797306418546562586,5688071152720834083,14885314387709613860",
         "paper": "https://arxiv.org/abs/2403.20330",
         "code": "https://github.com/MMStar-Benchmark/MMStar"
       },
@@ -8964,14 +8964,14 @@
         "full_name": "MMStar-Benchmark/MMStar",
         "url": "https://github.com/MMStar-Benchmark/MMStar",
         "description": "[NeurIPS 2024] This repo contains evaluation code for the paper \"Are We on the Right Way for Evaluating Large Vision-Language Models\"",
-        "stars": 217,
-        "stars_display": "217",
+        "stars": 218,
+        "stars_display": "218",
         "forks": 5,
         "forks_display": "5",
         "watchers": 1,
         "language": "Python",
         "topics": [],
-        "updated_at": "2026-09-06T17:44:31Z",
+        "updated_at": "2026-10-06T02:47:21Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/mmstar.webp",
@@ -9394,7 +9394,7 @@
       "venue_display": "arXiv preprint arXiv:2403.17297, 2024",
       "venue_short": "arXiv",
       "year": 2024,
-      "citations": 801,
+      "citations": 820,
       "metadata": [
         {
           "key": "publication_date",
@@ -9509,7 +9509,7 @@
       "venue_display": "ACM International Conference on Multimedia (MM), 2024",
       "venue_short": "ACM MM",
       "year": 2024,
-      "citations": 660,
+      "citations": 694,
       "metadata": [
         {
           "key": "publication_date",
@@ -9542,14 +9542,14 @@
         "full_name": "open-compass/VLMEvalKit",
         "url": "https://github.com/open-compass/VLMEvalKit",
         "description": "Open-source evaluation toolkit of large multi-modality models (LMMs), support 220+ LMMs, 80+ benchmarks",
-        "stars": 4428,
-        "stars_display": "4,428",
-        "forks": 773,
-        "forks_display": "773",
+        "stars": 4454,
+        "stars_display": "4,454",
+        "forks": 781,
+        "forks_display": "781",
         "watchers": 14,
         "language": "Python",
         "topics": [],
-        "updated_at": "2026-10-04T11:56:48Z",
+        "updated_at": "2026-10-25T06:46:47Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/vlmevalkit.webp",
@@ -9664,7 +9664,7 @@
       "venue_display": "Conference on Neural Information Processing Systems (NeurIPS), Datasets & Benchmarks Track, 2024",
       "venue_short": "NeurIPS",
       "year": 2024,
-      "citations": 540,
+      "citations": 554,
       "metadata": [
         {
           "key": "publication_date",
@@ -9700,12 +9700,12 @@
         "description": "[NeurIPS 2024] An official implementation of \"ShareGPT4Video: Improving Video Understanding and Generation with Better Captions\"",
         "stars": 1096,
         "stars_display": "1,096",
-        "forks": 46,
-        "forks_display": "46",
+        "forks": 45,
+        "forks_display": "45",
         "watchers": 22,
         "language": "Python",
         "topics": [],
-        "updated_at": "2026-09-26T02:09:09Z",
+        "updated_at": "2026-10-20T11:25:47Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/sharegpt4video.webp",
@@ -9852,7 +9852,7 @@
       "venue_display": "arXiv preprint arXiv:2401.16420, 2024",
       "venue_short": "arXiv",
       "year": 2024,
-      "citations": 471,
+      "citations": 476,
       "metadata": [
         {
           "key": "publication_date",
@@ -10042,7 +10042,7 @@
       "venue_display": "arXiv preprint arXiv:2407.03320, 2024",
       "venue_short": "arXiv",
       "year": 2024,
-      "citations": 331,
+      "citations": 335,
       "metadata": [
         {
           "key": "publication_date",
@@ -10130,7 +10130,7 @@
       "venue_display": "Empirical Methods in Natural Language Processing (EMNLP), Findings, 2024",
       "venue_short": "EMNLP",
       "year": 2024,
-      "citations": 313,
+      "citations": 334,
       "metadata": [
         {
           "key": "publication_date",
@@ -10176,7 +10176,7 @@
       },
       "thumbnail": "/images/publications/prosa.webp",
       "visual_tone": 5,
-      "citation_rank": 16,
+      "citation_rank": 14,
       "selected": true,
       "selection_reasons": [
         "top_cited_compact_team"
@@ -10244,7 +10244,7 @@
       "venue_display": "Conference on Neural Information Processing Systems (NeurIPS), Datasets & Benchmarks Track, 2024",
       "venue_short": "NeurIPS",
       "year": 2024,
-      "citations": 242,
+      "citations": 249,
       "metadata": [
         {
           "key": "publication_date",
@@ -10278,14 +10278,14 @@
         "full_name": "open-compass/VLMEvalKit",
         "url": "https://github.com/open-compass/VLMEvalKit",
         "description": "Open-source evaluation toolkit of large multi-modality models (LMMs), support 220+ LMMs, 80+ benchmarks",
-        "stars": 4428,
-        "stars_display": "4,428",
-        "forks": 773,
-        "forks_display": "773",
+        "stars": 4454,
+        "stars_display": "4,454",
+        "forks": 781,
+        "forks_display": "781",
         "watchers": 14,
         "language": "Python",
         "topics": [],
-        "updated_at": "2026-10-04T11:56:48Z",
+        "updated_at": "2026-10-25T06:46:47Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/mmbench-video.webp",
@@ -10438,7 +10438,7 @@
       "venue_display": "Conference on Neural Information Processing Systems (NeurIPS), 2024",
       "venue_short": "NeurIPS",
       "year": 2024,
-      "citations": 239,
+      "citations": 245,
       "metadata": [
         {
           "key": "publication_date",
@@ -10598,7 +10598,7 @@
       "venue_display": "Conference on Neural Information Processing Systems (NeurIPS), Datasets & Benchmarks Track, 2024",
       "venue_short": "NeurIPS",
       "year": 2024,
-      "citations": 175,
+      "citations": 180,
       "metadata": [
         {
           "key": "publication_date",
@@ -10630,7 +10630,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 5,
-      "citation_rank": 21,
+      "citation_rank": 22,
       "selected": false,
       "selection_reasons": []
     },
@@ -10705,7 +10705,7 @@
       "venue_display": "Annual Meeting of the Association for Computational Linguistics (ACL), Findings, 2024",
       "venue_short": "ACL",
       "year": 2024,
-      "citations": 167,
+      "citations": 173,
       "metadata": [
         {
           "key": "publication_date",
@@ -10737,7 +10737,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 5,
-      "citation_rank": 22,
+      "citation_rank": 24,
       "selected": false,
       "selection_reasons": []
     },
@@ -10822,7 +10822,7 @@
       "venue_display": "arXiv preprint arXiv:2411.15296, 2024",
       "venue_short": "arXiv",
       "year": 2024,
-      "citations": 121,
+      "citations": 124,
       "metadata": [
         {
           "key": "publication_date",
@@ -10853,7 +10853,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 3,
-      "citation_rank": 28,
+      "citation_rank": 29,
       "selected": false,
       "selection_reasons": []
     },
@@ -10922,7 +10922,7 @@
       "venue_display": "Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), 2024",
       "venue_short": "ACL",
       "year": 2024,
-      "citations": 103,
+      "citations": 104,
       "metadata": [
         {
           "key": "publication_date",
@@ -11140,7 +11140,7 @@
       "venue_display": "arXiv preprint arXiv:2412.09596, 2024",
       "venue_short": "arXiv",
       "year": 2024,
-      "citations": 62,
+      "citations": 63,
       "metadata": [
         {
           "key": "publication_date",
@@ -11171,7 +11171,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 4,
-      "citation_rank": 40,
+      "citation_rank": 41,
       "selected": false,
       "selection_reasons": []
     },
@@ -11289,7 +11289,7 @@
       },
       "thumbnail": "/images/publications/prism.webp",
       "visual_tone": 5,
-      "citation_rank": 45,
+      "citation_rank": 46,
       "selected": true,
       "selection_reasons": [
         "lead_author_and_influential"
@@ -11377,7 +11377,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 3,
-      "citation_rank": 46,
+      "citation_rank": 47,
       "selected": false,
       "selection_reasons": []
     },
@@ -11429,7 +11429,7 @@
       "venue_display": "Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), 2024",
       "venue_short": "ACL",
       "year": 2024,
-      "citations": 46,
+      "citations": 47,
       "metadata": [
         {
           "key": "publication_date",
@@ -11607,7 +11607,7 @@
       "venue_display": "arXiv preprint arXiv:2309.15112, 2023",
       "venue_short": "arXiv",
       "year": 2023,
-      "citations": 399,
+      "citations": 404,
       "metadata": [
         {
           "key": "publication_date",
@@ -11693,7 +11693,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 1,
-      "citation_rank": 14,
+      "citation_rank": 16,
       "selected": false,
       "selection_reasons": []
     },
@@ -11794,7 +11794,7 @@
       "venue_display": "Conference on Neural Information Processing Systems (NeurIPS), Datasets & Benchmarks Track, 2023",
       "venue_short": "NeurIPS",
       "year": 2023,
-      "citations": 257,
+      "citations": 261,
       "metadata": [
         {
           "key": "publication_date",
@@ -11828,14 +11828,14 @@
         "full_name": "JourneyDB/JourneyDB",
         "url": "https://github.com/JourneyDB/JourneyDB",
         "description": "",
-        "stars": 181,
-        "stars_display": "181",
+        "stars": 182,
+        "stars_display": "182",
         "forks": 5,
         "forks_display": "5",
         "watchers": 5,
         "language": null,
         "topics": [],
-        "updated_at": "2026-09-22T14:57:55Z",
+        "updated_at": "2026-10-23T04:37:12Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/journeydb.webp",
@@ -11892,7 +11892,7 @@
       "venue_display": "AAAI Conference on Artificial Intelligence (AAAI), 2023",
       "venue_short": "AAAI",
       "year": 2023,
-      "citations": 93,
+      "citations": 94,
       "metadata": [
         {
           "key": "publication_date",
@@ -11984,7 +11984,7 @@
       "venue_display": "IEEE/CVF International Conference on Computer Vision (ICCV), 2023",
       "venue_short": "ICCV",
       "year": 2023,
-      "citations": 83,
+      "citations": 85,
       "metadata": [
         {
           "key": "publication_date",
@@ -12067,7 +12067,7 @@
       "venue_display": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022",
       "venue_short": "CVPR",
       "year": 2022,
-      "citations": 1349,
+      "citations": 1370,
       "metadata": [
         {
           "key": "publication_date",
@@ -12101,14 +12101,14 @@
         "full_name": "kennymckormick/pyskl",
         "url": "https://github.com/kennymckormick/pyskl",
         "description": "A toolbox for skeleton-based action recognition.",
-        "stars": 1268,
-        "stars_display": "1,268",
-        "forks": 233,
-        "forks_display": "233",
+        "stars": 1270,
+        "stars_display": "1,270",
+        "forks": 236,
+        "forks_display": "236",
         "watchers": 13,
         "language": "Python",
         "topics": [],
-        "updated_at": "2026-09-17T04:18:58Z",
+        "updated_at": "2026-10-16T05:41:26Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/posec3d.webp",
@@ -12161,7 +12161,7 @@
       "venue_display": "ACM International Conference on Multimedia (MM), 2022",
       "venue_short": "ACM MM",
       "year": 2022,
-      "citations": 325,
+      "citations": 331,
       "metadata": [
         {
           "key": "publication_date",
@@ -12195,14 +12195,14 @@
         "full_name": "kennymckormick/pyskl",
         "url": "https://github.com/kennymckormick/pyskl",
         "description": "A toolbox for skeleton-based action recognition.",
-        "stars": 1268,
-        "stars_display": "1,268",
-        "forks": 233,
-        "forks_display": "233",
+        "stars": 1270,
+        "stars_display": "1,270",
+        "forks": 236,
+        "forks_display": "236",
         "watchers": 13,
         "language": "Python",
         "topics": [],
-        "updated_at": "2026-09-17T04:18:58Z",
+        "updated_at": "2026-10-16T05:41:26Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/pyskl.webp",
@@ -12255,7 +12255,7 @@
       "venue_display": "arXiv preprint arXiv:2210.05895, 2022",
       "venue_short": "arXiv",
       "year": 2022,
-      "citations": 135,
+      "citations": 137,
       "metadata": [
         {
           "key": "publication_date",
@@ -12289,14 +12289,14 @@
         "full_name": "kennymckormick/pyskl",
         "url": "https://github.com/kennymckormick/pyskl",
         "description": "A toolbox for skeleton-based action recognition.",
-        "stars": 1268,
-        "stars_display": "1,268",
-        "forks": 233,
-        "forks_display": "233",
+        "stars": 1270,
+        "stars_display": "1,270",
+        "forks": 236,
+        "forks_display": "236",
         "watchers": 13,
         "language": "Python",
         "topics": [],
-        "updated_at": "2026-09-17T04:18:58Z",
+        "updated_at": "2026-10-16T05:41:26Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/dg-stgcn.webp",
@@ -12383,7 +12383,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 4,
-      "citation_rank": 50,
+      "citation_rank": 51,
       "selected": false,
       "selection_reasons": []
     },
@@ -12474,7 +12474,7 @@
       },
       "thumbnail": "/images/publications/transrank.webp",
       "visual_tone": 1,
-      "citation_rank": 51,
+      "citation_rank": 52,
       "selected": true,
       "selection_reasons": [
         "lead_author_and_influential"
@@ -12557,7 +12557,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 4,
-      "citation_rank": 66,
+      "citation_rank": 67,
       "selected": false,
       "selection_reasons": []
     },
@@ -12583,7 +12583,7 @@
       "venue_display": "OpenMMLab Project, https://github.com/open-mmlab/mmaction2, 2020",
       "venue_short": "OpenMMLab Project",
       "year": 2020,
-      "citations": 389,
+      "citations": 396,
       "metadata": [
         {
           "key": "publication_date",
@@ -12702,19 +12702,19 @@
         "full_name": "open-mmlab/mmaction2",
         "url": "https://github.com/open-mmlab/mmaction2",
         "description": "OpenMMLab's Next Generation Video Understanding Toolbox and Benchmark",
-        "stars": 5169,
-        "stars_display": "5,169",
-        "forks": 1360,
-        "forks_display": "1,360",
+        "stars": 5183,
+        "stars_display": "5,183",
+        "forks": 1356,
+        "forks_display": "1,356",
         "watchers": 43,
         "language": "Python",
         "topics": [],
-        "updated_at": "2026-10-03T18:08:46Z",
+        "updated_at": "2026-10-25T08:54:22Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/omnisource.webp",
       "visual_tone": 3,
-      "citation_rank": 25,
+      "citation_rank": 26,
       "selected": true,
       "selection_reasons": [
         "lead_author_and_influential"
@@ -12848,7 +12848,7 @@
       "venue_display": "arXiv preprint arXiv:1712.05927, 2017",
       "venue_short": "arXiv",
       "year": 2017,
-      "citations": 91,
+      "citations": 93,
       "metadata": [
         {
           "key": "publication_date",
@@ -12889,17 +12889,17 @@
       "full_name": "open-compass/VLMEvalKit",
       "url": "https://github.com/open-compass/VLMEvalKit",
       "description": "An all-in-one evaluation toolkit for large vision-language and multimodal models. It connects model inference, benchmark execution, scoring, and result comparison in one reproducible workflow used by both researchers and practitioners.",
-      "stars": 4428,
-      "stars_display": "4,428",
-      "forks": 773,
-      "forks_display": "773",
+      "stars": 4454,
+      "stars_display": "4,454",
+      "forks": 781,
+      "forks_display": "781",
       "watchers": 14,
       "language": "Python",
       "topics": [
         "Multimodal Evaluation",
         "Evaluation Infrastructure"
       ],
-      "updated_at": "2026-10-04T11:56:48Z",
+      "updated_at": "2026-10-25T06:46:47Z",
       "source": "github_api"
     },
     {
@@ -12907,54 +12907,54 @@
       "full_name": "open-compass/opencompass",
       "url": "https://github.com/open-compass/opencompass",
       "description": "A comprehensive platform for evaluating large language and multimodal models. Its modular configs, task scheduling, evaluators, and reporting tools make broad and reproducible model comparisons easier to run and extend.",
-      "stars": 7491,
-      "stars_display": "7,491",
-      "forks": 876,
-      "forks_display": "876",
-      "watchers": 30,
-      "language": "Python",
+      "stars": 7545,
+      "stars_display": "7,545",
+      "forks": 891,
+      "forks_display": "891",
+      "watchers": 29,
+      "language": null,
       "topics": [
         "LLM Evaluation",
         "Benchmarking Platform"
       ],
-      "updated_at": "2026-10-04T05:33:18Z",
-      "source": "github_api"
+      "updated_at": null,
+      "source": "github_html"
     },
     {
       "name": "PYSKL",
       "full_name": "kennymckormick/pyskl",
       "url": "https://github.com/kennymckormick/pyskl",
       "description": "A unified toolbox for skeleton-based action recognition, with strong baselines spanning GCN- and CNN-based methods. It packages training recipes, pretrained models, and benchmark results so new methods can be compared on consistent footing.",
-      "stars": 1268,
-      "stars_display": "1,268",
-      "forks": 233,
-      "forks_display": "233",
+      "stars": 1270,
+      "stars_display": "1,270",
+      "forks": 236,
+      "forks_display": "236",
       "watchers": 13,
-      "language": "Python",
+      "language": null,
       "topics": [
         "Skeleton Action",
         "Video Recognition"
       ],
-      "updated_at": "2026-09-17T04:18:58Z",
-      "source": "github_api"
+      "updated_at": null,
+      "source": "github_html"
     },
     {
       "name": "MMAction2",
       "full_name": "open-mmlab/mmaction2",
       "url": "https://github.com/open-mmlab/mmaction2",
       "description": "OpenMMLab's modular video-understanding toolbox for action recognition, localization, skeleton-based recognition, and related tasks. It offers reusable components, extensive model coverage, and standardized training and inference pipelines.",
-      "stars": 5169,
-      "stars_display": "5,169",
-      "forks": 1360,
-      "forks_display": "1,360",
+      "stars": 5183,
+      "stars_display": "5,183",
+      "forks": 1356,
+      "forks_display": "1,356",
       "watchers": 43,
-      "language": "Python",
+      "language": null,
       "topics": [
         "Video Understanding",
         "OpenMMLab"
       ],
-      "updated_at": "2026-10-03T18:08:46Z",
-      "source": "github_api"
+      "updated_at": null,
+      "source": "github_html"
     }
   ]
 }
