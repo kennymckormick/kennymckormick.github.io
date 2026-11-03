@@ -1,0 +1,18 @@
+---
+layout: profile
+---
+
+<article class="blog-post" lang="{{ page.lang | default: site.locale | escape }}" aria-labelledby="post-title">
+  <header class="blog-post-header">
+    <h1 id="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  {% if page.cover %}
+    <figure class="blog-post-cover">
+      <img src="{{ page.cover | relative_url }}" alt="{{ page.cover_alt | default: '' | escape }}" width="1200" height="640" fetchpriority="high">
+    </figure>
+  {% endif %}
+
+  <div class="blog-prose">{{ content }}</div>
+
+</article>

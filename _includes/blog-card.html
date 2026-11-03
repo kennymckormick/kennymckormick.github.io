@@ -1,0 +1,15 @@
+{% assign post = include.post %}
+<article class="blog-card">
+  {% if post.cover %}
+    <a class="blog-card-cover" href="{{ post.url | relative_url }}" aria-label="Read {{ post.title | escape }}" tabindex="-1">
+      <img src="{{ post.cover | relative_url }}" alt="{{ post.cover_alt | default: '' | escape }}" loading="lazy" width="1200" height="640">
+    </a>
+  {% endif %}
+  <div class="blog-card-copy">
+    {% if include.compact %}
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+    {% else %}
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+    {% endif %}
+  </div>
+</article>

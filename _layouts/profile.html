@@ -3,6 +3,7 @@ layout: compress
 ---
 
 {% include base_path %}
+{% include blog-posts.html %}
 
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
@@ -17,6 +18,7 @@ layout: compress
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <link rel="icon" type="image/png" href="{{ '/images/kenny.png' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/profile.css' | relative_url }}">
+    {% if page.url contains '/blog' or page.url == '/' or page.collection == 'blog' %}<link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}">{% endif %}
     <meta name="theme-color" content="#ffffff">
   </head>
 
@@ -71,10 +73,9 @@ layout: compress
         <header class="profile-topbar">
           <nav class="profile-nav" id="profile-nav" aria-label="Main navigation">
             <a{% if page.url == '/' %} class="is-active"{% endif %} href="{{ '/' | relative_url }}">Home</a>
+            {% if blog_posts != empty %}<a{% if page.url contains '/blog' or page.collection == 'blog' %} class="is-active"{% endif %} href="{{ '/blog/' | relative_url }}">Blog</a>{% endif %}
             <a{% if page.url contains '/news' %} class="is-active"{% endif %} href="{{ '/news/' | relative_url }}">News</a>
             <a{% if page.url contains '/publications' %} class="is-active"{% endif %} href="{{ '/publications/' | relative_url }}">Publications</a>
-            <a href="{{ '/#projects' | relative_url }}">Projects</a>
-            {% if site.data.blogs and site.data.blogs != empty %}<a{% if page.url contains '/blog' %} class="is-active"{% endif %} href="{{ '/blog/' | relative_url }}">Blog</a>{% endif %}
             <a href="{{ '/files/resume_latest.pdf' | relative_url }}">CV</a>
           </nav>
           <a class="profile-github" href="https://github.com/{{ site.author.github }}" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>

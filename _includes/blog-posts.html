@@ -1,0 +1,5 @@
+{%- comment -%}
+  Local articles and optional external links share one date-ordered index.
+  sort_natural handles collection dates and JSON date strings consistently.
+{%- endcomment -%}
+{%- assign blog_posts = site.blog | concat: site.data.blogs | where_exp: "post", "post.published != false" | sort_natural: "date" | reverse -%}

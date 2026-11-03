@@ -41,4 +41,42 @@ Selected Works is generated using three configurable rules:
 
 The shared homepage/All News timeline lives in `_data/news.json`. Add a dated item there, mark only the most important items with `"featured": true`, and the homepage will remain a concise subset while `/news/` shows the complete timeline.
 
-Blog data lives in `_data/blogs.json`. It is intentionally an empty JSON array until the first post exists. Each entry accepts `date`, `title`, `url`, `summary`, and an optional `tags` array. Once at least one entry is present, the Blog navigation item, homepage `Latest Writing` section, and `/blog/` archive appear automatically.
+## Writing a blog post
+
+Add a Markdown (`.md`) or HTML (`.html`) file under `_blog/`. Both formats use the same article layout, and automatically appear in the homepage's Blog section (latest three), the Blog navigation, and the `/blog/` archive, newest first. No separate index entry or build plugin is needed. The original template posts in `_posts/` are excluded from this Blog index.
+
+For example, `_blog/my-first-note.md` becomes `/blog/my-first-note/`:
+
+```markdown
+---
+title: "My first note"
+date: 2026-11-03
+lang: zh-CN
+description: "A short search and social preview description."
+cover: /images/blog/hello-world.svg
+cover_alt: "Describe the cover image."
+---
+
+## A section heading
+
+Write the article in **Markdown**.
+```
+
+Only `title` and `date` are required; `date` uses `YYYY-MM-DD`. Cover and language are optional. Cards display only the cover and title. Article pages display the title, optional cover, and the Markdown or HTML body. An empty body creates a cover-only post, as in Hello World. Use `description` for a search/social summary and `permalink` to override the URL. Use `published: false` to withhold an article from the normal build and index.
+
+For an HTML article, use the same metadata header in a `.html` file, followed by an HTML body fragment:
+
+```html
+---
+title: "An HTML note"
+date: 2026-11-03
+description: "An article with custom HTML content."
+---
+
+<h2>A section heading</h2>
+<p>Write the article using <strong>HTML</strong>.</p>
+```
+
+Do not add a second `<html>`, `<head>`, or `<body>` wrapper; the shared layout provides those. Markdown can also contain inline HTML. The article stylesheet covers headings, code, quotations, lists, images, and tables at desktop and mobile widths.
+
+`_data/blogs.json` remains available for optional external articles. Each entry accepts `date`, `title`, `url`, and an optional `cover` (other metadata is retained but not displayed on cards). External links and local articles share the same date-sorted index. An empty index hides Blog from the homepage and navigation.

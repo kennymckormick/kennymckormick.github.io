@@ -27,22 +27,12 @@ redirect_from:
   </p>
 </section>
 
-{% if site.data.blogs and site.data.blogs != empty %}
+{% include blog-posts.html %}
+{% if blog_posts != empty %}
 <section class="blog-section" id="blog" aria-labelledby="blog-title">
-  <div class="section-title-row">
-    <h2 class="section-heading" id="blog-title">Latest Writing</h2>
-    <a class="section-more" href="{{ '/blog/' | relative_url }}">All Posts →</a>
-  </div>
+  <h2 class="section-heading" id="blog-title">Blog</h2>
   <div class="blog-list blog-list-compact">
-    {% for post in site.data.blogs limit: 3 %}
-      <article class="blog-card">
-        <time datetime="{{ post.date }}">{{ post.date }}</time>
-        <div>
-          <h3>{% if post.url %}<a href="{{ post.url }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}</h3>
-          {% if post.summary %}<p>{{ post.summary }}</p>{% endif %}
-        </div>
-      </article>
-    {% endfor %}
+    {% for post in blog_posts limit: 3 %}{% include blog-card.html post=post compact=true %}{% endfor %}
   </div>
 </section>
 {% endif %}

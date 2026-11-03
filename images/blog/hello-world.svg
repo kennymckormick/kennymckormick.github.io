@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#17365d" stroke-opacity=".045"/>
+    </pattern>
+  </defs>
+  <path fill="#f5f3ec" d="M0 0h1200v640H0z"/>
+  <path fill="url(#grid)" d="M0 0h1200v640H0z"/>
+  <path d="M68 96h1064M68 546h1064" stroke="#17365d" stroke-opacity=".2"/>
+  <g fill="#49617c" font-family="monospace" font-size="15" letter-spacing="3">
+    <text x="70" y="69">KENNY / FIELD NOTES</text>
+    <text x="1132" y="69" text-anchor="end">NO. 001</text>
+  </g>
+  <g fill="none" stroke="#376ac4" stroke-width="1.5" opacity=".65" transform="translate(934 314)">
+    <circle r="141"/>
+    <ellipse rx="59" ry="141" transform="rotate(32)"/>
+    <ellipse rx="59" ry="141" transform="rotate(-32)"/>
+    <ellipse rx="141" ry="44" transform="rotate(-16)"/>
+    <path d="M-152 0h304M0-152v304" stroke-dasharray="3 7" opacity=".35"/>
+  </g>
+  <circle cx="1064" cy="259" r="6" fill="#376ac4"/>
+  <path d="m874 133 5 15 15 5-15 5-5 15-5-15-15-5 15-5z" fill="#bc693e"/>
+  <text x="68" y="321" fill="#17365d" font-family="Georgia, 'Times New Roman', serif" font-size="113" letter-spacing="-5">hello, world.</text>
+  <path d="M74 359c132 9 263 8 394-3" fill="none" stroke="#bc693e" stroke-width="3" stroke-linecap="round"/>
+  <text x="74" y="413" fill="#607086" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-style="italic">Every idea starts somewhere.</text>
+  <g fill="#49617c" font-family="monospace" font-size="14" letter-spacing="2">
+    <text x="70" y="585">A SMALL BEGINNING.</text>
+    <text x="1132" y="585" text-anchor="end">03 NOV 2026</text>
+  </g>
+</svg>
