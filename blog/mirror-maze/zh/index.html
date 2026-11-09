@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mirror Maze｜AI 能走出镜面迷宫吗？</title>
+<link rel="canonical" href="https://kennymckormick.github.io/blog/mirror-maze/zh/">
+<link rel="alternate" hreflang="en" href="https://kennymckormick.github.io/blog/mirror-maze/"><link rel="alternate" hreflang="zh-CN" href="https://kennymckormick.github.io/blog/mirror-maze/zh/">
+<link rel="icon" href="../assets/icon.svg"><link rel="stylesheet" href="../style.css">
+</head>
+<body data-root="../">
+<header><a class="brand" href="#top">◧ MIRROR MAZE</a><nav aria-label="主导航">
+<a href="#findings">主要发现</a><a href="#replay">回放</a>
+<a href="../play/">试玩 ↗</a>
+<a id="language-switch" class="lang-switch" href="../" lang="en" hreflang="en">English</a>
+</nav></header>
+<main id="top">
+<section class="hero">
+<p class="eyebrow">镜面导航评测</p>
+<h1>AI 能走出<em>镜面迷宫</em>吗？</h1>
+<p class="deck">理想轨迹是零撞墙通关。有一条记录撞墙 33,607 次，仍在规划预算耗尽时停在迷宫里。</p>
+<div class="links"><a class="primary" href="../play/">试玩 ↗</a><a href="#replay">逐步回放</a><a href="text/#videos">观看 8 段逐关视频</a></div>
+<p class="snapshot">视觉与纯文本对照 · 2026 年 11 月</p>
+</section>
+<figure class="wide puzzle">
+<div class="figure-top"><span>真实通道还是镜中反射？</span>
+<div class="tabs"><button type="button" id="view-a" aria-pressed="true">视角 A</button><button type="button" id="view-b" aria-pressed="false">视角 B</button></div></div>
+<div class="puzzle-grid"><img id="hero-image" alt="原始第一视角画面" src="../assets/f3baf786cd5520703b59bc46026c617379700100637734278e009f65424976e0.jpg"><canvas id="hero-map" width="700" height="540" hidden></canvas></div>
+<div class="puzzle-bottom"><strong>机器人能直接前进吗？</strong><button id="reveal" class="text-button" type="button">揭晓结构</button><p id="hero-answer"></p></div>
+<figcaption>画面来自原始第一视角观测。小地图仅供读者查看。</figcaption>
+</figure>
+<nav class="contents" aria-label="本页目录">
+<a href="#task">任务</a><a href="#results">视觉成绩</a><a href="#text-study">视觉与文本</a><a href="#costs">撞墙行为</a><a href="#blind">盲走基线</a><a href="#geometry">几何难度</a><a href="#replay">回放</a><a href="#harness">客户端与 API</a><a href="#citation">引用</a>
+</nav>
+
+<section id="task" class="prose">
+<p class="eyebrow">评测任务</p><h2>在镜面世界里执行三个动作</h2>
+<p>反射可能看起来像一条通道，也可能复制绿色目标。智能体需要走进真实目标格。一次规划可以提交多个动作，序列合法时，撞墙后还会继续执行后续动作。</p>
+<div class="actions"><div><b>↶</b><code>左转</code><span>旋转一个朝向</span></div><div><b>↑</b><code>前进</code><span>尝试进入相邻格</span></div><div><b>↷</b><code>右转</code><span>旋转一个朝向</span></div></div>
+<p>正方形每次转 90°，六边形每次转 60°。视觉协议返回每个动作后的第一视角画面和执行反馈。纯文本协议在试玩过程中只返回按顺序排列的动作结果。智能体看不到审阅地图。</p>
+<div class="table-wrap"><table><thead><tr><th scope="col">难度</th><th scope="col">正方形</th><th scope="col">六边形</th><th scope="col">规划轮数上限</th></tr></thead><tbody><tr><td>简单</td><td>边长 7 · 49 格</td><td>边长 5 · 61 格</td><td>200</td></tr><tr><td>中等</td><td>边长 11 · 121 格</td><td>边长 7 · 127 格</td><td>400</td></tr><tr><td>困难</td><td>边长 15 · 225 格</td><td>边长 9 · 217 格</td><td>800</td></tr></tbody></table></div>
+<p class="small">每种形状和难度各使用两张固定地图，种子为 MIRROR-042 和 MIRROR-043。视觉观测为 1280 × 720，最多 10 次反射。原评测优先比较规划轮数，分析同时报告基础动作、实际撞墙和覆盖率。</p>
+</section>
+
+<section id="results" class="prose">
+<p class="eyebrow">视觉实验</p><h2>视觉组的已完成结果</h2>
+<p>GPT-6.1 Sol + Codex 通过了全部四张简单图和两张困难正方形图。下表分母只包括可计分的结果。</p>
+<div class="status-strip"><div><b>53</b><span>可计分视觉试验</span></div><div><b>4</b><span>Flash 困难档未评测</span></div><div><b>2</b><span>API 试验暂停</span></div></div>
+<p class="small">视觉组共安排 64 题，另有 4 题按规则跳过、1 题撤回。Sol 的 4 条中等难度成功记录保留原始预算 500、500、200、200 轮，实际均在当前目标 400 轮以内完成。</p>
+</section>
+<figure class="wide result-figure"><div class="table-wrap"><table class="results"><thead><tr><th>模型</th><th>原生客户端</th><th>简单</th><th>中等</th><th>困难</th></tr></thead><tbody id="native-results"></tbody></table></div>
+<figcaption>绿色为通关，灰色为达到规划上限，琥珀色为接入中断。点击可回放的圆点查看轨迹。</figcaption></figure>
+
+<section id="findings" class="prose findings-intro"><p class="eyebrow">主要发现</p>
+<h2>通关率只讲了一半</h2>
+<p>只看规划轮数，纯文本组通过更多。限制撞墙次数后，视觉组通过更多。动作轨迹、撞墙和覆盖率揭示了两组如何得到这些结果。</p></section>
+
+<section id="text-study" class="prose">
+<h2>换一个预算，结果就会反转</h2>
+<p>32 组公开配对的地图、起始格、朝向和目标相同。13 对两组都通过，10 对只有纯文本通过，9 对两组都达到规划上限。</p>
+<div class="table-wrap"><table><thead><tr><th scope="col">模型</th><th scope="col">视觉</th><th scope="col">纯文本</th></tr></thead><tbody><tr><td>GPT-6.1 Sol</td><td>8/8</td><td>8/8</td></tr><tr><td>Gemini 3.8 Flash</td><td>3/8</td><td>7/8</td></tr><tr><td>DeepSeek V4.1 Flash</td><td>1/8</td><td>5/8</td></tr><tr><td>Kimi K3.1 Pro</td><td>1/8</td><td>3/8</td></tr><tr><td>合计</td><td>13/32</td><td>23/32</td></tr></tbody></table></div><div class="table-wrap"><table><thead><tr><th scope="col">通关条件</th><th scope="col">视觉</th><th scope="col">纯文本</th></tr></thead><tbody><tr><td>原规划轮数上限</td><td>13/32</td><td>23/32</td></tr><tr><td>最多撞墙 20 次</td><td>8/32</td><td>0/32</td></tr><tr><td>最多撞墙 50 次</td><td>11/32</td><td>2/32</td></tr><tr><td>最多执行 800 个动作</td><td>11/32</td><td>9/32</td></tr><tr><td>最多执行 1,600 个动作</td><td>13/32</td><td>15/32</td></tr></tbody></table></div>
+<p class="small">额外预算是对已有轨迹的事后筛选，带着新预算重跑可能得到不同策略。部分配对的 DeepSeek 模型来源、AGY 版本和提示，以及 Sol 四条历史轨迹的声明预算存在差异。这是对两套完整系统的比较。</p>
+<p><a href="text/#budget">交互式调整预算 ↗</a> · <a href="text/#replay">查看纯文本轨迹 ↗</a></p>
+</section>
+
+<section id="costs" class="prose">
+<h2>动作成本与撞墙行为</h2>
+<div class="insight"><span class="insight-number">01</span><h3>一轮规划可以包含大量试探</h3>
+<p>Gemini 3.8 Flash 在 Easy Square MIRROR-042 纯文本组用 <strong>9 轮、撞墙 268 次</strong>通关，视觉组为 <strong>116 轮、撞墙 40 次</strong>。Sol 两组均通关 8/8。在 Easy Hex MIRROR-042 上，视觉组用 315 个动作、零撞墙通关，纯文本组用了 8,846 个动作并撞墙 3,823 次。跨八张图，Sol 的撞墙中位数由纯文本的 889.5 次降至视觉的 12 次。</p>
+<button class="text-button" type="button" data-trial="harness-easy-gpt-hex-MIRROR-042">逐步查看零撞墙轨迹 →</button></div>
+<div class="insight"><span class="insight-number">02</span><h3>重撞发生在什么时候很重要</h3>
+<p>对模型自行选择试探的格子与朝向，Sol 的首次尝试撞墙率在视觉组为 9.1%，纯文本组为 56.7%。Gemini 分别为 28.8% 和 54.1%。两组自行选择了不同的试探位置。</p>
+<p>如果撞墙后同批还有动作，下一动作立即重撞同一面墙的比例在纯文本组为 31.6%，视觉组为 21.8%。如果撞墙在一轮末尾，模型收到反馈后下一轮的首次前进重撞同一面的比例分别为 1.2% 和 4.5%。视觉组的 96 次重撞中有 94 次来自 DeepSeek。</p>
+<p>当模型至少 21 轮后回到曾撞过的同一格、同一朝向时，纯文本组有 39.9% 的新计划以再次撞墙开始，视觉组为 3.9%。两组回访的位置和时机不同，记忆差异仍需要对照实验。</p></div>
+<div class="insight"><span class="insight-number">03</span><h3>覆盖率揭示停滞与重复探索</h3>
+<p>Sol 在 Hard Hex MIRROR-043 上只撞墙 <strong>2 次</strong>，但最后 <strong>581 轮</strong>没找到新格子。DeepSeek 在 Medium Hex MIRROR-043 执行了 <strong>111,088 个动作、实际撞墙 33,607 次</strong>，仍只访问了 127 格中的 69 格。</p>
+<button class="text-button" type="button" data-trial="harness-hard-gpt-hex-MIRROR-043">查看探索停滞 →</button>
+<button class="text-button" type="button" data-trial="harness-medium-deepseek-hex-MIRROR-043">查看超长动作批次 →</button></div>
+<div class="insight"><span class="insight-number">04</span><h3>重复图像是待验证的解释</h3>
+<p>DeepSeek 的视觉轨迹约有 4.9 万条图像投递记录，其中约 97% 重复，还有 744 轮裁剪了图像。重复走路会产生冗余画面。画面冗余是否进一步妨碍规划，需要控制图像历史后验证。</p></div>
+</section>
+
+<section id="blind" class="prose">
+<h2>只靠撞墙反馈也能走出原始迷宫</h2>
+<p>固定沿墙策略只依靠前进成功或撞墙的反馈，就在原预算内通过 <strong>8/8 张无环地图</strong>。原始起点均朝向唯一开口。枚举所有初始朝向后，达标数为 36/40。完全不利用反馈的随机转向和前进基线，在 800 个动作内只通关 23/4,096。</p>
+<p>每张地图增加 12 条通道后，固定沿墙策略在预算内的通过率降到 <strong>55.2%</strong>。记录相对位置的深度优先搜索仍为 <strong>98.0%</strong>。假定能完美识别局部墙面，原地图另有 31–153 次通道决策、零撞墙的算法参考线。</p>
+<p>在 16 组同位置、同朝向的镜面和哑光画面对照中，部分封闭方向只在镜面图里出现了目标反光。模型试跑没有得到完整的成对判定，因此仍无法估计镜面增加了多少误判。</p>
+</section>
+
+<section id="geometry" class="prose">
+<h2>六边形的难度差距取决于协议</h2>
+<p>简单视觉组正方形通过 <strong>6/8</strong>，六边形通过 <strong>2/8</strong>。简单纯文本组两种形状都是 <strong>7/8</strong>。Sol 的困难视觉组通过两张正方形图，两张六边形图都达到上限，尽管两者格数分别为 225 和 217。转角、连通结构、渲染和具体地图都可能影响结果。</p>
+</section>
+
+<section id="replay" class="prose"><p class="eyebrow">交互式回放</p>
+<h2>逐步查看原始轨迹</h2>
+<p>用上一步和下一步逐个查看基础动作、规划轮次或原始画面采样。可筛选下方的记录列表。视觉回放保留简单和中等难度轨迹，以及 Sol 的困难档轨迹。</p></section>
+<figure class="wide explorer">
+<div class="trial-browser">
+<div class="trial-filter-header"><h3>实验记录</h3><button id="clear-filters" class="text-button" type="button">清除筛选</button></div>
+<div class="trial-filters" role="group" aria-label="筛选实验记录">
+<label>难度<select id="filter-difficulty"></select></label>
+<label>运行方式<select id="filter-mode"></select></label>
+<label>模型<select id="filter-model"></select></label>
+<label>迷宫形状<select id="filter-shape"></select></label>
+</div>
+<p id="trial-count" role="status"></p>
+<ul id="trial-list" aria-label="符合筛选的实验记录"></ul>
+<p id="no-trials" role="status" hidden>没有符合条件的记录。可以调整筛选，或清除筛选查看全部记录。</p>
+</div>
+<p id="replay-loading" role="status">正在加载轨迹…</p>
+<div id="replay-body" hidden>
+<div class="replay-selection"><strong id="active-trial"></strong><span id="trial-status" class="badge"></span></div>
+<div class="replay-grid"><div class="observation"><img id="replay-image" alt="原始第一视角" hidden><canvas id="replay-render" width="640" height="360" aria-label="重渲染第一视角" hidden></canvas><span id="image-round"></span></div>
+<div class="map-view"><canvas id="replay-map" width="600" height="485" aria-label="审阅地图与真实路径"></canvas><span>审阅地图</span></div></div>
+<div id="replay-metrics" class="replay-metrics"></div>
+<div class="step-toolbar"><label>步进单位<select id="replay-mode"><option value="action">基础动作</option><option value="round">规划轮次</option><option value="sample">原始画面</option></select></label><strong id="step-action" aria-live="polite"></strong><span id="step-counter"></span></div>
+<div class="timeline"><button id="previous" type="button" aria-label="上一步">←</button><button id="play-toggle" type="button">播放</button><input id="replay-slider" type="range" min="0" max="0" value="0" aria-label="回放时间轴"><button id="next" type="button" aria-label="下一步">→</button></div>
+<p id="replay-caption" class="caption"></p>
+<div class="coverage"><div class="small">按规划轮次累计探索格数</div>
+<svg id="coverage-chart" viewBox="0 0 900 160" role="img" aria-label="规划轮次与覆盖率"><path d="M35,15V145H885" fill="none" stroke="#cfd9df"/><path id="coverage-line" fill="none" stroke="#34779b" stroke-width="2.5"/><line id="coverage-marker" y1="15" y2="145" stroke="#b78a48" stroke-dasharray="4 4"/><circle id="coverage-point" r="4" fill="#b78a48"/></svg></div>
+</div>
+</figure>
+
+<section id="harness" class="prose">
+<h2>原生客户端也会改变结果</h2>
+<p>下表比较每个模型在同样四张简单视觉地图上的表现。Sol 在 Codex 下通过更多，DeepSeek 在直接 API 下通过更多，Kimi 的通过数相同。</p><div class="table-wrap"><table><thead><tr><th scope="col">模型</th><th scope="col">原生客户端</th><th scope="col">直接 API</th></tr></thead><tbody><tr><td>GPT-6.1 Sol</td><td>4/4 · Codex</td><td>1/4</td></tr><tr><td>DeepSeek V4.1 Flash</td><td>1/4 · Claude Code</td><td>2/4</td></tr><tr><td>Kimi K3.1 Pro</td><td>1/4 · Claude Code</td><td>1/4</td></tr></tbody></table></div>
+<p>Sol 的三条失败 API 轨迹中，970 次撞墙有 868 次集中在最后一次规划。之前的轨迹常见反复转向或覆盖率停滞。提示、对话管理和推理状态保留都随系统而异。Gemini 的 API 对照和原生 Flash 使用不同模型。</p>
+</section>
+
+<section id="status" class="prose">
+<h2>中断的试验怎样计分</h2>
+<p>Flash 的四条困难档试验因上游额度通知中断，标记为未评测。两条 Gemini 4 Argon 简单档 API 试验仍暂停。这些试验、四条按规则跳过的试验和一条撤回记录均不计入已测分母。</p>
+</section>
+
+<section id="reproduce" class="prose">
+<h2>查看与复现实验</h2>
+<p>可以下载成绩，观看 8 段逐关对比视频，或直接在浏览器试玩。公开回放包含动作和位置数据，实际撞墙与无效计划的惩罚分开统计。</p>
+<div class="download-links"><a href="../play/">试玩 ↗</a><a href="../data/results.csv">视觉成绩 CSV ↓</a><a href="../data/text-study.json">纯文本结果 JSON ↓</a><a href="text/#videos">8 段逐关视频 ↗</a></div>
+</section>
+
+<details id="citation" class="prose citation">
+<summary>引用项目 · BibTeX</summary>
+<pre id="bibtex">@misc{kenny2026mirrormaze,
+  author = {kenny},
+  title  = {{Mirror Maze}: A Benchmark for Reflective Navigation},
+  year   = {2026},
+  url    = {https://kennymckormick.github.io/blog/mirror-maze/}
+}</pre>
+<button id="copy-citation" class="text-button" type="button">复制 BibTeX</button>
+<span id="copy-status" role="status"></span>
+</details>
+<footer><span>Mirror Maze</span><span>导航研究 · 2026 年 11 月</span></footer>
+</main><script type="module" src="../app.js"></script></body></html>

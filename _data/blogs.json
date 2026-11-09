@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "date": "2026-11-09",
+    "title": "Mirror Maze: Can an AI Find the Real Way Out?",
+    "url": "/blog/mirror-maze/",
+    "summary": "A benchmark for reflective navigation, with paired vision and text results, interactive replays, and a playable maze.",
+    "cover": "/blog/mirror-maze/assets/f3baf786cd5520703b59bc46026c617379700100637734278e009f65424976e0.jpg",
+    "cover_alt": "A first-person view inside Mirror Maze",
+    "tags": [
+      "AI Evaluation",
+      "Spatial Reasoning"
+    ]
+  }
+]

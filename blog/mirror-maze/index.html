@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mirror Maze — Can an AI find the real way out?</title>
+<link rel="canonical" href="https://kennymckormick.github.io/blog/mirror-maze/">
+<link rel="alternate" hreflang="en" href="https://kennymckormick.github.io/blog/mirror-maze/"><link rel="alternate" hreflang="zh-CN" href="https://kennymckormick.github.io/blog/mirror-maze/zh/">
+<link rel="icon" href="assets/icon.svg"><link rel="stylesheet" href="style.css">
+</head>
+<body data-root="">
+<header><a class="brand" href="#top">◧ MIRROR MAZE</a><nav aria-label="Main navigation">
+<a href="#findings">Findings</a><a href="#replay">Replay</a>
+<a href="play/">Play ↗</a>
+<a id="language-switch" class="lang-switch" href="zh/" lang="zh-CN" hreflang="zh-CN">中文</a>
+</nav></header>
+<main id="top">
+<section class="hero">
+<p class="eyebrow">A navigation benchmark</p>
+<h1>Can an AI find the real way<br>out of a <em>mirror maze?</em></h1>
+<p class="deck">The ideal run reaches the exit without hitting a wall. One recorded run hit walls 33,607 times and still exhausted its planning budget.</p>
+<div class="links"><a class="primary" href="play/">Try the maze ↗</a><a href="#replay">Step through a run</a><a href="text/#videos">Watch the eight case videos</a></div>
+<p class="snapshot">Visual and text studies · November 2026</p>
+</section>
+<figure class="wide puzzle">
+<div class="figure-top"><span>A corridor, or its reflection?</span>
+<div class="tabs"><button type="button" id="view-a" aria-pressed="true">View A</button><button type="button" id="view-b" aria-pressed="false">View B</button></div></div>
+<div class="puzzle-grid"><img id="hero-image" alt="Recorded first-person maze view" src="assets/f3baf786cd5520703b59bc46026c617379700100637734278e009f65424976e0.jpg"><canvas id="hero-map" width="700" height="540" hidden></canvas></div>
+<div class="puzzle-bottom"><strong>Can the robot move straight ahead?</strong><button id="reveal" class="text-button" type="button">Reveal the geometry</button><p id="hero-answer"></p></div>
+<figcaption>Recorded first-person observations. Review maps are for readers.</figcaption>
+</figure>
+<nav class="contents" aria-label="On this page">
+<a href="#task">The task</a><a href="#results">Visual results</a><a href="#text-study">Vision vs. text</a><a href="#costs">Wall hits</a><a href="#blind">Blind baselines</a><a href="#geometry">Geometry</a><a href="#replay">Replays</a><a href="#harness">Harness vs. API</a><a href="#citation">Citation</a>
+</nav>
+
+<section id="task" class="prose">
+<p class="eyebrow">The benchmark</p><h2>Three actions in a reflective world</h2>
+<p>A reflection can look like a corridor or duplicate the green goal beacon. The agent must enter the actual goal cell. Each planning round may contain a sequence of actions. A collision does not terminate a valid sequence.</p>
+<div class="actions"><div><b>↶</b><code>left</code><span>Rotate one heading</span></div><div><b>↑</b><code>forward</code><span>Attempt one adjacent cell</span></div><div><b>↷</b><code>right</code><span>Rotate one heading</span></div></div>
+<p>Square cells use 90° turns and hexagonal cells use 60°. The visual protocol supplies first-person images after each attempted action plus execution feedback. The text protocol supplies ordered action outcomes only during play. Agents receive no review map.</p>
+<div class="table-wrap"><table><thead><tr><th scope="col">Difficulty</th><th scope="col">Square</th><th scope="col">Hexagonal</th><th scope="col">Planning cap</th></tr></thead><tbody><tr><td>Easy</td><td>Side 7 · 49 cells</td><td>Side 5 · 61 cells</td><td>200</td></tr><tr><td>Medium</td><td>Side 11 · 121 cells</td><td>Side 7 · 127 cells</td><td>400</td></tr><tr><td>Hard</td><td>Side 15 · 225 cells</td><td>Side 9 · 217 cells</td><td>800</td></tr></tbody></table></div>
+<p class="small">Two deterministic maps per shape and difficulty, MIRROR-042 and MIRROR-043. Visual host observations use 1280 × 720 images and up to 10 mirror reflections. The benchmark prioritizes fewer planning calls. The analysis also reports primitive actions, physical wall hits, and coverage.</p>
+</section>
+
+<section id="results" class="prose">
+<p class="eyebrow">Visual study</p><h2>What the completed runs show</h2>
+<p>GPT-6.1 Sol with Codex cleared all four Easy maps and both Hard square maps. The denominators below include measured outcomes only.</p>
+<div class="status-strip"><div><b>53</b><span>scorable visual runs</span></div><div><b>4</b><span>Flash Hard cases not evaluated</span></div><div><b>2</b><span>API cases pending</span></div></div>
+<p class="small">The visual cohort has 64 scheduled cases, including four policy skips and one withdrawal. Four Sol Medium successes retain historical caps of 500, 500, 200, and 200. Each finished within the current 400-call target.</p>
+</section>
+<figure class="wide result-figure"><div class="table-wrap"><table class="results"><thead><tr><th>Model</th><th>Native client</th><th>Easy</th><th>Medium</th><th>Hard</th></tr></thead><tbody id="native-results"></tbody></table></div>
+<figcaption>Green indicates success, gray indicates the planning cap, and amber indicates an infrastructure interruption. Select an available trial dot to open its replay.</figcaption></figure>
+
+<section id="findings" class="prose findings-intro"><p class="eyebrow">Main findings</p>
+<h2>An exit tells only part of the story</h2>
+<p>Text cleared more goals under the planning cap. Vision cleared more goals within a small collision budget. The route, the number of wall hits, and coverage show how those outcomes were achieved.</p></section>
+
+<section id="text-study" class="prose">
+<h2>The result changes with the budget</h2>
+<p>The 32 public pairs match the maze, initial cell and heading, and goal. Both protocols cleared 13 of those pairs, text alone cleared 10, and both reached the cap on nine.</p>
+<div class="table-wrap"><table><thead><tr><th scope="col">Model</th><th scope="col">Vision</th><th scope="col">Text only</th></tr></thead><tbody><tr><td>GPT-6.1 Sol</td><td>8/8</td><td>8/8</td></tr><tr><td>Gemini 3.8 Flash</td><td>3/8</td><td>7/8</td></tr><tr><td>DeepSeek V4.1 Flash</td><td>1/8</td><td>5/8</td></tr><tr><td>Kimi K3.1 Pro</td><td>1/8</td><td>3/8</td></tr><tr><td>Total</td><td>13/32</td><td>23/32</td></tr></tbody></table></div><div class="table-wrap"><table><thead><tr><th scope="col">Constraint</th><th scope="col">Vision</th><th scope="col">Text only</th></tr></thead><tbody><tr><td>Original planning caps</td><td>13/32</td><td>23/32</td></tr><tr><td>At most 20 wall hits</td><td>8/32</td><td>0/32</td></tr><tr><td>At most 50 wall hits</td><td>11/32</td><td>2/32</td></tr><tr><td>At most 800 actions</td><td>11/32</td><td>9/32</td></tr><tr><td>At most 1,600 actions</td><td>13/32</td><td>15/32</td></tr></tbody></table></div>
+<p class="small">The extra limits filter recorded trajectories. Running with a new budget could produce different plans. DeepSeek model routes, AGY versions and prompts, and four declared historical Sol budgets differ across parts of the comparison. The results compare complete systems.</p>
+<p><a href="text/#budget">Change the budget interactively ↗</a> · <a href="text/#replay">Explore the text trajectories ↗</a></p>
+</section>
+
+<section id="costs" class="prose">
+<h2>How agents spend actions and hit walls</h2>
+<div class="insight"><span class="insight-number">01</span><h3>A planning call can buy a long sequence of probes.</h3>
+<p>Gemini 3.8 Flash cleared Easy Square MIRROR-042 in <strong>9 text rounds with 268 wall hits</strong>, compared with <strong>116 visual rounds and 40 hits</strong>. Sol cleared all eight maps in both arms. On Easy Hex MIRROR-042, vision took 315 actions with zero wall hits. Text took 8,846 actions with 3,823 hits. Across its eight maps, Sol’s median fell from 889.5 hits in text to 12 in vision.</p>
+<button class="text-button" type="button" data-trial="harness-easy-gpt-hex-MIRROR-042">Step through the zero-hit run →</button></div>
+<div class="insight"><span class="insight-number">02</span><h3>When an agent repeats a hit matters.</h3>
+<p>On the first attempts at the cell and heading pairs they chose to probe, Sol hit walls on 9.1% of visual attempts and 56.7% of text attempts. Gemini showed 28.8% versus 54.1%. These are policy-selected poses.</p>
+<p>When a hit had another action in the same submitted batch, the immediate next action hit the same face in 31.6% of text events and 21.8% of visual events. After a round-ending hit and fresh feedback, the next round’s first forward attempt hit the same face in 1.2% and 4.5%, respectively. DeepSeek accounted for 94 of 96 visual repeats.</p>
+<p>On revisits to a previously hit pose after 21 or more rounds, 39.9% of text and 3.9% of visual plans started by moving into the wall. The policies revisit different poses at different times, so this motivates a controlled memory test.</p></div>
+<div class="insight"><span class="insight-number">03</span><h3>Coverage reveals stalled or repetitive exploration.</h3>
+<p>Sol hit only <strong>2 walls</strong> on Hard Hex MIRROR-043 and saw <strong>no new cell in its final 581 rounds</strong>. DeepSeek took <strong>111,088 actions and 33,607 physical wall hits</strong> on Medium Hex MIRROR-043 and still visited only 69 of 127 cells.</p>
+<button class="text-button" type="button" data-trial="harness-hard-gpt-hex-MIRROR-043">Inspect the exploration plateau →</button>
+<button class="text-button" type="button" data-trial="harness-medium-deepseek-hex-MIRROR-043">Inspect the long action batches →</button></div>
+<div class="insight"><span class="insight-number">04</span><h3>Repeated images are a candidate explanation.</h3>
+<p>DeepSeek’s visual runs recorded roughly 49,000 delivered image entries, about 97% duplicates, and 744 rounds with image trimming. Repeated movement produces redundant views. Whether redundant views also impair planning calls for a controlled image-history comparison.</p></div>
+</section>
+
+<section id="blind" class="prose">
+<h2>A blind policy can solve the original mazes</h2>
+<p>A fixed wall follower cleared <strong>8/8 original loop-free mazes</strong> using only success or wall feedback. All canonical starts face their only opening. Across all initial headings it finished within budget on 36/40 trials. Random turns and forward probes with no feedback cleared 23/4,096 within 800 primitive actions.</p>
+<p>Adding 12 passages to each map reduced fixed wall-following success within budget to <strong>55.2%</strong>. Depth-first search with relative position memory still reached <strong>98.0%</strong>. An ideal local wall sensor yields a separate collision-free reference of 31–153 passage decisions on the original maps.</p>
+<p>In 16 mirror-versus-matte image pairs, some blocked directions showed the goal’s reflection only in the mirror image. The model pilot yielded no complete paired verdicts. The rendering effect is visible, while the rate of model misclassification remains open.</p>
+</section>
+
+<section id="geometry" class="prose">
+<h2>The hexagonal gap depends on the protocol</h2>
+<p>In Easy vision, square maps cleared <strong>6/8</strong> and hexagonal maps <strong>2/8</strong>. In Easy text, both shapes reached <strong>7/8</strong>. Sol cleared both Hard square maps and neither Hard hexagonal map even though they have 225 and 217 cells, respectively. Heading changes, local connectivity, rendering, and the two map seeds per shape all matter.</p>
+</section>
+
+<section id="replay" class="prose"><p class="eyebrow">Interactive replay</p>
+<h2>Step through a recorded trajectory</h2>
+<p>Use the arrow buttons to advance one primitive action, one planning round, or one original image sample. Filter the record list below to find a run. The visual collection contains Easy and Medium traces plus the Hard Sol traces.</p></section>
+<figure class="wide explorer">
+<div class="trial-browser">
+<div class="trial-filter-header"><h3>Experiment records</h3><button id="clear-filters" class="text-button" type="button">Clear filters</button></div>
+<div class="trial-filters" role="group" aria-label="Filter experiment records">
+<label>Difficulty<select id="filter-difficulty"></select></label>
+<label>Execution mode<select id="filter-mode"></select></label>
+<label>Model<select id="filter-model"></select></label>
+<label>Maze shape<select id="filter-shape"></select></label>
+</div>
+<p id="trial-count" role="status"></p>
+<ul id="trial-list" aria-label="Matching experiment records"></ul>
+<p id="no-trials" role="status" hidden>No records match these filters. Change a filter or clear them to see all records.</p>
+</div>
+<p id="replay-loading" role="status">Loading trajectory…</p>
+<div id="replay-body" hidden>
+<div class="replay-selection"><strong id="active-trial"></strong><span id="trial-status" class="badge"></span></div>
+<div class="replay-grid"><div class="observation"><img id="replay-image" alt="Recorded first-person view" hidden><canvas id="replay-render" width="640" height="360" aria-label="Reconstructed first-person view" hidden></canvas><span id="image-round"></span></div>
+<div class="map-view"><canvas id="replay-map" width="600" height="485" aria-label="Review map and recorded path"></canvas><span>Review map</span></div></div>
+<div id="replay-metrics" class="replay-metrics"></div>
+<div class="step-toolbar"><label>Step by<select id="replay-mode"><option value="action">Primitive action</option><option value="round">Planning round</option><option value="sample">Recorded image</option></select></label><strong id="step-action" aria-live="polite"></strong><span id="step-counter"></span></div>
+<div class="timeline"><button id="previous" type="button" aria-label="Previous step">←</button><button id="play-toggle" type="button">Play</button><input id="replay-slider" type="range" min="0" max="0" value="0" aria-label="Replay timeline"><button id="next" type="button" aria-label="Next step">→</button></div>
+<p id="replay-caption" class="caption"></p>
+<div class="coverage"><div class="small">Cumulative cells visited by planning round</div>
+<svg id="coverage-chart" viewBox="0 0 900 160" role="img" aria-label="Coverage over planning calls"><path d="M35,15V145H885" fill="none" stroke="#cfd9df"/><path id="coverage-line" fill="none" stroke="#34779b" stroke-width="2.5"/><line id="coverage-marker" y1="15" y2="145" stroke="#b78a48" stroke-dasharray="4 4"/><circle id="coverage-point" r="4" fill="#b78a48"/></svg></div>
+</div>
+</figure>
+
+<section id="harness" class="prose">
+<h2>The harness changes the outcome</h2>
+<p>The table compares the same four Easy maps for each listed model in the visual study. Sol improved with Codex. DeepSeek performed better in its API runs, and Kimi was unchanged.</p><div class="table-wrap"><table><thead><tr><th scope="col">Model</th><th scope="col">Native client</th><th scope="col">Direct API</th></tr></thead><tbody><tr><td>GPT-6.1 Sol</td><td>4/4 · Codex</td><td>1/4</td></tr><tr><td>DeepSeek V4.1 Flash</td><td>1/4 · Claude Code</td><td>2/4</td></tr><tr><td>Kimi K3.1 Pro</td><td>1/4 · Claude Code</td><td>1/4</td></tr></tbody></table></div>
+<p>In the three failed Sol API runs, 868 of 970 wall hits came from the final planning batch. The earlier traces often rotated or stopped discovering new cells. Prompting, conversation management, and reasoning-state retention vary with the system. The Gemini API control uses a different model from the native Flash profile.</p>
+</section>
+
+<section id="status" class="prose">
+<h2>How interrupted cases are counted</h2>
+<p>Four Flash Hard trials remain not evaluated because provider quota notices interrupted their usable trajectories. Two Easy Gemini 4 Argon API trials remain paused. These cases, the four policy skips, and one withdrawal are outside measured-outcome denominators.</p>
+</section>
+
+<section id="reproduce" class="prose">
+<h2>Inspect and reproduce the evidence</h2>
+<p>Inspect the score data, compare all eight paired case videos, or try the browser environment. Public replays contain action and pose data, with physical wall hits tracked separately from invalid-plan penalties.</p>
+<div class="download-links"><a href="play/">Playable environment ↗</a><a href="data/results.csv">Visual results CSV ↓</a><a href="data/text-study.json">Text results JSON ↓</a><a href="text/#videos">Eight case videos ↗</a></div>
+</section>
+
+<details id="citation" class="prose citation">
+<summary>Cite this project · BibTeX</summary>
+<pre id="bibtex">@misc{kenny2026mirrormaze,
+  author = {kenny},
+  title  = {{Mirror Maze}: A Benchmark for Reflective Navigation},
+  year   = {2026},
+  url    = {https://kennymckormick.github.io/blog/mirror-maze/}
+}</pre>
+<button id="copy-citation" class="text-button" type="button">Copy BibTeX</button>
+<span id="copy-status" role="status"></span>
+</details>
+<footer><span>Mirror Maze</span><span>Navigation research · November 2026</span></footer>
+</main><script type="module" src="app.js"></script></body></html>

@@ -1,0 +1,65 @@
+id,name,client,mode,difficulty,shape,seed,cells,cap,originalCap,status,planning,recordedTurns,quotaWarningTurns,actions,collisions,visited,auditedOutcome
+harness-easy-deepseek-square-MIRROR-042,DeepSeek V4.1 Flash,Claude Code,harness,easy,square,MIRROR-042,49,200,200,planning_cap,200,200,0,1392,753,43,True
+harness-easy-deepseek-square-MIRROR-043,DeepSeek V4.1 Flash,Claude Code,harness,easy,square,MIRROR-043,49,200,200,success,90,90,0,887,469,49,True
+harness-easy-kimi-square-MIRROR-042,Kimi K3.1 Pro,Claude Code,harness,easy,square,MIRROR-042,49,200,200,success,190,190,0,723,91,42,True
+harness-easy-kimi-square-MIRROR-043,Kimi K3.1 Pro,Claude Code,harness,easy,square,MIRROR-043,49,200,200,planning_cap,200,200,0,494,105,29,True
+harness-easy-gpt-square-MIRROR-042,GPT-6.1 Sol,Codex,harness,easy,square,MIRROR-042,49,200,200,success,79,79,0,321,23,48,True
+harness-easy-gpt-square-MIRROR-043,GPT-6.1 Sol,Codex,harness,easy,square,MIRROR-043,49,200,200,success,49,49,0,213,19,46,True
+harness-easy-deepseek-hex-MIRROR-042,DeepSeek V4.1 Flash,Claude Code,harness,easy,hex,MIRROR-042,61,200,200,planning_cap,200,200,0,17402,7657,16,True
+harness-easy-deepseek-hex-MIRROR-043,DeepSeek V4.1 Flash,Claude Code,harness,easy,hex,MIRROR-043,61,200,200,planning_cap,200,200,0,19149,9569,45,True
+harness-easy-kimi-hex-MIRROR-042,Kimi K3.1 Pro,Claude Code,harness,easy,hex,MIRROR-042,61,200,200,planning_cap,200,200,0,828,88,16,True
+harness-easy-kimi-hex-MIRROR-043,Kimi K3.1 Pro,Claude Code,harness,easy,hex,MIRROR-043,61,200,200,planning_cap,200,200,0,2260,447,33,True
+harness-easy-gpt-hex-MIRROR-042,GPT-6.1 Sol,Codex,harness,easy,hex,MIRROR-042,61,200,200,success,117,117,0,315,0,59,True
+harness-easy-gpt-hex-MIRROR-043,GPT-6.1 Sol,Codex,harness,easy,hex,MIRROR-043,61,200,200,success,92,92,0,181,0,48,True
+harness-medium-deepseek-square-MIRROR-042,DeepSeek V4.1 Flash,Claude Code,harness,medium,square,MIRROR-042,121,400,400,planning_cap,400,400,0,43852,14186,49,True
+harness-medium-deepseek-square-MIRROR-043,DeepSeek V4.1 Flash,Claude Code,harness,medium,square,MIRROR-043,121,400,400,planning_cap,400,400,0,9018,4330,81,True
+harness-medium-kimi-square-MIRROR-042,Kimi K3.1 Pro,Claude Code,harness,medium,square,MIRROR-042,121,400,400,planning_cap,400,400,0,980,129,54,True
+harness-medium-kimi-square-MIRROR-043,Kimi K3.1 Pro,Claude Code,harness,medium,square,MIRROR-043,121,400,400,planning_cap,400,400,0,890,112,86,True
+harness-medium-gpt-square-MIRROR-042,GPT-6.1 Sol,Codex,harness,medium,square,MIRROR-042,121,400,500,success,264,264,0,713,40,115,True
+harness-medium-gpt-square-MIRROR-043,GPT-6.1 Sol,Codex,harness,medium,square,MIRROR-043,121,400,500,success,67,67,0,321,1,80,True
+harness-medium-deepseek-hex-MIRROR-042,DeepSeek V4.1 Flash,Claude Code,harness,medium,hex,MIRROR-042,127,400,400,planning_cap,400,400,0,92041,27486,41,True
+harness-medium-deepseek-hex-MIRROR-043,DeepSeek V4.1 Flash,Claude Code,harness,medium,hex,MIRROR-043,127,400,400,planning_cap,400,400,0,111088,33608,69,True
+harness-medium-kimi-hex-MIRROR-042,Kimi K3.1 Pro,Claude Code,harness,medium,hex,MIRROR-042,127,400,400,planning_cap,400,400,0,1163,335,23,True
+harness-medium-kimi-hex-MIRROR-043,Kimi K3.1 Pro,Claude Code,harness,medium,hex,MIRROR-043,127,400,400,planning_cap,400,400,0,2898,353,61,True
+harness-medium-gpt-hex-MIRROR-042,GPT-6.1 Sol,Codex,harness,medium,hex,MIRROR-042,127,400,200,success,174,174,0,1453,18,102,True
+harness-medium-gpt-hex-MIRROR-043,GPT-6.1 Sol,Codex,harness,medium,hex,MIRROR-043,127,400,200,success,193,193,0,606,6,115,True
+harness-hard-deepseek-square-MIRROR-042,DeepSeek V4.1 Flash,Claude Code,harness,hard,square,MIRROR-042,225,800,800,skipped,0,0,0,,,,False
+harness-hard-deepseek-square-MIRROR-043,DeepSeek V4.1 Flash,Claude Code,harness,hard,square,MIRROR-043,225,800,800,skipped,0,0,0,,,,False
+harness-hard-kimi-square-MIRROR-042,Kimi K3.1 Pro,Claude Code,harness,hard,square,MIRROR-042,225,800,800,planning_cap,800,800,0,1984,319,102,True
+harness-hard-kimi-square-MIRROR-043,Kimi K3.1 Pro,Claude Code,harness,hard,square,MIRROR-043,225,800,800,planning_cap,800,800,0,1661,271,65,True
+harness-hard-gpt-square-MIRROR-042,GPT-6.1 Sol,Codex,harness,hard,square,MIRROR-042,225,800,800,success,299,299,0,2266,26,204,True
+harness-hard-gpt-square-MIRROR-043,GPT-6.1 Sol,Codex,harness,hard,square,MIRROR-043,225,800,800,success,380,380,0,1335,87,175,True
+harness-hard-deepseek-hex-MIRROR-042,DeepSeek V4.1 Flash,Claude Code,harness,hard,hex,MIRROR-042,217,800,800,skipped,0,0,0,,,,False
+harness-hard-deepseek-hex-MIRROR-043,DeepSeek V4.1 Flash,Claude Code,harness,hard,hex,MIRROR-043,217,800,800,skipped,0,0,0,,,,False
+harness-hard-kimi-hex-MIRROR-042,Kimi K3.1 Pro,Claude Code,harness,hard,hex,MIRROR-042,217,800,800,withdrawn,776,776,0,3919,631,121,False
+harness-hard-kimi-hex-MIRROR-043,Kimi K3.1 Pro,Claude Code,harness,hard,hex,MIRROR-043,217,800,800,planning_cap,800,800,0,6818,2234,63,True
+harness-hard-gpt-hex-MIRROR-042,GPT-6.1 Sol,Codex,harness,hard,hex,MIRROR-042,217,800,800,planning_cap,800,800,0,7096,22,125,True
+harness-hard-gpt-hex-MIRROR-043,GPT-6.1 Sol,Codex,harness,hard,hex,MIRROR-043,217,800,800,planning_cap,800,800,0,1605,2,62,True
+api-easy-deepseek-square-MIRROR-042,DeepSeek V4.1 Flash,Direct API,api,easy,square,MIRROR-042,49,200,200,success,77,77,0,240,48,34,True
+api-easy-deepseek-square-MIRROR-043,DeepSeek V4.1 Flash,Direct API,api,easy,square,MIRROR-043,49,200,200,success,92,92,0,315,55,46,True
+api-easy-kimi-square-MIRROR-042,Kimi K3.1 Pro,Direct API,api,easy,square,MIRROR-042,49,200,200,planning_cap,200,200,0,1098,173,47,True
+api-easy-kimi-square-MIRROR-043,Kimi K3.1 Pro,Direct API,api,easy,square,MIRROR-043,49,200,200,success,112,112,0,458,14,46,True
+api-easy-gpt-square-MIRROR-042,GPT-6.1 Sol,Direct API,api,easy,square,MIRROR-042,49,200,200,success,94,94,0,270,22,30,True
+api-easy-gpt-square-MIRROR-043,GPT-6.1 Sol,Direct API,api,easy,square,MIRROR-043,49,200,200,planning_cap,200,200,0,1959,580,36,True
+api-easy-deepseek-hex-MIRROR-042,DeepSeek V4.1 Flash,Direct API,api,easy,hex,MIRROR-042,61,200,200,planning_cap,200,200,0,4301,1329,15,True
+api-easy-deepseek-hex-MIRROR-043,DeepSeek V4.1 Flash,Direct API,api,easy,hex,MIRROR-043,61,200,200,planning_cap,200,200,0,1257,625,31,True
+api-easy-kimi-hex-MIRROR-042,Kimi K3.1 Pro,Direct API,api,easy,hex,MIRROR-042,61,200,200,planning_cap,200,200,0,2643,364,49,True
+api-easy-kimi-hex-MIRROR-043,Kimi K3.1 Pro,Direct API,api,easy,hex,MIRROR-043,61,200,200,planning_cap,200,200,0,3032,658,35,True
+api-easy-gpt-hex-MIRROR-042,GPT-6.1 Sol,Direct API,api,easy,hex,MIRROR-042,61,200,200,planning_cap,200,200,0,1640,167,27,True
+api-easy-gpt-hex-MIRROR-043,GPT-6.1 Sol,Direct API,api,easy,hex,MIRROR-043,61,200,200,planning_cap,200,200,0,2447,223,11,True
+api-easy-gemini-square-MIRROR-042,Gemini 4 Argon,Direct API,api,easy,square,MIRROR-042,49,200,200,success,174,174,0,1995,254,35,True
+api-easy-gemini-square-MIRROR-043,Gemini 4 Argon,Direct API,api,easy,square,MIRROR-043,49,200,200,success,162,162,0,1261,305,46,True
+api-easy-gemini-hex-MIRROR-042,Gemini 4 Argon,Direct API,api,easy,hex,MIRROR-042,61,200,200,pending,104,104,0,731,69,18,False
+api-easy-gemini-hex-MIRROR-043,Gemini 4 Argon,Direct API,api,easy,hex,MIRROR-043,61,200,200,pending,98,98,0,556,33,12,False
+harness-easy-gemini38-square-MIRROR-042,Gemini 3.8 Flash,AGY,harness,easy,square,MIRROR-042,49,200,200,success,116,116,0,492,40,44,True
+harness-easy-gemini38-square-MIRROR-043,Gemini 3.8 Flash,AGY,harness,easy,square,MIRROR-043,49,200,200,success,62,62,0,220,20,46,True
+harness-easy-gemini38-hex-MIRROR-042,Gemini 3.8 Flash,AGY,harness,easy,hex,MIRROR-042,61,200,200,planning_cap,200,200,0,1779,83,31,True
+harness-easy-gemini38-hex-MIRROR-043,Gemini 3.8 Flash,AGY,harness,easy,hex,MIRROR-043,61,200,200,planning_cap,200,200,0,269,1,41,True
+harness-medium-gemini38-square-MIRROR-042,Gemini 3.8 Flash,AGY,harness,medium,square,MIRROR-042,121,400,400,success,169,169,0,394,19,87,True
+harness-medium-gemini38-square-MIRROR-043,Gemini 3.8 Flash,AGY,harness,medium,square,MIRROR-043,121,400,400,planning_cap,400,400,0,1493,112,72,True
+harness-medium-gemini38-hex-MIRROR-042,Gemini 3.8 Flash,AGY,harness,medium,hex,MIRROR-042,127,400,400,planning_cap,400,400,0,3605,141,38,True
+harness-medium-gemini38-hex-MIRROR-043,Gemini 3.8 Flash,AGY,harness,medium,hex,MIRROR-043,127,400,400,planning_cap,400,400,0,554,4,51,True
+harness-hard-gemini38-square-MIRROR-042,Gemini 3.8 Flash,AGY,harness,hard,square,MIRROR-042,225,800,800,quota_interrupted,160,800,640,764,8,39,False
+harness-hard-gemini38-square-MIRROR-043,Gemini 3.8 Flash,AGY,harness,hard,square,MIRROR-043,225,800,800,quota_interrupted,167,800,633,625,89,47,False
+harness-hard-gemini38-hex-MIRROR-042,Gemini 3.8 Flash,AGY,harness,hard,hex,MIRROR-042,217,800,800,quota_interrupted,216,800,584,298,0,43,False
+harness-hard-gemini38-hex-MIRROR-043,Gemini 3.8 Flash,AGY,harness,hard,hex,MIRROR-043,217,800,800,quota_interrupted,113,800,687,806,17,20,False

@@ -1,0 +1,9 @@
+.budget-control { display:flex; flex-wrap:wrap; align-items:end; gap:1rem; padding:1rem; border:1px solid #d9e3e9; border-radius:9px; background:#f6f9fb; }
+.budget-control label { display:grid; gap:.3rem; }
+.budget-control input { width:9rem; padding:.45rem; border:1px solid #9aacb8; border-radius:5px; font:inherit; }
+.budget-control output { font-weight:650; }
+#text-map { display:block; width:min(100%, 790px); height:auto; margin:1rem auto; border-radius:8px; }
+.video-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%, 420px),1fr)); gap:1rem; }
+.video-grid figure { margin:0; min-width:0; }
+.video-grid video { display:block; width:100%; background:#142b33; border-radius:8px; }
+.video-grid figcaption { margin:.4rem 0 .8rem; }

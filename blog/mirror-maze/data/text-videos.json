@@ -1,0 +1,52 @@
+{
+  "videos": [
+    {
+      "file": "media/easy-square-MIRROR-042.mp4",
+      "title": "Easy Square \u00b7 MIRROR-042",
+      "duration_seconds": 20.0,
+      "sha256": "e5a9f03b132e9b2d56b43662c3bbcdb985f7062d9fc6d446f9af9da1ad120f5a"
+    },
+    {
+      "file": "media/easy-square-MIRROR-043.mp4",
+      "title": "Easy Square \u00b7 MIRROR-043",
+      "duration_seconds": 20.0,
+      "sha256": "b5f6fa1f9c5f6bf320ffff7270f8aa2611a12fd644e5bde192def56b45994984"
+    },
+    {
+      "file": "media/easy-hex-MIRROR-042.mp4",
+      "title": "Easy Hexagonal \u00b7 MIRROR-042",
+      "duration_seconds": 20.0,
+      "sha256": "f1bc0fca25c4dc9cb66c0406054225d321a1ced84f11692e198826f0789b0602"
+    },
+    {
+      "file": "media/easy-hex-MIRROR-043.mp4",
+      "title": "Easy Hexagonal \u00b7 MIRROR-043",
+      "duration_seconds": 20.0,
+      "sha256": "22229131b4b666b7c3e47f56cc7ffa460447700e86b148fbee41051fc146a908"
+    },
+    {
+      "file": "media/medium-square-MIRROR-042.mp4",
+      "title": "Medium Square \u00b7 MIRROR-042",
+      "duration_seconds": 20.0,
+      "sha256": "41f2991c955d7785f174943cd0f7eb98fe73f74b246a4386b8eb7aea1c22fda1"
+    },
+    {
+      "file": "media/medium-square-MIRROR-043.mp4",
+      "title": "Medium Square \u00b7 MIRROR-043",
+      "duration_seconds": 20.0,
+      "sha256": "fae7a14fdc115f8e717eb752965ca11d591383cdd3b00d6a3f42a650a283bebc"
+    },
+    {
+      "file": "media/medium-hex-MIRROR-042.mp4",
+      "title": "Medium Hexagonal \u00b7 MIRROR-042",
+      "duration_seconds": 20.0,
+      "sha256": "1ea2d5a9ae119ec89931f8e1308f622f842dd023e2dacad3132b6c1325ae319b"
+    },
+    {
+      "file": "media/medium-hex-MIRROR-043.mp4",
+      "title": "Medium Hexagonal \u00b7 MIRROR-043",
+      "duration_seconds": 20.0,
+      "sha256": "e0b620ab17fe91b110cd6f9cec54408d49a46cc675db7564fcdf9b7c44007cae"
+    }
+  ]
+}
