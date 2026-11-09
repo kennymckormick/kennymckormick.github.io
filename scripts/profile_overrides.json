@@ -1,6 +1,9 @@
 {
   "scholar_id": "vi3W-m8AAAAJ",
   "self_names": ["Haodong Duan", "H Duan"],
+  "scholar_duplicates": {
+    "vi3W-m8AAAAJ:0CzhzZyukY4C": "vi3W-m8AAAAJ:XiSMed-E-HIC"
+  },
   "research_topics": ["Video Understanding", "LLMs", "MLLMs", "LM Evaluation"],
   "institutions": ["PKU", "CUHK", "Shanghai AI Lab", "ByteDance SEED"],
   "selection": {
@@ -35,6 +38,10 @@
     }
   ],
   "publications": {
+    "PixelBench: Can LLMs Understand and Generate Images Pixel by Pixel?": {
+      "authors": ["Haoquan Zhang", "Feiyang Liu", "Juanxi Tian", "Wanhua Li", "Haodong Duan", "Weiyang Liu"],
+      "links": {"paper": "https://arxiv.org/abs/2611.02540"}
+    },
     "Affordance Benchmark for MLLMs": {
       "venue": "ICASSP",
       "year": 2026,

@@ -952,6 +952,22 @@ def build_data(args: argparse.Namespace) -> dict[str, Any]:
         scholar["publications"].extend(page_rows)
         known_ids.update(row["scholar_id"] for row in page_rows)
         offset += 100
+    profile_rows = len(scholar["publications"])
+    rows_by_id = {row["scholar_id"]: row for row in scholar["publications"]}
+    duplicate_entries = []
+    excluded_ids = set()
+    for duplicate_id, kept_id in overrides.get("scholar_duplicates", {}).items():
+        duplicate = rows_by_id.get(duplicate_id)
+        kept = rows_by_id.get(kept_id)
+        if not duplicate or not kept:
+            continue
+        if normalize_title(duplicate["title"]) != normalize_title(kept["title"]):
+            raise ValueError(f"Scholar duplicate mapping has different titles: {duplicate_id}")
+        excluded_ids.add(duplicate_id)
+        duplicate_entries.append({"excluded_scholar_id": duplicate_id, "kept_scholar_id": kept_id})
+    scholar["publications"] = [
+        row for row in scholar["publications"] if row["scholar_id"] not in excluded_ids
+    ]
     publications: list[dict[str, Any]] = []
     total = len(scholar["publications"])
     detail_fetches = 0
@@ -1059,8 +1075,9 @@ def build_data(args: argparse.Namespace) -> dict[str, Any]:
             "metadata_count": metadata_count,
         },
         "sync": {
-            "profile_rows": total,
+            "profile_rows": profile_rows,
             "unique_scholar_ids": len({item["scholar_id"] for item in publications}),
+            "duplicate_entries": duplicate_entries,
             "detail_pages_fetched": detail_fetches,
             "detail_fetch_failures": detail_failures,
             "full_author_count": full_author_count,

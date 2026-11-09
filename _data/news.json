@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-11-02",
+    "label": "2026-11-02",
+    "year": 2026,
+    "category": "Preprint",
+    "featured": true,
+    "content": "<a href=\"https://arxiv.org/abs/2611.02540\"><strong>PixelBench</strong></a> is available as an arXiv preprint, evaluating pixel-by-pixel image generation and understanding by LLMs."
+  },
+  {
     "date": "2026-09-24",
     "label": "2026-09-24",
     "year": 2026,

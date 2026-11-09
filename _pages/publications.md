@@ -10,8 +10,13 @@ author_profile: false
     <p class="publication-eyebrow">GOOGLE SCHOLAR · AUTO-SYNCED</p>
     <h1 id="publication-index-title">Publications</h1>
     <p class="publication-introduction">
+      {% if site.data.profile.sync.profile_rows > site.data.profile.profile.publication_count %}
+      {{ site.data.profile.profile.publication_count }} distinct publications from {{ site.data.profile.sync.profile_rows }}
+      <a href="{{ site.data.profile.sources.scholar }}">Google Scholar</a> entries are listed; duplicate entries are combined.
+      {% else %}
       All {{ site.data.profile.profile.publication_count }} records currently listed on
       <a href="{{ site.data.profile.sources.scholar }}">Google Scholar</a> are included.
+      {% endif %}
       Author annotations are curated separately from research-topic tags. When no corresponding author is explicitly identified, the final author is marked as corresponding; alphabetical and team-authored reports are intentionally left unannotated.
     </p>
     <div class="publication-metrics" aria-label="Google Scholar metrics">
