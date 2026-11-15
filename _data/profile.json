@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T05:55:39+00:00",
+  "generated_at": "2026-11-15T12:58:51+00:00",
   "sources": {
     "scholar": "https://scholar.google.com/citations?user=vi3W-m8AAAAJ&hl=en&pagesize=100",
     "github": "https://github.com/kennymckormick"
@@ -26,20 +26,20 @@
       "Generative AI"
     ],
     "metrics": {
-      "citations": 18579,
-      "citations_recent": 18495,
-      "h_index": 48,
-      "h_index_recent": 48,
-      "i10_index": 73,
-      "i10_index_recent": 73
+      "citations": 18814,
+      "citations_recent": 18724,
+      "h_index": 49,
+      "h_index_recent": 49,
+      "i10_index": 74,
+      "i10_index_recent": 74
     },
     "metrics_display": {
-      "citations": "18,579",
-      "citations_recent": "18,495",
-      "h_index": "48",
-      "h_index_recent": "48",
-      "i10_index": "73",
-      "i10_index_recent": "73"
+      "citations": "18,814",
+      "citations_recent": "18,724",
+      "h_index": "49",
+      "h_index_recent": "49",
+      "i10_index": "74",
+      "i10_index_recent": "74"
     },
     "publication_count": 89,
     "selected_count": 24,
@@ -47,14 +47,9 @@
     "metadata_count": 88
   },
   "sync": {
-    "profile_rows": 90,
+    "profile_rows": 89,
     "unique_scholar_ids": 89,
-    "duplicate_entries": [
-      {
-        "excluded_scholar_id": "vi3W-m8AAAAJ:0CzhzZyukY4C",
-        "kept_scholar_id": "vi3W-m8AAAAJ:XiSMed-E-HIC"
-      }
-    ],
+    "duplicate_entries": [],
     "detail_pages_fetched": 0,
     "detail_fetch_failures": [],
     "full_author_count": 89,
@@ -223,7 +218,7 @@
       "venue_display": "Technical Report, 2026",
       "venue_short": "Technical Report",
       "year": 2026,
-      "citations": 593,
+      "citations": 595,
       "metadata": [
         {
           "key": "publication_date",
@@ -350,7 +345,7 @@
       "venue_display": "ICLR, 2026",
       "venue_short": "ICLR",
       "year": 2026,
-      "citations": 236,
+      "citations": 241,
       "metadata": [
         {
           "key": "publication_date",
@@ -384,14 +379,14 @@
         "full_name": "InternRobotics/MMSI-Bench",
         "url": "https://github.com/InternRobotics/MMSI-Bench",
         "description": "[ICLR 2026] MMSI-Bench: A Benchmark for Multi-Image Spatial Intelligence",
-        "stars": 112,
-        "stars_display": "112",
+        "stars": 113,
+        "stars_display": "113",
         "forks": 2,
         "forks_display": "2",
         "watchers": 2,
         "language": "Python",
         "topics": [],
-        "updated_at": "2026-11-04T14:34:56Z",
+        "updated_at": "2026-11-11T09:32:32Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/mmsi-bench.webp",
@@ -498,7 +493,7 @@
       "venue_display": "ICLR, 2026",
       "venue_short": "ICLR",
       "year": 2026,
-      "citations": 181,
+      "citations": 184,
       "metadata": [
         {
           "key": "publication_date",
@@ -554,7 +549,7 @@
       "venue_display": "Seed Technical Reports, 2026",
       "venue_short": "Seed Technical Rep",
       "year": 2026,
-      "citations": 89,
+      "citations": 92,
       "metadata": [
         {
           "key": "publication_date",
@@ -587,6 +582,133 @@
       "citation_rank": 35,
       "selected": false,
       "selection_reasons": []
+    },
+    {
+      "scholar_id": "vi3W-m8AAAAJ:XiSMed-E-HIC",
+      "title": "LEGO-Puzzles: How Good Are MLLMs at Multi-Step Spatial Reasoning?",
+      "short_title": "LEGO-Puzzles",
+      "authors": [
+        {
+          "name": "Kexian Tang",
+          "is_self": false,
+          "roles": [
+            "first",
+            "equal"
+          ]
+        },
+        {
+          "name": "Junyao Gao",
+          "is_self": false,
+          "roles": [
+            "equal"
+          ]
+        },
+        {
+          "name": "Yanhong Zeng",
+          "is_self": false,
+          "roles": [
+            "project_lead"
+          ]
+        },
+        {
+          "name": "Haodong Duan",
+          "is_self": true,
+          "roles": [
+            "project_lead"
+          ]
+        },
+        {
+          "name": "Yanan Sun",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Zhening Xing",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Wenran Liu",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Kaifeng Lyu",
+          "is_self": false,
+          "roles": [
+            "corresponding"
+          ]
+        },
+        {
+          "name": "Kai Chen",
+          "is_self": false,
+          "roles": [
+            "corresponding"
+          ]
+        }
+      ],
+      "author_count": 9,
+      "authors_truncated": false,
+      "group_authored": false,
+      "author_order": "contribution",
+      "author_annotations_suppressed": false,
+      "corresponding_fallback": false,
+      "corresponding_fallback_author": "",
+      "venue": "ECCV",
+      "venue_display": "ECCV, 2026",
+      "venue_short": "ECCV",
+      "year": 2026,
+      "citations": 68,
+      "metadata": [
+        {
+          "key": "publication_date",
+          "label": "Publication date",
+          "value": "2025/3/25"
+        },
+        {
+          "key": "journal",
+          "label": "Journal",
+          "value": "arXiv preprint arXiv:2503.19990"
+        }
+      ],
+      "description": "Many real-world applications of spatial intelligence, such as robotic control, autonomous driving, and automated assembly, require spatial reasoning across multiple sequential steps. However, the extent to which current Multimodal Large Language Models (MLLMs) possess this capability remains largely unexplored. Inspired by LEGO construction, a recreational activity that critically relies on multi-step spatial reasoning, we introduce LEGO-Puzzles: a benchmark designed to systematically evaluate the spatial reasoning capabilities of MLLMs from basic spatial understanding to multi-step planning. LEGO-Puzzles contains two task sets. The Elementary set covers 11 visual question-answering (VQA) tasks with 1,100 carefully curated samples to test elementary spatial reasoning skills that are cruical for LEGO assembly. The Planning set directly requires the model to generate a step-by-step plan for assembling a target LEGO structure, where the tasks are organized into subsets with different planning horizons ranging up to 8. Our evaluation of 29 state-of-the-art MLLMs shows that even the strongest models struggle with elementary reasoning tasks in LEGO construction, falling at least 20% behind human performance. The planning accuracy also quickly drops to 0% as the number of planning steps increases, whereas our human participants solve all the tasks perfectly. Switching the output format from multiple choice to image generation degrades model performance even further, leading to zero accuracy even for planning 3 steps. Overall, LEGO-Puzzles reveals critical limitations in current MLLMs' spatial reasoning capabilities and highlights the …",
+      "summary": "LEGO-Puzzles probes spatial understanding and multi-step planning through interpretable LEGO assembly tasks that remain difficult for frontier MLLMs.",
+      "detail_metadata_available": true,
+      "topics": [
+        "Spatial Reasoning",
+        "Visual Reasoning",
+        "Multimodal Evaluation"
+      ],
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:XiSMed-E-HIC",
+        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13910271436087636139,2205319932987795117",
+        "paper": "https://arxiv.org/abs/2503.19990",
+        "code": "https://github.com/Tangkexian/LEGO-Puzzles"
+      },
+      "repo": "Tangkexian/LEGO-Puzzles",
+      "repo_label": "",
+      "github": {
+        "name": "LEGO-Puzzles",
+        "full_name": "Tangkexian/LEGO-Puzzles",
+        "url": "https://github.com/Tangkexian/LEGO-Puzzles",
+        "description": "Benchmarking Multi-Step Spatial Reasoning in MLLMs with LEGO-based VQA & generation tasks.",
+        "stars": 38,
+        "stars_display": "38",
+        "forks": 2,
+        "forks_display": "2",
+        "watchers": 2,
+        "language": "Python",
+        "topics": [],
+        "updated_at": "2026-09-04T23:00:25Z",
+        "source": "github_api"
+      },
+      "thumbnail": "/images/publications/lego-puzzles.webp",
+      "visual_tone": 4,
+      "citation_rank": 40,
+      "selected": true,
+      "selection_reasons": [
+        "lead_author_and_influential"
+      ]
     },
     {
       "scholar_id": "vi3W-m8AAAAJ:mlAyqtXpCwEC",
@@ -694,7 +816,7 @@
       "venue_display": "arXiv preprint arXiv:2605.10912, 2026",
       "venue_short": "arXiv",
       "year": 2026,
-      "citations": 65,
+      "citations": 66,
       "metadata": [
         {
           "key": "publication_date",
@@ -724,136 +846,9 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 1,
-      "citation_rank": 40,
+      "citation_rank": 41,
       "selected": false,
       "selection_reasons": []
-    },
-    {
-      "scholar_id": "vi3W-m8AAAAJ:XiSMed-E-HIC",
-      "title": "LEGO-Puzzles: How Good Are MLLMs at Multi-Step Spatial Reasoning?",
-      "short_title": "LEGO-Puzzles",
-      "authors": [
-        {
-          "name": "Kexian Tang",
-          "is_self": false,
-          "roles": [
-            "first",
-            "equal"
-          ]
-        },
-        {
-          "name": "Junyao Gao",
-          "is_self": false,
-          "roles": [
-            "equal"
-          ]
-        },
-        {
-          "name": "Yanhong Zeng",
-          "is_self": false,
-          "roles": [
-            "project_lead"
-          ]
-        },
-        {
-          "name": "Haodong Duan",
-          "is_self": true,
-          "roles": [
-            "project_lead"
-          ]
-        },
-        {
-          "name": "Yanan Sun",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Zhening Xing",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Wenran Liu",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Kaifeng Lyu",
-          "is_self": false,
-          "roles": [
-            "corresponding"
-          ]
-        },
-        {
-          "name": "Kai Chen",
-          "is_self": false,
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
-      "author_count": 9,
-      "authors_truncated": false,
-      "group_authored": false,
-      "author_order": "contribution",
-      "author_annotations_suppressed": false,
-      "corresponding_fallback": false,
-      "corresponding_fallback_author": "",
-      "venue": "ECCV",
-      "venue_display": "ECCV, 2026",
-      "venue_short": "ECCV",
-      "year": 2026,
-      "citations": 63,
-      "metadata": [
-        {
-          "key": "publication_date",
-          "label": "Publication date",
-          "value": "2025/3/25"
-        },
-        {
-          "key": "journal",
-          "label": "Journal",
-          "value": "arXiv preprint arXiv:2503.19990"
-        }
-      ],
-      "description": "Many real-world applications of spatial intelligence, such as robotic control, autonomous driving, and automated assembly, require spatial reasoning across multiple sequential steps. However, the extent to which current Multimodal Large Language Models (MLLMs) possess this capability remains largely unexplored. Inspired by LEGO construction, a recreational activity that critically relies on multi-step spatial reasoning, we introduce LEGO-Puzzles: a benchmark designed to systematically evaluate the spatial reasoning capabilities of MLLMs from basic spatial understanding to multi-step planning. LEGO-Puzzles contains two task sets. The Elementary set covers 11 visual question-answering (VQA) tasks with 1,100 carefully curated samples to test elementary spatial reasoning skills that are cruical for LEGO assembly. The Planning set directly requires the model to generate a step-by-step plan for assembling a target LEGO structure, where the tasks are organized into subsets with different planning horizons ranging up to 8. Our evaluation of 29 state-of-the-art MLLMs shows that even the strongest models struggle with elementary reasoning tasks in LEGO construction, falling at least 20% behind human performance. The planning accuracy also quickly drops to 0% as the number of planning steps increases, whereas our human participants solve all the tasks perfectly. Switching the output format from multiple choice to image generation degrades model performance even further, leading to zero accuracy even for planning 3 steps. Overall, LEGO-Puzzles reveals critical limitations in current MLLMs' spatial reasoning capabilities and highlights the …",
-      "summary": "LEGO-Puzzles probes spatial understanding and multi-step planning through interpretable LEGO assembly tasks that remain difficult for frontier MLLMs.",
-      "detail_metadata_available": true,
-      "topics": [
-        "Spatial Reasoning",
-        "Visual Reasoning",
-        "Multimodal Evaluation"
-      ],
-      "links": {
-        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:XiSMed-E-HIC",
-        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13910271436087636139,2205319932987795117",
-        "paper": "https://arxiv.org/abs/2503.19990",
-        "code": "https://github.com/Tangkexian/LEGO-Puzzles"
-      },
-      "repo": "Tangkexian/LEGO-Puzzles",
-      "repo_label": "",
-      "github": {
-        "name": "LEGO-Puzzles",
-        "full_name": "Tangkexian/LEGO-Puzzles",
-        "url": "https://github.com/Tangkexian/LEGO-Puzzles",
-        "description": "Benchmarking Multi-Step Spatial Reasoning in MLLMs with LEGO-based VQA & generation tasks.",
-        "stars": 38,
-        "stars_display": "38",
-        "forks": 2,
-        "forks_display": "2",
-        "watchers": 2,
-        "language": "Python",
-        "topics": [],
-        "updated_at": "2026-09-04T23:00:25Z",
-        "source": "github_api"
-      },
-      "thumbnail": "/images/publications/lego-puzzles.webp",
-      "visual_tone": 4,
-      "citation_rank": 43,
-      "selected": true,
-      "selection_reasons": [
-        "lead_author_and_influential"
-      ]
     },
     {
       "scholar_id": "vi3W-m8AAAAJ:2KloaMYe4IUC",
@@ -1016,7 +1011,7 @@
       "venue_display": "CVPR, 2026",
       "venue_short": "CVPR",
       "year": 2026,
-      "citations": 57,
+      "citations": 59,
       "metadata": [
         {
           "key": "publication_date",
@@ -1117,7 +1112,7 @@
       "venue_display": "CVPR, 2026",
       "venue_short": "CVPR",
       "year": 2026,
-      "citations": 41,
+      "citations": 42,
       "metadata": [
         {
           "key": "publication_date",
@@ -1148,7 +1143,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 3,
-      "citation_rank": 53,
+      "citation_rank": 52,
       "selected": false,
       "selection_reasons": []
     },
@@ -1174,7 +1169,7 @@
       "venue_display": "ByteDance Seed Technical Report, 2026",
       "venue_short": "Technical Report",
       "year": 2026,
-      "citations": 28,
+      "citations": 32,
       "metadata": [
         {
           "key": "publication_date",
@@ -1209,7 +1204,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 4,
-      "citation_rank": 60,
+      "citation_rank": 58,
       "selected": false,
       "selection_reasons": []
     },
@@ -2047,7 +2042,7 @@
       "venue_display": "Technical Report, arXiv preprint arXiv:2606.31651, 2026",
       "venue_short": "arXiv",
       "year": 2026,
-      "citations": 11,
+      "citations": 12,
       "metadata": [
         {
           "key": "publication_date",
@@ -2162,7 +2157,7 @@
       "venue_display": "NeurIPS D&B, 2026",
       "venue_short": "NeurIPS",
       "year": 2026,
-      "citations": 9,
+      "citations": 10,
       "metadata": [
         {
           "key": "publication_date",
@@ -2193,7 +2188,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 3,
-      "citation_rank": 74,
+      "citation_rank": 73,
       "selected": false,
       "selection_reasons": []
     },
@@ -2805,96 +2800,6 @@
       "selection_reasons": []
     },
     {
-      "scholar_id": "vi3W-m8AAAAJ:k8Z6L05lTy4C",
-      "title": "Think Visually, Reason Textually: Vision-Language Synergy in ARC",
-      "short_title": "TVRT",
-      "authors": [
-        {
-          "name": "Beichen Zhang",
-          "is_self": false,
-          "roles": [
-            "first"
-          ]
-        },
-        {
-          "name": "Yuhang Zang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Xiaoyi Dong",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Yuhang Cao",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Haodong Duan",
-          "is_self": true,
-          "roles": []
-        },
-        {
-          "name": "Dahua Lin",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Jiaqi Wang",
-          "is_self": false,
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
-      "author_count": 7,
-      "authors_truncated": false,
-      "group_authored": false,
-      "author_order": "contribution",
-      "author_annotations_suppressed": false,
-      "corresponding_fallback": true,
-      "corresponding_fallback_author": "Jiaqi Wang",
-      "venue": "CVPR, 2026",
-      "venue_display": "CVPR, 2026",
-      "venue_short": "CVPR",
-      "year": 2026,
-      "citations": 5,
-      "metadata": [
-        {
-          "key": "publication_date",
-          "label": "Publication date",
-          "value": "2025/11/19"
-        },
-        {
-          "key": "journal",
-          "label": "Journal",
-          "value": "CVPR, 2026"
-        }
-      ],
-      "description": "Abstract reasoning from minimal examples remains a core unsolved problem for frontier foundation models such as GPT-5 and Grok 4. These models still fail to infer structured transformation rules from a handful of examples, which is a key hallmark of human intelligence. The Abstraction and Reasoning Corpus for Artificial General Intelligence (ARC-AGI) provides a rigorous testbed for this capability, demanding conceptual rule induction and transfer to novel tasks. Most existing methods treat ARC-AGI as a purely textual reasoning task, overlooking the fact that humans rely heavily on visual abstraction when solving such puzzles. However, our pilot experiments reveal a paradox: naively rendering ARC-AGI grids as images degrades performance due to imprecise rule execution. This leads to our central hypothesis that vision and language possess complementary strengths across distinct reasoning stages: vision supports global pattern abstraction and verification, whereas language specializes in symbolic rule formulation and precise execution. Building on this insight, we introduce two synergistic strategies: (1) Vision-Language Synergy Reasoning (VLSR), which decomposes ARC-AGI into modality-aligned subtasks; and (2) Modality-Switch Self-Correction (MSSC), which leverages vision to verify text-based reasoning for intrinsic error correction. Extensive experiments demonstrate that our approach yields up to a 4.33\\% improvement over text-only baselines across diverse flagship models and multiple ARC-AGI tasks. Our findings suggest that unifying visual abstraction with linguistic reasoning is a crucial step toward achieving generalizable …",
-      "summary": "Abstract reasoning from minimal examples remains a core unsolved problem for frontier foundation models such as GPT-5 and Grok 4.",
-      "detail_metadata_available": true,
-      "topics": [
-        "Visual Reasoning",
-        "Foundation Models"
-      ],
-      "links": {
-        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:k8Z6L05lTy4C",
-        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3253532834258310800,8774237926412218040",
-        "paper": "https://arxiv.org/abs/2511.15703"
-      },
-      "repo": "",
-      "repo_label": "",
-      "github": {},
-      "thumbnail": "",
-      "visual_tone": 5,
-      "citation_rank": 78,
-      "selected": false,
-      "selection_reasons": []
-    },
-    {
       "scholar_id": "vi3W-m8AAAAJ:URolC5Kub84C",
       "title": "MM-HELIX: Boosting Multimodal Long-Chain Reflective Reasoning with Holistic Platform and Adaptive Hybrid Policy Optimization",
       "short_title": "MM-HELIX",
@@ -2985,7 +2890,7 @@
       "venue_display": "ICLR, 2026",
       "venue_short": "ICLR",
       "year": 2026,
-      "citations": 4,
+      "citations": 5,
       "metadata": [
         {
           "key": "publication_date",
@@ -3015,7 +2920,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 1,
-      "citation_rank": 79,
+      "citation_rank": 78,
       "selected": false,
       "selection_reasons": []
     },
@@ -3675,7 +3580,7 @@
       "venue_display": "arXiv preprint arXiv:2603.27460, 2026",
       "venue_short": "arXiv",
       "year": 2026,
-      "citations": 4,
+      "citations": 5,
       "metadata": [
         {
           "key": "publication_date",
@@ -3706,6 +3611,96 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 4,
+      "citation_rank": 79,
+      "selected": false,
+      "selection_reasons": []
+    },
+    {
+      "scholar_id": "vi3W-m8AAAAJ:k8Z6L05lTy4C",
+      "title": "Think Visually, Reason Textually: Vision-Language Synergy in ARC",
+      "short_title": "TVRT",
+      "authors": [
+        {
+          "name": "Beichen Zhang",
+          "is_self": false,
+          "roles": [
+            "first"
+          ]
+        },
+        {
+          "name": "Yuhang Zang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Xiaoyi Dong",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Yuhang Cao",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Haodong Duan",
+          "is_self": true,
+          "roles": []
+        },
+        {
+          "name": "Dahua Lin",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Jiaqi Wang",
+          "is_self": false,
+          "roles": [
+            "corresponding"
+          ]
+        }
+      ],
+      "author_count": 7,
+      "authors_truncated": false,
+      "group_authored": false,
+      "author_order": "contribution",
+      "author_annotations_suppressed": false,
+      "corresponding_fallback": true,
+      "corresponding_fallback_author": "Jiaqi Wang",
+      "venue": "CVPR, 2026",
+      "venue_display": "CVPR, 2026",
+      "venue_short": "CVPR",
+      "year": 2026,
+      "citations": 5,
+      "metadata": [
+        {
+          "key": "publication_date",
+          "label": "Publication date",
+          "value": "2025/11/19"
+        },
+        {
+          "key": "journal",
+          "label": "Journal",
+          "value": "CVPR, 2026"
+        }
+      ],
+      "description": "Abstract reasoning from minimal examples remains a core unsolved problem for frontier foundation models such as GPT-5 and Grok 4. These models still fail to infer structured transformation rules from a handful of examples, which is a key hallmark of human intelligence. The Abstraction and Reasoning Corpus for Artificial General Intelligence (ARC-AGI) provides a rigorous testbed for this capability, demanding conceptual rule induction and transfer to novel tasks. Most existing methods treat ARC-AGI as a purely textual reasoning task, overlooking the fact that humans rely heavily on visual abstraction when solving such puzzles. However, our pilot experiments reveal a paradox: naively rendering ARC-AGI grids as images degrades performance due to imprecise rule execution. This leads to our central hypothesis that vision and language possess complementary strengths across distinct reasoning stages: vision supports global pattern abstraction and verification, whereas language specializes in symbolic rule formulation and precise execution. Building on this insight, we introduce two synergistic strategies: (1) Vision-Language Synergy Reasoning (VLSR), which decomposes ARC-AGI into modality-aligned subtasks; and (2) Modality-Switch Self-Correction (MSSC), which leverages vision to verify text-based reasoning for intrinsic error correction. Extensive experiments demonstrate that our approach yields up to a 4.33\\% improvement over text-only baselines across diverse flagship models and multiple ARC-AGI tasks. Our findings suggest that unifying visual abstraction with linguistic reasoning is a crucial step toward achieving generalizable …",
+      "summary": "Abstract reasoning from minimal examples remains a core unsolved problem for frontier foundation models such as GPT-5 and Grok 4.",
+      "detail_metadata_available": true,
+      "topics": [
+        "Visual Reasoning",
+        "Foundation Models"
+      ],
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:k8Z6L05lTy4C",
+        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3253532834258310800,8774237926412218040",
+        "paper": "https://arxiv.org/abs/2511.15703"
+      },
+      "repo": "",
+      "repo_label": "",
+      "github": {},
+      "thumbnail": "",
+      "visual_tone": 5,
       "citation_rank": 80,
       "selected": false,
       "selection_reasons": []
@@ -4063,7 +4058,7 @@
       "venue_display": "EMNLP, 2026",
       "venue_short": "EMNLP",
       "year": 2026,
-      "citations": 0,
+      "citations": 1,
       "metadata": [
         {
           "key": "publication_date",
@@ -4086,7 +4081,7 @@
       ],
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:r_AWSJRzSzQC",
-        "citations": "https://scholar.google.com",
+        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1861852653175783992",
         "paper": "https://arxiv.org/abs/2606.19338"
       },
       "repo": "",
@@ -4610,7 +4605,7 @@
       "venue_display": "arXiv preprint arXiv:2508.18265, 2025",
       "venue_short": "arXiv",
       "year": 2025,
-      "citations": 1922,
+      "citations": 1972,
       "metadata": [
         {
           "key": "publication_date",
@@ -4710,7 +4705,7 @@
       "venue_display": "IEEE/CVF International Conference on Computer Vision (ICCV), 2025",
       "venue_short": "ICCV",
       "year": 2025,
-      "citations": 663,
+      "citations": 669,
       "metadata": [
         {
           "key": "publication_date",
@@ -4744,14 +4739,14 @@
         "full_name": "Liuziyu77/Visual-RFT",
         "url": "https://github.com/Liuziyu77/Visual-RFT",
         "description": "Official repository of 'Visual-RFT: Visual Reinforcement Fine-Tuning' & 'Visual-ARFT: Visual Agentic Reinforcement Fine-Tuning'’",
-        "stars": 2283,
-        "stars_display": "2,283",
+        "stars": 2282,
+        "stars_display": "2,282",
         "forks": 111,
         "forks_display": "111",
         "watchers": 13,
         "language": "Jupyter Notebook",
         "topics": [],
-        "updated_at": "2026-10-27T03:16:24Z",
+        "updated_at": "2026-11-12T08:56:26Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/visual-rft.webp",
@@ -4858,7 +4853,7 @@
       "venue_display": "CVPR, 2025",
       "venue_short": "CVPR",
       "year": 2025,
-      "citations": 204,
+      "citations": 214,
       "metadata": [
         {
           "key": "publication_date",
@@ -4915,7 +4910,7 @@
       "venue_display": "Technical report, Technical report, Bytedance, 2025. URL https://lf3-static …",
       "venue_short": "Technical report",
       "year": 2025,
-      "citations": 184,
+      "citations": 187,
       "metadata": [
         {
           "key": "publication_date",
@@ -5361,7 +5356,7 @@
       "venue_display": "arXiv preprint arXiv:2508.15763, 2025",
       "venue_short": "arXiv",
       "year": 2025,
-      "citations": 130,
+      "citations": 132,
       "metadata": [
         {
           "key": "publication_date",
@@ -5489,7 +5484,7 @@
       "venue_display": "NeurIPS D&B Oral, 2025",
       "venue_short": "NeurIPS",
       "year": 2025,
-      "citations": 108,
+      "citations": 110,
       "metadata": [
         {
           "key": "publication_date",
@@ -5592,7 +5587,7 @@
       "venue_display": "TMLR, 2025",
       "venue_short": "TMLR",
       "year": 2025,
-      "citations": 107,
+      "citations": 108,
       "metadata": [
         {
           "key": "publication_date",
@@ -5829,7 +5824,7 @@
       "venue_display": "ICML Oral, 2025",
       "venue_short": "ICML Oral",
       "year": 2025,
-      "citations": 84,
+      "citations": 85,
       "metadata": [
         {
           "key": "publication_date",
@@ -6129,7 +6124,7 @@
       "venue_display": "Science China Information Sciences, 2025 68 (12), 221301",
       "venue_short": "Science China Info",
       "year": 2025,
-      "citations": 80,
+      "citations": 84,
       "metadata": [
         {
           "key": "publication_date",
@@ -6281,7 +6276,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 3,
-      "citation_rank": 41,
+      "citation_rank": 42,
       "selected": false,
       "selection_reasons": []
     },
@@ -6356,7 +6351,7 @@
       "venue_display": "ICCV, 2025",
       "venue_short": "ICCV",
       "year": 2025,
-      "citations": 59,
+      "citations": 60,
       "metadata": [
         {
           "key": "publication_date",
@@ -6387,112 +6382,6 @@
       "thumbnail": "",
       "visual_tone": 5,
       "citation_rank": 44,
-      "selected": false,
-      "selection_reasons": []
-    },
-    {
-      "scholar_id": "vi3W-m8AAAAJ:hMod-77fHWUC",
-      "title": "Mia-dpo: Multi-image augmented direct preference optimization for large vision-language models",
-      "short_title": "Mia-dpo",
-      "authors": [
-        {
-          "name": "Ziyu Liu",
-          "is_self": false,
-          "roles": [
-            "first"
-          ]
-        },
-        {
-          "name": "Yuhang Zang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Xiaoyi Dong",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Pan Zhang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Yuhang Cao",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Haodong Duan",
-          "is_self": true,
-          "roles": []
-        },
-        {
-          "name": "Conghui He",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Yuanjun Xiong",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Dahua Lin",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Jiaqi Wang",
-          "is_self": false,
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
-      "author_count": 10,
-      "authors_truncated": false,
-      "group_authored": false,
-      "author_order": "contribution",
-      "author_annotations_suppressed": false,
-      "corresponding_fallback": true,
-      "corresponding_fallback_author": "Jiaqi Wang",
-      "venue": "ICLR, 2025",
-      "venue_display": "ICLR, 2025",
-      "venue_short": "ICLR",
-      "year": 2025,
-      "citations": 51,
-      "metadata": [
-        {
-          "key": "publication_date",
-          "label": "Publication date",
-          "value": "2024/10/23"
-        },
-        {
-          "key": "journal",
-          "label": "Journal",
-          "value": "ICLR, 2025"
-        }
-      ],
-      "description": "Visual preference alignment involves training Large Vision-Language Models (LVLMs) to predict human preferences between visual inputs. This is typically achieved by using labeled datasets of chosen/rejected pairs and employing optimization algorithms like direct preference optimization (DPO). Existing visual alignment methods, primarily designed for single-image scenarios, struggle to effectively handle the complexity of multi-image tasks due to the scarcity of diverse training data and the high cost of annotating chosen/rejected pairs. We present Multi-Image Augmented Direct Preference Optimization (MIA-DPO), a visual preference alignment approach that effectively handles multi-image inputs. MIA-DPO mitigates the scarcity of diverse multi-image training data by extending single-image data with unrelated images arranged in grid collages or pic-in-pic formats, significantly reducing the costs associated with multi-image data annotations. Our observation reveals that attention values of LVLMs vary considerably across different images. We use attention values to identify and filter out rejected responses the model may have mistakenly focused on. Our attention-aware selection for constructing the chosen/rejected pairs without relying on (i) human annotation,(ii) extra data, and (iii) external models or APIs. MIA-DPO is compatible with various architectures and outperforms existing methods on five multi-image benchmarks, achieving an average performance boost of 3.0% on LLaVA-v1. 5 and 4.3% on the recent InternLM-XC2. 5. Moreover, MIA-DPO has a minimal effect on the model's ability to understand single images.",
-      "summary": "Visual preference alignment involves training Large Vision-Language Models (LVLMs) to predict human preferences between visual inputs.",
-      "detail_metadata_available": true,
-      "topics": [
-        "Multi-Image Reasoning",
-        "Model Alignment",
-        "Model Adaptation"
-      ],
-      "links": {
-        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:hMod-77fHWUC",
-        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7560420101763306791",
-        "paper": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/557a20663907ed637c2807f608d5bec2-Abstract-Conference.html"
-      },
-      "repo": "",
-      "repo_label": "",
-      "github": {},
-      "thumbnail": "",
-      "visual_tone": 4,
-      "citation_rank": 48,
       "selected": false,
       "selection_reasons": []
     },
@@ -6892,7 +6781,7 @@
       "venue_display": "arXiv preprint arXiv:2508.21148, 2025",
       "venue_short": "arXiv",
       "year": 2025,
-      "citations": 46,
+      "citations": 51,
       "metadata": [
         {
           "key": "publication_date",
@@ -6923,7 +6812,113 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 2,
-      "citation_rank": 50,
+      "citation_rank": 48,
+      "selected": false,
+      "selection_reasons": []
+    },
+    {
+      "scholar_id": "vi3W-m8AAAAJ:hMod-77fHWUC",
+      "title": "Mia-dpo: Multi-image augmented direct preference optimization for large vision-language models",
+      "short_title": "Mia-dpo",
+      "authors": [
+        {
+          "name": "Ziyu Liu",
+          "is_self": false,
+          "roles": [
+            "first"
+          ]
+        },
+        {
+          "name": "Yuhang Zang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Xiaoyi Dong",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Pan Zhang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Yuhang Cao",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Haodong Duan",
+          "is_self": true,
+          "roles": []
+        },
+        {
+          "name": "Conghui He",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Yuanjun Xiong",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Dahua Lin",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Jiaqi Wang",
+          "is_self": false,
+          "roles": [
+            "corresponding"
+          ]
+        }
+      ],
+      "author_count": 10,
+      "authors_truncated": false,
+      "group_authored": false,
+      "author_order": "contribution",
+      "author_annotations_suppressed": false,
+      "corresponding_fallback": true,
+      "corresponding_fallback_author": "Jiaqi Wang",
+      "venue": "ICLR, 2025",
+      "venue_display": "ICLR, 2025",
+      "venue_short": "ICLR",
+      "year": 2025,
+      "citations": 51,
+      "metadata": [
+        {
+          "key": "publication_date",
+          "label": "Publication date",
+          "value": "2024/10/23"
+        },
+        {
+          "key": "journal",
+          "label": "Journal",
+          "value": "ICLR, 2025"
+        }
+      ],
+      "description": "Visual preference alignment involves training Large Vision-Language Models (LVLMs) to predict human preferences between visual inputs. This is typically achieved by using labeled datasets of chosen/rejected pairs and employing optimization algorithms like direct preference optimization (DPO). Existing visual alignment methods, primarily designed for single-image scenarios, struggle to effectively handle the complexity of multi-image tasks due to the scarcity of diverse training data and the high cost of annotating chosen/rejected pairs. We present Multi-Image Augmented Direct Preference Optimization (MIA-DPO), a visual preference alignment approach that effectively handles multi-image inputs. MIA-DPO mitigates the scarcity of diverse multi-image training data by extending single-image data with unrelated images arranged in grid collages or pic-in-pic formats, significantly reducing the costs associated with multi-image data annotations. Our observation reveals that attention values of LVLMs vary considerably across different images. We use attention values to identify and filter out rejected responses the model may have mistakenly focused on. Our attention-aware selection for constructing the chosen/rejected pairs without relying on (i) human annotation,(ii) extra data, and (iii) external models or APIs. MIA-DPO is compatible with various architectures and outperforms existing methods on five multi-image benchmarks, achieving an average performance boost of 3.0% on LLaVA-v1. 5 and 4.3% on the recent InternLM-XC2. 5. Moreover, MIA-DPO has a minimal effect on the model's ability to understand single images.",
+      "summary": "Visual preference alignment involves training Large Vision-Language Models (LVLMs) to predict human preferences between visual inputs.",
+      "detail_metadata_available": true,
+      "topics": [
+        "Multi-Image Reasoning",
+        "Model Alignment",
+        "Model Adaptation"
+      ],
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:hMod-77fHWUC",
+        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7560420101763306791",
+        "paper": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/557a20663907ed637c2807f608d5bec2-Abstract-Conference.html"
+      },
+      "repo": "",
+      "repo_label": "",
+      "github": {},
+      "thumbnail": "",
+      "visual_tone": 4,
+      "citation_rank": 49,
       "selected": false,
       "selection_reasons": []
     },
@@ -7008,7 +7003,7 @@
       "venue_display": "CVPR Spotlight, 2025",
       "venue_short": "CVPR",
       "year": 2025,
-      "citations": 38,
+      "citations": 40,
       "metadata": [
         {
           "key": "publication_date",
@@ -7513,7 +7508,7 @@
       },
       "thumbnail": "/images/publications/redundancy-principle.webp",
       "visual_tone": 5,
-      "citation_rank": 58,
+      "citation_rank": 59,
       "selected": true,
       "selection_reasons": [
         "lead_author_and_influential"
@@ -7634,7 +7629,7 @@
       },
       "thumbnail": "/images/publications/condor.webp",
       "visual_tone": 1,
-      "citation_rank": 59,
+      "citation_rank": 60,
       "selected": true,
       "selection_reasons": [
         "lead_author_and_influential"
@@ -7706,7 +7701,7 @@
       "venue_display": "arXiv preprint arXiv:2501.03226, 2025",
       "venue_short": "arXiv",
       "year": 2025,
-      "citations": 23,
+      "citations": 24,
       "metadata": [
         {
           "key": "publication_date",
@@ -8304,7 +8299,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 4,
-      "citation_rank": 73,
+      "citation_rank": 74,
       "selected": false,
       "selection_reasons": []
     },
@@ -8876,7 +8871,7 @@
       "venue_display": "European Conference on Computer Vision (ECCV), 2024",
       "venue_short": "ECCV",
       "year": 2024,
-      "citations": 3212,
+      "citations": 3257,
       "metadata": [
         {
           "key": "publication_date",
@@ -9011,7 +9006,7 @@
       "venue_display": "Conference on Neural Information Processing Systems (NeurIPS), 2024",
       "venue_short": "NeurIPS",
       "year": 2024,
-      "citations": 1417,
+      "citations": 1447,
       "metadata": [
         {
           "key": "publication_date",
@@ -9475,7 +9470,7 @@
       "venue_display": "arXiv preprint arXiv:2403.17297, 2024",
       "venue_short": "arXiv",
       "year": 2024,
-      "citations": 830,
+      "citations": 834,
       "metadata": [
         {
           "key": "publication_date",
@@ -9590,7 +9585,7 @@
       "venue_display": "ACM International Conference on Multimedia (MM), 2024",
       "venue_short": "ACM MM",
       "year": 2024,
-      "citations": 721,
+      "citations": 726,
       "metadata": [
         {
           "key": "publication_date",
@@ -9623,14 +9618,14 @@
         "full_name": "open-compass/VLMEvalKit",
         "url": "https://github.com/open-compass/VLMEvalKit",
         "description": "Open-source evaluation toolkit of large multi-modality models (LMMs), support 220+ LMMs, 80+ benchmarks",
-        "stars": 4478,
-        "stars_display": "4,478",
-        "forks": 793,
-        "forks_display": "793",
+        "stars": 4492,
+        "stars_display": "4,492",
+        "forks": 798,
+        "forks_display": "798",
         "watchers": 14,
         "language": "Python",
         "topics": [],
-        "updated_at": "2026-11-09T02:42:11Z",
+        "updated_at": "2026-11-15T09:36:52Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/vlmevalkit.webp",
@@ -9745,7 +9740,7 @@
       "venue_display": "Conference on Neural Information Processing Systems (NeurIPS), Datasets & Benchmarks Track, 2024",
       "venue_short": "NeurIPS",
       "year": 2024,
-      "citations": 564,
+      "citations": 572,
       "metadata": [
         {
           "key": "publication_date",
@@ -9933,7 +9928,7 @@
       "venue_display": "arXiv preprint arXiv:2401.16420, 2024",
       "venue_short": "arXiv",
       "year": 2024,
-      "citations": 477,
+      "citations": 479,
       "metadata": [
         {
           "key": "publication_date",
@@ -10021,7 +10016,7 @@
       "venue_display": "Empirical Methods in Natural Language Processing (EMNLP), Findings, 2024",
       "venue_short": "EMNLP",
       "year": 2024,
-      "citations": 353,
+      "citations": 356,
       "metadata": [
         {
           "key": "publication_date",
@@ -10229,7 +10224,7 @@
       "venue_display": "arXiv preprint arXiv:2407.03320, 2024",
       "venue_short": "arXiv",
       "year": 2024,
-      "citations": 335,
+      "citations": 336,
       "metadata": [
         {
           "key": "publication_date",
@@ -10259,7 +10254,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 3,
-      "citation_rank": 14,
+      "citation_rank": 15,
       "selected": false,
       "selection_reasons": []
     },
@@ -10325,7 +10320,7 @@
       "venue_display": "Conference on Neural Information Processing Systems (NeurIPS), Datasets & Benchmarks Track, 2024",
       "venue_short": "NeurIPS",
       "year": 2024,
-      "citations": 252,
+      "citations": 259,
       "metadata": [
         {
           "key": "publication_date",
@@ -10359,14 +10354,14 @@
         "full_name": "open-compass/VLMEvalKit",
         "url": "https://github.com/open-compass/VLMEvalKit",
         "description": "Open-source evaluation toolkit of large multi-modality models (LMMs), support 220+ LMMs, 80+ benchmarks",
-        "stars": 4478,
-        "stars_display": "4,478",
-        "forks": 793,
-        "forks_display": "793",
+        "stars": 4492,
+        "stars_display": "4,492",
+        "forks": 798,
+        "forks_display": "798",
         "watchers": 14,
         "language": "Python",
         "topics": [],
-        "updated_at": "2026-11-09T02:42:11Z",
+        "updated_at": "2026-11-15T09:36:52Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/mmbench-video.webp",
@@ -10519,7 +10514,7 @@
       "venue_display": "Conference on Neural Information Processing Systems (NeurIPS), 2024",
       "venue_short": "NeurIPS",
       "year": 2024,
-      "citations": 245,
+      "citations": 246,
       "metadata": [
         {
           "key": "publication_date",
@@ -10679,7 +10674,7 @@
       "venue_display": "Conference on Neural Information Processing Systems (NeurIPS), Datasets & Benchmarks Track, 2024",
       "venue_short": "NeurIPS",
       "year": 2024,
-      "citations": 184,
+      "citations": 185,
       "metadata": [
         {
           "key": "publication_date",
@@ -10903,7 +10898,7 @@
       "venue_display": "arXiv preprint arXiv:2411.15296, 2024",
       "venue_short": "arXiv",
       "year": 2024,
-      "citations": 125,
+      "citations": 126,
       "metadata": [
         {
           "key": "publication_date",
@@ -11003,7 +10998,7 @@
       "venue_display": "Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), 2024",
       "venue_short": "ACL",
       "year": 2024,
-      "citations": 105,
+      "citations": 106,
       "metadata": [
         {
           "key": "publication_date",
@@ -11252,7 +11247,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 4,
-      "citation_rank": 42,
+      "citation_rank": 43,
       "selected": false,
       "selection_reasons": []
     },
@@ -11556,7 +11551,7 @@
       },
       "thumbnail": "/images/publications/ada-leval.webp",
       "visual_tone": 1,
-      "citation_rank": 49,
+      "citation_rank": 50,
       "selected": true,
       "selection_reasons": [
         "lead_author_and_influential"
@@ -11688,7 +11683,7 @@
       "venue_display": "arXiv preprint arXiv:2309.15112, 2023",
       "venue_short": "arXiv",
       "year": 2023,
-      "citations": 404,
+      "citations": 406,
       "metadata": [
         {
           "key": "publication_date",
@@ -11744,7 +11739,7 @@
       "venue_display": "InternLM Project, https://github.com/InternLM/InternLM, 2023",
       "venue_short": "InternLM Project",
       "year": 2023,
-      "citations": 329,
+      "citations": 330,
       "metadata": [
         {
           "key": "publication_date",
@@ -12065,7 +12060,7 @@
       "venue_display": "IEEE/CVF International Conference on Computer Vision (ICCV), 2023",
       "venue_short": "ICCV",
       "year": 2023,
-      "citations": 86,
+      "citations": 87,
       "metadata": [
         {
           "key": "publication_date",
@@ -12148,7 +12143,7 @@
       "venue_display": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022",
       "venue_short": "CVPR",
       "year": 2022,
-      "citations": 1384,
+      "citations": 1386,
       "metadata": [
         {
           "key": "publication_date",
@@ -12182,14 +12177,14 @@
         "full_name": "kennymckormick/pyskl",
         "url": "https://github.com/kennymckormick/pyskl",
         "description": "A toolbox for skeleton-based action recognition.",
-        "stars": 1270,
-        "stars_display": "1,270",
-        "forks": 236,
-        "forks_display": "236",
+        "stars": 1271,
+        "stars_display": "1,271",
+        "forks": 235,
+        "forks_display": "235",
         "watchers": 13,
         "language": "Python",
         "topics": [],
-        "updated_at": "2026-11-04T06:07:03Z",
+        "updated_at": "2026-11-15T12:40:05Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/posec3d.webp",
@@ -12242,7 +12237,7 @@
       "venue_display": "ACM International Conference on Multimedia (MM), 2022",
       "venue_short": "ACM MM",
       "year": 2022,
-      "citations": 335,
+      "citations": 338,
       "metadata": [
         {
           "key": "publication_date",
@@ -12276,19 +12271,19 @@
         "full_name": "kennymckormick/pyskl",
         "url": "https://github.com/kennymckormick/pyskl",
         "description": "A toolbox for skeleton-based action recognition.",
-        "stars": 1270,
-        "stars_display": "1,270",
-        "forks": 236,
-        "forks_display": "236",
+        "stars": 1271,
+        "stars_display": "1,271",
+        "forks": 235,
+        "forks_display": "235",
         "watchers": 13,
         "language": "Python",
         "topics": [],
-        "updated_at": "2026-11-04T06:07:03Z",
+        "updated_at": "2026-11-15T12:40:05Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/pyskl.webp",
       "visual_tone": 3,
-      "citation_rank": 15,
+      "citation_rank": 14,
       "selected": true,
       "selection_reasons": [
         "lead_author_and_influential",
@@ -12370,14 +12365,14 @@
         "full_name": "kennymckormick/pyskl",
         "url": "https://github.com/kennymckormick/pyskl",
         "description": "A toolbox for skeleton-based action recognition.",
-        "stars": 1270,
-        "stars_display": "1,270",
-        "forks": 236,
-        "forks_display": "236",
+        "stars": 1271,
+        "stars_display": "1,271",
+        "forks": 235,
+        "forks_display": "235",
         "watchers": 13,
         "language": "Python",
         "topics": [],
-        "updated_at": "2026-11-04T06:07:03Z",
+        "updated_at": "2026-11-15T12:40:05Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/dg-stgcn.webp",
@@ -12555,7 +12550,7 @@
       },
       "thumbnail": "/images/publications/transrank.webp",
       "visual_tone": 1,
-      "citation_rank": 52,
+      "citation_rank": 53,
       "selected": true,
       "selection_reasons": [
         "lead_author_and_influential"
@@ -12664,7 +12659,7 @@
       "venue_display": "OpenMMLab Project, https://github.com/open-mmlab/mmaction2, 2020",
       "venue_short": "OpenMMLab Project",
       "year": 2020,
-      "citations": 400,
+      "citations": 401,
       "metadata": [
         {
           "key": "publication_date",
@@ -12783,14 +12778,14 @@
         "full_name": "open-mmlab/mmaction2",
         "url": "https://github.com/open-mmlab/mmaction2",
         "description": "OpenMMLab's Next Generation Video Understanding Toolbox and Benchmark",
-        "stars": 5194,
-        "stars_display": "5,194",
+        "stars": 5201,
+        "stars_display": "5,201",
         "forks": 1354,
         "forks_display": "1,354",
         "watchers": 43,
         "language": "Python",
         "topics": [],
-        "updated_at": "2026-11-08T13:10:18Z",
+        "updated_at": "2026-11-15T12:39:42Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/omnisource.webp",
@@ -12970,17 +12965,17 @@
       "full_name": "open-compass/VLMEvalKit",
       "url": "https://github.com/open-compass/VLMEvalKit",
       "description": "An all-in-one evaluation toolkit for large vision-language and multimodal models. It connects model inference, benchmark execution, scoring, and result comparison in one reproducible workflow used by both researchers and practitioners.",
-      "stars": 4478,
-      "stars_display": "4,478",
-      "forks": 793,
-      "forks_display": "793",
+      "stars": 4492,
+      "stars_display": "4,492",
+      "forks": 798,
+      "forks_display": "798",
       "watchers": 14,
       "language": "Python",
       "topics": [
         "Multimodal Evaluation",
         "Evaluation Infrastructure"
       ],
-      "updated_at": "2026-11-09T02:42:11Z",
+      "updated_at": "2026-11-15T09:36:52Z",
       "source": "github_api"
     },
     {
@@ -12988,17 +12983,17 @@
       "full_name": "open-compass/opencompass",
       "url": "https://github.com/open-compass/opencompass",
       "description": "A comprehensive platform for evaluating large language and multimodal models. Its modular configs, task scheduling, evaluators, and reporting tools make broad and reproducible model comparisons easier to run and extend.",
-      "stars": 7577,
-      "stars_display": "7,577",
-      "forks": 904,
-      "forks_display": "904",
+      "stars": 7594,
+      "stars_display": "7,594",
+      "forks": 912,
+      "forks_display": "912",
       "watchers": 29,
       "language": "Python",
       "topics": [
         "LLM Evaluation",
         "Benchmarking Platform"
       ],
-      "updated_at": "2026-11-08T18:43:46Z",
+      "updated_at": "2026-11-14T14:34:07Z",
       "source": "github_api"
     },
     {
@@ -13006,17 +13001,17 @@
       "full_name": "kennymckormick/pyskl",
       "url": "https://github.com/kennymckormick/pyskl",
       "description": "A unified toolbox for skeleton-based action recognition, with strong baselines spanning GCN- and CNN-based methods. It packages training recipes, pretrained models, and benchmark results so new methods can be compared on consistent footing.",
-      "stars": 1270,
-      "stars_display": "1,270",
-      "forks": 236,
-      "forks_display": "236",
+      "stars": 1271,
+      "stars_display": "1,271",
+      "forks": 235,
+      "forks_display": "235",
       "watchers": 13,
       "language": "Python",
       "topics": [
         "Skeleton Action",
         "Video Recognition"
       ],
-      "updated_at": "2026-11-04T06:07:03Z",
+      "updated_at": "2026-11-15T12:40:05Z",
       "source": "github_api"
     },
     {
@@ -13024,8 +13019,8 @@
       "full_name": "open-mmlab/mmaction2",
       "url": "https://github.com/open-mmlab/mmaction2",
       "description": "OpenMMLab's modular video-understanding toolbox for action recognition, localization, skeleton-based recognition, and related tasks. It offers reusable components, extensive model coverage, and standardized training and inference pipelines.",
-      "stars": 5194,
-      "stars_display": "5,194",
+      "stars": 5201,
+      "stars_display": "5,201",
       "forks": 1354,
       "forks_display": "1,354",
       "watchers": 43,
@@ -13034,7 +13029,7 @@
         "Video Understanding",
         "OpenMMLab"
       ],
-      "updated_at": "2026-11-08T13:10:18Z",
+      "updated_at": "2026-11-15T12:39:42Z",
       "source": "github_api"
     }
   ]
