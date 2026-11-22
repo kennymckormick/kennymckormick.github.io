@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T12:58:51+00:00",
+  "generated_at": "2026-11-22T13:02:41+00:00",
   "sources": {
     "scholar": "https://scholar.google.com/citations?user=vi3W-m8AAAAJ&hl=en&pagesize=100",
     "github": "https://github.com/kennymckormick"
@@ -26,16 +26,16 @@
       "Generative AI"
     ],
     "metrics": {
-      "citations": 18814,
-      "citations_recent": 18724,
+      "citations": 18992,
+      "citations_recent": 18899,
       "h_index": 49,
       "h_index_recent": 49,
       "i10_index": 74,
       "i10_index_recent": 74
     },
     "metrics_display": {
-      "citations": "18,814",
-      "citations_recent": "18,724",
+      "citations": "18,992",
+      "citations_recent": "18,899",
       "h_index": "49",
       "h_index_recent": "49",
       "i10_index": "74",
@@ -218,7 +218,7 @@
       "venue_display": "Technical Report, 2026",
       "venue_short": "Technical Report",
       "year": 2026,
-      "citations": 595,
+      "citations": 596,
       "metadata": [
         {
           "key": "publication_date",
@@ -345,7 +345,7 @@
       "venue_display": "ICLR, 2026",
       "venue_short": "ICLR",
       "year": 2026,
-      "citations": 241,
+      "citations": 247,
       "metadata": [
         {
           "key": "publication_date",
@@ -391,7 +391,7 @@
       },
       "thumbnail": "/images/publications/mmsi-bench.webp",
       "visual_tone": 4,
-      "citation_rank": 20,
+      "citation_rank": 19,
       "selected": true,
       "selection_reasons": [
         "top_cited_compact_team"
@@ -493,7 +493,7 @@
       "venue_display": "ICLR, 2026",
       "venue_short": "ICLR",
       "year": 2026,
-      "citations": 184,
+      "citations": 187,
       "metadata": [
         {
           "key": "publication_date",
@@ -549,7 +549,7 @@
       "venue_display": "Seed Technical Reports, 2026",
       "venue_short": "Seed Technical Rep",
       "year": 2026,
-      "citations": 92,
+      "citations": 94,
       "metadata": [
         {
           "key": "publication_date",
@@ -579,7 +579,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 1,
-      "citation_rank": 35,
+      "citation_rank": 34,
       "selected": false,
       "selection_reasons": []
     },
@@ -658,7 +658,7 @@
       "venue_display": "ECCV, 2026",
       "venue_short": "ECCV",
       "year": 2026,
-      "citations": 68,
+      "citations": 70,
       "metadata": [
         {
           "key": "publication_date",
@@ -816,7 +816,7 @@
       "venue_display": "arXiv preprint arXiv:2605.10912, 2026",
       "venue_short": "arXiv",
       "year": 2026,
-      "citations": 66,
+      "citations": 67,
       "metadata": [
         {
           "key": "publication_date",
@@ -1011,7 +1011,7 @@
       "venue_display": "CVPR, 2026",
       "venue_short": "CVPR",
       "year": 2026,
-      "citations": 59,
+      "citations": 60,
       "metadata": [
         {
           "key": "publication_date",
@@ -1042,7 +1042,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 3,
-      "citation_rank": 45,
+      "citation_rank": 44,
       "selected": false,
       "selection_reasons": []
     },
@@ -1112,7 +1112,7 @@
       "venue_display": "CVPR, 2026",
       "venue_short": "CVPR",
       "year": 2026,
-      "citations": 42,
+      "citations": 45,
       "metadata": [
         {
           "key": "publication_date",
@@ -1143,7 +1143,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 3,
-      "citation_rank": 52,
+      "citation_rank": 51,
       "selected": false,
       "selection_reasons": []
     },
@@ -1169,7 +1169,7 @@
       "venue_display": "ByteDance Seed Technical Report, 2026",
       "venue_short": "Technical Report",
       "year": 2026,
-      "citations": 32,
+      "citations": 38,
       "metadata": [
         {
           "key": "publication_date",
@@ -1196,7 +1196,7 @@
       ],
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:LgRImbQfgY4C",
-        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7993142557887822987,18186726621755682392,6297946325749428112,7497059010497089600",
+        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7993142557887822987,18186726621755682392,7497059010497089600,6297946325749428112",
         "paper": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/seed2.1/Seed2_1_Model_Card.pdf"
       },
       "repo": "",
@@ -1204,7 +1204,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 4,
-      "citation_rank": 58,
+      "citation_rank": 55,
       "selected": false,
       "selection_reasons": []
     },
@@ -2157,7 +2157,7 @@
       "venue_display": "NeurIPS D&B, 2026",
       "venue_short": "NeurIPS",
       "year": 2026,
-      "citations": 10,
+      "citations": 11,
       "metadata": [
         {
           "key": "publication_date",
@@ -2188,7 +2188,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 3,
-      "citation_rank": 73,
+      "citation_rank": 72,
       "selected": false,
       "selection_reasons": []
     },
@@ -2263,7 +2263,7 @@
       "venue_display": "arXiv preprint arXiv:2604.01569, 2026",
       "venue_short": "arXiv",
       "year": 2026,
-      "citations": 6,
+      "citations": 9,
       "metadata": [
         {
           "key": "publication_date",
@@ -2295,6 +2295,122 @@
       "thumbnail": "",
       "visual_tone": 5,
       "citation_rank": 75,
+      "selected": false,
+      "selection_reasons": []
+    },
+    {
+      "scholar_id": "vi3W-m8AAAAJ:cWzG1nlazyYC",
+      "title": "Can Retrieval Heads See Images? Multimodal Retrieval Heads in Long-Context Vision-Language Models",
+      "short_title": "Can Retrieval Heads See Ima…",
+      "authors": [
+        {
+          "name": "Aaron Branson Cigres Li",
+          "is_self": false,
+          "roles": [
+            "first"
+          ]
+        },
+        {
+          "name": "Zhaowei Wang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Yu Zhao",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Yiming Du",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Haobo Li",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Xiyu Ren",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Ginny Wong",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Simon See",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Lishu Luo",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Haodong Duan",
+          "is_self": true,
+          "roles": []
+        },
+        {
+          "name": "Pasquale Minervini",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Yangqiu Song",
+          "is_self": false,
+          "roles": [
+            "corresponding"
+          ]
+        }
+      ],
+      "author_count": 12,
+      "authors_truncated": false,
+      "group_authored": false,
+      "author_order": "contribution",
+      "author_annotations_suppressed": false,
+      "corresponding_fallback": true,
+      "corresponding_fallback_author": "Yangqiu Song",
+      "venue": "EMNLP, 2026",
+      "venue_display": "EMNLP, 2026",
+      "venue_short": "EMNLP",
+      "year": 2026,
+      "citations": 6,
+      "metadata": [
+        {
+          "key": "publication_date",
+          "label": "Publication date",
+          "value": "2026/5/26"
+        },
+        {
+          "key": "journal",
+          "label": "Journal",
+          "value": "EMNLP, 2026"
+        }
+      ],
+      "description": "Large vision-language models increasingly rely on long-context modeling to reason over documents, hour-level videos, and long-horizon agent trajectories, requiring them to locate relevant evidence across interleaved text and images. Prior work has studied this behavior using retrieval heads in large language models, but its copy-based criterion does not directly apply when evidence appears in images. We introduce a multimodal retrieval head detection method that scores attention from question tokens to textual or visual evidence. With this method, we show that multimodal retrieval heads are sparse, intrinsic, and causally important: only 4.4-10.2% of attention heads account for 50% of the positive retrieval-score mass, and masking the top-5% selected heads drops MMLongBench-Doc from 48.2% to 5.7% and SlideVQA from 71.2% to 8.9%, while random-head masking is far less damaging. Further analysis shows that these heads are partly shared across modalities yet remain dynamic within each modality, with image retrieval heads changing more than text retrieval heads as context length and haystack modality change. Without further training, we find that these heads can also be used directly to rank visually rich documents: on MMDocIR, Qwen3-VL-8B selected-head scoring improves Recall@1 by 7.7/7.4 macro/micro points for page retrieval and 6.3/6.8 points for layout retrieval over the strongest reported baseline.",
+      "summary": "Large vision-language models increasingly rely on long-context modeling to reason over documents, hour-level videos, and long-horizon agent trajectories, requiring them to locate relevant evidence across interleaved text and images.",
+      "detail_metadata_available": true,
+      "topics": [
+        "Long-Context Modeling",
+        "LLM Evaluation",
+        "Foundation Models"
+      ],
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:cWzG1nlazyYC",
+        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13954369611626287509,9131406200074637213",
+        "paper": "https://arxiv.org/abs/2605.27243"
+      },
+      "repo": "",
+      "repo_label": "",
+      "github": {},
+      "thumbnail": "",
+      "visual_tone": 4,
+      "citation_rank": 76,
       "selected": false,
       "selection_reasons": []
     },
@@ -2679,122 +2795,6 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 2,
-      "citation_rank": 76,
-      "selected": false,
-      "selection_reasons": []
-    },
-    {
-      "scholar_id": "vi3W-m8AAAAJ:cWzG1nlazyYC",
-      "title": "Can Retrieval Heads See Images? Multimodal Retrieval Heads in Long-Context Vision-Language Models",
-      "short_title": "Can Retrieval Heads See Ima…",
-      "authors": [
-        {
-          "name": "Aaron Branson Cigres Li",
-          "is_self": false,
-          "roles": [
-            "first"
-          ]
-        },
-        {
-          "name": "Zhaowei Wang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Yu Zhao",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Yiming Du",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Haobo Li",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Xiyu Ren",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Ginny Wong",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Simon See",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Lishu Luo",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Haodong Duan",
-          "is_self": true,
-          "roles": []
-        },
-        {
-          "name": "Pasquale Minervini",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Yangqiu Song",
-          "is_self": false,
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
-      "author_count": 12,
-      "authors_truncated": false,
-      "group_authored": false,
-      "author_order": "contribution",
-      "author_annotations_suppressed": false,
-      "corresponding_fallback": true,
-      "corresponding_fallback_author": "Yangqiu Song",
-      "venue": "EMNLP, 2026",
-      "venue_display": "EMNLP, 2026",
-      "venue_short": "EMNLP",
-      "year": 2026,
-      "citations": 5,
-      "metadata": [
-        {
-          "key": "publication_date",
-          "label": "Publication date",
-          "value": "2026/5/26"
-        },
-        {
-          "key": "journal",
-          "label": "Journal",
-          "value": "EMNLP, 2026"
-        }
-      ],
-      "description": "Large vision-language models increasingly rely on long-context modeling to reason over documents, hour-level videos, and long-horizon agent trajectories, requiring them to locate relevant evidence across interleaved text and images. Prior work has studied this behavior using retrieval heads in large language models, but its copy-based criterion does not directly apply when evidence appears in images. We introduce a multimodal retrieval head detection method that scores attention from question tokens to textual or visual evidence. With this method, we show that multimodal retrieval heads are sparse, intrinsic, and causally important: only 4.4-10.2% of attention heads account for 50% of the positive retrieval-score mass, and masking the top-5% selected heads drops MMLongBench-Doc from 48.2% to 5.7% and SlideVQA from 71.2% to 8.9%, while random-head masking is far less damaging. Further analysis shows that these heads are partly shared across modalities yet remain dynamic within each modality, with image retrieval heads changing more than text retrieval heads as context length and haystack modality change. Without further training, we find that these heads can also be used directly to rank visually rich documents: on MMDocIR, Qwen3-VL-8B selected-head scoring improves Recall@1 by 7.7/7.4 macro/micro points for page retrieval and 6.3/6.8 points for layout retrieval over the strongest reported baseline.",
-      "summary": "Large vision-language models increasingly rely on long-context modeling to reason over documents, hour-level videos, and long-horizon agent trajectories, requiring them to locate relevant evidence across interleaved text and images.",
-      "detail_metadata_available": true,
-      "topics": [
-        "Long-Context Modeling",
-        "LLM Evaluation",
-        "Foundation Models"
-      ],
-      "links": {
-        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:cWzG1nlazyYC",
-        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13954369611626287509,9131406200074637213",
-        "paper": "https://arxiv.org/abs/2605.27243"
-      },
-      "repo": "",
-      "repo_label": "",
-      "github": {},
-      "thumbnail": "",
-      "visual_tone": 4,
       "citation_rank": 77,
       "selected": false,
       "selection_reasons": []
@@ -3706,6 +3706,82 @@
       "selection_reasons": []
     },
     {
+      "scholar_id": "vi3W-m8AAAAJ:XvxMoLDsR5gC",
+      "title": "PosterIQ: A Design Perspective Benchmark for Poster Understanding and Generation",
+      "short_title": "PosterIQ",
+      "authors": [
+        {
+          "name": "Yuheng Feng",
+          "is_self": false,
+          "roles": [
+            "first"
+          ]
+        },
+        {
+          "name": "Wen Zhang",
+          "is_self": false,
+          "roles": []
+        },
+        {
+          "name": "Haodong Duan",
+          "is_self": true,
+          "roles": []
+        },
+        {
+          "name": "Xingxing Zou",
+          "is_self": false,
+          "roles": [
+            "corresponding"
+          ]
+        }
+      ],
+      "author_count": 4,
+      "authors_truncated": false,
+      "group_authored": false,
+      "author_order": "contribution",
+      "author_annotations_suppressed": false,
+      "corresponding_fallback": true,
+      "corresponding_fallback_author": "Xingxing Zou",
+      "venue": "CVPR, 2026",
+      "venue_display": "CVPR, 2026",
+      "venue_short": "CVPR",
+      "year": 2026,
+      "citations": 3,
+      "metadata": [
+        {
+          "key": "publication_date",
+          "label": "Publication date",
+          "value": "2026/3/25"
+        },
+        {
+          "key": "journal",
+          "label": "Journal",
+          "value": "CVPR, 2026"
+        }
+      ],
+      "description": "We present PosterIQ, a design-driven benchmark for poster understanding and generation, annotated across composition structure, typographic hierarchy, and semantic intent. It includes 7,765 image-annotation instances and 822 generation prompts spanning real, professional, and synthetic cases. To bridge visual design cognition and generative modeling, we define tasks for layout parsing, text-image correspondence, typography/readability and font perception, design quality assessment, and controllable, composition-aware generation with metaphor. We evaluate state-of-the-art MLLMs and diffusion-based generators, finding persistent gaps in visual hierarchy, typographic semantics, saliency control, and intention communication; commercial models lead on high-level reasoning but act as insensitive automatic raters, while generators render text well yet struggle with composition-aware synthesis. Extensive analyses show PosterIQ is both a quantitative benchmark and a diagnostic tool for design reasoning, offering reproducible, task-specific metrics. We aim to catalyze models' creativity and integrate human-centred design principles into generative vision-language systems.",
+      "summary": "We present PosterIQ, a design-driven benchmark for poster understanding and generation, annotated across composition structure, typographic hierarchy, and semantic intent.",
+      "detail_metadata_available": true,
+      "topics": [
+        "Document Intelligence",
+        "Multimodal Generation",
+        "Benchmark Design"
+      ],
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:XvxMoLDsR5gC",
+        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10652894130897745912",
+        "paper": "https://arxiv.org/abs/2603.24078"
+      },
+      "repo": "",
+      "repo_label": "",
+      "github": {},
+      "thumbnail": "",
+      "visual_tone": 2,
+      "citation_rank": 83,
+      "selected": false,
+      "selection_reasons": []
+    },
+    {
       "scholar_id": "vi3W-m8AAAAJ:a9-T7VOCCH8C",
       "title": "Mibench: Evaluating lmms on multimodal interaction",
       "short_title": "Mibench",
@@ -3797,82 +3873,6 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 4,
-      "citation_rank": 83,
-      "selected": false,
-      "selection_reasons": []
-    },
-    {
-      "scholar_id": "vi3W-m8AAAAJ:XvxMoLDsR5gC",
-      "title": "PosterIQ: A Design Perspective Benchmark for Poster Understanding and Generation",
-      "short_title": "PosterIQ",
-      "authors": [
-        {
-          "name": "Yuheng Feng",
-          "is_self": false,
-          "roles": [
-            "first"
-          ]
-        },
-        {
-          "name": "Wen Zhang",
-          "is_self": false,
-          "roles": []
-        },
-        {
-          "name": "Haodong Duan",
-          "is_self": true,
-          "roles": []
-        },
-        {
-          "name": "Xingxing Zou",
-          "is_self": false,
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
-      "author_count": 4,
-      "authors_truncated": false,
-      "group_authored": false,
-      "author_order": "contribution",
-      "author_annotations_suppressed": false,
-      "corresponding_fallback": true,
-      "corresponding_fallback_author": "Xingxing Zou",
-      "venue": "CVPR, 2026",
-      "venue_display": "CVPR, 2026",
-      "venue_short": "CVPR",
-      "year": 2026,
-      "citations": 2,
-      "metadata": [
-        {
-          "key": "publication_date",
-          "label": "Publication date",
-          "value": "2026/3/25"
-        },
-        {
-          "key": "journal",
-          "label": "Journal",
-          "value": "CVPR, 2026"
-        }
-      ],
-      "description": "We present PosterIQ, a design-driven benchmark for poster understanding and generation, annotated across composition structure, typographic hierarchy, and semantic intent. It includes 7,765 image-annotation instances and 822 generation prompts spanning real, professional, and synthetic cases. To bridge visual design cognition and generative modeling, we define tasks for layout parsing, text-image correspondence, typography/readability and font perception, design quality assessment, and controllable, composition-aware generation with metaphor. We evaluate state-of-the-art MLLMs and diffusion-based generators, finding persistent gaps in visual hierarchy, typographic semantics, saliency control, and intention communication; commercial models lead on high-level reasoning but act as insensitive automatic raters, while generators render text well yet struggle with composition-aware synthesis. Extensive analyses show PosterIQ is both a quantitative benchmark and a diagnostic tool for design reasoning, offering reproducible, task-specific metrics. We aim to catalyze models' creativity and integrate human-centred design principles into generative vision-language systems.",
-      "summary": "We present PosterIQ, a design-driven benchmark for poster understanding and generation, annotated across composition structure, typographic hierarchy, and semantic intent.",
-      "detail_metadata_available": true,
-      "topics": [
-        "Document Intelligence",
-        "Multimodal Generation",
-        "Benchmark Design"
-      ],
-      "links": {
-        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:XvxMoLDsR5gC",
-        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10652894130897745912",
-        "paper": "https://arxiv.org/abs/2603.24078"
-      },
-      "repo": "",
-      "repo_label": "",
-      "github": {},
-      "thumbnail": "",
-      "visual_tone": 2,
       "citation_rank": 84,
       "selected": false,
       "selection_reasons": []
@@ -4605,7 +4605,7 @@
       "venue_display": "arXiv preprint arXiv:2508.18265, 2025",
       "venue_short": "arXiv",
       "year": 2025,
-      "citations": 1972,
+      "citations": 2023,
       "metadata": [
         {
           "key": "publication_date",
@@ -4705,7 +4705,7 @@
       "venue_display": "IEEE/CVF International Conference on Computer Vision (ICCV), 2025",
       "venue_short": "ICCV",
       "year": 2025,
-      "citations": 669,
+      "citations": 673,
       "metadata": [
         {
           "key": "publication_date",
@@ -4739,14 +4739,14 @@
         "full_name": "Liuziyu77/Visual-RFT",
         "url": "https://github.com/Liuziyu77/Visual-RFT",
         "description": "Official repository of 'Visual-RFT: Visual Reinforcement Fine-Tuning' & 'Visual-ARFT: Visual Agentic Reinforcement Fine-Tuning'’",
-        "stars": 2282,
-        "stars_display": "2,282",
+        "stars": 2283,
+        "stars_display": "2,283",
         "forks": 111,
         "forks_display": "111",
         "watchers": 13,
         "language": "Jupyter Notebook",
         "topics": [],
-        "updated_at": "2026-11-12T08:56:26Z",
+        "updated_at": "2026-11-19T06:35:22Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/visual-rft.webp",
@@ -4853,7 +4853,7 @@
       "venue_display": "CVPR, 2025",
       "venue_short": "CVPR",
       "year": 2025,
-      "citations": 214,
+      "citations": 220,
       "metadata": [
         {
           "key": "publication_date",
@@ -4910,7 +4910,7 @@
       "venue_display": "Technical report, Technical report, Bytedance, 2025. URL https://lf3-static …",
       "venue_short": "Technical report",
       "year": 2025,
-      "citations": 187,
+      "citations": 196,
       "metadata": [
         {
           "key": "publication_date",
@@ -4932,7 +4932,7 @@
       ],
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vi3W-m8AAAAJ&pagesize=100&citation_for_view=vi3W-m8AAAAJ:QYdC8u9Cj1oC",
-        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10713680327915818238,10381874924815101269,7745584782978693861,15168876789557224202,2007438795315195458,13215974653333860462,2559641607106096553,6478676507179860061,11698137596541373940,9444549840839679022,8161253800435127162",
+        "citations": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10713680327915818238,10381874924815101269,7745584782978693861,15168876789557224202,13215974653333860462,2007438795315195458,2559641607106096553,6478676507179860061,11698137596541373940,9444549840839679022,8161253800435127162",
         "paper": "https://arxiv.org/abs/2607.00248"
       },
       "repo": "",
@@ -5484,7 +5484,7 @@
       "venue_display": "NeurIPS D&B Oral, 2025",
       "venue_short": "NeurIPS",
       "year": 2025,
-      "citations": 110,
+      "citations": 112,
       "metadata": [
         {
           "key": "publication_date",
@@ -5708,7 +5708,7 @@
       "venue_display": "ACL Findings, 2025",
       "venue_short": "ACL",
       "year": 2025,
-      "citations": 85,
+      "citations": 86,
       "metadata": [
         {
           "key": "publication_date",
@@ -6381,7 +6381,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 5,
-      "citation_rank": 44,
+      "citation_rank": 45,
       "selected": false,
       "selection_reasons": []
     },
@@ -6781,7 +6781,7 @@
       "venue_display": "arXiv preprint arXiv:2508.21148, 2025",
       "venue_short": "arXiv",
       "year": 2025,
-      "citations": 51,
+      "citations": 55,
       "metadata": [
         {
           "key": "publication_date",
@@ -6812,7 +6812,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 2,
-      "citation_rank": 48,
+      "citation_rank": 47,
       "selected": false,
       "selection_reasons": []
     },
@@ -7003,7 +7003,7 @@
       "venue_display": "CVPR Spotlight, 2025",
       "venue_short": "CVPR",
       "year": 2025,
-      "citations": 40,
+      "citations": 41,
       "metadata": [
         {
           "key": "publication_date",
@@ -7144,7 +7144,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 4,
-      "citation_rank": 55,
+      "citation_rank": 56,
       "selected": false,
       "selection_reasons": []
     },
@@ -7240,7 +7240,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 3,
-      "citation_rank": 56,
+      "citation_rank": 57,
       "selected": false,
       "selection_reasons": []
     },
@@ -7383,7 +7383,7 @@
       },
       "thumbnail": "/images/publications/omnialign-v.webp",
       "visual_tone": 3,
-      "citation_rank": 57,
+      "citation_rank": 58,
       "selected": true,
       "selection_reasons": [
         "lead_author_and_influential"
@@ -8062,7 +8062,7 @@
       "venue_display": "arXiv preprint arXiv:2511.14366, 2025",
       "venue_short": "arXiv",
       "year": 2025,
-      "citations": 11,
+      "citations": 12,
       "metadata": [
         {
           "key": "publication_date",
@@ -8188,7 +8188,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 2,
-      "citation_rank": 72,
+      "citation_rank": 73,
       "selected": false,
       "selection_reasons": []
     },
@@ -8871,7 +8871,7 @@
       "venue_display": "European Conference on Computer Vision (ECCV), 2024",
       "venue_short": "ECCV",
       "year": 2024,
-      "citations": 3257,
+      "citations": 3278,
       "metadata": [
         {
           "key": "publication_date",
@@ -9006,7 +9006,7 @@
       "venue_display": "Conference on Neural Information Processing Systems (NeurIPS), 2024",
       "venue_short": "NeurIPS",
       "year": 2024,
-      "citations": 1447,
+      "citations": 1468,
       "metadata": [
         {
           "key": "publication_date",
@@ -9470,7 +9470,7 @@
       "venue_display": "arXiv preprint arXiv:2403.17297, 2024",
       "venue_short": "arXiv",
       "year": 2024,
-      "citations": 834,
+      "citations": 835,
       "metadata": [
         {
           "key": "publication_date",
@@ -9585,7 +9585,7 @@
       "venue_display": "ACM International Conference on Multimedia (MM), 2024",
       "venue_short": "ACM MM",
       "year": 2024,
-      "citations": 726,
+      "citations": 728,
       "metadata": [
         {
           "key": "publication_date",
@@ -9618,14 +9618,14 @@
         "full_name": "open-compass/VLMEvalKit",
         "url": "https://github.com/open-compass/VLMEvalKit",
         "description": "Open-source evaluation toolkit of large multi-modality models (LMMs), support 220+ LMMs, 80+ benchmarks",
-        "stars": 4492,
-        "stars_display": "4,492",
-        "forks": 798,
-        "forks_display": "798",
+        "stars": 4501,
+        "stars_display": "4,501",
+        "forks": 802,
+        "forks_display": "802",
         "watchers": 14,
         "language": "Python",
         "topics": [],
-        "updated_at": "2026-11-15T09:36:52Z",
+        "updated_at": "2026-11-22T01:56:46Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/vlmevalkit.webp",
@@ -9740,7 +9740,7 @@
       "venue_display": "Conference on Neural Information Processing Systems (NeurIPS), Datasets & Benchmarks Track, 2024",
       "venue_short": "NeurIPS",
       "year": 2024,
-      "citations": 572,
+      "citations": 573,
       "metadata": [
         {
           "key": "publication_date",
@@ -9928,7 +9928,7 @@
       "venue_display": "arXiv preprint arXiv:2401.16420, 2024",
       "venue_short": "arXiv",
       "year": 2024,
-      "citations": 479,
+      "citations": 480,
       "metadata": [
         {
           "key": "publication_date",
@@ -10016,7 +10016,7 @@
       "venue_display": "Empirical Methods in Natural Language Processing (EMNLP), Findings, 2024",
       "venue_short": "EMNLP",
       "year": 2024,
-      "citations": 356,
+      "citations": 361,
       "metadata": [
         {
           "key": "publication_date",
@@ -10224,7 +10224,7 @@
       "venue_display": "arXiv preprint arXiv:2407.03320, 2024",
       "venue_short": "arXiv",
       "year": 2024,
-      "citations": 336,
+      "citations": 338,
       "metadata": [
         {
           "key": "publication_date",
@@ -10254,7 +10254,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 3,
-      "citation_rank": 15,
+      "citation_rank": 14,
       "selected": false,
       "selection_reasons": []
     },
@@ -10320,7 +10320,7 @@
       "venue_display": "Conference on Neural Information Processing Systems (NeurIPS), Datasets & Benchmarks Track, 2024",
       "venue_short": "NeurIPS",
       "year": 2024,
-      "citations": 259,
+      "citations": 260,
       "metadata": [
         {
           "key": "publication_date",
@@ -10354,14 +10354,14 @@
         "full_name": "open-compass/VLMEvalKit",
         "url": "https://github.com/open-compass/VLMEvalKit",
         "description": "Open-source evaluation toolkit of large multi-modality models (LMMs), support 220+ LMMs, 80+ benchmarks",
-        "stars": 4492,
-        "stars_display": "4,492",
-        "forks": 798,
-        "forks_display": "798",
+        "stars": 4501,
+        "stars_display": "4,501",
+        "forks": 802,
+        "forks_display": "802",
         "watchers": 14,
         "language": "Python",
         "topics": [],
-        "updated_at": "2026-11-15T09:36:52Z",
+        "updated_at": "2026-11-22T01:56:46Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/mmbench-video.webp",
@@ -10546,7 +10546,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 2,
-      "citation_rank": 19,
+      "citation_rank": 20,
       "selected": false,
       "selection_reasons": []
     },
@@ -10674,7 +10674,7 @@
       "venue_display": "Conference on Neural Information Processing Systems (NeurIPS), Datasets & Benchmarks Track, 2024",
       "venue_short": "NeurIPS",
       "year": 2024,
-      "citations": 185,
+      "citations": 188,
       "metadata": [
         {
           "key": "publication_date",
@@ -11302,7 +11302,7 @@
       "venue_display": "arXiv preprint arXiv:2410.16256, 2024",
       "venue_short": "arXiv",
       "year": 2024,
-      "citations": 55,
+      "citations": 56,
       "metadata": [
         {
           "key": "publication_date",
@@ -11451,7 +11451,7 @@
       },
       "thumbnail": "/images/publications/prism.webp",
       "visual_tone": 5,
-      "citation_rank": 47,
+      "citation_rank": 48,
       "selected": true,
       "selection_reasons": [
         "lead_author_and_influential"
@@ -11505,7 +11505,7 @@
       "venue_display": "Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), 2024",
       "venue_short": "ACL",
       "year": 2024,
-      "citations": 47,
+      "citations": 48,
       "metadata": [
         {
           "key": "publication_date",
@@ -11683,7 +11683,7 @@
       "venue_display": "arXiv preprint arXiv:2309.15112, 2023",
       "venue_short": "arXiv",
       "year": 2023,
-      "citations": 406,
+      "citations": 407,
       "metadata": [
         {
           "key": "publication_date",
@@ -11968,7 +11968,7 @@
       "venue_display": "AAAI Conference on Artificial Intelligence (AAAI), 2023",
       "venue_short": "AAAI",
       "year": 2023,
-      "citations": 94,
+      "citations": 95,
       "metadata": [
         {
           "key": "publication_date",
@@ -12143,7 +12143,7 @@
       "venue_display": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022",
       "venue_short": "CVPR",
       "year": 2022,
-      "citations": 1386,
+      "citations": 1391,
       "metadata": [
         {
           "key": "publication_date",
@@ -12179,12 +12179,12 @@
         "description": "A toolbox for skeleton-based action recognition.",
         "stars": 1271,
         "stars_display": "1,271",
-        "forks": 235,
-        "forks_display": "235",
+        "forks": 236,
+        "forks_display": "236",
         "watchers": 13,
         "language": "Python",
         "topics": [],
-        "updated_at": "2026-11-15T12:40:05Z",
+        "updated_at": "2026-11-20T21:26:30Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/posec3d.webp",
@@ -12273,17 +12273,17 @@
         "description": "A toolbox for skeleton-based action recognition.",
         "stars": 1271,
         "stars_display": "1,271",
-        "forks": 235,
-        "forks_display": "235",
+        "forks": 236,
+        "forks_display": "236",
         "watchers": 13,
         "language": "Python",
         "topics": [],
-        "updated_at": "2026-11-15T12:40:05Z",
+        "updated_at": "2026-11-20T21:26:30Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/pyskl.webp",
       "visual_tone": 3,
-      "citation_rank": 14,
+      "citation_rank": 15,
       "selected": true,
       "selection_reasons": [
         "lead_author_and_influential",
@@ -12367,12 +12367,12 @@
         "description": "A toolbox for skeleton-based action recognition.",
         "stars": 1271,
         "stars_display": "1,271",
-        "forks": 235,
-        "forks_display": "235",
+        "forks": 236,
+        "forks_display": "236",
         "watchers": 13,
         "language": "Python",
         "topics": [],
-        "updated_at": "2026-11-15T12:40:05Z",
+        "updated_at": "2026-11-20T21:26:30Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/dg-stgcn.webp",
@@ -12459,7 +12459,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 4,
-      "citation_rank": 51,
+      "citation_rank": 52,
       "selected": false,
       "selection_reasons": []
     },
@@ -12659,7 +12659,7 @@
       "venue_display": "OpenMMLab Project, https://github.com/open-mmlab/mmaction2, 2020",
       "venue_short": "OpenMMLab Project",
       "year": 2020,
-      "citations": 401,
+      "citations": 402,
       "metadata": [
         {
           "key": "publication_date",
@@ -12778,14 +12778,14 @@
         "full_name": "open-mmlab/mmaction2",
         "url": "https://github.com/open-mmlab/mmaction2",
         "description": "OpenMMLab's Next Generation Video Understanding Toolbox and Benchmark",
-        "stars": 5201,
-        "stars_display": "5,201",
-        "forks": 1354,
-        "forks_display": "1,354",
+        "stars": 5203,
+        "stars_display": "5,203",
+        "forks": 1355,
+        "forks_display": "1,355",
         "watchers": 43,
         "language": "Python",
         "topics": [],
-        "updated_at": "2026-11-15T12:39:42Z",
+        "updated_at": "2026-11-21T10:38:41Z",
         "source": "github_api"
       },
       "thumbnail": "/images/publications/omnisource.webp",
@@ -12954,7 +12954,7 @@
       "github": {},
       "thumbnail": "",
       "visual_tone": 4,
-      "citation_rank": 34,
+      "citation_rank": 35,
       "selected": false,
       "selection_reasons": []
     }
@@ -12965,17 +12965,17 @@
       "full_name": "open-compass/VLMEvalKit",
       "url": "https://github.com/open-compass/VLMEvalKit",
       "description": "An all-in-one evaluation toolkit for large vision-language and multimodal models. It connects model inference, benchmark execution, scoring, and result comparison in one reproducible workflow used by both researchers and practitioners.",
-      "stars": 4492,
-      "stars_display": "4,492",
-      "forks": 798,
-      "forks_display": "798",
+      "stars": 4501,
+      "stars_display": "4,501",
+      "forks": 802,
+      "forks_display": "802",
       "watchers": 14,
       "language": "Python",
       "topics": [
         "Multimodal Evaluation",
         "Evaluation Infrastructure"
       ],
-      "updated_at": "2026-11-15T09:36:52Z",
+      "updated_at": "2026-11-22T01:56:46Z",
       "source": "github_api"
     },
     {
@@ -12983,17 +12983,17 @@
       "full_name": "open-compass/opencompass",
       "url": "https://github.com/open-compass/opencompass",
       "description": "A comprehensive platform for evaluating large language and multimodal models. Its modular configs, task scheduling, evaluators, and reporting tools make broad and reproducible model comparisons easier to run and extend.",
-      "stars": 7594,
-      "stars_display": "7,594",
-      "forks": 912,
-      "forks_display": "912",
-      "watchers": 29,
+      "stars": 7613,
+      "stars_display": "7,613",
+      "forks": 916,
+      "forks_display": "916",
+      "watchers": 30,
       "language": "Python",
       "topics": [
         "LLM Evaluation",
         "Benchmarking Platform"
       ],
-      "updated_at": "2026-11-14T14:34:07Z",
+      "updated_at": "2026-11-22T12:28:44Z",
       "source": "github_api"
     },
     {
@@ -13003,15 +13003,15 @@
       "description": "A unified toolbox for skeleton-based action recognition, with strong baselines spanning GCN- and CNN-based methods. It packages training recipes, pretrained models, and benchmark results so new methods can be compared on consistent footing.",
       "stars": 1271,
       "stars_display": "1,271",
-      "forks": 235,
-      "forks_display": "235",
+      "forks": 236,
+      "forks_display": "236",
       "watchers": 13,
       "language": "Python",
       "topics": [
         "Skeleton Action",
         "Video Recognition"
       ],
-      "updated_at": "2026-11-15T12:40:05Z",
+      "updated_at": "2026-11-20T21:26:30Z",
       "source": "github_api"
     },
     {
@@ -13019,17 +13019,17 @@
       "full_name": "open-mmlab/mmaction2",
       "url": "https://github.com/open-mmlab/mmaction2",
       "description": "OpenMMLab's modular video-understanding toolbox for action recognition, localization, skeleton-based recognition, and related tasks. It offers reusable components, extensive model coverage, and standardized training and inference pipelines.",
-      "stars": 5201,
-      "stars_display": "5,201",
-      "forks": 1354,
-      "forks_display": "1,354",
+      "stars": 5203,
+      "stars_display": "5,203",
+      "forks": 1355,
+      "forks_display": "1,355",
       "watchers": 43,
       "language": "Python",
       "topics": [
         "Video Understanding",
         "OpenMMLab"
       ],
-      "updated_at": "2026-11-15T12:39:42Z",
+      "updated_at": "2026-11-21T10:38:41Z",
       "source": "github_api"
     }
   ]
